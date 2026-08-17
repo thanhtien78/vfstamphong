@@ -9,7 +9,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Resilient settings loader and global variable binder
 global $db, $settings;
-require_once __DIR__ . '/../db.php';
+require_once dirname(dirname(dirname(__DIR__))) . '/db.php';
 
 if (!isset($settings)) {
     try {
@@ -628,68 +628,68 @@ $menuItems = [
   <?php
   $pageStylesheetsMap = [
       'index.php' => [
-        'assets/css/home-sections/00_base.css',
-        'assets/css/home-sections/01_hero.css',
-        'assets/css/home-sections/02_catalog.css',
-        'assets/css/home-sections/04_ev_tech.css',
-        'assets/css/home-sections/05_privileges.css',
-        'assets/css/home-sections/06_why_dealer.css',
-        'assets/css/home-sections/07_trade_in.css',
-        'assets/css/home-sections/08_exclusive_offers.css',
-        'assets/css/home-sections/09_counselors.css',
-        'assets/css/home-sections/10_faq.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
+        'frontend/components/home-sections/01_hero/css/01_hero.css',
+        'frontend/components/home-sections/02_catalog/css/02_catalog.css',
+        'frontend/components/home-sections/04_ev_tech/css/04_ev_tech.css',
+        'frontend/components/home-sections/05_privileges/css/05_privileges.css',
+        'frontend/components/home-sections/06_why_dealer/css/06_why_dealer.css',
+        'frontend/components/home-sections/07_trade_in/css/07_trade_in.css',
+        'frontend/components/home-sections/08_exclusive_offers/css/08_exclusive_offers.css',
+        'frontend/components/home-sections/09_counselors/css/09_counselors.css',
+        'frontend/components/home-sections/10_faq/css/10_faq.css',
         'assets/css/homepage.min.css',
         'assets/css/homepage-lux-overrides.css',
         'assets/css/custom.css'
       ],
       'cars.php' => [
-        'assets/css/home-sections/00_base.css',
-        'assets/css/home-sections/02_catalog.css',
-        'assets/css/home-sections/09_counselors.css',
-        'assets/css/home-sections/10_faq.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
+        'frontend/components/home-sections/02_catalog/css/02_catalog.css',
+        'frontend/components/home-sections/09_counselors/css/09_counselors.css',
+        'frontend/components/home-sections/10_faq/css/10_faq.css',
         'assets/css/cars.min.css',
         'assets/css/homepage-lux-overrides.css',
         'assets/css/custom.css'
       ],
       'pricelist.php' => [
-        'assets/css/home-sections/00_base.css',
-        'assets/css/home-sections/02_catalog.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
+        'frontend/components/home-sections/02_catalog/css/02_catalog.css',
         'assets/css/pricelist.min.css',
         'assets/css/custom.css'
       ],
       'installment.php' => [
-        'assets/css/home-sections/00_base.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
         'assets/css/installment.min.css',
         'assets/css/custom.css'
       ],
       'car-detail.php' => [
-        'assets/css/home-sections/00_base.css',
-        'assets/css/home-sections/02_catalog.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
+        'frontend/components/home-sections/02_catalog/css/02_catalog.css',
         'assets/css/car-detail.min.css',
         'assets/css/homepage-lux-overrides.css',
         'assets/css/custom.css'
       ],
       'about.php' => [
-        'assets/css/home-sections/00_base.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
         'assets/css/about.min.css',
         'assets/css/custom.css'
       ],
       'news.php' => [
-        'assets/css/home-sections/00_base.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
         'assets/css/news.min.css',
         'assets/css/homepage-lux-overrides.css',
         'assets/css/custom.css'
       ],
       'news-detail.php' => [
-        'assets/css/home-sections/00_base.css',
-        'assets/css/home-sections/02_catalog.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
+        'frontend/components/home-sections/02_catalog/css/02_catalog.css',
         'assets/css/news-detail.min.css',
         'assets/css/homepage-lux-overrides.css',
         'assets/css/custom.css'
       ],
       'local-seo.php' => [
-        'assets/css/home-sections/00_base.css',
-        'assets/css/home-sections/02_catalog.css',
+        'frontend/components/home-sections/00_base/css/00_base.css',
+        'frontend/components/home-sections/02_catalog/css/02_catalog.css',
         'assets/css/custom.css'
       ]
   ];
@@ -714,17 +714,18 @@ $menuItems = [
   $targetSheet = $pageStylesheetsMap[$currentPage] ?? $pageStylesheetsMap[$matchedCssKey] ?? $pageStylesheetsMap['index.php'];
   if ($targetSheet):
       $useInlinedCss = false; // Toggle to true to inline all styles, false to use standard stylesheet links with cache busting
+      $rootPath = dirname(dirname(dirname(__DIR__))) . '/';
       if ($useInlinedCss) {
           echo "<style>\n";
           if (is_array($targetSheet)) {
               foreach ($targetSheet as $sheet) {
-                  $absolutePath = __DIR__ . '/../' . $sheet;
+                  $absolutePath = $rootPath . $sheet;
                   if (file_exists($absolutePath)) {
                       render_inlined_css($absolutePath);
                   }
               }
           } else {
-              $absolutePath = __DIR__ . '/../' . $targetSheet;
+              $absolutePath = $rootPath . $targetSheet;
               if (file_exists($absolutePath)) {
                   render_inlined_css($absolutePath);
               }
@@ -733,13 +734,13 @@ $menuItems = [
       } else {
           if (is_array($targetSheet)) {
               foreach ($targetSheet as $sheet) {
-                  $absolutePath = __DIR__ . '/../' . $sheet;
+                  $absolutePath = $rootPath . $sheet;
                   if (file_exists($absolutePath)) {
                       echo '<link rel="stylesheet" href="' . seo_url($sheet) . '?v=' . time() . '">' . "\n";
                   }
               }
           } else {
-              $absolutePath = __DIR__ . '/../' . $targetSheet;
+              $absolutePath = $rootPath . $targetSheet;
               if (file_exists($absolutePath)) {
                   echo '<link rel="stylesheet" href="' . seo_url($targetSheet) . '?v=' . time() . '">' . "\n";
               }

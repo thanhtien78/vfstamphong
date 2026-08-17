@@ -53,7 +53,7 @@ $GLOBALS['footer_js_files'][] = 'assets/js/homepage-custom.js';
   ];
 
   foreach ($sections as $sec) {
-      $secPath = __DIR__ . "/home-sections/{$sec}.php";
+      $secPath = dirname(__DIR__) . "/components/home-sections/{$sec}/{$sec}.php";
       if (file_exists($secPath)) {
           include $secPath;
       }

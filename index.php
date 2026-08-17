@@ -4,7 +4,7 @@
  * Coordinates dynamic MVC routes, loads controllers, sets meta context, and renders layouts.
  */
 require_once __DIR__ . '/db.php';
-require_once __DIR__ . '/includes/cache.php';
+require_once __DIR__ . '/backend/includes/cache.php';
 
 // Determine request path relative to subfolder or root domain
 $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
@@ -77,13 +77,13 @@ if (empty($route)) {
     $route = '404';
 }
 
-$controllerFile = __DIR__ . "/controllers/{$route}.php";
-$viewFile = __DIR__ . "/views/{$route}.php";
+$controllerFile = __DIR__ . "/backend/controllers/{$route}.php";
+$viewFile = __DIR__ . "/frontend/views/{$route}.php";
 
 // If admin, login, logout, ajax-vip-lead, debug, sitemap or robots, run directly without layout wrapper
 $directRoutes = ['admin', 'login', 'logout', 'ajax-vip-lead', 'debug', 'sitemap', 'robots'];
 if (in_array($route, $directRoutes)) {
-    $controllerFile = __DIR__ . "/controllers/{$route}.php";
+    $controllerFile = __DIR__ . "/backend/controllers/{$route}.php";
     if (file_exists($controllerFile)) {
         include $controllerFile;
         exit;
@@ -92,8 +92,8 @@ if (in_array($route, $directRoutes)) {
 
 // Fallback to 404 if files don't exist
 if (!file_exists($controllerFile) || !file_exists($viewFile)) {
-    $controllerFile = __DIR__ . "/controllers/404.php";
-    $viewFile = __DIR__ . "/views/404.php";
+    $controllerFile = __DIR__ . "/backend/controllers/404.php";
+    $viewFile = __DIR__ . "/frontend/views/404.php";
 }
 
 // Define currentPage filename mapping for header.php styling logic
@@ -125,7 +125,7 @@ if (is_array($pageData)) {
 PageCache::start($route);
 
 // Render page view wrapped inside Master Layout
-include __DIR__ . '/views/layout.php';
+include __DIR__ . '/frontend/views/layout.php';
 
 PageCache::end($route);
 

@@ -7,7 +7,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 require_once 'db.php';
-require_once 'includes/admin-helpers.php';
+require_once 'backend/includes/admin-helpers.php';
 $basePath = $basePath ?? rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
 
 // Ensure CSRF token is generated for the session
@@ -133,7 +133,7 @@ $errorMessage = '';
 // DYNAMIC MODULE CONTROLLERS ROUTING
 // ==========================================
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    require_once 'includes/cache.php';
+    require_once 'backend/includes/cache.php';
     PageCache::clear();
     $action = isset($_POST['action']) ? trim($_POST['action']) : '';
     

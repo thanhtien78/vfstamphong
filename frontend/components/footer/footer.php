@@ -8,7 +8,7 @@
 global $db, $settings;
 
 if (!isset($db)) {
-    require_once __DIR__ . '/../db.php';
+    require_once dirname(dirname(dirname(__DIR__))) . '/db.php';
 }
 
 if (!isset($settings) || !is_array($settings)) {

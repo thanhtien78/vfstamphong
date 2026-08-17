@@ -11,7 +11,7 @@
  * Integrates directly with CRM car prices so all local pages update prices in real-time.
  */
 
-require_once 'includes/class-pseo-helper.php';
+require_once 'backend/includes/class-pseo-helper.php';
 
 
 // Initialize session to detect logged-in administrators

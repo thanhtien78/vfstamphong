@@ -52,7 +52,7 @@ $carId = $car['id']; // Ensure carId is populated from the matched record
 $refLoc = isset($_GET['ref_loc']) ? trim($_GET['ref_loc']) : '';
 $refLocationName = '';
 if (!empty($refLoc)) {
-    require_once __DIR__ . '/../includes/class-pseo-helper.php';
+    require_once dirname(__DIR__) . '/includes/class-pseo-helper.php';
     $matchLoc = PSEO_Helper::findLocationOrProject($refLoc);
     if ($matchLoc) {
         $refLocationName = $matchLoc['display_name'];

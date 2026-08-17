@@ -32,7 +32,7 @@ $totalLocations = 0;
 
 if ($pseoStatus === 'live') {
     try {
-        require_once 'includes/class-pseo-helper.php';
+        require_once 'backend/includes/class-pseo-helper.php';
         PSEO_Helper::init();
         $totalLocations = $db->query("SELECT COUNT(*) FROM pseo_index")->fetchColumn();
         if ($totalLocations > 0) {
@@ -67,37 +67,37 @@ if ($filename === 'sitemap-main.xml') {
   <!-- Core Static Pages -->
   <url>
     <loc><?php echo $baseUrl; ?>/</loc>
-    <lastmod><?php echo date('c', filemtime(dirname(__DIR__) . '/views/home.php')); ?></lastmod>
+    <lastmod><?php echo date('c', filemtime(dirname(dirname(__DIR__)) . '/frontend/views/home.php')); ?></lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc><?php echo $baseUrl; ?>/dong-xe-vinfast</loc>
-    <lastmod><?php echo date('c', filemtime(dirname(__DIR__) . '/views/cars.php')); ?></lastmod>
+    <lastmod><?php echo date('c', filemtime(dirname(dirname(__DIR__)) . '/frontend/views/cars.php')); ?></lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc><?php echo $baseUrl; ?>/gioi-thieu</loc>
-    <lastmod><?php echo date('c', filemtime(dirname(__DIR__) . '/views/about.php')); ?></lastmod>
+    <lastmod><?php echo date('c', filemtime(dirname(dirname(__DIR__)) . '/frontend/views/about.php')); ?></lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc><?php echo $baseUrl; ?>/tin-tuc-su-kien</loc>
-    <lastmod><?php echo date('c', filemtime(dirname(__DIR__) . '/views/news.php')); ?></lastmod>
+    <lastmod><?php echo date('c', filemtime(dirname(dirname(__DIR__)) . '/frontend/views/news.php')); ?></lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc><?php echo $baseUrl; ?>/mua-xe-tra-gop</loc>
-    <lastmod><?php echo date('c', filemtime(dirname(__DIR__) . '/views/installment.php')); ?></lastmod>
+    <lastmod><?php echo date('c', filemtime(dirname(dirname(__DIR__)) . '/frontend/views/installment.php')); ?></lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc><?php echo $baseUrl; ?>/bang-gia-xe-VinFast</loc>
-    <lastmod><?php echo date('c', filemtime(dirname(__DIR__) . '/views/pricelist.php')); ?></lastmod>
+    <lastmod><?php echo date('c', filemtime(dirname(dirname(__DIR__)) . '/frontend/views/pricelist.php')); ?></lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -106,7 +106,7 @@ if ($filename === 'sitemap-main.xml') {
   <?php
   try {
       $stmtCars = $db->query("SELECT id, slug FROM cars ORDER BY id ASC");
-      $carDetailTime = filemtime(dirname(__DIR__) . '/views/car-detail.php');
+      $carDetailTime = filemtime(dirname(dirname(__DIR__)) . '/frontend/views/car-detail.php');
       while ($car = $stmtCars->fetch(PDO::FETCH_ASSOC)) {
           $carLoc = !empty($car['slug']) ? 'xe-vinfast/' . $car['slug'] : 'car-detail.php?id=' . $car['id'];
           ?>
@@ -127,7 +127,7 @@ if ($filename === 'sitemap-main.xml') {
       $stmtPosts = $db->query("SELECT id, slug, created_at FROM posts WHERE status = 'published' ORDER BY id DESC");
       while ($post = $stmtPosts->fetch(PDO::FETCH_ASSOC)) {
           $postLoc = !empty($post['slug']) ? 'tin-tuc/' . $post['slug'] : 'news-detail.php?id=' . $post['id'];
-          $postTime = !empty($post['created_at']) ? strtotime($post['created_at']) : filemtime(dirname(__DIR__) . '/views/news-detail.php');
+          $postTime = !empty($post['created_at']) ? strtotime($post['created_at']) : filemtime(dirname(dirname(__DIR__)) . '/frontend/views/news-detail.php');
           ?>
   <url>
     <loc><?php echo $baseUrl; ?>/<?php echo $postLoc; ?></loc>
@@ -158,10 +158,10 @@ if (preg_match('/^sitemap-local-([1-9][0-9]*)\.xml$/', $filename, $matches)) {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <?php
   try {
-      require_once 'includes/class-pseo-helper.php';
+      require_once 'backend/includes/class-pseo-helper.php';
       PSEO_Helper::init();
       $customKeywords = PSEO_Helper::getCustomKeywords();
-      $pseoTime = filemtime(dirname(__DIR__) . '/views/local-seo.php');
+      $pseoTime = filemtime(dirname(dirname(__DIR__)) . '/frontend/views/local-seo.php');
       
       $offset = ($pageNum - 1) * $locChunkSize;
       

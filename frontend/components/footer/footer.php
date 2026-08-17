@@ -834,6 +834,37 @@ try {
     }
   </script>
 
+  <!-- Luxury Scroll Reveal Intersection Observer -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Find all sections on the page
+      const revealSections = document.querySelectorAll("section");
+      
+      // Add the reveal utility class
+      revealSections.forEach(el => {
+        el.classList.add("reveal-section");
+      });
+      
+      const revealOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -40px 0px"
+      };
+      
+      const observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("reveal-section--active");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, revealOptions);
+      
+      revealSections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
+
 
   <?php if (!empty($settings['custom_footer_code'])): ?>
     <?php echo $settings['custom_footer_code']; ?>

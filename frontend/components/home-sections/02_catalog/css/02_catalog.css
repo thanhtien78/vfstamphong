@@ -1085,72 +1085,72 @@
 /* ======================================================================
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
-.car-card__price-box {
-  background: rgba(16, 185, 129, 0.03) !important;
-  border-radius: 10px !important;
-  padding: 8px 10px !important;
-  border: 1px dashed rgba(16, 185, 129, 0.18) !important;
+html body .car-card__price-box {
+  background: transparent !important;
+  border: none !important;
+  border-top: 1px solid rgba(226, 232, 240, 0.7) !important; /* Dải phân cách mảnh tinh xảo */
+  padding: 12px 0 0 0 !important;
+  margin-bottom: 16px !important;
   display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  gap: 2px !important;
-  margin-bottom: 12px !important;
+  flex-direction: row !important; /* Dàn hàng ngang */
+  justify-content: space-between !important; /* Nhãn bên trái, giá trị bên phải */
+  align-items: center !important;
   width: 100% !important;
   box-sizing: border-box !important;
+  border-radius: 0 !important;
 }
 
-.car-card__price-lbl {
-  font-size: 8.5px !important;
+html body .car-card__price-lbl {
+  font-size: 10px !important;
   color: #64748b !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.5px !important;
+  letter-spacing: 1.5px !important;
   margin: 0 !important;
 }
 
-.car-card__price-val {
+html body .car-card__price-val {
   display: flex !important;
   flex-direction: column !important;
-  gap: 1px !important;
-  width: 100% !important;
+  align-items: flex-end !important; /* Căn phải nội dung giá */
+  text-align: right !important;
   margin: 0 !important;
-  white-space: normal !important;
-  overflow: visible !important;
-  text-overflow: clip !important;
 }
 
-.price-main-num {
-  font-size: 13.5px !important;
-  font-weight: 900 !important;
-  color: #10b981 !important;
+html body .price-main-num {
+  font-size: 16px !important; /* Tăng kích thước số giá nổi bật */
+  font-weight: 850 !important;
+  color: #10b981 !important; /* Xanh Mint Công Nghệ */
   display: block !important;
   line-height: 1.2 !important;
 }
 
-.price-sub-note {
-  font-size: 9px !important;
-  font-weight: 600 !important;
+html body .price-sub-note {
+  font-size: 9.5px !important;
+  font-weight: 500 !important;
   color: #64748b !important;
   display: block !important;
-  line-height: 1.15 !important;
+  line-height: 1.25 !important;
+  margin-top: 2px !important;
 }
 
 @media (max-width: 768px) {
-  .car-card__price-box {
-    padding: 6px 8px !important;
-    min-height: 48px !important;
-    justify-content: center !important;
-    margin-bottom: 8px !important;
+  html body .car-card__price-box {
+    padding: 8px 0 0 0 !important;
+    margin-bottom: 10px !important;
   }
 
-  .price-main-num {
-    font-size: 12px !important;
-    line-height: 1.18 !important;
+  html body .car-card__price-lbl {
+    font-size: 8.5px !important;
+    letter-spacing: 1px !important;
   }
 
-  .price-sub-note {
-    font-size: 8px !important;
-    line-height: 1.1 !important;
+  html body .price-main-num {
+    font-size: 13.5px !important;
+  }
+
+  html body .price-sub-note {
+    font-size: 8.5px !important;
   }
 }
 
@@ -1276,8 +1276,9 @@ html body .btn-detail-card--fleet:hover {
 
 /* Fleet ROI Indicator badge inside card */
 html body .car-card--fleet .car-card__price-box {
-  background: rgba(16, 185, 129, 0.05) !important;
-  border: 1.5px dashed rgba(16, 185, 129, 0.3) !important;
+  background: transparent !important;
+  border: none !important;
+  border-top: 1.5px dashed rgba(16, 185, 129, 0.25) !important; /* Elegant dashed mint divider line instead of grey line */
 }
 
 html body .car-card--fleet .price-main-num {

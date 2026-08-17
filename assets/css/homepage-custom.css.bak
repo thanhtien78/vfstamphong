@@ -1,0 +1,1012 @@
+<style>
+/* VinFast Eco-Green Technology Light Mode Overrides */
+:root {
+  --color-ev-green: #10b981;
+  --color-ev-green-hover: #059669;
+  --color-ev-cyan: #0ea5e9;
+  --color-ev-gold: #d97706;
+  --color-bg-light: #f8faf9;
+  --color-text-dark: #0f172a;
+  --color-text-slate: #475569;
+  --glow-green: 0 0 15px rgba(16, 185, 129, 0.25);
+  --glow-gold: 0 0 15px rgba(217, 119, 6, 0.25);
+  --card-shadow: 0 10px 30px rgba(16, 185, 129, 0.08), 0 1px 3px rgba(0,0,0,0.02);
+}
+
+/* 1. Futuristic Hero Overrides (Light Mode Green Tech) */
+.hero-stage {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(16, 185, 129, 0.15);
+  background-size: cover;
+  background-position: center;
+}
+.hero-stage::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(240, 253, 244, 0.5) 0%, rgba(240, 253, 244, 0.8) 100%);
+  pointer-events: none;
+}
+.hero-headline {
+  color: var(--color-text-dark) !important;
+  text-shadow: 0 2px 10px rgba(255, 255, 255, 0.9);
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+.hero-subline {
+  color: var(--color-text-slate) !important;
+  font-weight: 500;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.9);
+}
+.hero-ctas .btn-primary {
+  background: linear-gradient(135deg, var(--color-ev-green) 0%, var(--color-ev-green-hover) 100%) !important;
+  color: #ffffff !important;
+  border: none;
+  font-weight: 700;
+  box-shadow: var(--glow-green);
+  transition: all 0.3s ease;
+}
+.hero-ctas .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.5);
+  background: linear-gradient(135deg, var(--color-ev-green-hover) 0%, #047857) 100%;
+}
+.hero-ctas .btn-secondary {
+  border: 1px solid var(--color-ev-cyan);
+  color: var(--color-ev-cyan);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(14, 165, 233, 0.1);
+  transition: all 0.3s ease;
+}
+.hero-ctas .btn-secondary:hover {
+  transform: translateY(-2px);
+  background: var(--color-ev-cyan);
+  color: #fff;
+  box-shadow: 0 0 25px rgba(14, 165, 233, 0.4);
+}
+
+/* 2. Brand Spotlight Overrides (Green Tech Theme) */
+.brand-spotlight {
+  background: linear-gradient(180deg, #f0fdf4 0%, var(--color-bg-light) 100%);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+  position: relative;
+  color: var(--color-text-slate);
+}
+.spotlight-tag {
+  color: var(--color-ev-green) !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.15);
+}
+.spotlight-title {
+  color: var(--color-text-dark) !important;
+}
+.spotlight-desc {
+  color: var(--color-text-slate) !important;
+}
+.spotlight-visual img {
+  border-radius: 12px;
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  box-shadow: var(--card-shadow);
+}
+
+/* 3. EV Tech Interactive Center (Eco-Green Light Theme) */
+.ev-tech-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, var(--color-bg-light) 0%, #f0fdf4 100%);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+  position: relative;
+}
+.ev-tech-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: radial-gradient(rgba(16, 185, 129, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+.ev-tech-section .section-title {
+  color: var(--color-text-dark) !important;
+}
+.ev-tech-section .section-tag {
+  color: var(--color-ev-green) !important;
+}
+.ev-tech-tabs-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.ev-tech-tabs {
+  display: inline-flex;
+  background: #e6f4ea;
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  padding: 6px;
+  border-radius: 30px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+}
+.ev-tech-tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-text-slate);
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.ev-tech-tab-btn:hover {
+  color: var(--color-text-dark);
+}
+.ev-tech-tab-btn.active {
+  background: linear-gradient(135deg, var(--color-ev-green) 0%, var(--color-ev-green-hover) 100%);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.ev-tech-pane {
+  display: none;
+}
+.ev-tech-pane.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Range Calculator Grid (Light mode cards) */
+.range-calc-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1.8fr;
+  gap: 40px;
+  align-items: stretch;
+}
+.range-calc-models-panel {
+  background: #ffffff;
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  box-shadow: var(--card-shadow);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 520px;
+  overflow-y: auto;
+}
+.range-calc-model-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #f8faf9;
+  border: 1px solid rgba(16, 185, 129, 0.08);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.range-calc-model-card:hover {
+  background: #eefdf5;
+  border-color: rgba(16, 185, 129, 0.3);
+  transform: translateX(4px);
+}
+.range-calc-model-card.active {
+  background: linear-gradient(90deg, #ecfdf5 0%, #ffffff 100%);
+  border-color: var(--color-ev-green);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.1);
+}
+.range-calc-model-thumb {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+.range-calc-model-info {
+  flex-grow: 1;
+}
+.range-calc-model-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 4px;
+}
+.range-calc-model-meta {
+  font-size: 12px;
+  color: var(--color-text-slate);
+}
+
+.range-calc-interactive-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  box-shadow: var(--card-shadow);
+  border-radius: 16px;
+  padding: 32px;
+}
+.range-calc-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.range-slider-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.range-slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.range-slider-label {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-text-slate);
+}
+.range-slider-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-ev-green);
+}
+.range-slider-input {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: #e2e8f0;
+  outline: none;
+}
+.range-slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-ev-green);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.range-slider-input::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.range-calc-visualizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.range-circle-box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range-svg-ring {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+.range-svg-bg {
+  fill: none;
+  stroke: #f1f5f9;
+  stroke-width: 12;
+}
+.range-svg-progress {
+  fill: none;
+  stroke: url(#green-teal-grad);
+  stroke-width: 12;
+  stroke-linecap: round;
+  stroke-dasharray: 565.48;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.3s ease;
+  filter: drop-shadow(0 2px 6px rgba(16, 185, 129, 0.3));
+}
+.range-number-box {
+  position: absolute;
+  text-align: center;
+}
+.range-number-value {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--color-text-dark);
+  line-height: 1;
+}
+.range-number-unit {
+  font-size: 13px;
+  color: var(--color-ev-green);
+  font-weight: 600;
+  margin-top: 4px;
+}
+.range-efficiency-badge {
+  margin-top: 20px;
+  background: #ecfdf5;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--color-ev-green);
+  font-weight: 600;
+}
+
+/* Green ROI Calculator Styling (Light Mode) */
+.roi-calc-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1.4fr;
+  gap: 40px;
+  align-items: stretch;
+}
+.roi-calc-form-panel {
+  background: #ffffff;
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  box-shadow: var(--card-shadow);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.roi-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.roi-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.roi-input-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-slate);
+}
+.roi-select {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: var(--color-text-dark);
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+}
+.roi-select:focus {
+  border-color: var(--color-ev-green);
+}
+
+.roi-results-panel {
+  background: #ffffff;
+  border: 1.5px solid rgba(16, 185, 129, 0.2);
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.05);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+.roi-result-header {
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 16px;
+  text-align: center;
+}
+.roi-saving-title {
+  font-size: 14px;
+  color: var(--color-text-slate);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.roi-saving-value {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--color-ev-gold);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-top: 8px;
+}
+.roi-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.roi-breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13.5px;
+}
+.roi-breakdown-label {
+  color: var(--color-text-slate);
+}
+.roi-breakdown-value {
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+.roi-green-impact {
+  background: #ecfdf5;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.roi-green-icon {
+  font-size: 28px;
+}
+.roi-green-info {
+  font-size: 13px;
+  color: var(--color-ev-green-hover);
+  line-height: 1.5;
+}
+.roi-green-number {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+/* 4. Comparison Pulse Button Custom Override (Rule preference - Light Mode Gold Accent) */
+.btn-compare-pulse {
+  background: #ffffff !important;
+  color: var(--color-ev-gold) !important;
+  border: 1.5px solid var(--color-ev-gold) !important;
+  padding: 14px 28px !important;
+  border-radius: 30px !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.1) !important;
+  animation: pulse-gold 2s infinite !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+.btn-compare-pulse:hover {
+  background: var(--color-ev-gold) !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.4) !important;
+  transform: translateY(-2px) !important;
+}
+
+@keyframes pulse-gold {
+  0% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(217, 119, 6, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0);
+  }
+}
+
+/* Catalog Overrides */
+.catalog-section {
+  background: #ffffff;
+  color: var(--color-text-slate);
+}
+.catalog-section .section-title {
+  color: var(--color-text-dark) !important;
+}
+.filter-tabs {
+  background: #e6f4ea;
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  padding: 6px;
+  border-radius: 30px;
+}
+.filter-tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-text-slate);
+}
+.filter-tab-btn:hover {
+  color: var(--color-text-dark);
+}
+.filter-tab-btn--active {
+  background: linear-gradient(135deg, var(--color-ev-green) 0%, var(--color-ev-green-hover) 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+}
+
+.car-card {
+  background: #ffffff;
+  border: 1px solid rgba(16, 185, 129, 0.08);
+  box-shadow: var(--card-shadow);
+}
+.car-card__name {
+  color: var(--color-text-dark) !important;
+}
+.car-card__segment {
+  color: var(--color-ev-green) !important;
+}
+.car-card__price-val {
+  color: var(--color-ev-green-hover) !important;
+}
+.car-card__spec-val {
+  color: var(--color-text-dark) !important;
+}
+.btn-detail-card {
+  border: 1px solid var(--color-ev-green);
+  color: var(--color-ev-green);
+}
+.btn-detail-card:hover {
+  background: var(--color-ev-green);
+  color: #fff;
+}
+
+/* Compare Overrides */
+.compare-section {
+  background: var(--color-bg-light);
+  color: var(--color-text-slate);
+}
+.compare-title {
+  color: var(--color-text-dark) !important;
+}
+.compare-spec-table {
+  background: #ffffff;
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  box-shadow: var(--card-shadow);
+}
+.compare-spec-table th {
+  background: #eefdf5 !important;
+  color: var(--color-text-dark) !important;
+  border-bottom: 2px solid rgba(16, 185, 129, 0.15) !important;
+}
+.compare-spec-table td {
+  color: var(--color-text-dark) !important;
+  border-bottom: 1px solid #f1f5f9 !important;
+  border-right: 1px solid #f1f5f9 !important;
+}
+.compare-spec-table tr:hover td {
+  background: #f8faf9 !important;
+}
+
+/* Responsive ev-tech */
+@media (max-width: 992px) {
+  .range-calc-grid {
+    grid-template-columns: 1fr;
+  }
+  .range-calc-models-panel {
+    max-height: 250px;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .range-calc-model-card {
+    flex-direction: column;
+    min-width: 140px;
+    text-align: center;
+    padding: 12px;
+  }
+  .range-calc-model-card:hover {
+    transform: translateY(-2px);
+  }
+  .roi-calc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .range-calc-interactive-panel {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .roi-form-row {
+    grid-template-columns: 1fr;
+  }
+  .roi-calc-form-panel, .roi-results-panel {
+    padding: 20px;
+  }
+}
+</style>
+';
+
+// Locate style block, if style block already exists we can replace it. Or replace the first part
+$start_marker = '<main>';
+$end_marker = '  <!-- SECTION 5: VinFast PRIVILEGES';
+
+$start_idx = strpos($content, $start_marker);
+$end_idx = strpos($content, $end_marker);
+
+if ($start_idx === false || $end_idx === false) {
+    die("ERROR: Markers not found in views/home.php");
+}
+
+$header_part = substr($content, 0, $start_idx + strlen($start_marker));
+$footer_part = substr($content, $end_idx);
+
+// Replace cyber-blue-grad with green-teal-grad in SVGs
+$ev_tech_section_html = '
+  <!-- SECTION 3.5: DYNAMIC EV TECHNOLOGY CENTER (Range & Green ROI Calculators) -->
+  <section class="ev-tech-section" id="ev-tech-block">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Công nghệ dẫn lối</span>
+        <h2 class="section-title">Trung Tâm Tương Tác Công Nghệ EV</h2>
+        <p class="compare-subtitle" style="max-width: 700px; margin: 10px auto 0 auto; color: var(--color-text-slate);">
+          Trải nghiệm và ước tính các thông số hoạt động thực tế, mức tiết kiệm chi phí nhiên liệu & bảo vệ môi trường khi sử dụng xe điện VinFast.
+        </p>
+      </div>
+
+      <!-- Tab Selectors -->
+      <div class="ev-tech-tabs-wrapper">
+        <div class="ev-tech-tabs">
+          <button class="ev-tech-tab-btn active" onclick="switchEvTechTab('range-calc')">Tính Quãng Đường Thực Tế</button>
+          <button class="ev-tech-tab-btn" onclick="switchEvTechTab('roi-calc')">Bộ Tính Tiết Kiệm Xanh (ROI)</button>
+        </div>
+      </div>
+
+      <!-- PANE 1: RANGE CALCULATOR -->
+      <div id="pane-range-calc" class="ev-tech-pane active">
+        <div class="range-calc-grid">
+          <!-- Left: List of Models -->
+          <div class="range-calc-models-panel" id="range-models-list">
+            <div class="range-calc-model-card active" data-model="vf3" onclick="selectRangeModel('vf3')">
+              <img src="assets/uploads/vinfast-vf3.webp" class="range-calc-model-thumb" alt="VF 3" onerror="this.src='https://vinfastauto.com/themes/custom/vinfast/images/logo.png'">
+              <div class="range-calc-model-info">
+                <div class="range-calc-model-name">VinFast VF 3</div>
+                <div class="range-calc-model-meta">SUV Mini | 18.64 kWh</div>
+              </div>
+            </div>
+            
+            <div class="range-calc-model-card" data-model="vf5" onclick="selectRangeModel('vf5')">
+              <img src="assets/uploads/vinfast-vf5.webp" class="range-calc-model-thumb" alt="VF 5" onerror="this.src='https://vinfastauto.com/themes/custom/vinfast/images/logo.png'">
+              <div class="range-calc-model-info">
+                <div class="range-calc-model-name">VinFast VF 5 Plus</div>
+                <div class="range-calc-model-meta">SUV Cỡ A | 37.23 kWh</div>
+              </div>
+            </div>
+
+            <div class="range-calc-model-card" data-model="vf6" onclick="selectRangeModel('vf6')">
+              <img src="assets/uploads/vinfast-vf6.webp" class="range-calc-model-thumb" alt="VF 6" onerror="this.src='https://vinfastauto.com/themes/custom/vinfast/images/logo.png'">
+              <div class="range-calc-model-info">
+                <div class="range-calc-model-name">VinFast VF 6</div>
+                <div class="range-calc-model-meta">SUV Cỡ B | 59.6 kWh</div>
+              </div>
+            </div>
+
+            <div class="range-calc-model-card" data-model="vf7" onclick="selectRangeModel('vf7')">
+              <img src="assets/uploads/vinfast-vf7.webp" class="range-calc-model-thumb" alt="VF 7" onerror="this.src='https://vinfastauto.com/themes/custom/vinfast/images/logo.png'">
+              <div class="range-calc-model-info">
+                <div class="range-calc-model-name">VinFast VF 7</div>
+                <div class="range-calc-model-meta">SUV Cỡ C | 75.3 kWh</div>
+              </div>
+            </div>
+
+            <div class="range-calc-model-card" data-model="vf8" onclick="selectRangeModel('vf8')">
+              <img src="assets/uploads/vinfast-vf8.webp" class="range-calc-model-thumb" alt="VF 8" onerror="this.src='https://vinfastauto.com/themes/custom/vinfast/images/logo.png'">
+              <div class="range-calc-model-info">
+                <div class="range-calc-model-name">VinFast VF 8</div>
+                <div class="range-calc-model-meta">SUV Cỡ D | 82.0 kWh</div>
+              </div>
+            </div>
+
+            <div class="range-calc-model-card" data-model="vf9" onclick="selectRangeModel('vf9')">
+              <img src="assets/uploads/vinfast-vf9.webp" class="range-calc-model-thumb" alt="VF 9" onerror="this.src='https://vinfastauto.com/themes/custom/vinfast/images/logo.png'">
+              <div class="range-calc-model-info">
+                <div class="range-calc-model-name">VinFast VF 9</div>
+                <div class="range-calc-model-meta">SUV Cỡ E | 92.0 kWh</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Controls & Ring Visualizer -->
+          <div class="range-calc-interactive-panel">
+            <div class="range-calc-controls">
+              <!-- Slider 1: Speed -->
+              <div class="range-slider-group">
+                <div class="range-slider-header">
+                  <span class="range-slider-label">Vận tốc trung bình</span>
+                  <span class="range-slider-value" id="range-speed-val">60 km/h</span>
+                </div>
+                <input type="range" class="range-slider-input" id="range-speed-slider" min="30" max="120" value="60" oninput="updateRangeEstimation()">
+              </div>
+
+              <!-- Slider 2: Temp -->
+              <div class="range-slider-group">
+                <div class="range-slider-header">
+                  <span class="range-slider-label">Nhiệt độ ngoài trời (Điều hòa)</span>
+                  <span class="range-slider-value" id="range-temp-val">25 °C</span>
+                </div>
+                <input type="range" class="range-slider-input" id="range-temp-slider" min="15" max="45" value="25" oninput="updateRangeEstimation()">
+              </div>
+            </div>
+
+            <!-- Visualization Circle -->
+            <div class="range-calc-visualizer">
+              <div class="range-circle-box">
+                <svg class="range-svg-ring" viewBox="0 0 200 200">
+                  <defs>
+                    <linearGradient id="green-teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#10b981" />
+                      <stop offset="100%" stop-color="#059669" />
+                    </linearGradient>
+                  </defs>
+                  <circle class="range-svg-bg" cx="100" cy="100" r="90" />
+                  <circle class="range-svg-progress" id="range-circle-progress" cx="100" cy="100" r="90" />
+                </svg>
+                <div class="range-number-box">
+                  <div class="range-number-value" id="range-calculated-val">210</div>
+                  <div class="range-number-unit">km dự tính</div>
+                </div>
+              </div>
+              <div class="range-efficiency-badge" id="range-eff-badge">
+                Hiệu năng tối ưu (100%)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANE 2: GREEN ROI CALCULATOR -->
+      <div id="pane-roi-calc" class="ev-tech-pane">
+        <div class="roi-calc-grid">
+          <!-- Form controls -->
+          <div class="roi-calc-form-panel">
+            <div class="roi-form-row">
+              <div class="roi-input-group">
+                <label class="roi-input-label">Mẫu xe điện VinFast</label>
+                <select class="roi-select" id="roi-car-select" onchange="calculateGreenROI()">
+                  <option value="vf3" selected>VinFast VF 3</option>
+                  <option value="vf5">VinFast VF 5 Plus</option>
+                  <option value="vf6">VinFast VF 6</option>
+                  <option value="vf7">VinFast VF 7</option>
+                  <option value="vf8">VinFast VF 8</option>
+                  <option value="vf9">VinFast VF 9</option>
+                </select>
+              </div>
+
+              <div class="roi-input-group">
+                <label class="roi-input-label">So sánh với phân khúc xe xăng</label>
+                <select class="roi-select" id="roi-gas-select" onchange="calculateGreenROI()">
+                  <option value="7" selected>SUV Cỡ Nhỏ (~7 Lít/100km)</option>
+                  <option value="9">SUV Cỡ Trung (~9 Lít/100km)</option>
+                  <option value="12">SUV Cỡ Lớn (~12 Lít/100km)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="range-slider-group">
+              <div class="range-slider-header">
+                <span class="range-slider-label">Quãng đường di chuyển hàng tháng</span>
+                <span class="range-slider-value" id="roi-distance-val">1,500 km</span>
+              </div>
+              <input type="range" class="range-slider-input" id="roi-distance-slider" min="500" max="5000" step="100" value="1500" oninput="calculateGreenROI()">
+            </div>
+
+            <div class="roi-breakdown">
+              <div class="roi-breakdown-row">
+                <span class="roi-breakdown-label">Giá xăng tham chiếu (RON 95)</span>
+                <span class="roi-breakdown-value">23,000 VND / Lít</span>
+              </div>
+              <div class="roi-breakdown-row">
+                <span class="roi-breakdown-label">Đơn giá điện sạc VinFast</span>
+                <span class="roi-breakdown-value">3,858 VND / kWh</span>
+              </div>
+              <div class="roi-breakdown-row">
+                <span class="roi-breakdown-label">Gói thuê pin xe điện</span>
+                <span class="roi-breakdown-value" id="roi-battery-cost-val">900,000 VND / tháng</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ROI breakdown and Green Impact metrics -->
+          <div class="roi-results-panel">
+            <div class="roi-result-header">
+              <div class="roi-saving-title">Tiết kiệm chi phí nhiên liệu</div>
+              <div class="roi-saving-value" id="roi-savings-val">1,250,000 VND / Tháng</div>
+            </div>
+
+            <div class="roi-breakdown">
+              <div class="roi-breakdown-row">
+                <span class="roi-breakdown-label">Chi phí đổ xăng mỗi tháng</span>
+                <span class="roi-breakdown-value" id="roi-gas-cost-val">2,415,000 VND</span>
+              </div>
+              <div class="roi-breakdown-row">
+                <span class="roi-breakdown-label">Chi phí xe điện (Sạc + Thuê pin)</span>
+                <span class="roi-breakdown-value" id="roi-ev-cost-val">1,533,000 VND</span>
+              </div>
+              <div class="roi-breakdown-row" style="border-top: 1px dashed #cbd5e1; padding-top: 12px; font-weight: 700; color: var(--color-ev-gold);">
+                <span class="roi-breakdown-label" style="color: var(--color-ev-gold);">Tiết kiệm ròng hàng năm</span>
+                <span class="roi-breakdown-value" id="roi-savings-annual-val" style="color: var(--color-ev-gold);">15,000,000 VND</span>
+              </div>
+            </div>
+
+            <!-- Green Impact Alert Box -->
+            <div class="roi-green-impact">
+              <span class="roi-green-icon">🌳</span>
+              <div class="roi-green-info">
+                Bằng việc chọn xe điện, mỗi tháng anh/chị giúp cắt giảm lượng khí thải CO₂ tương đương với trồng 
+                <span class="roi-green-number" id="roi-trees-val">9</span> cây xanh mỗi năm!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Embedded EV Calculator Logic Script -->
+  <script>
+    const evModels = {
+      'vf3': { capacity: 18.64, baseRange: 210, efficiency: 8.8, rentalPrice: 900000 },
+      'vf5': { capacity: 37.23, baseRange: 326, efficiency: 11.4, rentalPrice: 1600000 },
+      'vf6': { capacity: 59.6, baseRange: 399, efficiency: 14.9, rentalPrice: 1800000 },
+      'vf7': { capacity: 75.3, baseRange: 431, efficiency: 17.4, rentalPrice: 2900000 },
+      'vf8': { capacity: 82.0, baseRange: 425, efficiency: 19.3, rentalPrice: 2900000 },
+      'vf9': { capacity: 92.0, baseRange: 626, efficiency: 14.7, rentalPrice: 3200000 }
+    };
+
+    let activeRangeModel = 'vf3';
+
+    function switchEvTechTab(tabId) {
+      document.querySelectorAll('.ev-tech-tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.ev-tech-pane').forEach(pane => pane.classList.remove('active'));
+
+      const activeBtn = Array.from(document.querySelectorAll('.ev-tech-tab-btn')).find(btn => btn.getAttribute('onclick').includes(tabId));
+      if (activeBtn) activeBtn.classList.add('active');
+
+      const activePane = document.getElementById('pane-' + tabId);
+      if (activePane) activePane.classList.add('active');
+
+      if (tabId === 'roi-calc') {
+        calculateGreenROI();
+      }
+    }
+
+    function selectRangeModel(modelId) {
+      activeRangeModel = modelId;
+      document.querySelectorAll('.range-calc-model-card').forEach(card => card.classList.remove('active'));
+      const activeCard = document.querySelector(`.range-calc-model-card[data-model="${modelId}"]`);
+      if (activeCard) activeCard.classList.add('active');
+      
+      updateRangeEstimation();
+    }
+
+    function updateRangeEstimation() {
+      const speed = parseInt(document.getElementById('range-speed-slider').value);
+      const temp = parseInt(document.getElementById('range-temp-slider').value);
+      
+      document.getElementById('range-speed-val').textContent = speed + ' km/h';
+      document.getElementById('range-temp-val').textContent = temp + ' °C';
+
+      const model = evModels[activeRangeModel];
+      if (!model) return;
+
+      // Speed efficiency factor
+      let speedMod = 1.0;
+      if (speed < 50) {
+        speedMod = 1.0 - (50 - speed) * 0.003;
+      } else if (speed > 70) {
+        speedMod = 1.0 - (speed - 70) * 0.0045;
+      }
+
+      // Air Conditioner or temperature battery factor
+      let tempMod = 1.0;
+      if (temp > 25) {
+        tempMod = 1.0 - (temp - 25) * 0.007; // AC load
+      } else if (temp < 25) {
+        tempMod = 1.0 - (25 - temp) * 0.003; // Cold battery chemistry
+      }
+
+      const calculatedRange = Math.round(model.baseRange * speedMod * tempMod);
+      const displayRange = Math.max(30, Math.min(calculatedRange, Math.round(model.baseRange * 1.05)));
+
+      document.getElementById('range-calculated-val').textContent = displayRange;
+
+      // Update stroke-dashoffset of circle SVG ring (circumference is 565.48)
+      const ratio = Math.min(1.0, displayRange / model.baseRange);
+      const offset = 565.48 * (1.0 - ratio);
+      document.getElementById('range-circle-progress').style.strokeDashoffset = offset;
+
+      // Update badge text
+      const effPercent = Math.round(ratio * 100);
+      const badge = document.getElementById('range-eff-badge');
+      badge.textContent = `Hiệu năng thực tế: ${effPercent}%`;
+      
+      if (effPercent >= 95) {
+        badge.style.background = '#ecfdf5';
+        badge.style.borderColor = 'rgba(16, 185, 129, 0.2)';
+        badge.style.color = 'var(--color-ev-green)';
+      } else if (effPercent >= 80) {
+        badge.style.background = '#e0f2fe';
+        badge.style.borderColor = 'rgba(14, 165, 233, 0.2)';
+        badge.style.color = 'var(--color-ev-cyan)';
+      } else {
+        badge.style.background = '#fffbeb';
+        badge.style.borderColor = 'rgba(217, 119, 6, 0.2)';
+        badge.style.color = 'var(--color-ev-gold)';
+      }
+    }
+
+    function calculateGreenROI() {
+      const selectedModel = document.getElementById('roi-car-select').value;
+      const gasCategory = parseFloat(document.getElementById('roi-gas-select').value);
+      const distance = parseInt(document.getElementById('roi-distance-slider').value);
+
+      document.getElementById('roi-distance-val').textContent = distance.toLocaleString() + ' km';
+
+      const model = evModels[selectedModel];
+      if (!model) return;
+
+      // Format current model selected in dropdown options for ROI sync
+      document.getElementById('roi-battery-cost-val').textContent = model.rentalPrice.toLocaleString() + ' VND / tháng';
+
+      // 1. Gas cost calculation
+      const gasPrice = 23000;
+      const monthlyGasCost = Math.round((distance / 100) * gasCategory * gasPrice);
+
+      // 2. EV cost calculation (electricity sạc)
+      const electricityPrice = 3858;
+      const monthlyChargingCost = Math.round((distance / 100) * model.efficiency * electricityPrice);
+      const monthlyEvCost = monthlyChargingCost + model.rentalPrice;
+
+      // 3. Savings
+      const monthlySavings = monthlyGasCost - monthlyEvCost;
+      const annualSavings = monthlySavings * 12;
+
+      document.getElementById('roi-gas-cost-val').textContent = monthlyGasCost.toLocaleString() + ' VND';
+      document.getElementById('roi-ev-cost-val').textContent = monthlyEvCost.toLocaleString() + ' VND';
+      
+      const savingsValEl = document.getElementById('roi-savings-val');
+      if (monthlySavings > 0) {
+        savingsValEl.textContent = monthlySavings.toLocaleString() + ' VND / Tháng';
+        savingsValEl.style.color = 'var(--color-ev-green-hover)';
+        document.getElementById('roi-savings-annual-val').textContent = annualSavings.toLocaleString() + ' VND';
+      } else {
+        savingsValEl.textContent = 'Đang hòa vốn';
+        savingsValEl.style.color = 'var(--color-text-dark)';
+        document.getElementById('roi-savings-annual-val').textContent = '0 VND';
+      }
+
+      // CO2 trees calculation (gas car = 120g CO2/km, EV = 0g direct)
+      const co2SavedKg = distance * 0.12; 
+      const treesPerYear = Math.max(1, Math.round((co2SavedKg * 12) / 22)); 
+      document.getElementById('roi-trees-val').textContent = treesPerYear;
+    }
+
+    // Call range initializer on load
+    document.addEventListener('DOMContentLoaded', () => {
+      updateRangeEstimation();
+    });
+  </script>
+
+</style>
+  <!-- DYNAMIC JSON-LD GRAPH SCHEMA FOR 2026 SEO ADVANTAGES -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AutoDealer",
+        "@id": "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/"; ?>#dealer",
+        "name": "<?php echo htmlspecialchars($agencyName); ?>",
+        "image": "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/"; ?>assets/favicon/favicon.ico",
+        "telephone": "<?php echo htmlspecialchars($agencyPhone); ?>",
+        "priceRange": "$$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "<?php echo htmlspecialchars($agencyAddress); ?>",
+          "addressLocality": "TP. Hồ Chí Minh",
+          "addressCountry": "VN"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/"; ?>#website",
+        "url": "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/"; ?>",
+        "name": "VinFast Việt Nam",
+        "description": "<?php echo htmlspecialchars($siteDesc); ?>"
+      }

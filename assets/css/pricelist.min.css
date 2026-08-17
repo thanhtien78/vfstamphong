@@ -1,0 +1,1560 @@
+.catalog-hero{position:relative;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center;border-bottom:1px solid var(--color-border)}.catalog-hero__content{position:relative;z-index:2;max-width:800px;margin:0 auto;padding:140px 24px 80px 24px}.catalog-hero__subtitle{font-size:11px;font-weight:700;color:var(--color-primary);text-transform:uppercase;letter-spacing:3px;display:block;margin-bottom:12px}.catalog-hero__title{font-size:40px;font-weight:800;color:#fff;line-height:1.2;margin-bottom:16px;text-transform:uppercase;letter-spacing:1px}.catalog-hero__desc{font-size:13.5px;line-height:1.6;color:var(--color-text-muted)}.section-header{text-align:center;margin-bottom:24px}.section-tag{font-size:10px;color:var(--color-primary);text-transform:uppercase;letter-spacing:2px;display:block;margin-bottom:8px}.section-title{font-size:28px;color:var(--color-text-main);text-transform:uppercase}.swipe-hint-container{display:none;justify-content:center;margin-top:12px;margin-bottom:24px}.swipe-hint-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(10,14,22,0.85);border:1.5px solid var(--color-primary);color:var(--color-primary);font-size:10.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:10px 22px;border-radius:25px;box-shadow:0 0 15px var(--color-primary-glow);animation:swipe-hint-pulse 2s infinite ease-in-out;cursor:default}@keyframes swipe-hint-pulse{0%{transform:scale(1);box-shadow:0 0 10px var(--color-primary-glow)}50%{transform:scale(1.03);box-shadow:0 0 20px rgba(25, 96, 215,0.55)}100%{transform:scale(1);box-shadow:0 0 10px var(--color-primary-glow)}}.view-switcher{display:flex;justify-content:center;background:rgba(255,255,255,0.02);border:1px solid var(--color-border);border-radius:20px;padding:4px;max-width:320px;margin:0 auto 32px auto}.view-switch-btn{flex:1;background:none;border:none;color:var(--color-text-muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:8px 16px;cursor:pointer;border-radius:18px;transition:var(--transition-normal);font-family:inherit}.view-switch-btn:hover{color:#fff}.view-switch-btn--active{background:var(--color-primary);color:#000 !important;font-weight:700;box-shadow:0 0 10px var(--color-primary-glow)}.table-filter-panel{display:flex;justify-content:center;gap:12px;margin-bottom:28px;flex-wrap:wrap}.table-filter-btn{background:rgba(255,255,255,0.02);border:1px solid var(--color-border);color:var(--color-text-muted);padding:10px 20px;font-size:11px;font-weight:600;border-radius:20px;cursor:pointer;transition:var(--transition-normal);text-transform:uppercase;letter-spacing:0.5px}.table-filter-btn:hover{color:#fff;border-color:rgba(255,255,255,0.2)}.table-filter-btn--active{background:var(--color-primary) !important;color:#000 !important;border-color:var(--color-primary) !important;font-weight:700;box-shadow:0 0 12px var(--color-primary-glow)}.pricelist-cards-container{display:flex;flex-direction:column;gap:32px;margin-bottom:64px}.luxury-price-card{display:grid;grid-template-columns:1.2fr 1.8fr;background:var(--color-surface);border:var(--ev-border-light);border-radius:16px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,0.03);transition:var(--transition-normal)}.luxury-price-card:hover{border-color:var(--color-primary);box-shadow:0 15px 35px rgba(0,0,0,0.05);transform:translateY(-4px)}.luxury-price-card__image-box{position:relative;width:100%;height:100%;min-height:280px;background:rgba(0,0,0,0.02);overflow:hidden}.luxury-price-card__image{width:100%;height:100%;object-fit:cover;transition:var(--transition-normal)}.luxury-price-card:hover .luxury-price-card__image{transform:scale(1.05)}.electric-badge-overlay{position:absolute;top:16px;left:16px;background:rgba(76,175,80,0.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:10px;font-weight:700;padding:6px 12px;border-radius:4px;text-transform:uppercase;letter-spacing:0.5px;box-shadow:0 0 10px rgba(76,175,80,0.3)}.luxury-price-card__content{padding:32px;display:flex;flex-direction:column;justify-content:space-between;gap:20px}.luxury-price-card__header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;border-bottom:1px solid var(--color-border);padding-bottom:16px}.luxury-price-card__segment{font-size:10px;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:4px}.luxury-price-card__title{font-size:22px;font-weight:700;color:var(--color-text-main)}.luxury-price-card__pricing{text-align:right}.luxury-price-card__price{font-size:20px;font-weight:700;color:var(--color-primary);display:block}.luxury-price-card__installment{font-size:12px;color:#2e7d32;font-weight:600;display:block;margin-top:4px}.luxury-price-card__perks{display:flex;flex-direction:column;gap:12px}.perk-item{display:flex;align-items:flex-start;gap:12px}.perk-icon{font-size:16px;color:var(--color-primary);flex-shrink:0;margin-top:2px}.perk-info strong{font-size:12px;color:var(--color-text-main);display:block;margin-bottom:2px}.perk-info p{font-size:12.5px;color:var(--color-text-muted);line-height:1.4}.luxury-price-card__specs{display:grid;grid-template-columns:1.2fr 1fr 0.8fr;gap:16px;background:var(--color-surface);border:var(--ev-border-light);padding:12px 18px;border-radius:8px}.spec-mini{display:flex;flex-direction:column;gap:4px}.spec-mini__lbl{font-size:9px;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px}.spec-mini__val{font-size:12px;font-weight:600;color:var(--color-text-main)}.luxury-price-card__footer{display:flex;gap:16px}.btn-primary-mini{background:var(--color-primary);color:#000 !important;border:none;padding:10px 20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;border-radius:6px;cursor:pointer;text-decoration:none;transition:var(--transition-normal);display:inline-flex;align-items:center;justify-content:center}.btn-primary-mini:hover{background:#e5c046;box-shadow:0 0 15px var(--color-primary-glow)}.btn-secondary-mini{background:transparent;border:1px solid var(--color-border);color:var(--color-text-main);padding:10px 20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;border-radius:6px;cursor:pointer;text-decoration:none;transition:var(--transition-normal);display:inline-flex;align-items:center;justify-content:center}.btn-secondary-mini:hover{border-color:var(--color-primary);color:var(--color-primary)}.btn-zalo-mini{display:inline-flex;align-items:center;justify-content:center;background:rgba(0,85,229,0.05);color:rgba(255,255,255,0.8) !important;text-decoration:none;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;padding:8px 16px;border-radius:25px;margin-top:8px;transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);border:1px solid rgba(0,85,229,0.25);white-space:nowrap;box-shadow:none}.btn-zalo-mini:hover{color:var(--color-text-main) !important;background:linear-gradient(135deg,#0055e5 0%,#0099ff 100%);box-shadow:0 6px 18px rgba(0,85,229,0.45);transform:translateY(-2px) scale(1.04);border-color:#0099ff}@keyframes zalo-mini-glow-pulse{0%{box-shadow:0 4px 10px rgba(0,85,229,0.2);transform:scale(1)}100%{box-shadow:0 6px 20px rgba(0,85,229,0.55);transform:scale(1.03)}}.price-table-wrapper{position:relative;overflow-x:auto;background:var(--color-surface);border:var(--ev-border-light);border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.03);margin-bottom:64px}.price-table{width:100%;border-collapse:collapse;text-align:left;font-size:13px;white-space:nowrap}.price-table th,.price-table td{padding:18px 24px;border-bottom:1px solid var(--color-border);vertical-align:middle}.price-table th{background:#eef0f4;font-weight:700;color:var(--color-primary);text-transform:uppercase;letter-spacing:0.5px;font-size:11px}.price-table th:first-child,.price-table td:first-child{position:sticky;left:0;background:#e6e9ef;z-index:2;border-right:1px solid var(--color-border);font-weight:700}.price-table th:first-child{z-index:3;background:hsla(216,23%,9%,1)}.price-table tr:hover td{background:rgba(0,0,0,0.02) !important}.price-table tr:hover td:first-child{background:#d9dee6 !important}.table-car-img-box{width:90px;height:52px;border-radius:6px;overflow:hidden;border:1px solid var(--color-border);background:rgba(255,255,255,0.02);flex-shrink:0;transition:var(--transition-normal)}.table-car-img{width:100%;height:100%;object-fit:cover;transition:var(--transition-normal)}.price-table tr:hover .table-car-img{transform:scale(1.1)}.price-table tr:hover .table-car-img-box{border-color:var(--color-primary);box-shadow:0 0 10px var(--color-primary-glow)}.price-val{font-weight:600;color:var(--color-text-main)}.promo-badge{display:inline-block;background:rgba(25, 96, 215,0.1);border:1px solid rgba(25, 96, 215,0.25);color:var(--color-primary);padding:4px 10px;border-radius:6px;font-size:11px;font-weight:600;white-space:normal;max-width:200px;line-height:1.4}.installment-lbl{font-size:11px;color:var(--color-primary);font-weight:600;display:block;margin-top:3px}.btn-table-action{background:transparent;border:1px solid var(--color-border);color:var(--color-text-main);padding:8px 16px;font-size:11px;font-weight:600;border-radius:6px;text-decoration:none;text-transform:uppercase;letter-spacing:0.5px;transition:var(--transition-normal);display:inline-block}.btn-table-action:hover{border-color:var(--color-primary);color:var(--color-primary);box-shadow:0 0 10px rgba(25, 96, 215,0.15)}.onroad-section{padding:64px 0;border-top:1px solid var(--color-border);background:rgba(255,255,255,0.01)}.onroad-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;margin-top:32px}.onroad-card{background:var(--color-surface);border:var(--ev-border-light);border-radius:16px;padding:32px;box-shadow:0 10px 25px rgba(0,0,0,0.03);display:flex;flex-direction:column}.onroad-card--invoice{border-left:2px solid var(--color-primary)}.form-group{margin-bottom:24px}.form-label{display:block;font-size:11px;font-weight:600;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px}.form-select{width:100%;background:rgba(255,255,255,0.03);border:1px solid var(--color-border);border-radius:8px;color:#fff;padding:14px 18px;font-size:13px;font-family:inherit;outline:none;transition:var(--transition-normal);cursor:pointer}.form-select:focus{border-color:var(--color-primary);background:rgba(255,255,255,0.06)}.form-select option{background:#0d1117;color:#fff}.estimator-info-text{background:rgba(25, 96, 215,0.03);border:1px solid rgba(25, 96, 215,0.1);border-radius:8px;padding:16px;font-size:12px;line-height:1.6;color:var(--color-text-muted);margin-top:16px}.invoice-title{font-size:15px;font-weight:700;color:var(--color-text-main);margin-bottom:24px;text-transform:uppercase;letter-spacing:0.5px}.invoice-rows{display:flex;flex-direction:column;gap:16px;margin-bottom:28px}.invoice-row{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--color-text-muted)}.invoice-row__val{font-weight:600;color:var(--color-text-main)}.invoice-row--total{border-top:1px dashed var(--color-border);padding-top:18px;margin-top:8px}.invoice-row__val--gold{font-size:20px;font-weight:700;color:var(--color-primary)}.invoice-actions{display:flex;flex-direction:column;gap:12px;margin-top:auto}.btn-primary{background:var(--color-primary);color:#000;border:none;padding:14px 20px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;border-radius:10px;cursor:pointer;transition:var(--transition-normal);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}.btn-primary:hover{background:#e5c046;box-shadow:0 0 20px var(--color-primary-glow);transform:translateY(-2px)}.btn-zalo-invoice{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0066ff 0%,#00aaff 100%);color:#fff;border:1px solid rgba(0,102,255,0.3);padding:14px 20px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;text-decoration:none;border-radius:10px;transition:var(--transition-normal);cursor:pointer}.btn-zalo-invoice:hover{background:linear-gradient(135deg,#0055dd 0%,#0099ee 100%);box-shadow:0 5px 15px rgba(0,102,255,0.4);transform:translateY(-2px)}.faq-acc-container{display:flex;flex-direction:column;gap:16px;max-width:800px;margin:32px auto 0 auto}.faq-acc-item{background:var(--color-surface);border:1px solid var(--color-border);border-radius:8px;overflow:hidden;transition:var(--transition-normal)}.faq-acc-trigger{width:100%;background:transparent;border:none;color:var(--color-text-main);padding:18px 24px;font-size:13.5px;font-weight:700;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:inherit;outline:none}.faq-acc-trigger:hover{color:var(--color-primary)}.faq-acc-icon{font-size:18px;color:var(--color-primary);transition:transform 0.3s ease}.faq-acc-panel{max-height:0;overflow:hidden;transition:max-height 0.35s cubic-bezier(0.25,0.8,0.25,1);background:rgba(0,0,0,0.1)}.faq-acc-panel p{padding:18px 24px;font-size:13px;line-height:1.6;color:var(--color-text-muted)}.faq-acc-item--active{border-color:var(--color-primary);box-shadow:0 0 10px var(--color-primary-glow)}.faq-acc-item--active .faq-acc-icon{transform:rotate(45deg)}.seo-section{padding:80px 0;border-top:1px solid var(--color-border);background:var(--color-surface)}.seo-article{max-width:850px;margin:0 auto}.seo-article h2{font-size:24px;color:var(--color-text-main);margin-top:48px;margin-bottom:20px;border-left:3px solid var(--color-primary);padding-left:16px;text-transform:uppercase;letter-spacing:0.8px;font-weight:500}.seo-article h3{font-size:18px;color:var(--color-primary);margin-top:36px;margin-bottom:16px;font-weight:600;letter-spacing:0.5px}.seo-article p{font-size:15px;line-height:1.8;color:var(--color-text-muted);margin-bottom:20px}.seo-article ul{list-style-type:square;margin-left:24px;margin-bottom:20px;color:var(--color-text-muted);font-size:15px}.seo-article li{margin-bottom:12px;line-height:1.8}.premium-footer{background:var(--color-surface);border-top:1px solid var(--color-border);padding:80px 0 40px 0}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:40px;margin-bottom:48px}.footer-col{display:flex;flex-direction:column;gap:16px}.footer-brand{display:flex;flex-direction:column;gap:16px}.footer-logo-svg{color:var(--color-primary)}.footer-tagline{font-size:13px;line-height:1.6;color:var(--color-text-muted)}.footer-socials{display:flex;gap:12px}.social-icon-link{width:36px;height:36px;border-radius:50%;border:1px solid var(--color-border);color:var(--color-text-muted);background:rgba(0,0,0,0.02);display:flex;align-items:center;justify-content:center;transition:var(--transition-normal)}.social-icon-link:hover{border-color:var(--color-primary);color:var(--color-primary);box-shadow:0 0 10px rgba(25, 96, 215,0.15)}.footer-heading{font-size:13px;font-weight:700;color:var(--color-primary);text-transform:uppercase;letter-spacing:0.5px;position:relative;padding-bottom:8px}.footer-heading::after{content:'';position:absolute;left:0;bottom:0;width:30px;height:1.5px;background:var(--color-primary)}.footer-links-list{list-style:none;display:flex;flex-direction:column;gap:10px}.footer-link-item a{color:var(--color-text-muted);text-decoration:none;font-size:13px;transition:var(--transition-normal)}.footer-link-item a:hover{color:var(--color-primary);padding-left:4px}.footer-contact-info{display:flex;flex-direction:column;gap:16px}.contact-info-item{display:flex;gap:12px;font-size:13px;color:var(--color-text-muted);line-height:1.4}.contact-info-item svg{flex-shrink:0;margin-top:2px;color:var(--color-primary)}.footer-divider{border:none;border-top:1px solid var(--color-border);margin:40px 0 30px 0}.footer-bottom-wrap{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-copyright{font-size:11px;line-height:1.6;color:var(--color-text-muted)}.footer-legal-links{list-style:none;display:flex;gap:20px}.footer-legal-links a{color:var(--color-text-muted);text-decoration:none;font-size:11px;transition:var(--transition-normal)}.footer-legal-links a:hover{color:var(--color-primary)}.card-gifts-list,.table-gifts-list{list-style-type:none;padding-left:0;margin-top:8px;display:flex;flex-direction:column;gap:6px}.card-gifts-list li,.table-gifts-list li{font-size:12.5px;line-height:1.4;color:var(--color-text-muted);position:relative;padding-left:18px;white-space:normal}.card-gifts-list li::before,.table-gifts-list li::before{content:'✓';position:absolute;left:0;top:0;color:#81c784;font-weight:700}.card-promo-text{font-size:13px !important;line-height:1.5;color:var(--color-text-main) !important}.table-gifts-list{min-width:200px;max-width:250px}.mobile-menu-toggle{display:none;flex-direction:column;justify-content:space-between;width:26px;height:18px;background:transparent;border:none;cursor:pointer;z-index:110;padding:0}.mobile-menu-toggle .bar{width:100%;height:2px;background-color:var(--color-text-main);transition:var(--transition-normal);border-radius:2px}.mobile-phone-shortcut{display:none}@media (max-width:992px){.footer-grid{grid-template-columns:1fr 1fr;gap:32px}.footer-bottom-wrap{flex-direction:column;text-align:center}.luxury-price-card{grid-template-columns:1fr}.luxury-price-card__image-box{height:260px;min-height:auto}.luxury-price-card__image{object-fit:contain;padding:16px}}@media (max-width:768px){.header-container{display:grid !important;grid-template-columns:1fr auto 1fr !important;align-items:center !important;padding:12px 20px !important}.header-container nav{display:contents !important}.logo-link{grid-column:2 !important;grid-row:1 !important;justify-self:center !important;align-self:center !important;margin:0 auto !important;display:flex !important;align-items:center !important;justify-content:center !important;height:36px !important;color:var(--color-text-main) !important}.logo-link svg{height:26px !important;width:auto !important;display:block !important;margin:0 !important}.mobile-menu-toggle{grid-column:1 !important;grid-row:1 !important;justify-self:start !important;align-self:center !important;display:flex !important;flex-direction:column !important;justify-content:space-between !important;align-items:center !important;width:36px !important;height:36px !important;padding:9px 5px !important;box-sizing:border-box !important;background:transparent !important;border:none !important;margin:0 !important}.mobile-menu-toggle .bar{background-color:var(--color-text-main) !important}.mobile-phone-shortcut{grid-column:3 !important;grid-row:1 !important;justify-self:end !important;align-self:center !important;display:inline-flex !important;align-items:center !important;justify-content:center !important;width:36px !important;height:36px !important;border-radius:50% !important;background:rgba(255,255,255,0.1) !important;border:1px solid rgba(255,255,255,0.25) !important;color:var(--color-text-main) !important;transition:all 0.3s ease !important}.mobile-phone-shortcut:hover{background:#ffffff !important;color:#000000 !important;box-shadow:0 0 10px rgba(255,255,255,0.5) !important}.nav-menu{position:fixed;top:0;right:0;width:280px;height:100vh;background:rgba(8,11,18,0.98);backdrop-filter:blur(35px);-webkit-backdrop-filter:blur(35px);border-left:1px solid var(--color-border);flex-direction:column;justify-content:center;align-items:flex-start;padding:60px 40px;gap:28px;transform:translateX(100%);visibility:hidden;transition:transform 0.4s cubic-bezier(0.25,0.8,0.25,1),visibility 0.4s;z-index:105;box-shadow:-10px 0 30px rgba(0,0,0,0.5)}.nav-menu.nav-menu--open{transform:translateX(0);visibility:visible}.nav-link{font-size:15px;font-weight:600;letter-spacing:1.5px}.btn-admin-nav{width:100%;text-align:center;margin-top:10px}.mobile-menu-toggle.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg)}.mobile-menu-toggle.active .bar:nth-child(2){opacity:0}.mobile-menu-toggle.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg)}.catalog-hero__content{padding:100px 16px 50px 16px}.catalog-hero__title{font-size:26px}.catalog-hero__desc{font-size:12px}.luxury-price-card{display:flex;flex-direction:column;border-radius:12px}.luxury-price-card__image-box{height:220px;min-height:auto;background:rgba(0,0,0,0.02)}.luxury-price-card__image{object-fit:contain;padding:16px}.luxury-price-card__content{padding:20px;gap:16px}.luxury-price-card__header{flex-direction:column;align-items:stretch;gap:8px;border-bottom:1px dashed var(--color-border);padding-bottom:12px}.luxury-price-card__pricing{text-align:left}.luxury-price-card__price{font-size:18px}.luxury-price-card__installment{margin-top:2px}.luxury-price-card__specs{grid-template-columns:1fr 1fr;gap:12px;padding:12px}.luxury-price-card__specs .spec-mini:nth-child(3){grid-column:span 2}.luxury-price-card__footer{flex-direction:column;gap:8px}.btn-primary-mini,.btn-secondary-mini{width:100%;text-align:center;padding:12px;font-size:12px}.price-table-wrapper{border-radius:12px}.price-table th:first-child,.price-table td:first-child{background-color:#e6e9ef !important;box-shadow:3px 0 10px rgba(0,0,0,0.4)}.promo-badge{font-size:10.5px;max-width:180px}.onroad-grid{grid-template-columns:1fr;gap:20px}.onroad-card{padding:20px}.invoice-row__val--gold{font-size:18px}.seo-article p{font-size:14px;line-height:1.7;margin-bottom:16px}.seo-article h2{font-size:20px;margin-top:32px;margin-bottom:12px}.seo-article h3{font-size:16px;margin-top:24px;margin-bottom:8px}.section-title{font-size:22px}}@media (max-width:576px){.footer-grid{grid-template-columns:1fr;gap:24px}.view-switcher{margin-bottom:24px}.table-filter-panel{margin-bottom:20px;gap:8px}.table-filter-btn{padding:8px 16px;font-size:10.5px}}
+
+/* Premium Car Cards - Premium-inspired Layout & Design Overrides (VinFast Electric Blue/Cyan theme) */
+@media (min-width: 769px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  .car-card::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    opacity: 0 !important;
+    transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 5 !important;
+  }
+
+  .car-card:hover {
+    transform: translateY(-8px) !important;
+    border-color: rgba(20, 100, 244, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+  }
+
+  .car-card:hover::before {
+    opacity: 1 !important;
+  }
+
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 220px !important;
+    background: #f8fafc !important;
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  }
+
+  .car-card:hover .car-card__img {
+    transform: scale(1.06) !important;
+  }
+
+  .car-card__badge {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    left: auto !important;
+    background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 10px !important;
+    letter-spacing: 0.8px !important;
+    border-radius: 30px !important;
+    padding: 5px 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 4px 10px rgba(20, 100, 244, 0.15) !important;
+    z-index: 10 !important;
+  }
+
+  .car-card__info {
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #0f172a !important;
+    margin-bottom: 8px !important;
+    transition: color 0.3s ease !important;
+  }
+
+  .car-card:hover .car-card__name {
+    color: #1464f4 !important;
+  }
+
+  .car-card__desc {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.5 !important;
+    margin-bottom: 16px !important;
+  }
+
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.8) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 12px 0 !important;
+    margin-bottom: 16px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 0 8px !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.8) !important;
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.4) !important;
+    padding-top: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  .car-card__spec-lbl {
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 12px !important;
+  }
+
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.8) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 12px 0 0 0 !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .car-card__price-lbl {
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    font-size: 10px !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    text-align: right !important;
+    margin: 0 !important;
+  }
+
+  .price-main-num {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    display: block !important;
+    line-height: 1.2 !important;
+  }
+
+  .price-sub-note {
+    font-size: 9.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    display: block !important;
+    line-height: 1.15 !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  .btn-detail-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #475569 !important;
+    background: #f8fafc !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    height: 40px !important;
+  }
+
+  .btn-detail-card:hover {
+    border-color: #1464f4 !important;
+    color: #1464f4 !important;
+    background: rgba(20, 100, 244, 0.05) !important;
+    transform: translateY(-2px) !important;
+  }
+
+  .btn-zalo-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #1464f4 0%, #00a3ff 100%) !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+    height: 40px !important;
+  }
+
+  .btn-zalo-card:hover {
+    background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+    border-color: #1464f4 !important;
+    box-shadow: 0 6px 18px rgba(20, 100, 244, 0.4) !important;
+    transform: translateY(-2px) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.02) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 110px !important;
+    background: #f8fafc !important;
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .car-card__badge {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    left: auto !important;
+    background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 7.5px !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 20px !important;
+    padding: 2px 6px !important;
+    border: 0.5px solid rgba(255, 255, 255, 0.2) !important;
+    z-index: 10 !important;
+    box-shadow: 0 2px 5px rgba(20, 100, 244, 0.15) !important;
+  }
+
+  .car-card__info {
+    padding: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: #0f172a !important;
+    margin-bottom: 4px !important;
+  }
+
+  .car-card__desc {
+    display: none !important;
+  }
+
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 6px 0 !important;
+    margin-bottom: 6px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1px !important;
+    padding: 0 4px !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.6) !important;
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 4px !important;
+    margin-top: 4px !important;
+  }
+
+  .car-card__spec-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 9.5px !important;
+  }
+
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 6px 0 0 0 !important;
+    margin-bottom: 8px !important;
+    width: 100% !important;
+    min-height: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .car-card__price-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+  }
+
+  .price-main-num {
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+  }
+
+  .price-sub-note {
+    font-size: 8.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  .btn-detail-card, .btn-zalo-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+  }
+}
+
+/* Premium Car Cards - Premium-inspired Layout & Design Overrides (VinFast Electric Blue/Cyan theme) */
+@media (min-width: 769px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 14px !important; /* Sleek Premium border radius */
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  /* Glowing horizontal line on top of card on hover (Premium-style in VinFast Electric Cyan/Blue) */
+  .car-card::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    opacity: 0 !important;
+    transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 5 !important;
+  }
+
+  .car-card:hover {
+    transform: translateY(-8px) !important; /* Sleek hover lift */
+    border-color: rgba(20, 100, 244, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+  }
+
+  .car-card:hover::before {
+    opacity: 1 !important;
+  }
+
+  /* Studio Stage Media Container with showroom floor shadow */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 190px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 24px 20px 0 20px !important; /* Spacing so the car sits on a stage */
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 12px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important; /* Keeps whole vehicle visible, no crop */
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 2 !important;
+  }
+
+  .car-card:hover .car-card__img {
+    transform: scale(1.05) translateY(-4px) !important;
+  }
+
+  /* Premium semi-transparent glass tag on top right */
+  .car-card__badge {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 9.5px !important;
+    letter-spacing: 0.8px !important;
+    border-radius: 30px !important;
+    padding: 4px 12px !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    box-shadow: none !important;
+    z-index: 10 !important;
+  }
+
+  .car-card__info {
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  /* Car title - bold */
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #0f172a !important;
+    margin-bottom: 8px !important;
+    transition: color 0.3s ease !important;
+  }
+
+  .car-card:hover .car-card__name {
+    color: #1464f4 !important;
+  }
+
+  /* Description text - regular */
+  .car-card__desc {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.5 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Specs table */
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 12px 0 !important;
+    margin-bottom: 16px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 0 8px !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.6) !important; /* Divider line */
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  /* Spec labels - medium */
+  .car-card__spec-lbl {
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  /* Spec values - bold */
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 12px !important;
+  }
+
+  /* Price area */
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 12px 0 0 0 !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Price label - medium */
+  .car-card__price-lbl {
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    font-size: 10px !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    text-align: right !important;
+    margin: 0 !important;
+  }
+
+  /* Price value - extra bold */
+  .price-main-num {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    display: block !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Price sub-note - regular */
+  .price-sub-note {
+    font-size: 9.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    display: block !important;
+    line-height: 1.15 !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Primary Button (Chi tiết xe) - Solid Slate-900 */
+  .btn-detail-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #0f172a !important;
+    border: 1px solid #0f172a !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    text-decoration: none !important;
+    height: 40px !important;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.1) !important;
+  }
+
+  .btn-detail-card:hover {
+    border-color: #1464f4 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.3) !important;
+  }
+
+  /* Secondary Button (Zalo tư vấn) - Outline Style */
+  .btn-zalo-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    height: 40px !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+    transition: transform 0.3s ease !important;
+  }
+
+  .btn-zalo-card:hover {
+    background: rgba(20, 100, 244, 0.05) !important;
+    border-color: #1464f4 !important;
+    color: #1464f4 !important;
+    transform: translateY(-2px) !important;
+  }
+}
+
+/* Premium-inspired product card layout & design for mobile (light theme, 2-column grid layout) */
+@media (max-width: 768px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.02) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Studio Stage Mobile */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 100px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 14px 10px 0 10px !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow Mobile */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 6px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 8px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.06) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    z-index: 2 !important;
+  }
+
+  /* Mobile tag - semi-transparent */
+  .car-card__badge {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 7.5px !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 20px !important;
+    padding: 2px 6px !important;
+    border: 0.5px solid rgba(20, 100, 244, 0.15) !important;
+    z-index: 10 !important;
+    box-shadow: none !important;
+  }
+
+  .car-card__info {
+    padding: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: #0f172a !important;
+    margin-bottom: 4px !important;
+  }
+
+  .car-card__desc {
+    display: none !important;
+  }
+
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 6px 0 !important;
+    margin-bottom: 6px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1px !important;
+    padding: 0 4px !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.5) !important;
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 4px !important;
+    margin-top: 4px !important;
+  }
+
+  .car-card__spec-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 9.5px !important;
+  }
+
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 6px 0 0 0 !important;
+    margin-bottom: 8px !important;
+    width: 100% !important;
+    min-height: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .car-card__price-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+  }
+
+  .price-main-num {
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+  }
+
+  .price-sub-note {
+    font-size: 8.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Mobile Primary - Slate-900 */
+  .btn-detail-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #0f172a !important;
+    border: 1px solid #0f172a !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* Mobile Secondary - Outline style */
+  .btn-zalo-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+  }
+}
+
+/* Premium Car Cards - Premium-inspired Layout & Design Overrides (VinFast Electric Blue/Cyan theme) */
+@media (min-width: 769px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 14px !important; /* Sleek Premium border radius */
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  /* Glowing horizontal line on top of card on hover (Premium-style in VinFast Electric Cyan/Blue) */
+  .car-card::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    opacity: 0 !important;
+    transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 5 !important;
+  }
+
+  .car-card:hover {
+    transform: translateY(-8px) !important; /* Sleek hover lift */
+    border-color: rgba(20, 100, 244, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+  }
+
+  .car-card:hover::before {
+    opacity: 1 !important;
+  }
+
+  /* Studio Stage Media Container with showroom floor shadow */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 190px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 24px 20px 0 20px !important; /* Spacing so the car sits on a stage */
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 12px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important; /* Keeps whole vehicle visible, no crop */
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 2 !important;
+  }
+
+  .car-card:hover .car-card__img {
+    transform: scale(1.05) translateY(-4px) !important;
+  }
+
+  /* Premium semi-transparent glass tag on top right */
+  .car-card__badge {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 9.5px !important;
+    letter-spacing: 0.8px !important;
+    border-radius: 30px !important;
+    padding: 4px 12px !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    box-shadow: none !important;
+    z-index: 10 !important;
+  }
+
+  .car-card__info {
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  /* Car title - bold */
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #0f172a !important;
+    margin-bottom: 8px !important;
+    transition: color 0.3s ease !important;
+  }
+
+  .car-card:hover .car-card__name {
+    color: #1464f4 !important;
+  }
+
+  /* Description text - regular */
+  .car-card__desc {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.5 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Specs table */
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 12px 0 !important;
+    margin-bottom: 16px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 0 8px !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.6) !important; /* Divider line */
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  /* Spec labels - medium */
+  .car-card__spec-lbl {
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  /* Spec values - bold */
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 12px !important;
+  }
+
+  /* Price area */
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 12px 0 0 0 !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Price label - medium */
+  .car-card__price-lbl {
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    font-size: 10px !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    text-align: right !important;
+    margin: 0 !important;
+  }
+
+  /* Price value - extra bold */
+  .price-main-num {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    display: block !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Price sub-note - regular */
+  .price-sub-note {
+    font-size: 9.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    display: block !important;
+    line-height: 1.15 !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Primary Button (Chi tiết xe) - Solid VinFast Electric Blue */
+  .btn-detail-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    text-decoration: none !important;
+    height: 40px !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+  }
+
+  .btn-detail-card:hover {
+    border-color: #00d2ff !important;
+    color: #ffffff !important;
+    background: #00d2ff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(0, 210, 255, 0.4) !important;
+  }
+
+  /* Secondary Button (Zalo tư vấn) - Outline Style */
+  .btn-zalo-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    height: 40px !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+    transition: transform 0.3s ease !important;
+  }
+
+  .btn-zalo-card:hover {
+    background: rgba(20, 100, 244, 0.05) !important;
+    border-color: #1464f4 !important;
+    color: #1464f4 !important;
+    transform: translateY(-2px) !important;
+  }
+}
+
+/* Premium-inspired product card layout & design for mobile (light theme, 2-column grid layout) */
+@media (max-width: 768px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.02) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Studio Stage Mobile */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 100px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 14px 10px 0 10px !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow Mobile */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 6px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 8px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.06) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    z-index: 2 !important;
+  }
+
+  /* Mobile tag - semi-transparent */
+  .car-card__badge {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 7.5px !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 20px !important;
+    padding: 2px 6px !important;
+    border: 0.5px solid rgba(20, 100, 244, 0.15) !important;
+    z-index: 10 !important;
+    box-shadow: none !important;
+  }
+
+  .car-card__info {
+    padding: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: #0f172a !important;
+    margin-bottom: 4px !important;
+  }
+
+  .car-card__desc {
+    display: none !important;
+  }
+
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 6px 0 !important;
+    margin-bottom: 6px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1px !important;
+    padding: 0 4px !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.5) !important;
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 4px !important;
+    margin-top: 4px !important;
+  }
+
+  .car-card__spec-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 9.5px !important;
+  }
+
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 6px 0 0 0 !important;
+    margin-bottom: 8px !important;
+    width: 100% !important;
+    min-height: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .car-card__price-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+  }
+
+  .price-main-num {
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+  }
+
+  .price-sub-note {
+    font-size: 8.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Mobile Primary - VinFast Electric Blue */
+  .btn-detail-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* Mobile Secondary - Outline style */
+  .btn-zalo-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+  }
+}

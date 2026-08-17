@@ -1,0 +1,255 @@
+/* Privileges Section Overrides for High-Tech Dark Background with Image */
+  .privileges-section {
+      background: linear-gradient(rgba(8, 12, 28, 0.88), rgba(8, 12, 28, 0.88)), url('../../uploads/vinfast-privileges-bg.jpg') !important;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+      position: relative !important;
+  }
+  
+  .privileges-section .section-title {
+      color: #ffffff !important;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .privileges-section .section-tag {
+      color: var(--color-ev-cyan, #00a3ff) !important;
+  }
+  
+  .privilege-card {
+      background: rgba(255, 255, 255, 0.03) !important;
+      backdrop-filter: blur(12px) !important;
+      -webkit-backdrop-filter: blur(12px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+      transition: all 0.3s ease !important;
+  }
+
+  .privilege-card:hover {
+      background: rgba(255, 255, 255, 0.07) !important;
+      border-color: rgba(20, 100, 244, 0.4) !important;
+      transform: translateY(-5px) !important;
+  }
+
+  .privilege-card__title {
+      color: #ffffff !important;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .privilege-card__desc {
+      color: #cbd5e1 !important;
+  }
+
+  .privilege-card__watermark {
+      color: rgba(255, 255, 255, 0.015) !important;
+  }
+
+  .privilege-card__icon-wrap {
+      background: rgba(20, 100, 244, 0.15) !important;
+      color: var(--color-ev-cyan, #00a3ff) !important;
+      border: 1px solid rgba(20, 100, 244, 0.25) !important;
+  }
+
+/* ======================================================================
+   PRIVILEGES 2-COLUMN COMPACT 2X2 MOBILE GRID SYSTEM
+   ====================================================================== */
+@media (max-width: 768px) {
+  html body .privileges-section {
+    padding: 30px 10px !important;
+  }
+
+  html body .privileges-section .section-header {
+    margin-bottom: 20px !important;
+    text-align: center !important;
+  }
+
+  html body .privileges-section .section-title {
+    font-size: 19px !important;
+    line-height: 1.3 !important;
+    margin-top: 6px !important;
+    color: #ffffff !important;
+  }
+
+  html body .privilege-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  html body .privilege-card {
+    background: rgba(255, 255, 255, 0.03) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    padding: 14px 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    min-height: 210px !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  html body .privilege-card__watermark {
+    display: none !important;
+  }
+
+  html body .privilege-card__icon-wrap {
+    width: 38px !important;
+    height: 38px !important;
+    background: rgba(20, 100, 244, 0.15) !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 8px !important;
+    color: var(--color-ev-cyan, #00a3ff) !important;
+    border: 1px solid rgba(20, 100, 244, 0.25) !important;
+  }
+
+  html body .privilege-card__icon-wrap svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+
+  html body .privilege-card__title {
+    font-size: 13.5px !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    line-height: 1.3 !important;
+    margin: 0 0 4px 0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+
+  html body .privilege-card__desc {
+    font-size: 11px !important;
+    color: #cbd5e1 !important;
+    line-height: 1.4 !important;
+    margin: 0 0 10px 0 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+  }
+
+  html body .privilege-card__link {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    padding: 7px 4px !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    border: none !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin-top: auto !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+  }
+}
+
+/* ======================================================================
+   PRIVILEGE CARD CAPSULE BUTTON (REMOVED STRAY PSEUDO ARROW & EMBEDDED INLINE ARROW)
+   ====================================================================== */
+.privilege-card__link::after,
+.privilege-card__link::before {
+  display: none !important;
+  content: "" !important;
+}
+
+.privilege-card__link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  width: 100% !important;
+  padding: 8px 10px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  margin-top: auto !important;
+  box-shadow: 0 3px 10px rgba(20, 100, 244, 0.28) !important;
+  transition: all 0.25s ease !important;
+}
+
+.privilege-card__link span {
+  color: #ffffff !important;
+}
+
+.privilege-card__link .btn-arr-icon {
+  width: 12px !important;
+  height: 12px !important;
+  stroke: #ffffff !important;
+  transition: transform 0.25s ease !important;
+  flex-shrink: 0 !important;
+}
+
+.privilege-card__link:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 5px 14px rgba(20, 100, 244, 0.45) !important;
+  transform: translateY(-1px) !important;
+}
+
+.privilege-card__link:hover .btn-arr-icon {
+  transform: translateX(3px) !important;
+}
+
+/* ======================================================================
+   SOLID VINFAST ELECTRIC BLUE PRIVILEGE CAPSULE BUTTONS (MAX CONTRAST)
+   ====================================================================== */
+html body .privilege-card__link::after,
+html body .privilege-card__link::before {
+  display: none !important;
+  content: "" !important;
+}
+
+html body .privilege-card__link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  width: 100% !important;
+  padding: 8px 10px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background: #1464f4 !important;
+  border: none !important;
+  border-radius: 20px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  margin-top: auto !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+  transition: all 0.25s ease !important;
+}
+
+html body .privilege-card__link span {
+  color: #ffffff !important;
+  display: inline-block !important;
+}
+
+html body .privilege-card__link .btn-arr-icon {
+  width: 12px !important;
+  height: 12px !important;
+  stroke: #ffffff !important;
+  flex-shrink: 0 !important;
+}

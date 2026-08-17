@@ -1,0 +1,1729 @@
+/* ==========================================================================
+   VinFast Tam Phong - Custom Styles & Layout Overrides
+   Style Direction: Cinematic Alternating Contrast (Nền xen kẽ Sáng / Tối)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. GLOBAL STYLING & CORE LIGHT/DARK SECTION CONTAINERS
+   -------------------------------------------------------------------------- */
+html body {
+    background-color: #fcfdfe !important; /* Base light porcelain */
+    color: #3c3c3c !important;
+}
+
+/* Light Porcelain Sections (Catalog, Privileges, Trade-in, Counselors) */
+html body .catalog-section,
+html body .privileges-section,
+html body .tradein-section,
+html body .compare-counselors-section {
+    background-color: #fcfdfe !important;
+    background-image: none !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    color: #3c3c3c !important;
+    padding: 60px 0 !important;
+}
+
+/* Deep Space Dark Sections (Spotlight, EV Tech, Offers, FAQ, Footer) */
+html body .brand-spotlight,
+html body .ev-tech-section,
+html body .dealer-offers-section,
+html body .faq-section {
+    background-color: #070b13 !important; /* Solid Slate Dark background */
+    background-image: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    color: #cbd5e1 !important;
+    padding: 60px 0 !important;
+}
+
+/* Why Official Section (Dark Spotlight Background - Match EV Tech) */
+html body .why-official-section {
+    background: #070b13 radial-gradient(circle at 50% 10%, rgba(20, 100, 244, 0.12) 0%, transparent 60%) !important; /* Matches EV Tech spotlight */
+    background-image: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    color: #cbd5e1 !important;
+    padding: 60px 0 !important;
+}
+
+html body .premium-footer {
+    background: #04050a !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+html body .premium-header {
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. TYPOGRAPHY UNDER LIGHT AND DARK SECTIONS
+   -------------------------------------------------------------------------- */
+/* General Headings formatting */
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6,
+html body .section-title,
+html body .about-intro-heading,
+html body .about-hero-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: 1.2px !important;
+    text-transform: uppercase !important;
+}
+
+/* Light Sections text colors */
+html body .catalog-section h2,
+html body .privileges-section h2,
+html body .tradein-section h2,
+html body .compare-counselors-section h2,
+html body .catalog-section h3,
+html body .privileges-section h3,
+html body .tradein-section h3,
+html body .compare-counselors-section h3,
+html body .counselor-compare-name {
+    color: #0f172a !important;
+}
+
+html body .catalog-section .section-desc,
+html body .privileges-section .section-desc,
+html body .tradein-section .section-desc,
+html body .compare-counselors-section .section-desc,
+html body .counselor-compare-title {
+    color: #64748b !important;
+}
+
+/* Dark Sections text colors */
+html body .brand-spotlight h2,
+html body .ev-tech-section h2,
+html body .dealer-offers-section h2,
+html body .faq-section h2,
+html body .brand-spotlight h3,
+html body .ev-tech-section h3,
+html body .dealer-offers-section h3,
+html body .faq-section h3,
+html body .faq-question {
+    color: #ffffff !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+html body .brand-spotlight .section-desc,
+html body .ev-tech-section .section-desc,
+html body .dealer-offers-section .section-desc,
+html body .faq-section .section-desc,
+html body .spotlight-desc,
+html body .faq-answer {
+    color: #94a3b8 !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. SECTION TAGS / BADGES
+   -------------------------------------------------------------------------- */
+/* Light Sections Tags */
+html body .catalog-section .section-tag,
+html body .tradein-section .section-tag,
+html body .compare-counselors-section .compare-counselors-tag {
+    background: rgba(15, 23, 42, 0.04) !important;
+    color: #475569 !important;
+    border: 1px solid rgba(15, 23, 42, 0.08) !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    padding: 6px 16px !important;
+    border-radius: 30px !important;
+}
+
+/* Light Cyan/Blue Tag for Privileges Section (EV Blue Themed) */
+html body .privileges-section .section-header .section-tag,
+html body .privileges-section .section-tag {
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    border: 1px solid rgba(20, 100, 244, 0.25) !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    padding: 6px 16px !important;
+    border-radius: 30px !important;
+    box-shadow: 0 0 10px rgba(20, 100, 244, 0.05) !important;
+}
+
+/* Dark Sections Tags */
+html body .brand-spotlight .spotlight-tag,
+html body .ev-tech-section .section-tag,
+html body .why-official-section .section-tag,
+html body .dealer-offers-section .section-tag,
+html body .faq-section .section-tag {
+    background: rgba(20, 100, 244, 0.15) !important;
+    color: #00d2ff !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    box-shadow: 0 0 15px rgba(20, 100, 244, 0.1) !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    padding: 6px 16px !important;
+    border-radius: 30px !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. HERO BANNER SECTION (VIDEO & HUD GLASS CARD)
+   -------------------------------------------------------------------------- */
+html body .hero-hud-card {
+    background: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 16px !important;
+    padding: 24px !important;
+}
+
+html body .hud-spec-row {
+    display: flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+}
+
+html body .hud-spec-icon-box {
+    background: rgba(20, 100, 244, 0.15) !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    color: #00d2ff !important;
+    border-radius: 50% !important;
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 14px !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. CATALOG FILTER TABS & CARDS (LIGHT BACKGROUND)
+   -------------------------------------------------------------------------- */
+html body .filter-tabs {
+    border-bottom: 1px solid #e2e8f0 !important;
+    padding: 0 0 8px 0 !important;
+    gap: 24px !important;
+}
+
+html body .filter-tab-btn {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
+    color: #94a3b8 !important;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    padding: 8px 4px !important;
+    box-shadow: none !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    transition: all 0.25s ease !important;
+}
+
+html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
+    color: #0f172a !important;
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+html body .filter-tab-btn--active,
+html body .filter-tab-btn.filter-tab-btn--active {
+    background: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 2px solid #1464f4 !important;
+    color: #0f172a !important;
+    font-weight: 700 !important;
+    box-shadow: none !important;
+}
+
+/* Minimalist Product Cards */
+html body .car-card {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.02) !important;
+    border-radius: 12px !important;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease !important;
+}
+
+html body .car-card::before {
+    display: none !important;
+}
+
+html body .car-card:hover {
+    transform: translateY(-8px) scale(1.01) !important;
+    border-color: rgba(20, 100, 244, 0.3) !important;
+    box-shadow: 0 25px 50px rgba(15, 23, 42, 0.06) !important;
+}
+
+html body .car-card__media {
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    padding-top: 16px !important;
+}
+
+html body .car-card__media::after {
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.04) 0%, rgba(15, 23, 42, 0) 70%) !important;
+}
+
+html body .car-card__badge {
+    background: rgba(20, 100, 244, 0.05) !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    color: #1464f4 !important;
+    font-size: 8.5px !important;
+    border-radius: 4px !important;
+    padding: 3px 8px !important;
+}
+
+html body .car-card__segment {
+    font-weight: 600 !important;
+    color: #64748b !important;
+}
+
+html body .car-card__name {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+}
+
+html body .car-card:hover .car-card__name {
+    color: #1464f4 !important;
+}
+
+html body .car-card__price-box {
+    background: #f8fafc !important;
+    border: 1px solid #f1f5f9 !important;
+    border-radius: 6px !important;
+    padding: 10px 12px !important;
+    box-shadow: none !important;
+}
+
+html body .car-card__price-lbl {
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #94a3b8 !important;
+}
+
+html body .price-main-num {
+    color: #0f172a !important;
+    font-weight: 800 !important;
+    font-size: 15px !important;
+}
+
+html body .price-sub-note {
+    font-size: 9px !important;
+    color: #64748b !important;
+}
+
+/* Action Buttons (Brand compliant - No gray/black) */
+html body .btn-detail-card {
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 6px !important;
+    color: #ffffff !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.15) !important;
+    transition: all 0.25s ease !important;
+}
+
+html body .btn-detail-card:hover {
+    background: #00d2ff !important;
+    border-color: #00d2ff !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba(0, 210, 255, 0.3) !important;
+}
+
+html body .btn-zalo-card {
+    background: rgba(0, 104, 255, 0.05) !important;
+    border: 1px solid rgba(0, 104, 255, 0.3) !important;
+    border-radius: 6px !important;
+    color: #0066ff !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    transition: all 0.25s ease !important;
+}
+
+html body .btn-zalo-card svg {
+    fill: #0066ff !important;
+}
+
+html body .btn-zalo-card:hover {
+    background: linear-gradient(135deg, #0066ff 0%, #00aaff 100%) !important;
+    border-color: #00aaff !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3) !important;
+}
+
+html body .btn-zalo-card:hover svg {
+    fill: #ffffff !important;
+}
+
+/* --------------------------------------------------------------------------
+   6. DYNAMIC TECHNICAL CALCULATORS (ON DARK SECTION BACKGROUND)
+   -------------------------------------------------------------------------- */
+html body .range-calc-models-panel,
+html body .range-calc-interactive-panel,
+html body .roi-calc-form-panel,
+html body .roi-results-panel {
+    background: rgba(255, 255, 255, 0.02) !important; /* Glassmorphism style cards */
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+html body .range-calc-model-card {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 8px !important;
+}
+
+html body .range-calc-model-card:hover {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+html body .range-calc-model-card.active {
+    background: rgba(20, 100, 244, 0.15) !important;
+    border: 2px solid #1464f4 !important;
+    box-shadow: 0 4px 15px rgba(20, 100, 244, 0.2) !important;
+}
+
+html body .range-calc-model-name {
+    color: #ffffff !important;
+}
+
+html body .range-calc-model-meta {
+    color: #94a3b8 !important;
+}
+
+html body .range-slider-group-premium {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-radius: 10px !important;
+}
+
+html body .range-slider-group-premium:hover {
+    border-color: #1464f4 !important;
+}
+
+html body .range-slider-label {
+    color: #ffffff !important;
+}
+
+html body .range-number-value {
+    color: #ffffff !important;
+}
+
+html body .metric-bar-item {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 8px !important;
+}
+
+html body .metric-bar-label {
+    color: #94a3b8 !important;
+}
+
+html body .metric-bar-val {
+    color: #ffffff !important;
+}
+
+html body .roi-results-panel {
+    border: 2px solid #1464f4 !important;
+    box-shadow: 0 10px 30px rgba(20, 100, 244, 0.15) !important;
+}
+
+html body .roi-input-label,
+html body .roi-breakdown-label {
+    color: #94a3b8 !important;
+}
+
+html body .roi-breakdown {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+html body .roi-breakdown-value {
+    color: #ffffff !important;
+}
+
+html body .roi-select {
+    background: rgba(6, 8, 19, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+
+html body .roi-select option {
+    background: #070b13 !important;
+    color: #ffffff !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. BENTO BOX GRID FOR PRIVILEGES (LIGHT BACKGROUND) - UNIFIED SLAB GLASS
+   -------------------------------------------------------------------------- */
+html body .privileges-section {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.94) 0%, rgba(244, 246, 250, 0.94) 100%), url('../uploads/vinfast-privileges-light-bg.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+    padding: 80px 0 !important;
+    position: relative !important;
+}
+
+html body .privileges-section .section-title {
+    color: #0f172a !important;
+    text-shadow: none !important;
+}
+
+html body .privileges-section .section-tag {
+    background: rgba(20, 100, 244, 0.05) !important;
+    color: #1464f4 !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    box-shadow: none !important;
+}
+
+html body .privileges-section .section-header::after {
+    content: '' !important;
+    display: block !important;
+    width: 50px !important;
+    height: 2px !important;
+    background: #1464f4 !important;
+    margin: 15px auto 0 auto !important;
+    box-shadow: none !important;
+}
+
+html body .privilege-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+
+@media (min-width: 992px) {
+    html body .privilege-grid {
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 24px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html body .privilege-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px !important;
+    }
+}
+
+/* Individual Premium Floating Card */
+html body .privilege-card {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 16px !important;
+    padding: 32px 28px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    height: 100% !important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.02) !important;
+}
+
+/* Glass Sheen Sweep inside cards */
+html body .privilege-card::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -150% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(90deg, transparent, rgba(20, 100, 244, 0.04), rgba(255, 255, 255, 0.6), rgba(20, 100, 244, 0.04), transparent) !important;
+    transform: skewX(-20deg) !important;
+    transition: none !important;
+    pointer-events: none !important;
+    z-index: 2 !important;
+}
+
+/* Top Indicator Line on Hover */
+html body .privilege-card::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, #1464f4, #00d2ff) !important;
+    opacity: 0 !important;
+    transition: opacity 0.3s ease !important;
+    z-index: 3 !important;
+}
+
+/* Hover active indicators */
+html body .privilege-card:hover {
+    border-color: rgba(20, 100, 244, 0.25) !important;
+    transform: translateY(-6px) !important;
+    box-shadow: 0 20px 40px rgba(20, 100, 244, 0.08) !important;
+}
+
+html body .privilege-card:hover::before {
+    left: 150% !important;
+    transition: all 0.85s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .privilege-card:hover::after {
+    opacity: 1 !important;
+}
+
+html body .privilege-card__watermark {
+    color: rgba(15, 23, 42, 0.015) !important;
+    display: block !important;
+}
+
+/* Compact Icon Bubbles with Hover rotate */
+html body .privilege-card__icon-wrap {
+    width: 48px !important;
+    height: 48px !important;
+    background: rgba(20, 100, 244, 0.05) !important;
+    border: 1px solid rgba(20, 100, 244, 0.10) !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 16px !important;
+    color: #1464f4 !important;
+    box-shadow: none !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .privilege-card:hover .privilege-card__icon-wrap {
+    background: rgba(20, 100, 244, 0.1) !important;
+    border-color: #1464f4 !important;
+    color: #00d2ff !important;
+    transform: rotate(8deg) scale(1.05) !important;
+}
+
+/* Tight Card Typography */
+html body .privilege-card__title {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.3 !important;
+    text-shadow: none !important;
+}
+
+html body .privilege-card__desc {
+    font-size: 13px !important;
+    line-height: 1.55 !important;
+    color: #475569 !important; /* Extremely clear high-contrast slate color */
+    margin: 0 0 20px 0 !important;
+    max-width: 98% !important;
+    flex-grow: 1 !important;
+}
+
+/* High-end Metallic Outline Buttons (Hollow to filled hover) */
+html body .privilege-card__link {
+    background: transparent !important;
+    border: 1.5px solid #1464f4 !important;
+    border-radius: 30px !important;
+    color: #1464f4 !important;
+    padding: 7px 18px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    width: fit-content !important;
+    margin-top: auto !important;
+    box-shadow: none !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .privilege-card__link span {
+    color: #1464f4 !important;
+    transition: color 0.3s ease !important;
+}
+
+html body .privilege-card__link svg {
+    color: #1464f4 !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .privilege-card__link:hover {
+    background: #1464f4 !important;
+    border-color: #1464f4 !important;
+    box-shadow: 0 4px 15px rgba(20, 100, 244, 0.25) !important;
+}
+
+html body .privilege-card__link:hover span {
+    color: #ffffff !important;
+}
+
+html body .privilege-card__link:hover svg {
+    color: #ffffff !important;
+    transform: translateX(3px) !important;
+}
+
+/* --------------------------------------------------------------------------
+   8. DEALER STRENGTHS (SECTION 6 - 2-COLUMN TIMELINE/EDITORIAL)
+   -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+    html body .why-split-container {
+        display: grid !important;
+        grid-template-columns: 1.15fr 0.85fr !important;
+        gap: 60px !important;
+        align-items: start !important;
+    }
+}
+
+html body .why-row {
+    display: flex !important;
+    gap: 20px !important;
+    padding: 24px 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+html body .why-row__idx {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    color: #00d2ff !important; /* Electric Cyan accent */
+}
+
+html body .why-row__title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #ffffff !important;
+    margin-bottom: 6px !important;
+}
+
+html body .why-row__desc {
+    font-size: 13.5px !important;
+    line-height: 1.6 !important;
+    color: #94a3b8 !important;
+    margin: 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   9. INTERACTIVE TRADE-IN FORM STYLING (LIGHT BACKGROUND)
+   -------------------------------------------------------------------------- */
+html body .tradein-section input[type="text"],
+html body .tradein-section input[type="tel"],
+html body .tradein-section select,
+html body .tradein-section textarea {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+    font-size: 14px !important;
+    transition: all 0.2s ease !important;
+    color: #0f172a !important;
+}
+
+html body .tradein-section input:focus,
+html body .tradein-section select:focus,
+html body .tradein-section textarea:focus {
+    border-color: #1464f4 !important;
+    box-shadow: 0 0 0 3px rgba(20, 100, 244, 0.15) !important;
+    outline: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   10. COUNSELOR PROFILE CARDS WITH GREEN ONLINE DOTS (LIGHT BACKGROUND)
+   -------------------------------------------------------------------------- */
+html body .counselor-compare-avatar-wrap {
+    position: relative !important;
+    display: inline-block !important;
+}
+
+html body .counselor-compare-pulse {
+    position: absolute !important;
+    bottom: 6px !important;
+    right: 6px !important;
+    width: 14px !important;
+    height: 14px !important;
+    background-color: #10b981 !important; /* Green dot */
+    border: 2.5px solid #ffffff !important;
+    border-radius: 50% !important;
+    z-index: 10 !important;
+    display: block !important;
+}
+
+html body .counselor-compare-pulse::after {
+    content: '' !important;
+    position: absolute !important;
+    top: -2.5px !important;
+    left: -2.5px !important;
+    width: 14px !important;
+    height: 14px !important;
+    border: 2.5px solid #10b981 !important;
+    border-radius: 50% !important;
+    animation: pulsing-green-dot 1.5s infinite ease-in-out !important;
+    z-index: 9 !important;
+    box-shadow: 0 0 8px #10b981 !important;
+}
+
+@keyframes pulsing-green-dot {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   11. CONTRAST & LEGIBILITY OVERRIDES INSIDE DARK SECTIONS (CRITICAL FOR INVISIBILITY PREVENTION)
+   -------------------------------------------------------------------------- */
+/* General typography inside Dark Blocks */
+html body .brand-spotlight,
+html body .ev-tech-section,
+html body .why-official-section,
+html body .dealer-offers-section,
+html body .faq-section {
+    color: #cbd5e1 !important;
+}
+
+/* 11a. Why Dealer Section */
+html body .why-official-section .signature-quote {
+    color: #cbd5e1 !important; /* Elegant light quote */
+}
+html body .why-official-section .why-brand-visual {
+    position: relative !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4) !important;
+}
+
+html body .why-official-section .why-visual-img {
+    width: 100% !important;
+    height: 350px !important; /* Numerically balances the 4 cards on the right to align perfectly at the bottom */
+    object-fit: cover !important; /* Prevents image stretching */
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    display: block !important;
+}
+
+html body .why-official-section .why-brand-visual:hover .why-visual-img {
+    transform: scale(1.04) !important;
+}
+
+@media (max-width: 768px) {
+    html body .why-official-section .why-visual-img {
+        height: 200px !important; /* Elegant shorter visual height for mobile screens */
+    }
+}
+
+html body .why-official-section .why-visual-badge {
+    background: rgba(20, 100, 244, 0.25) !important;
+    border: 1px solid rgba(20, 100, 244, 0.4) !important;
+    color: #00d2ff !important;
+}
+
+/* Dark Glassmorphism Cards on Dark Spotlight Background */
+html body .why-official-section .why-row {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important; /* Top reflection line */
+    color: #cbd5e1 !important;
+    padding: 26px 30px !important; /* Maintain the generous borders we set */
+    gap: 24px !important;
+    border-radius: 16px !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+@media (max-width: 768px) {
+    html body .why-official-section .why-row {
+        padding: 20px 18px !important;
+        gap: 12px !important;
+    }
+}
+
+html body .why-official-section .why-row:hover {
+    background: rgba(20, 100, 244, 0.08) !important;
+    border-color: #1464f4 !important;
+    box-shadow: 0 15px 35px rgba(20, 100, 244, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+    transform: translateY(-2px) !important;
+}
+
+html body .why-official-section .why-row__title {
+    color: #ffffff !important; /* Bold white title */
+}
+
+html body .why-official-section .why-row__desc {
+    color: #94a3b8 !important; /* High contrast light gray body text */
+}
+
+html body .why-official-section .why-row__idx {
+    background: rgba(20, 100, 244, 0.15) !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    color: #00d2ff !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html body .why-official-section .why-row:hover .why-row__idx {
+    background: #1464f4 !important;
+    color: #ffffff !important;
+    border-color: #1464f4 !important;
+}
+
+/* Light section header values for Why Official Section */
+html body .why-official-section .section-header .section-title,
+html body .why-official-section .section-title {
+    color: #ffffff !important;
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
+}
+
+html body .why-official-section .section-header .section-tag,
+html body .why-official-section .section-tag {
+    background: rgba(20, 100, 244, 0.15) !important;
+    color: #00d2ff !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+}
+
+/* 11b. EV Tech & ROI Calculator Section - LUXURY & SPOTLIGHT STYLING */
+html body .ev-tech-section {
+    background: #070b13 radial-gradient(circle at 50% 10%, rgba(20, 100, 244, 0.12) 0%, transparent 60%) !important; /* Luxury stage spotlight aura */
+}
+
+/* Glowing vi-diem divider line under title */
+html body .ev-tech-section .section-header::after {
+    content: '' !important;
+    display: block !important;
+    width: 60px !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, transparent, #00d2ff, transparent) !important;
+    margin: 20px auto 0 auto !important;
+    box-shadow: 0 0 10px #00d2ff, 0 0 3px #00d2ff !important;
+}
+
+/* Premium Segmented Pill Tabs capsule */
+html body .ev-tech-section .ev-tech-tabs {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 30px !important;
+    padding: 5px !important;
+    display: inline-flex !important;
+    gap: 4px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+html body .ev-tech-section .ev-tech-tab-btn {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 25px !important;
+    color: #94a3b8 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    padding: 10px 28px !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    box-shadow: none !important;
+}
+
+html body .ev-tech-section .ev-tech-tab-btn.active {
+    background: #1464f4 !important;
+    color: #ffffff !important;
+    box-shadow: 0 5px 15px rgba(20, 100, 244, 0.35) !important;
+}
+
+html body .ev-tech-section .ev-tech-tab-btn:hover:not(.active) {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* iOS glass reflective highlight on active cards */
+html body .ev-tech-section .range-calc-models-panel,
+html body .ev-tech-section .range-calc-interactive-panel,
+html body .ev-tech-section .roi-calc-form-panel,
+html body .ev-tech-section .roi-results-panel,
+html body .ev-tech-section .charging-controls-panel,
+html body .ev-tech-section .charging-map-display {
+    border: 1px solid rgba(20, 100, 244, 0.12) !important;
+    background: rgba(15, 23, 42, 0.4) !important; /* Slightly darker luxury slate */
+    backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.05) !important; /* Inset reflection line */
+}
+
+/* Subtle HUD active selection brackets */
+html body .ev-tech-section .range-calc-model-card.active {
+    background: rgba(20, 100, 244, 0.08) !important;
+    border: 1.5px solid #1464f4 !important;
+    box-shadow: 0 0 15px rgba(20, 100, 244, 0.2), inset 0 0 8px rgba(20, 100, 244, 0.1) !important;
+}
+
+html body .ev-tech-section .compare-subtitle {
+    color: #cbd5e1 !important; /* Safe light silver for sublines */
+}
+html body .ev-tech-section .range-slider-label,
+html body .ev-tech-section .range-number-value,
+html body .ev-tech-section .metric-bar-val,
+html body .ev-tech-section .roi-breakdown-value,
+html body .ev-tech-section .roi-input-label,
+html body .ev-tech-section .roi-breakdown-label,
+html body .ev-tech-section label,
+html body .ev-tech-section .range-calc-model-name,
+html body .ev-tech-section .range-calc-title,
+html body .ev-tech-section .roi-title,
+html body .ev-tech-section .range-number-unit {
+    color: #ffffff !important; /* Clean contrast white */
+}
+html body .ev-tech-section .metric-bar-label,
+html body .ev-tech-section .roi-input-hint,
+html body .ev-tech-section p,
+html body .ev-tech-section .range-calc-model-meta,
+html body .ev-tech-section .slider-ticks span {
+    color: #94a3b8 !important; /* Readable light slate */
+}
+html body .ev-tech-section .roi-saving-title {
+    color: #cbd5e1 !important;
+    font-weight: 600 !important;
+}
+html body .ev-tech-section .roi-saving-value {
+    color: #00d2ff !important; /* Electric Cyan for monthly savings amount */
+    font-weight: 800 !important;
+}
+html body .ev-tech-section .roi-green-impact {
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.25) !important;
+    color: #10b981 !important;
+}
+html body .ev-tech-section .roi-green-info {
+    color: #cbd5e1 !important;
+}
+html body .ev-tech-section .roi-green-number {
+    color: #10b981 !important;
+    font-weight: 800 !important;
+}
+/* Charging map contrast styling */
+html body .ev-tech-section .charging-controls-panel {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+}
+html body .ev-tech-section .charging-controls-panel label {
+    color: #cbd5e1 !important;
+}
+html body .ev-tech-section .charging-controls-panel select {
+    background: rgba(6, 8, 19, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+html body .ev-tech-section .charging-controls-panel select option {
+    background: #070b13 !important;
+    color: #ffffff !important;
+}
+html body .ev-tech-section .charging-map-display {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+}
+html body .ev-tech-section .station-list-panel {
+    background: rgba(6, 8, 19, 0.85) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+}
+html body .ev-tech-section .station-list-panel h4 {
+    color: #ffffff !important;
+}
+html body .ev-tech-section .station-list-panel p,
+html body .ev-tech-section .station-count-lbl {
+    color: #94a3b8 !important;
+}
+/* Force high contrast light colors on station cards (override any inline style caches) */
+html body .ev-tech-section .station-card {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border-color: rgba(255, 255, 255, 0.06) !important;
+    color: #cbd5e1 !important;
+}
+html body .ev-tech-section .station-card div {
+    color: #cbd5e1 !important;
+}
+html body .ev-tech-section .station-card span {
+    color: #94a3b8 !important;
+}
+html body .ev-tech-section .station-card.active {
+    background: rgba(20, 100, 244, 0.15) !important;
+    border: 2px solid #1464f4 !important;
+    color: #ffffff !important;
+}
+html body .ev-tech-section .station-card.active div {
+    color: #ffffff !important;
+}
+html body .ev-tech-section .station-card.active span {
+    color: #00d2ff !important;
+}
+html body .ev-tech-section .station-card:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+/* High-tech simulated radar screen upgrades */
+html body .ev-tech-section .map-simulation {
+    background: radial-gradient(circle at center, #0f1c3f 0%, #050814 100%) !important;
+    border-radius: 12px !important;
+    position: relative !important;
+    box-shadow: inset 0 0 40px rgba(20, 100, 244, 0.3) !important;
+}
+html body .ev-tech-section .map-simulation::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 280px !important;
+    height: 280px !important;
+    transform: translate(-50%, -50%) !important;
+    border: 1.5px dashed rgba(20, 100, 244, 0.2) !important;
+    border-radius: 50% !important;
+    pointer-events: none !important;
+    box-shadow: 0 0 0 40px rgba(20, 100, 244, 0.02), 0 0 0 80px rgba(20, 100, 244, 0.01) !important;
+}
+html body .ev-tech-section .map-pin {
+    box-shadow: 0 0 12px currentColor !important;
+    border: 2px solid #ffffff !important;
+}
+html body .ev-tech-section .map-pin.active {
+    box-shadow: 0 0 25px currentColor, 0 0 0 6px rgba(20, 100, 244, 0.2) !important;
+    border-width: 3px !important;
+}
+
+/* 11c. Exclusive Offers Section */
+html body .dealer-offers-section .offers-stage-tab {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: #94a3b8 !important;
+}
+html body .dealer-offers-section .offers-stage-tab--active {
+    background: rgba(20, 100, 244, 0.15) !important;
+    border-color: #1464f4 !important;
+    color: #00d2ff !important;
+}
+html body .dealer-offers-section .offers-stage-tab__title {
+    color: inherit !important;
+}
+html body .dealer-offers-section .offers-stage-card {
+    background: rgba(15, 23, 42, 0.6) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+html body .dealer-offers-section .offers-stage-card__title {
+    color: #ffffff !important;
+}
+html body .dealer-offers-section .offers-stage-card__desc,
+html body .dealer-offers-section .offers-stage-card__bullets li {
+    color: #cbd5e1 !important;
+}
+html body .dealer-offers-section .offers-stage-card__bullets li::before {
+    background-color: #00d2ff !important; /* Cyan bullets */
+}
+html body .dealer-offers-section .btn-tradein-submit {
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+}
+html body .dealer-offers-section .btn-tradein-submit:hover {
+    background: #00d2ff !important;
+    border-color: #00d2ff !important;
+    color: #ffffff !important;
+    box-shadow: 0 6px 18px rgba(0, 210, 255, 0.35) !important;
+}
+
+/* 11d. FAQ Section Legibility Fix */
+html body .faq-section .faq-trigger {
+    background: transparent !important;
+}
+html body .faq-section .faq-question-wrap {
+    color: #ffffff !important; /* Force questions to white */
+}
+html body .faq-section .faq-trigger:hover .faq-question-wrap {
+    color: #00d2ff !important; /* Glowing hover question */
+}
+html body .faq-section .faq-content-inner {
+    color: #cbd5e1 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+html body .faq-section .faq-item {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+html body .faq-section .faq-item--active {
+    border-color: rgba(20, 100, 244, 0.3) !important;
+    background: rgba(255, 255, 255, 0.03) !important;
+}
+html body .faq-section .faq-icon-wrap {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #94a3b8 !important;
+}
+html body .faq-section .faq-item--active .faq-icon-wrap {
+    background: #1464f4 !important;
+    border-color: #1464f4 !important;
+    color: #ffffff !important;
+}
+html body .faq-section .faq-btn-hotline {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+html body .faq-section .faq-btn-hotline:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* --------------------------------------------------------------------------
+   12. ABSOLUTE SECTION HEADER LEGIBILITY FOR DARK SECTIONS
+   -------------------------------------------------------------------------- */
+html body .brand-spotlight .section-header .section-title,
+html body .ev-tech-section .section-header .section-title,
+html body .dealer-offers-section .section-header .section-title,
+html body .faq-section .section-header .section-title,
+html body .brand-spotlight .section-title,
+html body .ev-tech-section .section-title,
+html body .dealer-offers-section .section-title,
+html body .faq-section .section-title {
+    color: #ffffff !important;
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
+}
+
+html body .brand-spotlight .section-header p,
+html body .ev-tech-section .section-header p,
+html body .dealer-offers-section .section-header p,
+html body .faq-section .section-header p,
+html body .ev-tech-section .compare-subtitle {
+    color: #cbd5e1 !important; /* Extremely clear light silver text color */
+}
+html body .brand-spotlight .section-header .section-tag,
+html body .ev-tech-section .section-header .section-tag,
+html body .dealer-offers-section .section-header .section-tag,
+html body .faq-section .section-header .section-tag {
+    background: rgba(20, 100, 244, 0.15) !important;
+    color: #00d2ff !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+}
+
+/* 11c. FAQ Section - Dynamic Balanced Spacing & Dark Telemetry Radar */
+html body .faq-split-container {
+    align-items: stretch !important; /* Force columns to stretch and align bottoms perfectly */
+}
+
+html body .faq-editorial-block {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+html body .faq-editorial-visual {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+    flex-grow: 1 !important;
+}
+
+/* Biểu đồ Radar màn hình đen - Thay thế hoàn toàn nền trắng/xanh sáng cũ */
+html body .faq-radar-container {
+    background: rgba(0, 0, 0, 0.25) !important; /* Dark telemetry monitor screen */
+    border: 1px solid rgba(20, 100, 244, 0.25) !important;
+    box-shadow: inset 0 0 20px rgba(20, 100, 244, 0.1) !important;
+}
+
+html body .faq-radar-svg {
+    height: 200px !important; /* Balanced height to align left visual column with right 6 FAQ items */
+}
+
+@media (max-width: 768px) {
+    html body .faq-radar-svg {
+        height: 140px !important;
+    }
+}
+
+html body .faq-editorial-visual .readout-label {
+    color: #00d2ff !important; /* Cyberpunk electric cyan readout values */
+}
+
+/* 11d. Brand Spotlight - Dark Spotlight & Left/Right Column Visual Balance */
+html body .brand-spotlight {
+    background: #070b13 radial-gradient(circle at 50% 10%, rgba(20, 100, 244, 0.08) 0%, transparent 60%) !important; /* Premium dark background with center glow */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    padding: 70px 0 !important;
+}
+
+html body .spotlight-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 60px !important;
+    align-items: center !important; /* Vertically center content */
+}
+
+@media (max-width: 991px) {
+    html body .spotlight-grid {
+        grid-template-columns: 1fr !important;
+        gap: 35px !important;
+    }
+}
+
+html body .spotlight-info {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+}
+
+@media (max-width: 991px) {
+    html body .spotlight-info {
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
+
+html body .spotlight-title {
+    color: #ffffff !important;
+    font-size: 34px !important;
+    line-height: 1.25 !important;
+    font-weight: 900 !important;
+    margin-bottom: 16px !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+html body .spotlight-desc {
+    color: #cbd5e1 !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+    margin-bottom: 24px !important;
+}
+
+html body .spotlight-visual {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    box-shadow: 0 25px 55px rgba(0, 0, 0, 0.4) !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+html body .spotlight-visual img {
+    width: 100% !important;
+    height: 380px !important; /* Perfect height to balance text and buttons on desktop */
+    object-fit: cover !important; /* Perfect scale without stretch */
+    display: block !important;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .spotlight-visual:hover img {
+    transform: scale(1.04) !important;
+}
+
+@media (max-width: 991px) {
+    html body .spotlight-visual img {
+        height: 240px !important; /* Shorter screen height for tablet/mobile */
+    }
+}
+
+/* 11e. Premium Car Catalog - Glassmorphism Porcelain Cards & macOS Filter Tabs */
+html body .catalog-section {
+    background-color: #f8fafc !important; /* Soft distinct off-white base */
+    background-image: radial-gradient(rgba(20, 100, 244, 0.03) 1.2px, transparent 1.2px) !important;
+    background-size: 24px 24px !important;
+    position: relative !important;
+}
+
+/* macOS System-style Filter Tabs - Translucent Tech Blue track */
+html body .filter-tabs {
+    display: inline-flex !important;
+    background: rgba(20, 100, 244, 0.03) !important;
+    border: 1px solid rgba(20, 100, 244, 0.08) !important;
+    padding: 5px !important;
+    border-radius: 40px !important;
+    gap: 4px !important;
+    box-shadow: inset 0 2px 6px rgba(20, 100, 244, 0.02) !important;
+    margin: 0 auto 40px auto !important;
+    width: fit-content !important;
+}
+
+html body .filter-tab-btn {
+    background: transparent !important;
+    border: none !important;
+    color: #64748b !important;
+    padding: 10px 24px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    border-radius: 30px !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    box-shadow: none !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
+    color: #1464f4 !important;
+    background: rgba(20, 100, 244, 0.04) !important;
+}
+
+html body .filter-tab-btn--active,
+html body .filter-tab-btn.filter-tab-btn--active {
+    background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    box-shadow: 0 4px 15px rgba(20, 100, 244, 0.25) !important;
+}
+
+/* Glassmorphism Porcelain Car Cards */
+html body .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(20, 100, 244, 0.08) !important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.03) !important;
+    border-radius: 20px !important;
+    transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .car-card:hover {
+    transform: translateY(-8px) !important;
+    border-color: rgba(20, 100, 244, 0.3) !important;
+    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.1) !important;
+}
+
+/* Symmetrical Stage & Glowing Grid Under the Cars */
+html body .car-card__media {
+    background: radial-gradient(circle at 50% 50%, rgba(20, 100, 244, 0.05) 0%, #ffffff 80%) !important;
+    border-bottom: 1px solid rgba(20, 100, 244, 0.08) !important;
+    padding: 24px 20px 0 20px !important;
+    height: 200px !important;
+}
+
+html body .car-card__media::after {
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.1) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    transition: all 0.45s ease !important;
+}
+
+html body .car-card:hover .car-card__media::after {
+    transform: scale(1.1) !important;
+    opacity: 0.75 !important;
+}
+
+html body .car-card__badge {
+    background: rgba(20, 100, 244, 0.06) !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    color: #1464f4 !important;
+    font-weight: 700 !important;
+    font-size: 9.5px !important;
+    border-radius: 30px !important;
+    padding: 4px 10px !important;
+}
+
+/* Card names & typography */
+html body .car-card__name {
+    font-size: 20px !important;
+    font-weight: 850 !important;
+    color: #0f172a !important;
+}
+
+html body .car-card__desc {
+    color: #64748b !important;
+    font-size: 12.5px !important;
+    line-height: 1.55 !important;
+}
+
+/* Monospace Instrument Cluster HUD Specs */
+html body .car-card__specs {
+    background: rgba(20, 100, 244, 0.02) !important;
+    border: 1px solid rgba(20, 100, 244, 0.08) !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px 0 !important;
+    margin-bottom: 20px !important;
+}
+
+html body .car-card__spec-item {
+    padding: 0 10px !important;
+    border-right: none !important;
+}
+
+html body .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(20, 100, 244, 0.08) !important;
+}
+
+html body .car-card__spec-item[style*="span 2"] {
+    border-top: 1px solid rgba(20, 100, 244, 0.08) !important;
+    margin-top: 8px !important;
+    padding-top: 8px !important;
+}
+
+html body .car-card__spec-lbl {
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    color: #64748b !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+}
+
+html body .car-card__spec-val {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+}
+
+/* Symmetrical Luxury Buttons */
+html body .btn-detail-card {
+    background: #1464f4 !important;
+    color: #ffffff !important;
+    border-radius: 30px !important;
+    font-weight: 800 !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .btn-detail-card:hover {
+    background: #0052cc !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(20, 100, 244, 0.35) !important;
+}
+
+html body .btn-zalo-card {
+    background: rgba(0, 102, 255, 0.04) !important;
+    border: 1.5px solid rgba(0, 102, 255, 0.2) !important;
+    color: #0066ff !important;
+    border-radius: 30px !important;
+    font-weight: 800 !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .btn-zalo-card svg {
+    stroke: #0066ff !important;
+}
+
+html body .btn-zalo-card:hover {
+    background: #0066ff !important;
+    border-color: #0066ff !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(0, 102, 255, 0.2) !important;
+}
+
+html body .btn-zalo-card:hover svg {
+    stroke: #ffffff !important;
+}
+
+/* Premium starting price style */
+html body .car-card__price-val {
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html body .car-card__price-val .price-main-num {
+    font-weight: 800 !important;
+    font-size: 22px !important;
+    color: #1464f4 !important;
+}
+
+html body .car-card__price-val .price-sub-note {
+    font-size: 11px !important;
+    color: #64748b !important;
+}
+
+/* Mobile responsive fixes */
+@media (max-width: 768px) {
+    html body .filter-tabs {
+        display: flex !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    html body .car-card__media {
+        height: 120px !important;
+    }
+    html body .car-card__specs {
+        padding: 8px !important;
+        gap: 4px 0 !important;
+        margin-bottom: 12px !important;
+    }
+    html body .car-card__spec-val {
+        font-size: 11px !important;
+    }
+    html body .car-card__price-val .price-main-num {
+        font-size: 16px !important;
+    }
+}
+
+/* ==========================================================================
+   ULTRA-LUXURY & PRESTIGE VISUAL SYSTEM OVERRIDES (SHADOWS & GRADIENTS)
+   ========================================================================= */
+
+/* 1. LAYERED DEEP LUXURY SHADOWS (ambient occlusion style for dramatic depth) */
+html body .car-card, 
+html body .calc-card, 
+html body .counselors-card, 
+html body .counselor-compare-card,
+html body .counselor-card-vip,
+html body .why-dealer-card,
+html body .vip-popup-card,
+html body .faq-editorial-visual,
+html body .amortization-table-wrapper {
+    box-shadow: 0 12px 35px -8px rgba(15, 23, 42, 0.1), 
+                0 25px 55px -15px rgba(15, 23, 42, 0.08), 
+                0 1px 4px rgba(15, 23, 42, 0.03), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid rgba(20, 100, 244, 0.1) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Card hover animation with luxurious glow */
+html body .car-card:hover, 
+html body .counselor-card-vip:hover,
+html body .why-dealer-card:hover,
+html body .counselor-compare-card:hover {
+    transform: translateY(-8px) !important;
+    border-color: rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 20px 40px -10px rgba(15, 23, 42, 0.12), 
+                0 30px 65px -12px rgba(20, 100, 244, 0.22), 
+                0 1px 5px rgba(15, 23, 42, 0.05), 
+                inset 0 0 0 1px rgba(20, 100, 244, 0.1) !important;
+}
+
+/* Dark mode / dark theme container shadows */
+html body .vip-popup-overlay .vip-popup-card,
+html body .floating-contact-sidebar {
+    box-shadow: 0 20px 50px -10px rgba(5, 8, 14, 0.6), 
+                0 40px 100px -25px rgba(5, 8, 14, 0.55), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Zalo / Call floating sidebar shadow */
+html body .floating-contact-sidebar {
+    box-shadow: 0 12px 40px -5px rgba(0, 0, 0, 0.25), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Accordion trigger shadows */
+html body .faq-acc-item {
+    box-shadow: 0 4px 15px -3px rgba(15, 23, 42, 0.03), 
+                0 1px 3px -1px rgba(15, 23, 42, 0.02) !important;
+    transition: all 0.3s ease !important;
+}
+html body .faq-acc-item:hover {
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 
+                0 1px 4px -1px rgba(20, 100, 244, 0.1) !important;
+    border-color: rgba(20, 100, 244, 0.2) !important;
+}
+
+/* 2. GRADIENT EFFECTS ON CTAs & BUTTONS (with sleek interactive sheen) */
+html body .btn-primary,
+html body .vip-btn-submit,
+html body .btn-tradein-submit,
+html body .btn-detail-card,
+html body .btn-submit,
+html body button[type="submit"] {
+    background: linear-gradient(135deg, #1464f4 0%, #1e40af 50%, #00d2ff 100%) !important;
+    background-size: 200% auto !important;
+    color: #ffffff !important;
+    border: none !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    box-shadow: 0 6px 20px -5px rgba(20, 100, 244, 0.4), 
+                0 2px 6px rgba(0, 210, 255, 0.2), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .btn-primary:hover,
+html body .vip-btn-submit:hover,
+html body .btn-tradein-submit:hover,
+html body .btn-detail-card:hover,
+html body .btn-submit:hover,
+html body button[type="submit"]:hover {
+    background-position: right center !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 12px 28px -5px rgba(20, 100, 244, 0.5), 
+                0 6px 15px rgba(0, 210, 255, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Dark theme / slate premium secondary buttons */
+html body .btn-secondary,
+html body .btn-admin-nav {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 12px -2px rgba(15, 23, 42, 0.25), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+html body .btn-secondary:hover,
+html body .btn-admin-nav:hover {
+    background: linear-gradient(135deg, #334155 0%, #1e293b 100%) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px -3px rgba(15, 23, 42, 0.35), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Premium Gold Accent for compare button and special visual cues */
+html body .btn-compare-pulse {
+    background: linear-gradient(135deg, #b45309 0%, #d97706 50%, #f59e0b 100%) !important;
+    border: 1px solid rgba(251, 191, 36, 0.5) !important;
+    box-shadow: 0 6px 18px -4px rgba(217, 119, 6, 0.45), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+html body .btn-compare-pulse:hover {
+    background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #fbbf24 100%) !important;
+    border-color: rgba(251, 191, 36, 0.8) !important;
+    box-shadow: 0 10px 25px -4px rgba(217, 119, 6, 0.65), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Specialized Zalo & Counselors CTA Buttons */
+html body .btn-zalo-card,
+html body .counselor-btn-vip--zalo {
+    background: linear-gradient(135deg, #0066ff 0%, #0099ff 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 4px 15px -3px rgba(0, 102, 255, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+html body .btn-zalo-card svg,
+html body .counselor-btn-vip--zalo svg {
+    stroke: #ffffff !important;
+}
+html body .btn-zalo-card:hover,
+html body .counselor-btn-vip--zalo:hover {
+    background: linear-gradient(135deg, #0052cc 0%, #0088ff 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px -3px rgba(0, 102, 255, 0.5), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Call counselor buttons */
+html body .counselor-btn-vip--call {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 4px 15px -3px rgba(16, 185, 129, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+html body .counselor-btn-vip--call:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px -3px rgba(16, 185, 129, 0.5), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+

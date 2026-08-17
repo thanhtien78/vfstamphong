@@ -1,0 +1,57 @@
+/* Enhance readability and contrast for Exclusive Dealership Offers Section */
+  .dealer-offers-section .section-tag {
+      color: #00d2ff !important; /* Bright cyan tag for dark background */
+      font-weight: 800 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 2px !important;
+  }
+  
+  .dealer-offers-section .section-title {
+      color: #ffffff !important; /* High-contrast white for dark stage background */
+      font-weight: 800 !important; /* Extra bold for clear rendering */
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5) !important;
+  }
+  
+  .offers-stage-tab {
+      opacity: 0.75 !important; /* Increase default opacity for better readability */
+  }
+  
+  .offers-stage-tab:hover {
+      opacity: 1 !important;
+  }
+  
+  .offers-stage-tab__num {
+      color: rgba(255, 255, 255, 0.4) !important; /* Semi-transparent white numbers */
+      font-weight: 800 !important;
+  }
+  
+  .offers-stage-tab__title {
+      color: rgba(255, 255, 255, 0.7) !important; /* Light white text for inactive titles */
+      font-weight: 750 !important;
+  }
+  
+  .offers-stage-tab--active {
+      opacity: 1 !important;
+  }
+  
+  .offers-stage-tab--active .offers-stage-tab__num {
+      color: #00d2ff !important; /* Cyan active number */
+  }
+  
+  .offers-stage-tab--active .offers-stage-tab__title {
+      color: #ffffff !important; /* White active title */
+      font-weight: 800 !important;
+  }
+
+  .offers-stage-card__desc {
+      color: #cbd5e1 !important; /* Light slate text for readability */
+      font-weight: 500 !important;
+  }
+  
+  .offers-stage-card__bullets li {
+      color: #e2e8f0 !important; /* Light gray text for bullet list */
+      font-weight: 600 !important;
+  }
+  /* ==========================================================================
+     VINFAST EV ELECTRIC BLUE & SILVER SYSTEM (Thương hiệu Xanh Dương & Bạc Cực quang VinFast EV)
+     ========================================================================== */

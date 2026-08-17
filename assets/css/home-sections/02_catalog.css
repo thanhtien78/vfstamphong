@@ -1,0 +1,1221 @@
+/* 2. Brand Spotlight Overrides (Green Tech Theme) */
+.brand-spotlight {
+  background: linear-gradient(180deg, #f5f9ff 0%, var(--color-bg-light) 100%);
+  border-bottom: 1px solid rgba(20, 100, 244, 0.1);
+  position: relative;
+  color: var(--color-text-slate);
+}
+.spotlight-tag {
+  color: var(--color-ev-green) !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px rgba(20, 100, 244, 0.15);
+}
+.spotlight-title {
+  color: var(--color-text-dark) !important;
+}
+.spotlight-desc {
+  color: var(--color-text-slate) !important;
+}
+.spotlight-visual img {
+  border-radius: 12px;
+  border: 1px solid rgba(20, 100, 244, 0.15);
+  box-shadow: var(--card-shadow);
+}
+
+/* 3. EV Tech Interactive Center (Premium macOS Light Mode Glassmorphism) */
+.ev-tech-section {
+  padding: 45px 0 !important;
+  background: #ffffff !important; /* Pure white background */
+  border-bottom: 1px solid #cbd5e1 !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+.ev-tech-section::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: radial-gradient(rgba(20, 100, 244, 0.04) 1.2px, transparent 1.2px) !important;
+  background-size: 24px 24px !important;
+  pointer-events: none !important;
+}
+.ev-tech-section .section-title {
+  color: #1e293b !important;
+  text-shadow: none !important;
+}
+.ev-tech-section .section-tag {
+  background: transparent !important;
+  color: #1464f4 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-size: 13px !important;
+  display: inline-block !important;
+  margin-bottom: 12px !important;
+}
+.ev-tech-tabs-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 40px !important;
+}
+.ev-tech-tabs {
+  display: inline-flex !important;
+  background: #e2e8f0 !important; /* Darker tab container for highlight */
+  border: 1.5px solid #cbd5e1 !important;
+  padding: 6px !important;
+  border-radius: 30px !important;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.03) !important;
+}
+.ev-tech-tab-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #475569 !important; /* Darker inactive tab text */
+  padding: 12px 28px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important; /* Bold tab text */
+  border-radius: 25px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+.ev-tech-tab-btn:hover {
+  color: #0f172a !important;
+}
+.ev-tech-tab-btn.active {
+  background: linear-gradient(135deg, #1464f4 0%, #00a3ff 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.3) !important;
+}
+
+.ev-tech-pane {
+  display: none !important;
+}
+.ev-tech-pane.active {
+  display: block !important;
+  animation: fadeIn 0.5s ease-in-out !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Range Calculator Grid */
+.range-calc-grid {
+  display: grid !important;
+  grid-template-columns: 1.2fr 1.8fr !important;
+  gap: 40px !important;
+  align-items: stretch !important;
+}
+.range-calc-models-panel {
+  background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
+  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+  border-radius: 16px !important;
+  padding: 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  max-height: 540px !important;
+  overflow-y: auto !important;
+}
+.range-calc-model-card {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  padding: 16px !important;
+  background: #ffffff !important; /* Contrast white inside grey box */
+  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border-radius: 12px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+.range-calc-model-card:hover {
+  background: rgba(20, 100, 244, 0.03) !important;
+  border-color: #1464f4 !important;
+  transform: translateX(4px) !important;
+}
+.range-calc-model-card.active {
+  background: #ffffff !important;
+  border: 2.5px solid #1464f4 !important; /* Thick solid brand blue border (B) */
+  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.12) !important;
+}
+.range-calc-model-thumb {
+  width: 70px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+.range-calc-model-info {
+  flex-grow: 1 !important;
+}
+.range-calc-model-name {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #1e293b !important;
+  margin-bottom: 4px !important;
+}
+.range-calc-model-meta {
+  font-size: 12px !important;
+  color: #475569 !important;
+}
+
+.range-calc-interactive-panel {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 32px !important;
+  background: #f1f5f9 !important;
+  border: 1.5px solid #cbd5e1 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+  border-radius: 16px !important;
+  padding: 32px !important;
+}
+
+/* Premium Dashboard Slider Groups */
+.range-calc-controls {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 28px !important;
+}
+.range-slider-group-premium {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 16px !important;
+  background: #ffffff !important;
+  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border-radius: 14px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01) !important;
+  transition: all 0.3s ease !important;
+}
+.range-slider-group-premium:hover {
+  border-color: #1464f4 !important;
+  box-shadow: 0 6px 16px rgba(20, 100, 244, 0.05) !important;
+}
+.slider-icon-box {
+  width: 44px !important;
+  height: 44px !important;
+  background: rgba(20, 100, 244, 0.08) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+}
+.slider-content {
+  flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.slider-ticks {
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 11px !important;
+  color: #64748b !important;
+  margin-top: 6px !important;
+  font-weight: 600 !important;
+}
+
+/* Progress Ring Layout and Styling */
+.range-calc-visualizer {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+}
+.range-circle-box {
+  width: 230px !important;
+  height: 230px !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: 8px !important;
+}
+.range-svg-ring {
+  width: 100% !important;
+  height: 100% !important;
+  transform: rotate(-90deg) !important;
+}
+.range-svg-bg {
+  fill: none !important;
+  stroke: #cbd5e1 !important; /* Darker stroke background */
+  stroke-width: 12 !important;
+}
+.range-svg-progress {
+  fill: none !important;
+  stroke: url(#green-teal-grad) !important;
+  stroke-width: 12 !important;
+  stroke-linecap: round !important;
+  stroke-dasharray: 565.48 !important;
+  transition: stroke-dashoffset 0.3s ease !important;
+  filter: drop-shadow(0 4px 12px rgba(20, 100, 244, 0.25)) !important;
+}
+.range-number-box {
+  position: absolute !important;
+  text-align: center !important;
+}
+.range-number-value {
+  color: #1e293b !important;
+  text-shadow: none !important;
+  font-size: 48px !important;
+  font-weight: 850 !important;
+  line-height: 1 !important;
+  font-family: system-ui, -apple-system, sans-serif !important;
+}
+.range-number-unit {
+  color: #1464f4 !important;
+  text-shadow: none !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  margin-top: 6px !important;
+}
+.range-slider-label {
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  color: #1e293b !important;
+}
+.range-slider-value {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #1464f4 !important;
+}
+.range-slider-input {
+  background: #cbd5e1 !important;
+  height: 6px !important;
+  border-radius: 3px !important;
+  outline: none !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+  -webkit-appearance: none !important;
+}
+.range-slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  background: #1464f4 !important;
+  box-shadow: 0 2px 8px rgba(20, 100, 244, 0.3) !important;
+  cursor: pointer !important;
+}
+.range-efficiency-badge {
+  margin-top: 12px !important;
+  background: rgba(20, 100, 244, 0.08) !important;
+  border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  padding: 8px 20px !important;
+  border-radius: 20px !important;
+  font-size: 12px !important;
+  color: #1464f4 !important;
+  font-weight: 700 !important;
+}
+
+/* Cockpit Metrics Status Bar (Symmetrical Bottom Row) */
+.range-cockpit-metrics-bar {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  gap: 16px !important;
+  width: 100% !important;
+  border-top: 1.5px dashed #cbd5e1 !important;
+  padding-top: 24px !important;
+  margin-top: 8px !important;
+}
+.metric-bar-item {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 14px 20px !important;
+  background: #ffffff !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 12px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.01) !important;
+  transition: all 0.3s ease !important;
+}
+.metric-bar-item:hover {
+  transform: translateY(-2px) !important;
+  border-color: #1464f4 !important;
+}
+.metric-bar-label {
+  font-size: 11px !important;
+  color: #475569 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 6px !important;
+}
+.metric-bar-val {
+  font-size: 15px !important;
+  color: #1e293b !important;
+  font-weight: 850 !important;
+}
+
+/* Green ROI Calculator Styling (macOS Light Glass) */
+.roi-calc-grid {
+  display: grid !important;
+  grid-template-columns: 1.6fr 1.4fr !important;
+  gap: 40px !important;
+  align-items: stretch !important;
+}
+.roi-calc-form-panel {
+  background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
+  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+  border-radius: 16px !important;
+  padding: 32px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+.roi-form-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 20px !important;
+}
+.roi-input-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+.roi-input-label {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #475569 !important;
+}
+.roi-select {
+  background: #ffffff !important;
+  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  color: #1e293b !important;
+  padding: 12px !important;
+  border-radius: 8px !important;
+  outline: none !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+}
+.roi-select option {
+  background: #ffffff !important;
+  color: #1e293b !important;
+}
+.roi-select:focus {
+  border-color: #1464f4 !important;
+}
+.roi-results-panel {
+  background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
+  border: 2.5px solid #1464f4 !important; /* High-contrast blue border (B) */
+  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 32px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+}
+.roi-result-header {
+  border-bottom: 1.5px solid #cbd5e1 !important;
+  padding-bottom: 16px !important;
+  text-align: center !important;
+}
+.roi-saving-title {
+  font-size: 14px !important;
+  color: #475569 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  font-weight: 700 !important;
+}
+.roi-saving-value {
+  font-size: 32px !important;
+  font-weight: 850 !important;
+  color: #10b981 !important;
+  text-shadow: none !important;
+  margin-top: 8px !important;
+}
+.roi-breakdown {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  background: #ffffff !important; /* White contrast card */
+  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
+.roi-breakdown-row {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-size: 13.5px !important;
+}
+.roi-breakdown-label {
+  color: #475569 !important;
+  font-weight: 600 !important;
+}
+.roi-breakdown-value {
+  font-weight: 800 !important;
+  color: #1e293b !important;
+}
+.roi-green-impact {
+  background: rgba(16, 185, 129, 0.05) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+.roi-green-icon {
+  font-size: 28px !important;
+}
+.roi-green-info {
+  font-size: 13px !important;
+  color: #047857 !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+}
+.roi-green-number {
+  font-weight: 850 !important;
+  font-size: 16px !important;
+  color: #10b981 !important;
+  text-shadow: none !important;
+}
+
+/* 4. Comparison Pulse Button Custom Override (Brand Theme) */
+.btn-compare-pulse {
+  background: rgba(20, 100, 244, 0.06) !important;
+  color: #1464f4 !important;
+  border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  padding: 12px 24px !important;
+  border-radius: 30px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.2px !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.05) !important;
+  animation: pulse-blue 2s infinite !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+.btn-compare-pulse:hover {
+  background: #1464f4 !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.3) !important;
+  transform: translateY(-2px) !important;
+}
+@keyframes pulse-blue {
+  0% {
+    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(20, 100, 244, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0);
+  }
+}
+
+/* Premium Car Cards - Premium-inspired Layout & Design Overrides (VinFast Electric Blue/Cyan theme) */
+@media (min-width: 769px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 14px !important; /* Sleek Premium border radius */
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  /* Glowing horizontal line on top of card on hover (Premium-style in VinFast Electric Cyan/Blue) */
+  .car-card::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    opacity: 0 !important;
+    transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 5 !important;
+  }
+
+  .car-card:hover {
+    transform: translateY(-8px) !important; /* Sleek hover lift */
+    border-color: rgba(20, 100, 244, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+  }
+
+  .car-card:hover::before {
+    opacity: 1 !important;
+  }
+
+  /* Studio Stage Media Container with showroom floor shadow */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 190px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 24px 20px 0 20px !important; /* Spacing so the car sits on a stage */
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 12px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important; /* Keeps whole vehicle visible, no crop */
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 2 !important;
+  }
+
+  .car-card:hover .car-card__img {
+    transform: scale(1.05) translateY(-4px) !important;
+  }
+
+  /* Premium semi-transparent glass tag on top right */
+  .car-card__badge {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 9.5px !important;
+    letter-spacing: 0.8px !important;
+    border-radius: 30px !important;
+    padding: 4px 12px !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    box-shadow: none !important;
+    z-index: 10 !important;
+  }
+
+  .car-card__info {
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  /* Car title - bold */
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #0f172a !important;
+    margin-bottom: 8px !important;
+    transition: color 0.3s ease !important;
+  }
+
+  .car-card:hover .car-card__name {
+    color: #1464f4 !important;
+  }
+
+  /* Description text - regular */
+  .car-card__desc {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.5 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Specs table */
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 12px 0 !important;
+    margin-bottom: 16px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 0 8px !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.6) !important; /* Divider line */
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  /* Spec labels - medium */
+  .car-card__spec-lbl {
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  /* Spec values - bold */
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 12px !important;
+  }
+
+  /* Price area */
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 12px 0 0 0 !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Price label - medium */
+  .car-card__price-lbl {
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    font-size: 10px !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    text-align: right !important;
+    margin: 0 !important;
+  }
+
+  /* Price value - extra bold */
+  .price-main-num {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    display: block !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Price sub-note - regular */
+  .price-sub-note {
+    font-size: 9.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    display: block !important;
+    line-height: 1.15 !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Primary Button (Chi tiết xe) - Solid VinFast Electric Blue */
+  .btn-detail-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    text-decoration: none !important;
+    height: 40px !important;
+    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+  }
+
+  .btn-detail-card:hover {
+    border-color: #00d2ff !important;
+    color: #ffffff !important;
+    background: #00d2ff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(0, 210, 255, 0.4) !important;
+  }
+
+  /* Secondary Button (Zalo tư vấn) - Outline Style */
+  .btn-zalo-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    height: 40px !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+    transition: transform 0.3s ease !important;
+  }
+
+  .btn-zalo-card:hover {
+    background: rgba(20, 100, 244, 0.05) !important;
+    border-color: #1464f4 !important;
+    color: #1464f4 !important;
+    transform: translateY(-2px) !important;
+  }
+}
+
+/* Premium-inspired product card layout & design for mobile (light theme, 2-column grid layout) */
+@media (max-width: 768px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.02) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Studio Stage Mobile */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 100px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 14px 10px 0 10px !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow Mobile */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 6px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 8px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.06) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    z-index: 2 !important;
+  }
+
+  /* Mobile tag - semi-transparent */
+  .car-card__badge {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 7.5px !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 20px !important;
+    padding: 2px 6px !important;
+    border: 0.5px solid rgba(20, 100, 244, 0.15) !important;
+    z-index: 10 !important;
+    box-shadow: none !important;
+  }
+
+  .car-card__info {
+    padding: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: #0f172a !important;
+    margin-bottom: 4px !important;
+  }
+
+  .car-card__desc {
+    display: none !important;
+  }
+
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 6px 0 !important;
+    margin-bottom: 6px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1px !important;
+    padding: 0 4px !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.5) !important;
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 4px !important;
+    margin-top: 4px !important;
+  }
+
+  .car-card__spec-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 9.5px !important;
+  }
+
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 6px 0 0 0 !important;
+    margin-bottom: 8px !important;
+    width: 100% !important;
+    min-height: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .car-card__price-lbl {
+    font-size: 7.5px !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+  }
+
+  .price-main-num {
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+  }
+
+  .price-sub-note {
+    font-size: 8.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 4px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Mobile Primary - VinFast Electric Blue */
+  .btn-detail-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* Mobile Secondary - Outline style */
+  .btn-zalo-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+  }
+}
+
+/* Mobile Secondary - Outline style */
+  .btn-zalo-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+  }
+}
+
+/* ======================================================================
+   BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
+   ====================================================================== */
+.car-card__price-box {
+  background: rgba(20, 100, 244, 0.03) !important;
+  border-radius: 10px !important;
+  padding: 8px 10px !important;
+  border: 1px dashed rgba(20, 100, 244, 0.18) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 2px !important;
+  margin-bottom: 12px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.car-card__price-lbl {
+  font-size: 8.5px !important;
+  color: #64748b !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin: 0 !important;
+}
+
+.car-card__price-val {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
+
+.price-main-num {
+  font-size: 13.5px !important;
+  font-weight: 900 !important;
+  color: #1464f4 !important;
+  display: block !important;
+  line-height: 1.2 !important;
+}
+
+.price-sub-note {
+  font-size: 9px !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+  display: block !important;
+  line-height: 1.15 !important;
+}
+
+@media (max-width: 768px) {
+  .car-card__price-box {
+    padding: 6px 8px !important;
+    min-height: 48px !important;
+    justify-content: center !important;
+    margin-bottom: 8px !important;
+  }
+
+  .price-main-num {
+    font-size: 12px !important;
+    line-height: 1.18 !important;
+  }
+
+  .price-sub-note {
+    font-size: 8px !important;
+    line-height: 1.1 !important;
+  }
+}
+
+/* Luxury Pill Tabs for Filters */
+html body .filter-tabs {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  margin-bottom: 30px !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+  padding: 0 0 16px 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+html body .filter-tab-btn {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #64748b !important;
+  padding: 8px 20px !important;
+  border-radius: 30px !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  box-shadow: none !important;
+}
+
+html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
+  background: rgba(20, 100, 244, 0.05) !important;
+  border-color: rgba(20, 100, 244, 0.3) !important;
+  color: #1464f4 !important;
+  transform: translateY(-1px) !important;
+}
+
+html body .filter-tab-btn--active,
+html body .filter-tab-btn.filter-tab-btn--active {
+  background: #1464f4 !important;
+  border-color: #1464f4 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.15) !important;
+  transform: translateY(-1px) !important;
+}
+
+@media (max-width: 768px) {
+  html body .filter-tabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    gap: 8px !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  html body .filter-tab-btn {
+    padding: 6px 14px !important;
+    font-size: 11px !important;
+    flex-shrink: 0 !important;
+    border-radius: 20px !important;
+  }
+}

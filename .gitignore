@@ -1,0 +1,25 @@
+# Security & Environment Config
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Databases
+*.sqlite
+*.sqlite-journal
+
+# Temporary / Cache Files
+/scratch/
+/admin/scratch/
+/assets/uploads/tmp/
+.idea/
+.vscode/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backups and Root verification images
+/backups/
+/*.png
+

@@ -1,0 +1,3717 @@
+/* ======================================================================
+   VINFAST LUXURY HOMEPAGE DESIGN OVERRIDES (PREMIUM AESTHETICS)
+   ====================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&subset=vietnamese&display=swap');
+
+/* Global Font Override for Premium Tech Appeal */
+body, button, input, select, textarea {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Premium Keyframe Animations */
+@keyframes pulse-blue-lux {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 210, 255, 0.5);
+    transform: scale(1);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 210, 255, 0);
+    transform: scale(1.03);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 210, 255, 0);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-cyan-glow {
+  0% { box-shadow: 0 0 5px rgba(0, 210, 255, 0.2); }
+  50% { box-shadow: 0 0 20px rgba(0, 210, 255, 0.5); }
+  100% { box-shadow: 0 0 5px rgba(0, 210, 255, 0.2); }
+}
+
+@keyframes shine-hover {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* ----------------------------------------------------------------------
+   0. SECTION HEADER & GENERAL TYPOGRAPHY
+   ---------------------------------------------------------------------- */
+.section-header {
+  text-align: center !important;
+  margin-bottom: 50px !important;
+  position: relative;
+}
+
+.section-tag {
+  background: rgba(20, 100, 244, 0.08) !important;
+  color: #1464f4 !important;
+  border: 1.5px solid rgba(20, 100, 244, 0.2) !important;
+  padding: 6px 16px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  border-radius: 50px !important;
+  display: inline-block !important;
+  margin-bottom: 15px !important;
+  box-shadow: 0 2px 10px rgba(20, 100, 244, 0.04) !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.section-title {
+  font-size: 34px !important;
+  font-weight: 900 !important;
+  color: #0f172a !important;
+  letter-spacing: -0.5px !important;
+  margin-bottom: 12px !important;
+}
+
+/* Standardize section padding for clean vertical proportions across all homepage blocks */
+.catalog-section,
+.compare-section,
+.ev-tech-section,
+.privileges-section,
+.why-official-section,
+.tradein-section,
+.compare-counselors-section,
+.faq-section {
+  padding: 40px 0 !important;
+}
+
+/* Global Button Underline Fix (Specificity Override) */
+html body a.btn-detail-card,
+html body a.btn-zalo-card,
+html body .car-card a,
+html body .car-card__footer a,
+html body .btn-tradein-action-hotline,
+html body .btn-tradein-action-zalo,
+html body .btn-counselor-compare {
+  text-decoration: none !important;
+}
+
+
+
+/* ----------------------------------------------------------------------
+   1. HERO CAROUSEL SECTION
+   ---------------------------------------------------------------------- */
+.hero-hud-card {
+  background: rgba(11, 19, 43, 0.6) !important;
+  backdrop-filter: blur(25px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(25px) saturate(200%) !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+  padding: 35px !important;
+}
+
+.hero-headline {
+  text-shadow: 0 4px 20px rgba(0,0,0,0.9), 0 0 40px rgba(20, 100, 244, 0.6) !important;
+}
+
+.hero-slider-btn {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.hero-slider-btn:hover {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 0 15px rgba(255,255,255,0.4) !important;
+}
+
+/* ----------------------------------------------------------------------
+   2. CAR CATALOG SECTION
+   ---------------------------------------------------------------------- */
+.catalog-section {
+  background: #f8fafc !important;
+  padding: 45px 0 !important;
+}
+
+/* Luxury Pill Tabs for Filters */
+html body .filter-tabs {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  margin-bottom: 30px !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+  padding: 0 0 16px 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+html body .filter-tab-btn {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #64748b !important;
+  padding: 8px 20px !important;
+  border-radius: 30px !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  box-shadow: none !important;
+}
+
+html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
+  background: rgba(20, 100, 244, 0.05) !important;
+  border-color: rgba(20, 100, 244, 0.3) !important;
+  color: #1464f4 !important;
+  transform: translateY(-1px) !important;
+}
+
+html body .filter-tab-btn--active,
+html body .filter-tab-btn.filter-tab-btn--active {
+  background: #1464f4 !important;
+  border-color: #1464f4 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.15) !important;
+  transform: translateY(-1px) !important;
+}
+
+@media (max-width: 768px) {
+  html body .filter-tabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    gap: 8px !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  html body .filter-tab-btn {
+    padding: 6px 14px !important;
+    font-size: 11px !important;
+    flex-shrink: 0 !important;
+    border-radius: 20px !important;
+  }
+}
+
+/* Premium Car Cards - Premium-inspired Layout & Design Overrides (VinFast Electric Blue/Cyan theme) */
+@media (min-width: 769px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 14px !important; /* Sleek Premium border radius */
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  /* Glowing horizontal line on top of card on hover (Premium-style in VinFast Electric Cyan/Blue) */
+  .car-card::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    opacity: 0 !important;
+    transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 5 !important;
+  }
+
+  .car-card:hover {
+    transform: translateY(-8px) !important; /* Sleek hover lift */
+    border-color: rgba(20, 100, 244, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+  }
+
+  .car-card:hover::before {
+    opacity: 1 !important;
+  }
+
+  /* Studio Stage Media Container with showroom floor shadow */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 190px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 24px 20px 0 20px !important; /* Spacing so the car sits on a stage */
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 12px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important; /* Keeps whole vehicle visible, no crop */
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    z-index: 2 !important;
+  }
+
+  .car-card:hover .car-card__img {
+    transform: scale(1.05) translateY(-4px) !important;
+  }
+
+  /* Premium semi-transparent glass tag on top right */
+  .car-card__badge {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 9.5px !important;
+    letter-spacing: 0.8px !important;
+    border-radius: 30px !important;
+    padding: 4px 12px !important;
+    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    box-shadow: none !important;
+    z-index: 10 !important;
+  }
+
+  .car-card__info {
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  /* Car title - bold */
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #0f172a !important;
+    margin-bottom: 8px !important;
+    transition: color 0.3s ease !important;
+  }
+
+  .car-card:hover .car-card__name {
+    color: #1464f4 !important;
+  }
+
+  /* Description text - regular */
+  .car-card__desc {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.5 !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Specs table */
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 12px 0 !important;
+    margin-bottom: 16px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 0 8px !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.6) !important; /* Divider line */
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  /* Spec labels - medium */
+  .car-card__spec-lbl {
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  /* Spec values - bold */
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 12px !important;
+  }
+
+  /* Price area */
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.6) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 12px 0 0 0 !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Price label - medium */
+  .car-card__price-lbl {
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    font-size: 10px !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    text-align: right !important;
+    margin: 0 !important;
+  }
+
+  /* Price value - extra bold */
+  .price-main-num {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    display: block !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Price sub-note - regular */
+  .price-sub-note {
+    font-size: 9.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    display: block !important;
+    line-height: 1.15 !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Primary Button (Chi tiết xe) - Smooth Tech Gradient & Glow */
+  .btn-detail-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    text-decoration: none !important;
+    height: 40px !important;
+    box-shadow: 0 4px 14px rgba(20, 100, 244, 0.25) !important;
+  }
+
+  .btn-detail-card:hover {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #0077ff 0%, #00d2ff 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(0, 210, 255, 0.45) !important;
+  }
+
+  /* Secondary Button (Zalo tư vấn) - Premium Translucent Glassmorphism */
+  .btn-zalo-card {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    padding: 10px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: rgba(20, 100, 244, 0.04) !important;
+    border: 1.5px solid rgba(20, 100, 244, 0.15) !important;
+    border-radius: 30px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    height: 40px !important;
+  }
+
+  .btn-zalo-card svg {
+    stroke: #1464f4 !important;
+    fill: none !important;
+    transition: transform 0.3s ease !important;
+  }
+
+  .btn-zalo-card:hover {
+    background: rgba(20, 100, 244, 0.08) !important;
+    border-color: rgba(20, 100, 244, 0.35) !important;
+    color: #0055ff !important;
+    transform: translateY(-2px) !important;
+  }
+}
+
+/* Premium-inspired product card layout & design for mobile (light theme, 2-column grid layout) */
+@media (max-width: 768px) {
+  .car-card {
+    background: #ffffff !important;
+    border: 1px solid rgba(226, 232, 240, 0.9) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.02) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Studio Stage Mobile */
+  .car-card__media {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 100px !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    padding: 14px 10px 0 10px !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Showroom Floor Shadow Mobile */
+  .car-card__media::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 6px !important;
+    left: 10% !important;
+    right: 10% !important;
+    height: 8px !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.06) 0%, rgba(15, 23, 42, 0) 70%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  }
+
+  .car-card__img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    z-index: 2 !important;
+  }
+
+  /* Mobile tag - semi-transparent */
+  .car-card__badge {
+    position: absolute !important;
+    top: 6px !important;
+    right: 6px !important;
+    left: auto !important;
+    background: rgba(20, 100, 244, 0.06) !important;
+    color: #1464f4 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 7.5px !important;
+    letter-spacing: 0.5px !important;
+    border-radius: 20px !important;
+    padding: 2px 6px !important;
+    border: 0.5px solid rgba(20, 100, 244, 0.15) !important;
+    z-index: 10 !important;
+    box-shadow: none !important;
+  }
+
+  .car-card__info {
+    padding: 12px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-grow: 1 !important;
+  }
+
+  .car-card__segment {
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    color: #1464f4 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .car-card__name {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #0f172a !important;
+    margin-bottom: 4px !important;
+  }
+
+  .car-card__desc {
+    display: none !important;
+  }
+
+  .car-card__specs {
+    background: transparent !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    padding: 8px 0 !important;
+    margin-bottom: 8px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 !important;
+  }
+
+  .car-card__spec-item {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 0 6px !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(226, 232, 240, 0.5) !important;
+  }
+
+  .car-card__spec-item[style*="span 2"] {
+    grid-column: span 2 !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.3) !important;
+    padding-top: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  .car-card__spec-lbl {
+    font-size: 9.5px !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .car-card__spec-val {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    font-size: 11.5px !important;
+  }
+
+  .car-card__price-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    border-top: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 8px 0 !important;
+    margin-bottom: 8px !important;
+    width: 100% !important;
+    min-height: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .car-card__price-lbl {
+    font-size: 9.5px !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    margin: 0 !important;
+  }
+
+  .car-card__price-val {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+  }
+
+  .price-main-num {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    color: #1464f4 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+  }
+
+  .price-sub-note {
+    font-size: 10.5px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+  }
+
+  .car-card__footer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px !important;
+    margin-top: auto !important;
+    width: 100% !important;
+  }
+
+  /* Mobile Primary - VinFast Electric Blue */
+  .btn-detail-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    background: #1464f4 !important;
+    border: 1px solid #1464f4 !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* Mobile Secondary - Outline style */
+  .btn-zalo-card {
+    padding: 8px 2px !important;
+    font-size: 9.5px !important;
+    font-weight: 700 !important;
+    color: #1464f4 !important;
+    background: transparent !important;
+    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border-radius: 20px !important;
+    height: 32px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .btn-zalo-card svg {
+    fill: #1464f4 !important;
+  }
+}
+
+/* ----------------------------------------------------------------------
+   3. COMPARISON SECTION (VUỐT ĐỂ SO SÁNH BUTTON)
+   ---------------------------------------------------------------------- */
+.compare-section {
+  background: radial-gradient(circle at 50% 0%, rgba(20, 100, 244, 0.02) 0%, #ffffff 100%) !important;
+}
+
+@keyframes blue-pulse-ring-lux {
+  0% {
+    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.4), 0 10px 25px rgba(0, 0, 0, 0.05);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(20, 100, 244, 0), 0 10px 25px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0), 0 10px 25px rgba(0, 0, 0, 0.05);
+  }
+}
+
+/* PROMIMENT PULSING COMPARE BUTTON FOR MOBILE AND DESKTOP - ELECTRIC BLUE ACCENT PER USER THEME PREFERENCE */
+.btn-compare-pulse {
+  background: #ffffff !important; /* White background per user preference to remove black button */
+  color: #1464f4 !important; /* Electric Blue text */
+  border: 1.5px solid #1464f4 !important; /* Electric Blue border */
+  border-radius: 50px !important;
+  padding: 14px 32px !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.5px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  animation: blue-pulse-ring-lux 2s infinite ease-in-out !important;
+  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.15) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  cursor: pointer;
+}
+
+.btn-compare-pulse:hover {
+  background: #1464f4 !important; /* Premium Electric Blue hover state */
+  color: #ffffff !important;
+  border-color: #1464f4 !important;
+  box-shadow: 0 12px 25px rgba(20, 100, 244, 0.25) !important;
+  transform: translateY(-3px) !important;
+}
+
+.compare-spec-table {
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.compare-spec-table th {
+  background: #f1f5f9 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+
+/* ----------------------------------------------------------------------
+   4. EV TECH SECTION
+   ---------------------------------------------------------------------- */
+.ev-tech-tab-btn.active {
+  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  box-shadow: 0 8px 25px rgba(20, 100, 244, 0.3) !important;
+}
+
+.range-calc-panel, .roi-calc-panel {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.02) !important;
+}
+
+.range-calc-circle-glow {
+  animation: pulse-cyan-glow 3s infinite ease-in-out !important;
+}
+
+/* ----------------------------------------------------------------------
+   5. PRIVILEGES SECTION
+   ---------------------------------------------------------------------- */
+@media (min-width: 769px) {
+  html body .privilege-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important; /* 4 columns layout on desktop */
+    gap: 24px !important;
+    margin-top: 40px !important;
+  }
+}
+
+html body .privilege-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  padding: 35px 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.015) !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  min-height: 380px !important; /* Consistent card height on desktop */
+  box-sizing: border-box !important;
+}
+
+html body .privilege-card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 25px 50px rgba(20, 100, 244, 0.08) !important;
+  border-color: rgba(20, 100, 244, 0.25) !important;
+}
+
+html body .privilege-card__watermark {
+  position: absolute !important;
+  right: 15px !important;
+  top: 15px !important;
+  font-size: 32px !important;
+  font-weight: 900 !important;
+  color: rgba(20, 100, 244, 0.03) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase !important;
+  user-select: none !important;
+  pointer-events: none !important;
+  display: block !important;
+}
+
+html body .privilege-card__icon-wrap {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 14px !important;
+  background: rgba(20, 100, 244, 0.06) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #1464f4 !important;
+  margin-bottom: 24px !important;
+  border: 1px solid rgba(20, 100, 244, 0.1) !important;
+}
+
+html body .privilege-card__title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 12px 0 !important;
+  line-height: 1.4 !important;
+}
+
+html body .privilege-card__desc {
+  font-size: 13px !important;
+  color: #475569 !important;
+  line-height: 1.6 !important;
+  margin: 0 0 24px 0 !important;
+  text-align: left !important;
+}
+
+html body .privilege-card__link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  width: auto !important; /* Do not stretch on desktop */
+  padding: 10px 20px !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  border: none !important;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.25) !important;
+  margin-top: auto !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  text-decoration: none !important;
+}
+
+html body .privilege-card__link span {
+  color: #ffffff !important;
+}
+
+html body .privilege-card__link:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.4) !important;
+  background: linear-gradient(135deg, #00d2ff 0%, #00bcff 100%) !important;
+  color: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  .privilege-card {
+    min-height: 230px !important;
+    padding: 14px 10px !important;
+  }
+  html body .privilege-card__link {
+    width: 100% !important;
+    padding: 8px 10px !important;
+  }
+}
+
+/* ----------------------------------------------------------------------
+   6. WHY BUY FROM DEALER & QUOTE
+   ---------------------------------------------------------------------- */
+.dealer-why-buy {
+  background: #f8fafc !important;
+}
+
+.signature-quote-panel {
+  background: #ffffff !important;
+  border-left: 5px solid #1464f4 !important;
+  border-radius: 0 16px 16px 0 !important;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.02) !important;
+  padding: 35px !important;
+  position: relative !important;
+}
+
+.quote-icon-gold {
+  color: rgba(20, 100, 244, 0.12) !important;
+  font-size: 80px !important;
+  position: absolute !important;
+  top: -15px !important;
+  left: 20px !important;
+  font-family: Georgia, serif !important;
+  line-height: 1 !important;
+  pointer-events: none !important;
+}
+
+/* ----------------------------------------------------------------------
+   7. TRADE-IN SECTION & FORM STYLING
+   ---------------------------------------------------------------------- */
+.tradein-left-card, .tradein-right-form {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.02) !important;
+}
+
+/* Left Promo Card Container */
+.tradein-promo-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  padding: 40px 35px !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.02) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.tradein-promo-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 850 !important;
+  font-size: 24px !important;
+  color: #0f172a !important;
+  margin: 0 0 12px 0 !important;
+}
+
+/* Steps list */
+.tradein-steps {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  margin: 30px 0 !important;
+}
+
+.tradein-step-row {
+  display: flex !important;
+  gap: 16px !important;
+  align-items: flex-start !important;
+}
+
+.tradein-step-num {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  background: rgba(20, 100, 244, 0.08) !important;
+  color: #1464f4 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  flex-shrink: 0 !important;
+  margin-top: 2px !important;
+}
+
+.tradein-step-content {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+}
+
+.tradein-step-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 14.5px !important;
+  color: #0f172a !important;
+  margin: 0 !important;
+}
+
+.tradein-step-desc {
+  font-size: 13px !important;
+  color: #475569 !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+/* VIP Concierge Card on Left Column */
+.tradein-concierge-card {
+  background: #f8fafc !important;
+  border: 1px solid rgba(20, 100, 244, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 20px !important;
+  margin-bottom: 24px !important;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.01) !important;
+  box-sizing: border-box !important;
+}
+
+.tradein-concierge-profile {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  margin-bottom: 16px !important;
+  padding: 0 !important;
+}
+
+.tradein-concierge-avatar {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  border: 2.5px solid rgba(20, 100, 244, 0.15) !important;
+  overflow: hidden !important;
+  flex-shrink: 0 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+.tradein-concierge-info {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+}
+
+.tradein-concierge-tag {
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  color: #64748b !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  display: block !important;
+}
+
+.tradein-concierge-name {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 15.5px !important;
+  color: #0f172a !important;
+  display: block !important;
+}
+
+.tradein-concierge-status {
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  color: #10b981 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-top: 2px !important;
+}
+
+.tradein-concierge-status .pulse-dot {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background: #10b981 !important;
+  display: inline-block !important;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2) !important;
+}
+
+.tradein-concierge-actions {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 12px !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.btn-tradein-action-hotline {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  font-weight: 800 !important;
+  border: none !important;
+  height: 40px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  font-size: 11.5px !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 10px rgba(20, 100, 244, 0.15) !important;
+}
+.btn-tradein-action-hotline:hover {
+  background: #0052cc !important;
+}
+
+.btn-tradein-action-zalo,
+.btn-tradein-action-zalo * {
+  color: #0ea5e9 !important;
+  stroke: #0ea5e9 !important;
+  transition: all 0.25s ease !important;
+}
+.btn-tradein-action-zalo {
+  background: rgba(0, 210, 255, 0.05) !important;
+  border: 1.5px solid rgba(0, 210, 255, 0.25) !important;
+  border-radius: 10px !important;
+  font-weight: 800 !important;
+  height: 40px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  font-size: 11.5px !important;
+  text-decoration: none !important;
+}
+.btn-tradein-action-zalo:hover {
+  background: #0ea5e9 !important;
+  border-color: #0ea5e9 !important;
+}
+.btn-tradein-action-zalo:hover * {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* Security Badge at bottom */
+.tradein-badge-box {
+  display: flex !important;
+  gap: 12px !important;
+  align-items: flex-start !important;
+  padding: 16px 20px !important;
+  background: rgba(20, 100, 244, 0.03) !important;
+  border: 1px dashed rgba(20, 100, 244, 0.15) !important;
+  border-radius: 12px !important;
+  margin-top: auto !important;
+}
+
+.tradein-badge-text {
+  font-size: 12px !important;
+  line-height: 1.6 !important;
+  color: #475569 !important;
+}
+
+/* Right Column Form Container */
+.tradein-form-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  padding: 40px 35px !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.02) !important;
+}
+
+.tradein-form-card h3 {
+  color: #1464f4 !important;
+  border-bottom: 1.5px solid rgba(20, 100, 244, 0.1) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  padding-bottom: 8px !important;
+  margin-top: 0 !important;
+}
+
+.calc-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.calc-label {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  color: #475569 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.calc-input-select {
+  width: 100% !important;
+  height: 48px !important;
+  padding: 0 16px !important;
+  background: #f8fafc !important;
+  border: 1.5px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  color: #0f172a !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s ease !important;
+  outline: none !important;
+}
+
+.calc-input-select:focus {
+  background: #ffffff !important;
+  border-color: #1464f4 !important;
+  box-shadow: 0 0 0 4px rgba(20, 100, 244, 0.1) !important;
+}
+
+.tradein-form-card button[type="submit"],
+.tradein-form-card .btn-tradein-submit {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  height: 50px !important;
+  border: none !important;
+  border-radius: 12px !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.2) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  margin-top: 10px !important;
+}
+
+.tradein-form-card button[type="submit"]:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 15px 30px rgba(20, 100, 244, 0.35) !important;
+  background: linear-gradient(135deg, #00d2ff 0%, #00bcff 100%) !important;
+  color: #0b1c3f !important;
+}
+
+.concierge-vip-badge {
+  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  color: #ffffff !important;
+  border: 1.5px solid #ffffff !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  border-radius: 30px !important;
+}
+
+/* ----------------------------------------------------------------------
+   8. EXCLUSIVE STAGE OFFERS (TABS SWITCHER & DYNAMIC CARDS)
+   ---------------------------------------------------------------------- */
+.dealer-offers-section {
+  position: relative !important;
+  background-color: #0f172a !important;
+  padding: 45px 0 !important;
+}
+
+.offers-stage-bg-wrap {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1 !important;
+  overflow: hidden !important;
+}
+
+.offers-stage-bg {
+  position: absolute !important;
+  inset: 0 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  opacity: 0 !important;
+  transition: opacity 0.8s ease-in-out !important;
+}
+
+.offers-stage-bg.offers-stage-bg--active {
+  opacity: 0.12 !important;
+}
+
+.offers-stage-overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  background: radial-gradient(circle at 70% 30%, rgba(15, 23, 42, 0.45) 0%, #0f172a 90%) !important;
+  z-index: 2 !important;
+}
+
+.offers-stage-container {
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.offers-stage-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1.2fr !important;
+  gap: 50px !important;
+  margin-top: 40px !important;
+  align-items: center !important;
+}
+
+.offers-stage-nav {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+}
+
+html body .offers-stage-tab {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 20px 24px !important;
+  text-align: left !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 20px !important;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease !important; /* Fast responsive transition for hover */
+}
+
+html body .offers-stage-tab__num {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  color: rgba(255, 255, 255, 0.3) !important;
+  transition: color 0.3s ease !important;
+}
+
+html body .offers-stage-tab__title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  transition: color 0.3s ease !important;
+}
+
+html body .offers-stage-tab.offers-stage-tab--active {
+  background: #1464f4 !important; /* Solid electric blue background */
+  border-color: #1464f4 !important;
+  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.2) !important;
+  transition: none !important; /* Instant change, no white transition lag on click */
+}
+
+html body .offers-stage-tab.offers-stage-tab--active .offers-stage-tab__num {
+  color: #00d2ff !important;
+  transition: none !important;
+}
+
+html body .offers-stage-tab.offers-stage-tab--active .offers-stage-tab__title {
+  color: #ffffff !important;
+  transition: none !important;
+}
+
+html body .offers-stage-tab:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+html body .offers-stage-tab.offers-stage-tab--active:hover {
+  background: #0077ff !important; /* Brighter blue hover on active state */
+  border-color: #0077ff !important;
+  transition: none !important;
+}
+
+.offers-stage-card-wrap {
+  position: relative !important;
+  min-height: 380px !important;
+}
+
+.offers-stage-card {
+  display: none !important; /* Hide inactive cards dynamically */
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 24px !important;
+  padding: 40px !important;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255,255,255,0.1) !important;
+  box-sizing: border-box !important;
+  animation: fadeInLux 0.5s ease-in-out forwards !important;
+}
+
+.offers-stage-card.offers-stage-card--active {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.offers-stage-card__tag {
+  background: rgba(0, 210, 255, 0.08) !important;
+  color: #00d2ff !important;
+  border: 1.5px solid rgba(0, 210, 255, 0.2) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  padding: 6px 14px !important;
+  border-radius: 50px !important;
+  margin-bottom: 20px !important;
+  display: inline-block !important;
+}
+
+.offers-stage-card__title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 26px !important;
+  font-weight: 900 !important;
+  color: #ffffff !important;
+  margin: 0 0 15px 0 !important;
+}
+
+.offers-stage-card__desc {
+  font-size: 14.5px !important;
+  line-height: 1.6 !important;
+  color: #94a3b8 !important;
+  margin: 0 0 25px 0 !important;
+}
+
+.offers-stage-card__bullets {
+  margin: 0 0 30px 0 !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.offers-stage-card__bullets li {
+  font-size: 13.5px !important;
+  color: #cbd5e1 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.offers-stage-card__bullets li::before {
+  content: "✦" !important;
+  color: #00d2ff !important;
+  font-size: 14px !important;
+}
+
+.offers-stage-card .btn-tradein-submit {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 12px !important;
+  padding: 14px 36px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.3) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  width: auto !important;
+}
+.offers-stage-card .btn-tradein-submit:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 15px 30px rgba(0, 210, 255, 0.4) !important;
+  background: linear-gradient(135deg, #00d2ff 0%, #00bcff 100%) !important;
+  color: #0b1c3f !important;
+}
+
+@media (max-width: 991px) {
+  .offers-stage-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+}
+
+/* ----------------------------------------------------------------------
+   9. VIP COUNSELORS SECTION
+   ---------------------------------------------------------------------- */
+.compare-counselors-section {
+  background: #f8fafc !important;
+}
+
+.compare-counselors-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 24px !important;
+  margin-top: 40px !important;
+}
+
+@media (max-width: 991px) {
+  .compare-counselors-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.counselor-compare-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  padding: 30px 24px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.015) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  position: relative !important;
+  text-align: center !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-sizing: border-box !important;
+}
+
+.counselor-compare-card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 25px 50px rgba(20, 100, 244, 0.08) !important;
+  border-color: rgba(20, 100, 244, 0.25) !important;
+}
+
+.counselor-compare-badge {
+  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  color: #ffffff !important;
+  border-radius: 30px !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  padding: 4px 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 10px rgba(20, 100, 244, 0.2) !important;
+}
+
+.counselor-compare-avatar-wrap {
+  width: 90px !important;
+  height: 90px !important;
+  border: 3px solid rgba(20, 100, 244, 0.1) !important;
+  border-radius: 50% !important;
+  margin-bottom: 16px !important;
+  position: relative !important;
+}
+
+.counselor-compare-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+
+.counselor-compare-avatar-initials {
+  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  font-size: 28px !important;
+  font-weight: 900 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.counselor-compare-pulse {
+  position: absolute !important;
+  right: 5px !important;
+  bottom: 5px !important;
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  background: #10b981 !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.25) !important;
+  animation: pulse-blue-ring 1.5s infinite !important;
+}
+
+.counselor-compare-status {
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  color: #10b981 !important;
+  letter-spacing: 0.5px !important;
+  display: block !important;
+  margin-bottom: 6px !important;
+}
+
+.counselor-compare-name {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 850 !important;
+  font-size: 18px !important;
+  color: #0f172a !important;
+  margin: 0 0 4px 0 !important;
+}
+
+.counselor-compare-title {
+  font-size: 12px !important;
+  color: #64748b !important;
+  margin: 0 0 12px 0 !important;
+}
+
+.counselor-compare-rating {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  margin-bottom: 16px !important;
+}
+
+.counselor-compare-rating .stars {
+  color: #00d2ff !important;
+  font-size: 13px !important;
+}
+
+.counselor-compare-rating .score {
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  font-size: 13px !important;
+}
+
+.counselor-compare-tags {
+  display: flex !important;
+  gap: 8px !important;
+  margin-bottom: 24px !important;
+}
+
+.counselor-compare-tags span {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  background: #f1f5f9 !important;
+  color: #475569 !important;
+  padding: 4px 10px !important;
+  border-radius: 30px !important;
+}
+
+.counselor-compare-actions {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 12px !important;
+  width: 100% !important;
+  margin-top: auto !important;
+}
+
+.btn-counselor-compare {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 44px !important;
+  border-radius: 12px !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+
+.btn-counselor-compare--phone {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+}
+.btn-counselor-compare--phone:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 20px rgba(20, 100, 244, 0.35) !important;
+  color: #ffffff !important;
+}
+
+.btn-counselor-compare--zalo {
+  background: rgba(0, 210, 255, 0.04) !important;
+  border: 1.5px solid rgba(0, 210, 255, 0.25) !important;
+  color: #0ea5e9 !important;
+}
+.btn-counselor-compare--zalo:hover {
+  background: #0ea5e9 !important;
+  color: #ffffff !important;
+  border-color: #0ea5e9 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 20px rgba(14, 165, 233, 0.25) !important;
+}
+
+/* ----------------------------------------------------------------------
+/* ----------------------------------------------------------------------
+   10. FAQ SECTION ACCORDION & CTA BUTTONS
+   ---------------------------------------------------------------------- */
+.faq-accordion-item {
+  background: #ffffff !important;
+  border: 1.5px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  margin-bottom: 12px !important; /* Reduced margin for readable grid */
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  overflow: hidden !important;
+}
+
+.faq-accordion-item:hover {
+  border-color: rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 5px 15px rgba(20, 100, 244, 0.03) !important;
+}
+
+.faq-accordion-item--active {
+  border-color: #1464f4 !important;
+  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.05) !important;
+}
+
+.faq-header {
+  padding: 18px 24px !important;
+}
+
+.faq-question {
+  font-weight: 750 !important;
+  color: #1e293b !important;
+  font-size: 15px !important;
+}
+.faq-accordion-item--active .faq-question {
+  color: #1464f4 !important;
+}
+
+.faq-content {
+  line-height: 1.6 !important;
+  color: #475569 !important;
+  padding: 0 !important; /* Reset padding so wrapper collapses to 0 height */
+}
+.faq-content-inner {
+  padding: 0 24px 20px 24px !important; /* Apply padding to inner element instead */
+}
+
+/* FAQ section buttons (no black, no gold/yellow) */
+html body .faq-btn-hotline {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.15) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  height: 42px !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  box-sizing: border-box !important;
+}
+html body .faq-btn-hotline:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.3) !important;
+  background: #0052cc !important;
+}
+html body .faq-btn-hotline * {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+html body .faq-btn-zalo,
+html body .faq-btn-zalo * {
+  color: #0ea5e9 !important;
+  stroke: #0ea5e9 !important;
+  transition: all 0.25s ease !important;
+}
+html body .faq-btn-zalo {
+  background: rgba(0, 210, 255, 0.05) !important;
+  border: 1.5px solid rgba(0, 210, 255, 0.25) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  height: 42px !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+html body .faq-btn-zalo:hover {
+  background: #0ea5e9 !important;
+  border-color: #0ea5e9 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.25) !important;
+}
+html body .faq-btn-zalo:hover * {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* ----------------------------------------------------------------------
+   11. BLOG POST CONTENT SPACING OPTIMIZATION (READABILITY)
+   ---------------------------------------------------------------------- */
+.article-rendered-content p {
+  margin-top: 0 !important;
+  margin-bottom: 14px !important; /* Reduced margin for compact reading */
+  line-height: 1.7 !important;
+  font-size: 16px !important;
+}
+
+.article-rendered-content h2, 
+.article-rendered-content h3, 
+.article-rendered-content h4 {
+  margin-top: 24px !important;
+  margin-bottom: 12px !important; /* Reduced heading margins */
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+
+.article-rendered-content ul, 
+.article-rendered-content ol {
+  margin-top: 0 !important;
+  margin-bottom: 14px !important;
+  padding-left: 20px !important;
+}
+
+.article-rendered-content li {
+  margin-bottom: 6px !important; /* Reduced list item spacing */
+}
+
+/* ----------------------------------------------------------------------
+   12. FLOATING CONTACT SIDEBAR BRAND RECOLOR (NO ORANGE/YELLOW, NO BLACK)
+   ---------------------------------------------------------------------- */
+html body .floating-contact-sidebar .bg-gradient-orange {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  --ripple-color: rgba(20, 100, 244, 0.9) !important;
+}
+
+html body .floating-contact-sidebar .bg-gradient-yellow {
+  background: linear-gradient(135deg, #00d2ff 0%, #00a5ff 100%) !important;
+  --ripple-color: rgba(0, 210, 255, 0.9) !important;
+}
+
+
+/* ======================================================================
+   HOMEPAGE DYNAMIC SECTION BACKGROUNDS - FUTURISTIC EV BLUEPRINT & AERODYNAMIC AIRFLOWS
+   ====================================================================== */
+
+/* 1. Catalog Section - Wind Tunnel Aerodynamic Airflow Lines (Low Opacity Silk Curves) */
+.catalog-section {
+  background-color: #ffffff !important;
+  background-image: 
+    radial-gradient(circle at 10% 10%, rgba(20, 100, 244, 0.03) 0%, transparent 45%),
+    radial-gradient(circle at 90% 90%, rgba(0, 210, 255, 0.02) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='400' viewBox='0 0 1440 400' fill='none'%3E%3Cpath d='M-100,100 C300,150 700,50 1100,180 C1300,240 1500,200 1600,220' stroke='rgba(20, 100, 244, 0.02)' stroke-width='1.5' fill='none'/%3E%3Cpath d='M-50,150 C350,220 750,90 1150,240 C1350,310 1550,250 1650,270' stroke='rgba(20, 100, 244, 0.012)' stroke-width='1' fill='none'/%3E%3C/svg%3E") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* 2. EV Tech Interactive Center - Technical Blueprint Coordinates Grid */
+.ev-tech-section {
+  background-color: #f8fafc !important;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.6) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'%3E%3Ccircle cx='40' cy='40' r='0.8' fill='rgba(20, 100, 244, 0.08)'/%3E%3Cpath d='M0 40h80M40 0v80' stroke='rgba(20, 100, 244, 0.015)' stroke-width='0.5'/%3E%3C/svg%3E") !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05) !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.05) !important;
+}
+
+/* 3. Privileges Section - Pure Clean White with Top-Right Energy Radiations */
+.privileges-section {
+  background: 
+    radial-gradient(circle at 85% 15%, rgba(20, 100, 244, 0.03) 0%, transparent 50%),
+    #ffffff !important;
+}
+
+/* 4. Why Choose Us Section - Constellation Network Graph (Smart Connectivity Nodes) */
+.why-official-section {
+  background-color: #f5f5f7 !important;
+  background-image: 
+    radial-gradient(circle at 50% 30%, #ffffff 0%, rgba(245, 245, 247, 0.6) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240' fill='none'%3E%3Ccircle cx='30' cy='50' r='1.5' fill='rgba(20, 100, 244, 0.025)'/%3E%3Ccircle cx='180' cy='70' r='2' fill='rgba(20, 100, 244, 0.025)'/%3E%3Ccircle cx='100' cy='180' r='1.5' fill='rgba(20, 100, 244, 0.02)'/%3E%3Cpath d='M30 50 L180 70 L100 180 Z' stroke='rgba(20, 100, 244, 0.015)' stroke-width='0.5' fill='none'/%3E%3C/svg%3E") !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05) !important;
+}
+
+/* 5. Trade-in Section - Aerodynamic Energy Waves Flow from Left Margin */
+.tradein-section {
+  background-color: #ffffff !important;
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(20, 100, 244, 0.03) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='350' viewBox='0 0 1440 350' fill='none'%3E%3Cpath d='M1500,-50 C1100,100 800,20 400,280 C200,340 0,300 -100,320' stroke='rgba(20, 100, 244, 0.012)' stroke-width='1.5' fill='none'/%3E%3C/svg%3E") !important;
+  background-size: cover !important;
+}
+
+/* 6. VIP Counselors Section - Champagne Silver Gradient Transition */
+.compare-counselors-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%) !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.05) !important;
+}
+
+/* 7. FAQ Section - Premium Pure White base */
+.faq-section {
+  background-color: #ffffff !important;
+}
+
+
+/* ======================================================================
+   HOMEPAGE MOBILE RESPONSIVE OVERRIDES (CASCADED AT THE END TO ENSURE !IMPORTANT PRECEDENCE)
+   ====================================================================== */
+@media (max-width: 768px) {
+  .catalog-section,
+  .compare-section,
+  .ev-tech-section,
+  .privileges-section,
+  .why-official-section,
+  .tradein-section,
+  .compare-counselors-section,
+  .faq-section {
+    padding: 45px 0 !important; /* Premium spacious breathing room on mobile */
+  }
+
+  /* Global mobile section headings optimization */
+  .section-title {
+    font-size: 22px !important;
+    line-height: 1.35 !important;
+    letter-spacing: -0.2px !important;
+    margin-bottom: 10px !important;
+    text-align: center !important;
+  }
+
+  .spotlight-title {
+    font-size: 22px !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
+  }
+
+  .section-header {
+    text-align: center !important;
+    margin-bottom: 25px !important;
+    padding: 0 10px !important;
+  }
+
+  .section-tag {
+    margin-bottom: 8px !important;
+    display: inline-block !important;
+  }
+
+  /* Fix why official visual spacing on mobile */
+  .why-brand-visual {
+    margin-top: 15px !important;
+    width: 100% !important;
+  }
+  .why-visual-img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 12px !important;
+  }
+
+  /* Limit to exactly 2 counselors on mobile to preserve 2x1 grid symmetry */
+  .compare-counselors-grid .counselor-compare-card:nth-child(n+3) {
+    display: none !important;
+  }
+
+  /* Catalog card buttons optimization on mobile */
+  .btn-detail-card {
+    height: 38px !important;
+    font-size: 11px !important;
+    border-radius: 20px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .btn-zalo-card {
+    height: 38px !important;
+    font-size: 11px !important;
+    border-radius: 20px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Stack trade-in concierge buttons vertically on mobile to prevent text wrapping */
+  .tradein-concierge-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+  .tradein-concierge-actions .btn-tradein-action-hotline,
+  .tradein-concierge-actions .btn-tradein-action-zalo {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* VIP Counselors card action buttons optimization */
+  .btn-counselor-compare {
+    height: 36px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    border-radius: 20px !important;
+  }
+
+  /* Brand Spotlight section (Kỷ nguyên điện hóa mới) mobile alignments */
+  html body .brand-spotlight {
+    padding: 45px 0 !important;
+    background: radial-gradient(circle at center, rgba(20, 100, 244, 0.03) 0%, transparent 80%) !important;
+  }
+  html body .spotlight-grid {
+    grid-template-columns: 1fr !important;
+    gap: 25px !important;
+  }
+  html body .spotlight-info {
+    align-items: center !important;
+    text-align: center !important;
+    padding: 0 10px !important;
+  }
+  html body .spotlight-tag {
+    font-size: 11px !important;
+    letter-spacing: 1.5px !important;
+    margin-bottom: 6px !important;
+    display: inline-block !important;
+  }
+  html body .spotlight-title {
+    font-size: 21px !important;
+    line-height: 1.35 !important;
+    margin-bottom: 12px !important;
+    text-align: center !important;
+  }
+  html body .spotlight-desc {
+    font-size: 13.5px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 15px !important;
+    text-align: center !important;
+  }
+  html body .spotlight-visual {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  html body .spotlight-visual img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 12px !important;
+  }
+
+  /* Spacing improvements for price sub-notes and catalog footer on mobile */
+  .price-sub-note {
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+    display: block !important;
+    line-height: 1.35 !important;
+  }
+  .car-card__price-box {
+    margin-bottom: 0 !important;
+  }
+  .car-card__footer {
+    margin-top: 10px !important;
+  }
+
+  /* Widen page container on mobile to align with full-width header and floating footer */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* --- GLOBAL CARS PAGE OVERRIDES --- */
+/* (These apply globally to views/cars.php) */
+html body .car-card__media {
+  position: relative !important;
+  display: block !important;
+  height: 180px !important;
+  background: radial-gradient(circle at center, #ffffff 0%, #f8fafc 100%) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+  overflow: hidden !important;
+}
+@media (min-width: 769px) {
+  html body .car-card__media {
+    height: 220px !important;
+  }
+}
+html body .car-card__watermark {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  font-size: 54px !important;
+  font-weight: 900 !important;
+  color: rgba(15, 23, 42, 0.03) !important;
+  white-space: nowrap !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase !important;
+}
+html body .btn-card-compare {
+  position: absolute !important;
+  top: 12px !important;
+  left: 12px !important;
+  z-index: 10 !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 20px !important;
+  padding: 5px 12px !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  backdrop-filter: blur(4px) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
+}
+html body .btn-card-compare.active {
+  background: #1464f4 !important;
+  color: #ffffff !important;
+  border-color: #1464f4 !important;
+}
+html body .car-card__img {
+  display: block !important;
+  margin: 0 auto !important;
+  max-width: 90% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+html body .car-card__specs-official {
+  background: #f8fafc !important;
+  border: 1px solid rgba(226, 232, 240, 0.6) !important;
+  border-radius: 12px !important;
+  padding: 12px !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 12px !important;
+  margin-bottom: 15px !important;
+}
+@media (min-width: 769px) {
+  html body .car-card__specs-official {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 8px !important;
+  }
+}
+html body .spec-col {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+}
+html body .spec-col-lbl {
+  font-size: 9.5px !important;
+  font-weight: 500 !important;
+  color: #94a3b8 !important;
+  text-transform: uppercase !important;
+}
+html body .spec-col-val {
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+}
+html body .car-card__price-box {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
+html body .car-card__price-lbl {
+  font-size: 9.5px !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+  text-transform: uppercase !important;
+  margin-bottom: 4px !important;
+}
+html body .car-card__price-val {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #1464f4 !important;
+  width: 100% !important;
+}
+html body .car-card__footer-official {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 8px !important;
+  margin-top: 15px !important;
+}
+html body .btn-card-calc-price {
+  grid-column: span 2 !important;
+  height: 42px !important;
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.2) !important;
+}
+html body .btn-card-calc-price:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.3) !important;
+  filter: brightness(1.08) !important;
+}
+html body .btn-card-outline {
+  height: 40px !important;
+  background: rgba(20, 100, 244, 0.04) !important;
+  border: 1.5px solid rgba(20, 100, 244, 0.15) !important;
+  color: #1464f4 !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+html body .btn-card-outline:hover {
+  background: rgba(20, 100, 244, 0.08) !important;
+  border-color: #1464f4 !important;
+}
+html body .btn-card-zalo {
+  height: 40px !important;
+  background: linear-gradient(135deg, #0066ff 0%, #00aaff 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.15) !important;
+}
+html body .btn-card-zalo:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(0, 102, 255, 0.25) !important;
+  filter: brightness(1.08) !important;
+}
+
+/* --- PRICE ESTIMATOR MODAL STYLING --- */
+html body .estimator-modal-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  z-index: 9999 !important;
+  display: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+}
+html body .estimator-modal-overlay.active {
+  display: flex !important;
+}
+html body .estimator-modal-box {
+  background: #ffffff !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+  max-width: 600px !important;
+  padding: 24px !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  position: relative !important;
+  animation: modalFadeIn 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+html body .estimator-modal-close {
+  position: absolute !important;
+  top: 16px !important;
+  right: 16px !important;
+  font-size: 28px !important;
+  font-weight: 500 !important;
+  color: #94a3b8 !important;
+  cursor: pointer !important;
+  transition: color 0.2s ease !important;
+  line-height: 1 !important;
+}
+html body .estimator-modal-close:hover {
+  color: #0f172a !important;
+}
+html body .estimator-grid-controls {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+  margin-bottom: 20px !important;
+}
+@media (min-width: 576px) {
+  html body .estimator-grid-controls {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+html body .estimator-control-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+}
+html body .estimator-control-label {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #475569 !important;
+}
+html body .estimator-select-input {
+  height: 40px !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 10px !important;
+  padding: 0 12px !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  color: #0f172a !important;
+  outline: none !important;
+  background: #ffffff !important;
+  cursor: pointer !important;
+  transition: border-color 0.2s ease !important;
+}
+html body .estimator-select-input:focus {
+  border-color: #1464f4 !important;
+}
+html body .estimator-summary-card {
+  background: #f8fafc !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  margin-bottom: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+html body .estimator-row {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 12px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #475569 !important;
+}
+html body .estimator-row-lbl {
+  text-align: left !important;
+}
+html body .estimator-row-val {
+  text-align: right !important;
+  color: #0f172a !important;
+  font-weight: 700 !important;
+}
+html body .estimator-row-val--highlight {
+  color: #1464f4 !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+}
+html body .estimator-row-val--monthly {
+  color: #0284c7 !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+}
+html body .estimator-actions {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 12px !important;
+}
+@media (min-width: 576px) {
+  html body .estimator-actions {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+/* --- LUCKY SPIN WHEEL & COMPARE MODAL STYLING --- */
+html body .wheel-modal-overlay,
+html body #compare-modal {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  z-index: 9999 !important;
+  display: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+}
+html body .wheel-modal-overlay.active,
+html body #compare-modal.active {
+  display: flex !important;
+}
+html body .wheel-modal-box,
+html body .compare-modal-box,
+html body #compare-modal > div {
+  background: #ffffff !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  padding: 24px !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  position: relative !important;
+  animation: modalFadeIn 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+html body #compare-modal > div {
+  max-width: 800px !important;
+}
+
+/* Floating Compare Bar */
+html body .compare-floating-bar {
+  position: fixed !important;
+  bottom: 24px !important;
+  left: 50% !important;
+  transform: translateX(-50%) translateY(150%) !important;
+  background: rgba(15, 23, 42, 0.9) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 40px !important;
+  padding: 10px 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  z-index: 999 !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  pointer-events: none !important;
+}
+html body .compare-floating-bar.active {
+  transform: translateX(-50%) translateY(0) !important;
+  pointer-events: auto !important;
+}
+html body .compare-bar-label {
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #00d2ff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  white-space: nowrap !important;
+}
+html body .compare-items-preview {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+html body .compare-item-chip {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 20px !important;
+  padding: 4px 10px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+html body .compare-chip-remove {
+  color: rgba(255, 255, 255, 0.6) !important;
+  cursor: pointer !important;
+  font-weight: 800 !important;
+  transition: color 0.2s ease !important;
+}
+html body .compare-chip-remove:hover {
+  color: #ef4444 !important;
+}
+html body .btn-open-compare {
+  background: linear-gradient(135deg, #1464f4 0%, #00aaff 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px !important;
+  padding: 6px 16px !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.3) !important;
+  white-space: nowrap !important;
+}
+html body .btn-open-compare:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(20, 100, 244, 0.4) !important;
+}
+
+/* Floating Spin Wheel Widget */
+html body .wheel-floating-widget {
+  position: fixed !important;
+  bottom: 24px !important;
+  left: 24px !important;
+  z-index: 998 !important;
+  background: linear-gradient(135deg, #ff9900 0%, #ff5500 100%) !important;
+  color: #ffffff !important;
+  border-radius: 30px !important;
+  padding: 10px 18px !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  box-shadow: 0 10px 25px rgba(255, 85, 0, 0.35) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  animation: pulseWidget 2s infinite !important;
+}
+html body .wheel-floating-widget:hover {
+  transform: translateY(-4px) scale(1.03) !important;
+  box-shadow: 0 15px 30px rgba(255, 85, 0, 0.5) !important;
+}
+@keyframes pulseWidget {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 85, 0, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(255, 85, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 85, 0, 0);
+  }
+}
+
+/* --- DESKTOP CONTAINERS & ALIGNMENT FOR CARS PAGE --- */
+@media (min-width: 769px) {
+  /* Products grid section constraint */
+  html body #pricelist {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 24px 60px 24px !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* EV Calculator section constraint */
+  html body .ev-calc-grid {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* VIP Booking section container */
+  html body .booking-grid {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    display: grid !important;
+    grid-template-columns: 1.2fr 1fr !important;
+    gap: 30px !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Centering other default containers */
+  html body .container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* ======================================================================
+   Premium LUXURY MINIMALIST SHOWROOM STYLING (EV BLUE ACCENTS)
+   ====================================================================== */
+html body {
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* Page sections: massive padding, white background, hairline divider */
+html body .ev-calculator-section,
+html body .VinFast-legacy-section,
+html body .vip-booking-section,
+html body .seo-cars-article,
+html body .faq-section-official {
+  background: #ffffff !important;
+  padding: 100px 0 !important;
+  border-top: 1px solid #e5e7eb !important;
+  border-bottom: none !important;
+}
+
+/* Title styling: Premium-like uppercase, thin letter-spacing, elegant black */
+html body .section-title,
+html body .ev-calc-title,
+html body .booking-title,
+html body .faq-section-official h2 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 32px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: #111111 !important;
+  margin-bottom: 20px !important;
+}
+html body .dealer-offers-section .section-title {
+  color: #ffffff !important;
+}
+html body .section-desc,
+html body .ev-calc-desc,
+html body .catalog-hero__desc {
+  font-size: 15px !important;
+  line-height: 1.75 !important;
+  color: #666666 !important;
+  max-width: 650px !important;
+}
+
+/* Remove all card containers, shadows, borders and rounded edges */
+html body .car-card,
+html body .ev-calc-grid,
+html body .ev-result-card,
+html body .booking-form-card,
+html body .counselors-card,
+html body .counselor-item,
+html body .seo-segment-card,
+html body .faq-accordion-item,
+html body .cockpit-screen-wrap,
+html body .cockpit-tab-btn,
+html body .breakdown-box,
+html body .calc-reward-note,
+html body .segment-card-icon,
+html body .segment-pill-tag,
+html body .faq-q-icon,
+html body .counselor-avatar,
+html body .counselor-pill-btn,
+html body .calc-select,
+html body .form-input-premium {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  transform: none !important;
+  transition: all 0.25s ease !important;
+}
+
+html body .btn-booking-submit,
+html body .btn-card-calc-price,
+html body .btn-card-outline,
+html body .btn-card-zalo {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  transform: none !important;
+  transition: all 0.25s ease !important;
+}
+
+/* --- CATALOG HERO & FILTER OVERRIDES --- */
+html body .catalog-hero {
+  padding: 160px 24px 80px 24px !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+html body .catalog-hero-radar {
+  display: none !important;
+}
+html body .catalog-hero__subtitle {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: #1464f4 !important;
+  letter-spacing: 3px !important;
+  text-transform: uppercase !important;
+  margin-bottom: 12px !important;
+  display: block !important;
+}
+html body .catalog-hero__title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 38px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: #111111 !important;
+}
+
+/* Segment Filters: flat inline thin items */
+html body .filter-panel {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 40px !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  margin: 10px auto 50px !important;
+  max-width: fit-content !important;
+  padding: 0 !important;
+}
+html body .filter-btn {
+  color: #888888 !important;
+  padding: 15px 5px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  border-bottom: 2px solid transparent !important;
+}
+html body .filter-btn:hover {
+  color: #111111 !important;
+}
+html body .filter-btn--active {
+  color: #111111 !important;
+  border-bottom: 2px solid #111111 !important;
+}
+
+/* --- Premium-style VEHICLE SHOWROOM GRID --- */
+html body .car-card {
+  border-bottom: 1px solid #e5e7eb !important;
+  padding-bottom: 40px !important;
+  background: #ffffff !important;
+}
+html body .car-card__media {
+  background: #f5f5f7 !important; /* Soft luxury silver backdrop */
+  padding: 40px 24px !important;
+  border: 1px solid #edf2f7 !important;
+}
+html body .car-badge-container {
+  top: 15px !important;
+  left: 15px !important;
+}
+html body .car-card__badge {
+  background: rgba(20, 100, 244, 0.08) !important; /* Premium blue badge instead of black */
+  color: #1464f4 !important;
+  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  padding: 4px 10px !important;
+}
+html body .btn-card-compare {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  color: #111111 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+html body .btn-card-compare:hover {
+  background: rgba(20, 100, 244, 0.08) !important;
+  color: #1464f4 !important;
+  border-color: rgba(20, 100, 244, 0.3) !important;
+}
+html body .car-card__title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  color: #111111 !important;
+  margin-top: 20px !important;
+}
+html body .car-card__desc {
+  font-size: 13.5px !important;
+  line-height: 1.65 !important;
+  color: #666666 !important;
+}
+
+/* Specs layout: neat text grid with divider borders */
+html body .car-card__specs-official {
+  background: transparent !important;
+  border-top: 1px solid #e5e7eb !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  padding: 14px 0 !important;
+  margin: 20px 0 !important;
+  gap: 16px !important;
+}
+html body .spec-col {
+  border-right: 1px solid #e5e7eb !important;
+}
+html body .spec-col:last-child {
+  border-right: none !important;
+}
+html body .spec-col-lbl {
+  color: #888888 !important;
+  font-size: 9px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+html body .spec-col-val {
+  color: #111111 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+html body .car-card__price-box {
+  margin-bottom: 20px !important;
+}
+html body .car-card__price-val {
+  color: #111111 !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+/* Action Buttons: flat, square-edged, solid colors */
+html body .btn-card-calc-price {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important; /* Premium electric blue gradient primary */
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  height: 44px !important;
+}
+html body .btn-card-calc-price:hover {
+  background: linear-gradient(135deg, #0077ff 0%, #00bcff 100%) !important; /* Brighter electric blue hover state */
+}
+html body .btn-card-outline {
+  border: 1.5px solid #1464f4 !important; /* Premium blue outline border */
+  color: #1464f4 !important; /* Blue text */
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  height: 44px !important;
+}
+html body .btn-card-outline:hover {
+  background: #1464f4 !important; /* Filled blue hover */
+  color: #ffffff !important;
+}
+html body .btn-card-zalo {
+  border: 1px solid #e5e7eb !important;
+  color: #666666 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  height: 44px !important;
+}
+html body .btn-card-zalo:hover {
+  background: #f3f4f6 !important;
+  color: #111111 !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* --- Premium WIDGET EV CALCULATOR --- */
+html body .ev-calc-grid {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  display: grid !important;
+  grid-template-columns: 1.1fr 1fr !important;
+  gap: 60px !important;
+  background: #ffffff !important;
+}
+@media (max-width: 991px) {
+  html body .ev-calc-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    padding: 0 16px !important;
+  }
+}
+html body .ev-calc-card {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+html body .ev-result-card {
+  background: #f9fafb !important; /* Soft light silver card */
+  border: 1px solid #e5e7eb !important;
+  padding: 40px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+html body .result-badge {
+  color: #888888 !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+}
+html body .result-big-number {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 32px !important;
+  color: #111111 !important;
+  padding: 12px 24px !important;
+  font-weight: 800 !important;
+  display: inline-block !important;
+  width: fit-content !important;
+}
+html body .savings-breakdown-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 16px !important;
+}
+html body .breakdown-box {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 16px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+}
+html body .breakdown-lbl {
+  color: #888888 !important;
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+html body .breakdown-val {
+  color: #111111 !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+html body .calc-range-slider {
+  background: #e5e7eb !important;
+  height: 4px !important;
+}
+html body .calc-range-slider::-webkit-slider-thumb {
+  width: 20px !important;
+  height: 20px !important;
+  background: #1464f4 !important; /* Electric Blue Slider point */
+  border: 4px solid #ffffff !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
+  border-radius: 50% !important;
+}
+html body .calc-select {
+  background: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  padding: 12px 16px !important;
+  height: auto !important;
+  font-size: 14px !important;
+}
+html body .calc-reward-note {
+  border: 1px solid #e5e7eb !important;
+  background: #ffffff !important;
+  padding: 16px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 8px !important;
+  color: #555555 !important;
+  font-size: 13.5px !important;
+  line-height: 1.6 !important;
+}
+
+/* --- Premium COCKPIT TABS INTERACTIVE --- */
+html body .cockpit-container {
+  display: grid !important;
+  grid-template-columns: 1fr 1.3fr !important;
+  gap: 60px !important;
+  background: #ffffff !important;
+  border-top: 1px solid #e5e7eb !important;
+  padding: 60px 0 !important;
+}
+@media (max-width: 991px) {
+  html body .cockpit-container {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+}
+html body .cockpit-tabs {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+html body .cockpit-tab-btn {
+  display: flex !important;
+  align-items: center !important;
+  gap: 24px !important;
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 22px 28px !important;
+  cursor: pointer !important;
+  text-align: left !important;
+}
+html body .cockpit-tab-btn:hover {
+  background: #f9fafb !important;
+}
+html body .cockpit-tab-btn.active {
+  background: #f9fafb !important;
+  border-left: 3px solid #1464f4 !important; /* Accent Active */
+  border-color: #cbd5e1 #cbd5e1 #cbd5e1 #1464f4 !important;
+}
+html body .cockpit-tab-num {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #1464f4 !important;
+}
+html body .cockpit-screen-wrap {
+  border: 1px solid #cbd5e1 !important;
+  background: #ffffff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+}
+html body .cockpit-slide {
+  display: none !important;
+  flex-direction: column !important;
+}
+html body .cockpit-slide.active {
+  display: flex !important;
+}
+html body .cockpit-media {
+  position: relative !important;
+  overflow: hidden !important;
+  aspect-ratio: 16/10 !important;
+  background: #f9fafb !important;
+}
+html body .cockpit-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+html body .cockpit-content {
+  padding: 28px 35px !important;
+  text-align: left !important;
+  border-top: 1px solid #e5e7eb !important;
+  background: #f9fafb !important;
+}
+html body .cockpit-desc {
+  font-size: 14.5px !important;
+  line-height: 1.7 !important;
+  color: #555555 !important;
+}
+
+/* --- VIP FORM & COUNSELORS SECTION --- */
+html body .booking-grid {
+  background: #ffffff !important;
+  padding: 0 !important;
+  display: grid !important;
+  grid-template-columns: 1.1fr 1fr !important;
+  gap: 60px !important;
+}
+@media (max-width: 991px) {
+  html body .booking-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    padding: 0 16px !important;
+  }
+}
+html body .booking-form-card {
+  border: none !important;
+  border-right: 1px solid #e5e7eb !important;
+  padding: 0 60px 0 0 !important;
+  background: #ffffff !important;
+}
+@media (max-width: 991px) {
+  html body .booking-form-card {
+    border-right: none !important;
+    padding: 0 !important;
+  }
+}
+html body .form-group-premium {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  margin-bottom: 24px !important;
+}
+html body .form-input-premium {
+  background: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  height: 46px !important;
+  padding: 0 16px !important;
+  font-size: 14px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+html body .form-input-premium:focus {
+  border-color: #1464f4 !important;
+}
+html body select.form-input-premium {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23111111' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 16px center !important;
+  background-size: 16px !important;
+  padding-right: 40px !important;
+  cursor: pointer !important;
+}
+
+html body .btn-booking-submit {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important; /* Premium electric blue gradient booking submit */
+  color: #ffffff !important;
+  height: 48px !important;
+  width: 100% !important;
+  border: none !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.25) !important;
+  transition: all 0.3s ease !important;
+}
+html body .btn-booking-submit:hover {
+  background: linear-gradient(135deg, #0077ff 0%, #00bcff 100%) !important;
+  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.35) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Counselors list layout */
+html body .counselors-card {
+  border: none !important;
+  padding: 0 !important;
+  background: #ffffff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0px !important;
+}
+html body .counselor-item {
+  border: none !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  padding: 24px 0 !important;
+  background: #ffffff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+html body .counselor-item:first-child {
+  padding-top: 0 !important;
+}
+html body .counselor-item:hover {
+  border-color: #cbd5e1 !important;
+}
+html body .counselor-header-row {
+  display: flex !important;
+  gap: 20px !important;
+  align-items: center !important;
+}
+html body .counselor-avatar-wrap {
+  width: 50px !important;
+  height: 50px !important;
+  flex-shrink: 0 !important;
+}
+html body .counselor-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border: 1px solid #cbd5e1 !important;
+}
+html body .counselor-info {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+}
+html body .counselor-name {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: #111111 !important;
+}
+html body .counselor-phone {
+  color: #111111 !important;
+}
+html body .counselor-phone:hover {
+  color: #1464f4 !important;
+}
+html body .counselor-actions {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 12px !important;
+}
+html body .counselor-pill-btn {
+  height: 38px !important;
+  border: 1.5px solid #1464f4 !important; /* Premium blue outline border */
+  color: #1464f4 !important; /* Blue text */
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-radius: 20px !important; /* Rounded */
+}
+html body .counselor-pill-btn:hover {
+  background: #1464f4 !important; /* Filled blue hover */
+  color: #ffffff !important;
+}
+
+/* --- Premium 4-COLUMN SEGMENT SPEC SHEET MATRIX --- */
+html body .seo-segment-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 30px !important;
+  border: none !important;
+  margin-top: 50px !important;
+}
+@media (max-width: 991px) {
+  html body .seo-segment-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 576px) {
+  html body .seo-segment-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+html body .seo-segment-card {
+  border: none !important;
+  border-left: 1px solid #e5e7eb !important;
+  padding: 0 0 0 24px !important;
+  background: #ffffff !important;
+}
+html body .seo-segment-card::before {
+  display: none !important;
+}
+html body .seo-segment-card:hover {
+  border-color: #cbd5e1 !important;
+}
+html body .segment-card-header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  margin-bottom: 12px !important;
+  gap: 10px !important;
+}
+html body .segment-card-icon-title {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+}
+html body .segment-card-icon {
+  font-size: 20px !important;
+  width: 40px !important;
+  height: 40px !important;
+  border: 1px solid #e5e7eb !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  background: #f9fafb !important;
+  color: #111111 !important;
+}
+html body .segment-pill-tag {
+  background: #f3f4f6 !important;
+  color: #666666 !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  padding: 3px 10px !important;
+  letter-spacing: 0.5px !important;
+}
+html body .segment-card-title {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #111111 !important;
+}
+html body .segment-card-desc {
+  font-size: 13.5px !important;
+  line-height: 1.65 !important;
+  color: #666666 !important;
+}
+
+/* --- Premium FLAT FAQ ACCORDIONS --- */
+html body .faq-accordion-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0px !important;
+  border-top: 1px solid #e5e7eb !important;
+}
+html body .faq-accordion-item {
+  border: none !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  background: #ffffff !important;
+  padding: 0 !important;
+}
+html body .faq-accordion-item:hover {
+  border-color: #cbd5e1 !important;
+}
+html body .faq-accordion-header {
+  padding: 24px 0 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  cursor: pointer !important;
+}
+html body .faq-question-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 15.5px !important;
+  font-weight: 700 !important;
+  color: #111111 !important;
+}
+html body .faq-toggle-chevron {
+  color: #888888 !important;
+}
+html body .faq-accordion-item.active {
+  border-color: #cbd5e1 !important;
+}
+html body .faq-accordion-item.active .faq-question-title {
+  color: #1464f4 !important;
+}
+html body .faq-accordion-item.active .faq-toggle-chevron {
+  color: #1464f4 !important;
+}
+html body .faq-accordion-body {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.25s ease !important;
+}
+html body .faq-accordion-item.active .faq-accordion-body {
+  max-height: 500px !important;
+}
+html body .faq-answer-content {
+  padding: 0 0 24px 0 !important;
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+  color: #666666 !important;
+}
+
+/* V-Brand Story Banner */
+html body .rings-story-banner {
+  border: 1px solid #e5e7eb !important;
+  background: #f9fafb !important;
+  box-shadow: none !important;
+}
+
+/* Eliminate Gold prices globally */
+html body .price-gold {
+  color: #1464f4 !important; /* Premium electric blue */
+  font-weight: 700 !important;
+}
+
+/* Car Detail Page Light Theme Overrides (Eliminating Black and Gray Backgrounds) */
+html body .editorial-block {
+  background: #ffffff !important;
+}
+
+html body .telemetry-block {
+  background: rgba(20, 100, 244, 0.03) !important;
+  border: 1px solid rgba(20, 100, 244, 0.1) !important;
+  padding: 30px 24px !important;
+  border-radius: 20px !important;
+}
+
+html body .telemetry-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.015) !important;
+  border-radius: 14px !important;
+  padding: 16px 20px !important;
+}
+
+html body .telemetry-card__lbl {
+  color: #475569 !important;
+  font-weight: 600 !important;
+}
+
+html body .telemetry-card__val {
+  color: #0f172a !important;
+  font-weight: 800 !important;
+}
+
+html body .telemetry-footer span {
+  color: #64748b !important;
+  font-weight: 600 !important;
+}
+
+html body .telemetry-bar--gold {
+  background: linear-gradient(90deg, #1464f4, #0077ff) !important;
+}
+
+html body .telemetry-bar--blue {
+  background: linear-gradient(90deg, #00d2ff, #00bcff) !important;
+}
+
+html body .telemetry-bar--red {
+  background: linear-gradient(90deg, #ff4d4d, #ff8080) !important;
+}
+
+html body .telemetry-bar--green {
+  background: linear-gradient(90deg, #2ecc71, #27ae60) !important;
+}
+
+html body .telemetry-track {
+  background: #e2e8f0 !important;
+  height: 8px !important;
+  border-radius: 4px !important;
+}
+
+html body .configurator-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
+  border-radius: 20px !important;
+  padding: 30px 24px !important;
+}
+
+html body .build-sheet-panel {
+  background: rgba(20, 100, 244, 0.03) !important;
+  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  border-radius: 16px !important;
+  padding: 20px !important;
+}
+
+html body .build-sheet-details span {
+  color: #475569 !important;
+}
+
+html body .build-sheet-details strong {
+  color: #0f172a !important;
+}
+
+html body .showcase-block {
+  background: rgba(20, 100, 244, 0.03) !important;
+  border: 1px solid rgba(20, 100, 244, 0.08) !important;
+  border-radius: 24px !important;
+  box-shadow: none !important;
+}
+
+html body .showcase-title {
+  color: #0f172a !important;
+  font-weight: 800 !important;
+}
+
+html body .showcase-desc {
+  color: #475569 !important;
+}
+
+html body .showcase-tag {
+  background: rgba(20, 100, 244, 0.06) !important;
+  color: #1464f4 !important;
+  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  font-weight: 800 !important;
+  padding: 4px 12px !important;
+  border-radius: 20px !important;
+}
+
+html body .tech-feature-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.015) !important;
+}
+
+html body .tech-card-icon {
+  background: rgba(20, 100, 244, 0.06) !important;
+  color: #1464f4 !important;
+}
+
+html body .tech-card-title {
+  color: #0f172a !important;
+}
+
+html body .tech-card-desc {
+  color: #475569 !important;
+}
+
+html body .sound-dna-block {
+  background: rgba(20, 100, 244, 0.03) !important;
+  border: 1px solid rgba(20, 100, 244, 0.1) !important;
+  border-radius: 20px !important;
+  padding: 30px 24px !important;
+}
+
+html body .sound-dna-stage {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
+}
+
+html body .sound-dna-title {
+  color: #0f172a !important;
+}
+
+html body .sound-dna-desc {
+  color: #475569 !important;
+}
+
+html body .related-cars-section {
+  background: #ffffff !important;
+  border-top: 1px solid #e2e8f0 !important;
+  padding: 80px 0 !important;
+}
+
+html body .related-cars-section h2 {
+  color: #0f172a !important;
+}
+
+html body .related-cars-section .section-subtitle {
+  color: #64748b !important;
+}
+
+html body .result-val--gold {
+  color: #1464f4 !important;
+}
+
+/* Button overrides to eliminate all black, gold, and dark styles on details page */
+html body .btn-submit-booking {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.25) !important;
+  transition: all 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+}
+
+html body .btn-submit-booking:hover {
+  background: linear-gradient(135deg, #0077ff 0%, #1464f4 100%) !important;
+  box-shadow: 0 6px 22px rgba(20, 100, 244, 0.4) !important;
+  transform: translateY(-2px) !important;
+  color: #ffffff !important;
+}
+
+html body .calc-action-btn--phone {
+  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.2) !important;
+}
+
+html body .calc-action-btn--phone:hover {
+  background: linear-gradient(135deg, #0077ff 0%, #1464f4 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-3px) !important;
+}
+
+html body .btn-specs-toggle:hover {
+  background: #1464f4 !important;
+  color: #ffffff !important;
+  border-color: #1464f4 !important;
+}
+
+html body .repayment-tab-btn--active {
+  background: #1464f4 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 10px rgba(20, 100, 244, 0.3) !important;
+}
+
+html body .sound-dna-play-btn {
+  background: rgba(20, 100, 244, 0.05) !important;
+  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  color: #1464f4 !important;
+}
+
+html body .sound-dna-play-btn:hover {
+  background: #1464f4 !important;
+  color: #ffffff !important;
+  border-color: #1464f4 !important;
+}
+
+/* Catalog Grid layout for related cars on detail pages */
+html body .catalog-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 30px !important;
+  margin-top: 32px !important;
+  margin-bottom: 48px !important;
+  width: 100% !important;
+}
+
+@media (max-width: 1024px) {
+  html body .catalog-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html body .catalog-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+}
+
+/* Upgraded, beautiful, and centered repayment method tabs styling */
+html body .repayment-method-tabs {
+  display: flex !important;
+  background: #f1f5f9 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 30px !important;
+  padding: 4px !important;
+  gap: 8px !important;
+  margin-top: 16px !important;
+  margin-bottom: 24px !important;
+  max-width: 420px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-shadow: inset 0 2px 4px rgba(15, 23, 42, 0.05) !important;
+}
+
+html body .repayment-tab-btn {
+  flex: 1 !important;
+  background: transparent !important;
+  border: none !important;
+  color: #475569 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  padding: 10px 16px !important;
+  cursor: pointer !important;
+  border-radius: 24px !important;
+  transition: all 0.3s ease !important;
+  text-align: center !important;
+  font-family: inherit !important;
+}
+
+html body .repayment-tab-btn:hover {
+  color: #1464f4 !important;
+}
+
+html body .repayment-tab-btn--active {
+  background: #1464f4 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.25) !important;
+}
+
+/* Ensure the Zalo contact button text and SVG icon are high-contrast white */
+html body .calc-action-btn--zalo {
+  color: #ffffff !important;
+}
+
+html body .calc-action-btn--zalo svg {
+  color: #ffffff !important;
+}
+
+/* Premium Alternating Section Backgrounds (UX & Readability Upgrade) */
+html body .telemetry-block,
+html body .virtual-showroom-block,
+html body .VinFast-tech-features-section,
+html body .VinFast-owner-benefits-section {
+    background: #f8fafc !important;
+    border: 1px solid var(--color-border) !important;
+    border-radius: 16px !important;
+    padding: 32px !important;
+    margin-bottom: 40px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
+}
+
+/* Ensure child layouts stay clean inside padded blocks */
+.telemetry-block .section-title,
+.virtual-showroom-block .section-title,
+.VinFast-tech-features-section .section-title,
+.VinFast-owner-benefits-section .section-title {
+    margin-top: 0 !important;
+}
+
+/* Responsive adjustments for alternating blocks */
+@media (max-width: 768px) {
+    html body .telemetry-block,
+    html body .virtual-showroom-block,
+    html body .VinFast-tech-features-section,
+    html body .VinFast-owner-benefits-section {
+        padding: 20px !important;
+        margin-bottom: 24px !important;
+    }
+}
+
+/* Hero Banner Text Readability & Contrast Optimization */
+html body .detail-hero {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+html body .detail-hero__overlay {
+    background: linear-gradient(180deg, rgba(3, 5, 8, 0.45) 0%, rgba(3, 5, 8, 0.88) 100%) !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+
+html body .detail-hero__content {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+html body .detail-hero__segment {
+    color: #e5c046 !important; /* Premium gold accent */
+    font-weight: 800 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+}
+
+html body .detail-hero__title {
+    color: #ffffff !important;
+    font-weight: 900 !important;
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.95) !important;
+}
+
+html body .quick-spec-item__val {
+    color: #e5c046 !important; /* Premium gold accent for specs value */
+    font-weight: 800 !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+}
+
+html body .quick-spec-item__lbl {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 600 !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+
+

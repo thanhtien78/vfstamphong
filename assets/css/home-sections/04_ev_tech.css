@@ -1,0 +1,614 @@
+/* 1. EV Tech Section - 100% Clean Light Mode */
+  .ev-tech-section {
+      position: relative !important;
+      overflow: hidden !important;
+      background-color: #ffffff !important;
+      border-bottom: 1px solid #e2e8f0 !important;
+      color: #0f172a !important;
+  }
+  
+  .ev-tech-section::before {
+      content: "" !important;
+      position: absolute !important;
+      inset: 0 !important;
+      background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.90) 50%, rgba(255, 255, 255, 0.96) 100%), url('../images/ev-tech-bg.jpg') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      pointer-events: none !important;
+      opacity: 0.12 !important;
+      z-index: 0 !important;
+  }
+
+  .ev-tech-section > .container {
+      position: relative !important;
+      z-index: 1 !important;
+  }
+  
+  .ev-tech-section .section-title,
+  .ev-tech-section h2,
+  .ev-tech-section h3,
+  .ev-tech-section h4,
+  .ev-tech-section .range-calc-model-name,
+  .ev-tech-section .calc-res-val {
+      color: #0f172a !important;
+      font-weight: 850 !important;
+  }
+  
+  .ev-tech-section .compare-subtitle,
+  .ev-tech-section .range-calc-model-meta,
+  .ev-tech-section .calc-res-lbl,
+  .ev-tech-section .calc-label,
+  .ev-tech-section p {
+      color: #475569 !important;
+  }
+  
+  .ev-tech-section .section-tag {
+      color: #1464f4 !important;
+      font-weight: 800 !important;
+      background: rgba(20, 100, 244, 0.08) !important;
+      border: 1px solid rgba(20, 100, 244, 0.18) !important;
+      padding: 6px 16px !important;
+      border-radius: 20px !important;
+      display: inline-block !important;
+      margin-bottom: 12px !important;
+  }
+  
+  .ev-tech-tabs {
+      background: #f8fafc !important;
+      border: 1.5px solid #cbd5e1 !important;
+  }
+  
+  .ev-tech-tab-btn {
+      color: #475569 !important;
+      font-weight: 700 !important;
+  }
+  
+  .ev-tech-tab-btn.active {
+      background: #1464f4 !important;
+      color: #ffffff !important;
+  }
+  
+  .range-calc-models-panel,
+  .range-calc-interactive-panel,
+  .roi-calc-form-panel,
+  .roi-results-panel {
+      background: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+      border-radius: 18px !important;
+      color: #0f172a !important;
+  }
+  
+  .range-calc-model-card {
+      background: #f8fafc !important;
+      border: 1.5px solid #cbd5e1 !important;
+      color: #0f172a !important;
+  }
+  
+  .range-calc-model-card.active {
+      background: #ffffff !important;
+      border: 2.5px solid #1464f4 !important;
+  }
+  
+  .range-calc-model-card {
+      background: rgba(30, 41, 59, 0.7) !important;
+      border: 1.5px solid rgba(255, 255, 255, 0.1) !important;
+      color: #ffffff !important;
+  }
+  
+  .range-calc-model-card:hover {
+      background: rgba(20, 100, 244, 0.2) !important;
+      border-color: #38bdf8 !important;
+  }
+  
+  .range-calc-model-card.active {
+      background: rgba(20, 100, 244, 0.25) !important;
+      border: 2px solid #38bdf8 !important;
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.3) !important;
+  }
+  
+  .range-calc-model-name, .calc-label, .roi-res-val {
+      color: #ffffff !important;
+  }
+  
+  .range-calc-model-meta, .calc-res-lbl {
+      color: #94a3b8 !important;
+  }
+  
+  .range-slider-group-premium {
+      background: #ffffff !important;
+      border: 1.5px solid #e2e8f0 !important;
+  }
+  
+  .range-slider-group-premium:hover {
+      border-color: #1464f4 !important;
+      box-shadow: 0 6px 16px rgba(20, 100, 244, 0.05) !important;
+  }
+  
+  .slider-icon-box {
+      background: rgba(20, 100, 244, 0.08) !important;
+  }
+  
+  .slider-icon-box svg {
+      color: #1464f4 !important;
+  }
+  
+  .range-slider-label {
+      color: #0f172a !important;
+  }
+  
+  .range-slider-value {
+      color: #1464f4 !important;
+  }
+  
+  .slider-ticks {
+      color: #64748b !important;
+  }
+  
+  .range-slider-input {
+      background: #e2e8f0 !important;
+  }
+  
+  .range-slider-input::-webkit-slider-thumb {
+      background: #1464f4 !important;
+      box-shadow: 0 2px 8px rgba(20, 100, 244, 0.3) !important;
+  }
+  
+  /* visualizer ring */
+  .range-circle-box .range-svg-bg {
+      stroke: #e2e8f0 !important;
+  }
+  
+  .range-circle-box .range-number-value {
+      color: #0f172a !important;
+  }
+  
+  .range-circle-box .range-number-unit {
+      color: #1464f4 !important;
+  }
+  
+  .range-efficiency-badge {
+      background: rgba(20, 100, 244, 0.08) !important;
+      border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+      color: #1464f4 !important;
+  }
+  
+  .range-cockpit-metrics-bar {
+      border-top: 1.5px dashed #e2e8f0 !important;
+  }
+  
+  .metric-bar-item {
+      background: #ffffff !important;
+      border: 1.5px solid #e2e8f0 !important;
+  }
+  
+  .metric-bar-item:hover {
+      border-color: #1464f4 !important;
+  }
+  
+  .metric-bar-label {
+      color: #64748b !important;
+  }
+  
+  .metric-bar-val {
+      color: #0f172a !important;
+  }
+  
+  /* Green ROI Calculator Pane */
+  .roi-calc-form-panel {
+      background: #f8fafc !important;
+      border: 1.5px solid #e2e8f0 !important;
+  }
+  
+  .roi-input-label {
+      color: #475569 !important;
+  }
+  
+  .roi-select {
+      background: #ffffff !important;
+      border: 1.5px solid #e2e8f0 !important;
+      color: #0f172a !important;
+  }
+  
+  .roi-select option {
+      background: #ffffff !important;
+      color: #0f172a !important;
+  }
+  
+  .roi-select:focus {
+      border-color: #1464f4 !important;
+  }
+  
+  .roi-results-panel {
+      background: #ffffff !important;
+      border: 2.5px solid #1464f4 !important;
+      box-shadow: 0 10px 30px rgba(20, 100, 244, 0.08) !important;
+  }
+  
+  .roi-saving-title {
+      color: #64748b !important;
+  }
+  
+  .roi-saving-value {
+      color: #1464f4 !important; /* Official blue color instead of green */
+  }
+  
+  .roi-breakdown {
+      background: #f8fafc !important;
+      border: 1.5px solid #e2e8f0 !important;
+  }
+  
+  .roi-breakdown-label {
+      color: #64748b !important;
+  }
+  
+  .roi-breakdown-value {
+      color: #0f172a !important;
+  }
+  
+  .roi-green-impact {
+      background: rgba(20, 100, 244, 0.05) !important;
+      border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  }
+  
+  .roi-green-info {
+      color: #1e3a8a !important; /* Dark blue */
+  }
+  
+
+  /* EV Tech Calculator Panel Overrides for Slate-Blue Background */
+  .ev-tech-section {
+      background: #f1f5f9 !important;
+      border-bottom: 1px solid #cbd5e1 !important;
+  }
+  
+  .range-calc-models-panel {
+      background: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
+  }
+  
+  .range-calc-model-card {
+      background: #f8fafc !important;
+      border: 1.5px solid #e2e8f0 !important;
+  }
+  
+  .range-calc-model-card:hover {
+      background: rgba(20, 100, 244, 0.03) !important;
+      border-color: #1464f4 !important;
+  }
+  
+  .range-calc-model-card.active {
+      background: #ffffff !important;
+      border: 2.5px solid #1464f4 !important;
+  }
+  
+  .range-calc-interactive-panel {
+      background: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
+  }
+  
+  .range-slider-group-premium {
+      background: #f8fafc !important;
+      border: 1.5px solid #cbd5e1 !important;
+  }
+  
+  .metric-bar-item {
+      background: #f8fafc !important;
+      border: 1.5px solid #cbd5e1 !important;
+  }
+  
+  .roi-calc-form-panel {
+      background: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
+  }
+  
+  .roi-breakdown {
+      background: #f8fafc !important;
+      border: 1.5px solid #cbd5e1 !important;
+  }
+  
+  /* Spec Comparison stays White for contrast */
+  .compare-section {
+      background: #ffffff !important;
+      border-bottom: 1px solid #cbd5e1 !important;
+  }
+/* ======================================================================
+   EV TECH INTERACTIVE HUB - PERFECT 3-COLUMN APP-LIKE SEGMENTED CONTROL TABS
+   ====================================================================== */
+@media (max-width: 768px) {
+  html body .ev-tech-tabs-wrapper {
+    padding: 0 4px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  html body .ev-tech-tabs {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 4px !important;
+    background: #f1f5f9 !important;
+    padding: 5px !important;
+    border-radius: 16px !important;
+    border: 1px solid #cbd5e1 !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+  }
+
+  html body .ev-tech-tab-btn {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 3px !important;
+    padding: 8px 3px !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    border: none !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    box-sizing: border-box !important;
+  }
+
+  html body .ev-tech-tab-btn.active {
+    background: #1464f4 !important;
+    color: #ffffff !important;
+    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+  }
+
+  html body .ev-tech-tab-btn:not(.active) {
+    background: transparent !important;
+    color: #475569 !important;
+  }
+
+  html body .ev-tab-icon {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 auto !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+/* ======================================================================
+   CRISP TYPOGRAPHY & FONT SMOOTHING FOR EV TECH TABS & MOBILE BUTTONS
+   ====================================================================== */
+.ev-tech-tab-btn {
+  font-family: 'Montserrat', 'Montserrat', sans-serif, -apple-system, sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+@media (max-width: 768px) {
+  html body .ev-tech-tabs {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 4px !important;
+    background: #f1f5f9 !important;
+    padding: 5px !important;
+    border-radius: 16px !important;
+    border: 1px solid #cbd5e1 !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+  }
+
+  html body .ev-tech-tab-btn {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 3px !important;
+    padding: 7px 3px !important;
+    font-family: 'Montserrat', 'Montserrat', sans-serif, -apple-system, sans-serif !important;
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.1px !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    border: none !important;
+    line-height: 1.25 !important;
+    white-space: normal !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    box-sizing: border-box !important;
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  html body .ev-tech-tab-btn span {
+    display: block !important;
+    word-break: break-word !important;
+  }
+
+  html body .ev-tab-icon {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 auto !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+/* Mobile Charging Map Stacked Layout Fix */
+          @media (max-width: 768px) {
+            html body .charging-map-display {
+              display: flex !important;
+              flex-direction: column !important;
+              border-radius: 16px !important;
+              overflow: hidden !important;
+              width: 100% !important;
+            }
+
+            html body .map-simulation {
+              height: 250px !important;
+              min-height: 250px !important;
+              width: 100% !important;
+            }
+
+            html body .charging-map-display > div:last-child {
+              border-left: none !important;
+              border-top: 1.5px solid #cbd5e1 !important;
+              padding: 12px !important;
+              max-height: 380px !important;
+              overflow-y: auto !important;
+              width: 100% !important;
+              box-sizing: border-box !important;
+            }
+
+            html body .station-card {
+              width: 100% !important;
+              box-sizing: border-box !important;
+              padding: 12px 14px !important;
+            }
+
+            html body .station-card strong,
+            html body .station-card .station-title {
+              font-size: 14px !important;
+              font-weight: 800 !important;
+              line-height: 1.35 !important;
+              word-break: break-word !important;
+              display: block !important;
+            }
+
+            html body .station-card span,
+            html body .station-card .station-address {
+              font-size: 12px !important;
+              line-height: 1.4 !important;
+              word-break: break-word !important;
+              display: block !important;
+            }
+          }
+
+/* ======================================================================
+   CHARGING MAP GRID FULL WIDTH MOBILE FIX (1 COLUMN STACKED)
+   ====================================================================== */
+@media (max-width: 768px) {
+  html body .charging-map-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    width: 100% !important;
+  }
+
+  html body .charging-controls-panel {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 14px !important;
+  }
+
+  html body .charging-map-display {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+  }
+
+  html body .map-simulation {
+    height: 260px !important;
+    min-height: 260px !important;
+    width: 100% !important;
+  }
+
+  html body .charging-map-display > div:last-child {
+    width: 100% !important;
+    border-left: none !important;
+    border-top: 1.5px solid #cbd5e1 !important;
+    padding: 12px !important;
+    max-height: 380px !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  html body .station-card {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 12px 14px !important;
+  }
+}
+
+/* ======================================================================
+   RANGE CALCULATOR MOBILE LAYOUT: CIRCLE RING ON TOP, SLIDERS BELOW
+   ====================================================================== */
+@media (max-width: 768px) {
+  html body .range-calc-upper-row {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    width: 100% !important;
+  }
+
+  html body .range-calc-visualizer {
+    order: -1 !important; /* CIRCLE RING ON TOP */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 10px 0 !important;
+  }
+
+  html body .range-calc-controls {
+    order: 1 !important; /* SLIDERS BELOW */
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    width: 100% !important;
+  }
+
+  html body .range-circle-box {
+    width: 180px !important;
+    height: 180px !important;
+    margin: 0 auto !important;
+  }
+
+  html body .range-number-value {
+    font-size: 38px !important;
+    font-weight: 900 !important;
+    color: #1464f4 !important;
+  }
+
+  html body .range-number-unit {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    color: #475569 !important;
+  }
+
+  html body .range-slider-group-premium {
+    padding: 14px 12px !important;
+    border-radius: 14px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  html body .range-cockpit-metrics-bar {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 16px !important;
+  }
+
+  html body .metric-bar-item {
+    padding: 8px 4px !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+  }
+
+  html body .metric-bar-label {
+    font-size: 9.5px !important;
+    line-height: 1.2 !important;
+  }
+
+  html body .metric-bar-val {
+    font-size: 12px !important;
+    font-weight: 900 !important;
+  }
+}

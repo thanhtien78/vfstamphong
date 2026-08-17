@@ -1,0 +1,1073 @@
+/* Compare Overrides */
+.compare-section {
+  padding: 80px 0 !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+}
+.compare-header-block {
+  text-align: center !important;
+  margin-bottom: 40px !important;
+}
+.compare-header-block .section-tag {
+  background: transparent !important;
+  color: #1464f4 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-size: 13px !important;
+  display: inline-block !important;
+  margin-bottom: 12px !important;
+}
+.compare-title {
+  font-size: 32px !important;
+  font-weight: 850 !important;
+  color: #1e293b !important;
+  margin-bottom: 16px !important;
+}
+.compare-subtitle {
+  font-size: 15px !important;
+  color: #475569 !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  line-height: 1.6 !important;
+}
+.compare-spec-table {
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+  border-radius: 12px !important;
+  overflow: visible !important;
+}
+.compare-spec-table th {
+  background: #f1f5f9 !important;
+  color: #1e293b !important;
+  border-bottom: 2px solid #cbd5e1 !important;
+  font-weight: 750 !important;
+}
+.compare-spec-table td {
+  color: #475569 !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #cbd5e1 !important;
+}
+.compare-spec-table tr:hover td {
+  background: #f8fafc !important;
+}
+/* Responsive ev-tech */
+@media (max-width: 992px) {
+  .range-calc-grid {
+    grid-template-columns: 1fr;
+  }
+  .range-calc-models-panel {
+    max-height: 250px;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .range-calc-model-card {
+    flex-direction: column;
+    min-width: 140px;
+    text-align: center;
+    padding: 12px;
+  }
+  .range-calc-model-card:hover {
+    transform: translateY(-2px);
+  }
+  .roi-calc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .range-calc-interactive-panel {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .roi-form-row {
+    grid-template-columns: 1fr;
+  }
+  .roi-calc-form-panel, .roi-results-panel {
+    padding: 20px;
+  }
+}
+
+
+  /* 2. Spec Comparison Section - Official VinFast Light Overrides */
+  .compare-section {
+      background: radial-gradient(circle at 80% 20%, rgba(0, 180, 216, 0.02) 0%, rgba(20, 100, 244, 0.03) 100%), #ffffff !important;
+      border-bottom: 1px solid #cbd5e1 !important;
+  }
+  
+  .compare-header-block .section-tag {
+      color: #1464f4 !important; /* VinFast Corporate Blue tag */
+      font-weight: 800 !important;
+  }
+  
+  .compare-title {
+      color: #0f172a !important;
+  }
+  
+  .compare-subtitle {
+      color: #475569 !important;
+  }
+  
+  .compare-spec-table {
+      background: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+  }
+  
+  .compare-spec-table th {
+      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important; /* Soft VinFast corporate blue tint */
+      color: #1464f4 !important; /* Standardized VinFast Corporate Primary Blue */
+      border-bottom: 2px solid #93c5fd !important;
+      font-weight: 800 !important;
+  }
+  
+  .compare-spec-table td {
+      color: #334155 !important;
+      border-bottom: 1px solid #cbd5e1 !important;
+      border-right: 1px solid #cbd5e1 !important;
+  }
+  
+  /* Alternating zebra rows in comparison table */
+  .compare-spec-table tr:nth-child(even) td {
+      background-color: #f9fafb !important;
+  }
+  
+  .compare-spec-table tr:hover td {
+      background: #f0f9ff !important; /* Soft blue highlight on hover */
+      color: #1464f4 !important;
+  }
+  
+  /* Fixed first sticky column styles for Light mode compatibility */
+  .compare-spec-table th:first-child,
+  .compare-spec-table td:first-child {
+      background-color: #ffffff !important;
+      border-right: 2px solid #cbd5e1 !important;
+      color: #0f172a !important;
+  }
+  
+  .compare-spec-table tr:nth-child(even) td:first-child {
+      background-color: #f9fafb !important;
+  }
+  
+  .compare-spec-table tr:hover td:first-child {
+      background-color: #f0f9ff !important;
+      color: #1464f4 !important;
+  }
+  
+  .compare-spec-table tr.compare-row-price td {
+      background-color: rgba(20, 100, 244, 0.06) !important; /* Soft corporate blue highlight for price */
+      border-bottom: 2px solid #1464f4 !important;
+  }
+  
+  .compare-spec-table tr.compare-row-price td:not(:first-child) {
+      color: #1464f4 !important;
+      font-weight: 700 !important;
+  }
+  
+  .compare-spec-table tr.compare-row-price td:first-child {
+      background-color: rgba(20, 100, 244, 0.12) !important;
+      color: #1e3a8a !important;
+  }
+
+  /* Make the Genuine VinFast Dealer image fully bright and remove the dark overlay */
+  .why-brand-visual::before {
+      background: none !important; /* Remove dark overlay */
+      display: none !important;
+  }
+
+  /* ==========================================================================
+     ALTERNATING SLATE-BLUE (#f1f5f9) & WHITE BRAND LAYOUT
+     ========================================================================== */
+/* ======================================================================
+   COMPLETE MOBILE AUDIT & USER GLOBAL MEMORY FIXES
+   - Sticky First Column for Mobile Table + Gold Pulsing "VUỐT ĐỂ SO SÁNH"
+   - EV Range & ROI Calculator Mobile Overflow Fix
+   - Full Responsive Layout Bounds (No Horizontal Screen Spills)
+   ====================================================================== */
+
+/* 1. GOLD PULSING "VUỐT ĐỂ SO SÁNH" BUTTON (GLOBAL MEMORY REQUIREMENT) */
+.btn-compare-pulse {
+  background: rgba(15, 23, 42, 0.9) !important;
+  color: #fbbf24 !important; /* Gold text */
+  border: 1.5px solid #f59e0b !important; /* Gold border */
+  padding: 10px 22px !important;
+  border-radius: 30px !important;
+  font-size: 12px !important;
+  font-weight: 850 !important;
+  letter-spacing: 1.2px !important;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3) !important;
+  animation: pulse-gold 2s infinite ease-in-out !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+}
+
+@keyframes pulse-gold {
+  0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.5); transform: scale(1); }
+  50% { box-shadow: 0 0 0 10px rgba(245, 158, 11, 0); transform: scale(1.03); }
+  100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); transform: scale(1); }
+}
+
+/* 2. STICKY FIRST COLUMN FOR MOBILE COMPARISON TABLE (GLOBAL MEMORY REQUIREMENT) */
+.table-scroll-container {
+  width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  position: relative !important;
+  border-radius: 12px !important;
+  margin-bottom: 20px !important;
+}
+
+.compare-spec-table th:first-child,
+.compare-spec-table td:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 10 !important;
+  background-color: #ffffff !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.08) !important;
+  white-space: nowrap !important;
+  font-weight: 800 !important;
+}
+
+.compare-spec-table tr:nth-child(even) td:first-child {
+  background-color: #f9fafb !important;
+}
+
+/* 3. EV TECH & RANGE CALCULATOR MOBILE OVERFLOW FIXES */
+@media (max-width: 768px) {
+  .range-calc-grid, .roi-calc-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .range-calc-models-panel {
+    max-height: 180px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    gap: 8px !important;
+    padding: 10px !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .range-calc-model-card {
+    min-width: 120px !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 8px !important;
+    gap: 4px !important;
+  }
+
+  .range-calc-model-thumb {
+    width: 50px !important;
+  }
+
+  .range-calc-interactive-panel {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 14px 10px !important;
+    gap: 14px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .range-slider-group-premium {
+    flex-direction: column !important;
+    gap: 8px !important;
+    padding: 10px !important;
+  }
+
+  .range-circle-box {
+    width: 160px !important;
+    height: 160px !important;
+  }
+
+  .range-number-value {
+    font-size: 32px !important;
+  }
+
+  .range-cockpit-metrics-bar {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 4px !important;
+    padding-top: 12px !important;
+  }
+
+  .metric-bar-item {
+    padding: 6px 2px !important;
+  }
+
+  .metric-bar-label {
+    font-size: 7.5px !important;
+  }
+
+  .metric-bar-val {
+    font-size: 10.5px !important;
+  }
+
+  .roi-form-row {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  .roi-calc-form-panel, .roi-results-panel {
+    padding: 14px 10px !important;
+    border-radius: 12px !important;
+  }
+
+  .roi-saving-value {
+    font-size: 22px !important;
+  }
+
+  .roi-green-impact {
+    padding: 10px !important;
+    gap: 8px !important;
+  }
+
+  .roi-green-icon {
+    font-size: 22px !important;
+  }
+
+  .roi-green-info {
+    font-size: 11px !important;
+  }
+}
+
+/* ======================================================================
+   VINFAST GOLD PULSING "VUỐT ĐỂ SO SÁNH" BUTTON (DUPLICATE REMOVED FOR VISUAL COMPLIANCE)
+   ====================================================================== */
+/* Styles now correctly controlled by homepage-lux-overrides.css and top section definitions */
+
+/* ======================================================================
+   COMPARISON TABLE MOBILE COLUMN WIDTH OPTIMIZATION
+   ====================================================================== */
+@media (max-width: 768px) {
+  html body .compare-spec-table th:first-child,
+  html body .compare-spec-table td:first-child {
+    width: 120px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    padding: 10px 8px !important;
+    line-height: 1.3 !important;
+    word-break: break-word !important;
+    position: sticky !important;
+    left: 0 !important;
+    z-index: 10 !important;
+    background: #f8fafc !important;
+    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.06) !important;
+  }
+
+  html body .compare-spec-table th:nth-child(n+2),
+  html body .compare-spec-table td:nth-child(n+2) {
+    min-width: 145px !important;
+    max-width: 160px !important;
+    font-size: 11.5px !important;
+    padding: 10px 10px !important;
+    text-align: center !important;
+    line-height: 1.35 !important;
+    word-break: break-word !important;
+  }
+
+  html body .compare-spec-table th {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    color: #1464f4 !important;
+  }
+}
+
+/* ======================================================================
+   COMPARISON TABLE CELL TEXT WRAPPING FIX
+   ====================================================================== */
+html body .compare-spec-table td {
+  word-break: break-word !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  line-height: 1.4 !important;
+}
+
+html body .compare-spec-table th:first-child,
+html body .compare-spec-table td:first-child {
+  width: 115px !important;
+  min-width: 115px !important;
+  max-width: 115px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  padding: 10px 6px !important;
+  line-height: 1.3 !important;
+  word-break: break-word !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 10 !important;
+  background: #f8fafc !important;
+  box-shadow: 3px 0 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+html body .compare-spec-table th:nth-child(n+2),
+html body .compare-spec-table td:nth-child(n+2) {
+  min-width: 155px !important;
+  max-width: 170px !important;
+  font-size: 11.5px !important;
+  padding: 10px 8px !important;
+  text-align: center !important;
+  line-height: 1.35 !important;
+  word-break: break-word !important;
+}
+
+/* ======================================================================
+   COMPARISON TABLE STRICT FIXED LAYOUT & ZERO OVERFLOW WRAPPING
+   ====================================================================== */
+html body .table-scroll-container {
+  width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  border-radius: 14px !important;
+  border: 1.5px solid #cbd5e1 !important;
+  background: #ffffff !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
+}
+
+html body .compare-spec-table {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  background: #ffffff !important;
+}
+
+html body .compare-spec-table th,
+html body .compare-spec-table td {
+  box-sizing: border-box !important;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  vertical-align: middle !important;
+}
+
+html body .compare-spec-table th:first-child,
+html body .compare-spec-table td:first-child {
+  width: 130px !important;
+  min-width: 130px !important;
+  max-width: 130px !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  padding: 12px 10px !important;
+  line-height: 1.35 !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 10 !important;
+  background: #f8fafc !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+html body .compare-spec-table th:nth-child(n+2),
+html body .compare-spec-table td:nth-child(n+2) {
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
+  font-size: 12px !important;
+  padding: 12px 10px !important;
+  text-align: center !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #e2e8f0 !important;
+}
+
+html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
+  font-weight: 800 !important;
+  color: #1464f4 !important;
+  font-size: 13px !important;
+}
+
+/* ======================================================================
+   CRITICAL COMPARISON TABLE STICKY COLUMN FIXED POSITIONING & WHITE-SPACE NO-WRAP
+   ====================================================================== */
+html body .table-scroll-container {
+  position: relative !important;
+  width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+html body .compare-spec-table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  table-layout: auto !important;
+  width: auto !important;
+}
+
+/* Sticky Column 1 */
+html body .compare-spec-table th:first-child,
+html body .compare-spec-table td:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 20 !important;
+  white-space: nowrap !important; /* CRITICAL: Prevents text inside Column 1 from line-wrapping and bursting wide */
+  word-break: normal !important;
+  word-wrap: normal !important;
+  width: auto !important;
+  min-width: auto !important;
+  max-width: auto !important;
+  padding: 12px 14px !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  background-color: #ffffff !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+html body .compare-spec-table tr:nth-child(even) td:first-child {
+  background-color: #f8fafc !important;
+}
+
+html body .compare-spec-table th:first-child {
+  background-color: #eff6ff !important;
+  color: #1464f4 !important;
+}
+
+/* Columns 2+ (Car Models) */
+html body .compare-spec-table th:nth-child(n+2),
+html body .compare-spec-table td:nth-child(n+2) {
+  position: static !important;
+  z-index: 1 !important;
+  min-width: 160px !important;
+  max-width: 180px !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  padding: 12px 12px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #e2e8f0 !important;
+}
+
+html body .compare-spec-table tr.compare-row-price td:first-child {
+  background-color: #eff6ff !important;
+  color: #1e3a8a !important;
+}
+
+/* ======================================================================
+   CRITICAL COMPARISON STICKY TRANSPARENCY FIX
+   ====================================================================== */
+html body .compare-spec-table th:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 100 !important;
+  background: #eff6ff !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+html body .compare-spec-table td:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 90 !important;
+  background: #ffffff !important; /* SOLID NON-TRANSPARENT WHITE BACKGROUND */
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+html body .compare-spec-table tr:nth-child(even) td:first-child {
+  background: #f8fafc !important; /* SOLID EVEN ROW BACKGROUND */
+}
+
+html body .compare-spec-table tr.compare-row-price td:first-child {
+  background: #dbeafe !important; /* SOLID PRICE ROW BACKGROUND */
+  color: #1e3a8a !important;
+}
+
+/* ======================================================================
+   SOLVING STICKY OVERLAP BLEED THROUGH BY PLACING COL 2 ON TOP INSTEAD
+   ====================================================================== */
+html body .compare-spec-table th:first-child,
+html body .compare-spec-table td:first-child {
+  position: static !important;
+  left: auto !important;
+  z-index: 1 !important;
+  box-shadow: none !important;
+  background-color: #f8fafc !important;
+  border-right: 1.5px solid #cbd5e1 !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 10px 8px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  line-height: 1.35 !important;
+}
+
+html body .compare-spec-table th:nth-child(n+2),
+html body .compare-spec-table td:nth-child(n+2) {
+  position: static !important;
+  width: 165px !important;
+  min-width: 165px !important;
+  max-width: 165px !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 10px 10px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #cbd5e1 !important;
+}
+
+/* ======================================================================
+   SOLVING STICKY OVERLAP BLEED THROUGH BY REMOVING OVERRIDING STICKY RULES
+   ====================================================================== */
+html body .compare-spec-table th:first-child,
+html body .compare-spec-table td:first-child,
+html body .compare-spec-table tr:nth-child(even) td:first-child,
+html body .compare-spec-table tr.compare-row-price td:first-child {
+  position: static !important;
+  left: auto !important;
+  z-index: 1 !important;
+  box-shadow: none !important;
+  background-color: #f8fafc !important;
+  border-right: 1.5px solid #cbd5e1 !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 10px 8px !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  line-height: 1.35 !important;
+}
+
+html body .compare-spec-table th:nth-child(n+2),
+html body .compare-spec-table td:nth-child(n+2) {
+  position: static !important;
+  width: 165px !important;
+  min-width: 165px !important;
+  max-width: 165px !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 10px 10px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #cbd5e1 !important;
+}
+
+/* ======================================================================
+   FINAL PERFECT STICKY COLUMN WITHOUT ANY OVERLAP OR TRANSPARENCY BLEED
+   ====================================================================== */
+html body .table-scroll-container {
+  overflow-x: auto !important;
+  position: relative !important;
+  border-radius: 12px !important;
+  border: 1.5px solid #cbd5e1 !important;
+  background: #ffffff !important;
+}
+
+html body .compare-spec-table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: max-content !important;
+  background: #ffffff !important;
+}
+
+/* Force Column 1 Sticky with SOLID OPACUE Backgrounds */
+html body .compare-spec-table th:first-child,
+html body .compare-spec-table td:first-child,
+html body .compare-spec-table tr:nth-child(even) td:first-child,
+html body .compare-spec-table tr.compare-row-price td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 999 !important; /* Always on top of scrolling cells */
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 12px 10px !important;
+  font-size: 11.5px !important;
+  font-weight: 850 !important;
+  line-height: 1.35 !important;
+  border-right: 2px solid #94a3b8 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Opaque Solid Colors for Column 1 Sticky Cells */
+html body .compare-spec-table th:first-child {
+  background-color: #dbeafe !important; /* Solid Light Blue */
+  color: #1e40af !important;
+}
+
+html body .compare-spec-table td:first-child {
+  background-color: #ffffff !important; /* Solid White */
+  color: #0f172a !important;
+}
+
+html body .compare-spec-table tr:nth-child(even) td:first-child {
+  background-color: #f1f5f9 !important; /* Solid Soft Slate */
+  color: #0f172a !important;
+}
+
+html body .compare-spec-table tr.compare-row-price td:first-child {
+  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
+  color: #1e3a8a !important;
+}
+
+/* Car Model Columns */
+html body .compare-spec-table th:nth-child(n+2),
+html body .compare-spec-table td:nth-child(n+2) {
+  position: static !important;
+  z-index: 1 !important;
+  width: 165px !important;
+  min-width: 165px !important;
+  max-width: 165px !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 12px 10px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #cbd5e1 !important;
+}
+
+/* ======================================================================
+   FINAL PERFECT STICKY COLUMN WITHOUT ANY OVERLAP OR TRANSPARENCY BLEED
+   ====================================================================== */
+html body .table-scroll-container {
+  overflow-x: auto !important;
+  position: relative !important;
+  border-radius: 12px !important;
+  border: 1.5px solid #cbd5e1 !important;
+  background: #ffffff !important;
+}
+
+html body .compare-spec-table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: max-content !important;
+  background: #ffffff !important;
+}
+
+/* Force Column 1 Sticky with SOLID OPAQUE Backgrounds & Absolute Top Layer */
+html body table.compare-spec-table th:first-child,
+html body table.compare-spec-table td:first-child,
+html body table.compare-spec-table tr:nth-child(even) td:first-child,
+html body table.compare-spec-table tr.compare-row-price td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important; /* Absolute top layer above all scrolling cells */
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 12px 10px !important;
+  font-size: 11.5px !important;
+  font-weight: 850 !important;
+  line-height: 1.35 !important;
+  border-right: 2px solid #94a3b8 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Opaque Solid Backgrounds for Column 1 Sticky Cells */
+html body table.compare-spec-table th:first-child {
+  background-color: #dbeafe !important; /* Solid Light Blue */
+  color: #1e40af !important;
+}
+
+html body table.compare-spec-table td:first-child {
+  background-color: #ffffff !important; /* Solid White */
+  color: #0f172a !important;
+}
+
+html body table.compare-spec-table tr:nth-child(even) td:first-child {
+  background-color: #f1f5f9 !important; /* Solid Soft Slate */
+  color: #0f172a !important;
+}
+
+html body table.compare-spec-table tr.compare-row-price td:first-child {
+  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
+  color: #1e3a8a !important;
+}
+
+/* Car Model Columns (Relative positioning to stay strictly underneath Sticky Column 1) */
+html body table.compare-spec-table th:nth-child(n+2),
+html body table.compare-spec-table td:nth-child(n+2) {
+  position: relative !important;
+  z-index: 1 !important;
+  width: 165px !important;
+  min-width: 165px !important;
+  max-width: 165px !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 12px 10px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #cbd5e1 !important;
+  background-color: #ffffff !important;
+}
+
+html body table.compare-spec-table tr:nth-child(even) td:nth-child(n+2) {
+  background-color: #f9fafb !important;
+}
+
+/* ======================================================================
+   UNIFIED COMPARISON TABLE COLOR SCHEME FOR COLUMN 1 & CAR COLUMNS
+   ====================================================================== */
+/* Table Container */
+html body .table-scroll-container {
+  overflow-x: auto !important;
+  position: relative !important;
+  border-radius: 12px !important;
+  border: 1.5px solid #cbd5e1 !important;
+  background: #ffffff !important;
+}
+
+html body table.compare-spec-table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: max-content !important;
+  background: #ffffff !important;
+}
+
+/* Header Row (All Columns Unified) */
+html body table.compare-spec-table th {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
+  color: #1464f4 !important;
+  border-bottom: 2px solid #93c5fd !important;
+  font-weight: 850 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Column 1 (Sticky Spec Column) - Same colors as car columns */
+html body table.compare-spec-table th:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  background: #eff6ff !important; /* Unified header tint */
+  color: #1464f4 !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+html body table.compare-spec-table td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  background-color: #ffffff !important; /* Unified white odd row */
+  color: #334155 !important;
+  font-weight: 800 !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+html body table.compare-spec-table tr:nth-child(even) td:first-child {
+  background-color: #f9fafb !important; /* Unified soft grey even row */
+  color: #334155 !important;
+}
+
+html body table.compare-spec-table tr.compare-row-price td:first-child {
+  background-color: rgba(20, 100, 244, 0.08) !important; /* Unified price highlight */
+  color: #1464f4 !important;
+  border-bottom: 2px solid #1464f4 !important;
+}
+
+/* Car Model Columns (Columns 2+) */
+html body table.compare-spec-table th:nth-child(n+2),
+html body table.compare-spec-table td:nth-child(n+2) {
+  position: static !important;
+  z-index: 1 !important;
+  width: 165px !important;
+  min-width: 165px !important;
+  max-width: 165px !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 12px 10px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  border-right: 1px solid #cbd5e1 !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+  background-color: #ffffff !important;
+  color: #334155 !important;
+}
+
+html body table.compare-spec-table tr:nth-child(even) td:nth-child(n+2) {
+  background-color: #f9fafb !important;
+}
+
+html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
+  background-color: rgba(20, 100, 244, 0.08) !important;
+  color: #1464f4 !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  border-bottom: 2px solid #1464f4 !important;
+}
+
+/* ======================================================================
+   PURE WHITE UNIFIED COMPARISON TABLE CELLS (NO ZEBRA STRIPES)
+   ====================================================================== */
+/* All Body Cells (Column 1 and Product Columns) */
+html body table.compare-spec-table td,
+html body table.compare-spec-table td:first-child,
+html body table.compare-spec-table tr:nth-child(even) td,
+html body table.compare-spec-table tr:nth-child(even) td:first-child {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  color: #334155 !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #cbd5e1 !important;
+}
+
+/* Sticky Column 1 Specific (Solid White Background with Z-Index 9999) */
+html body table.compare-spec-table td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  font-weight: 750 !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Price Row Highlight (Column 1 and Product Columns) */
+html body table.compare-spec-table tr.compare-row-price td,
+html body table.compare-spec-table tr.compare-row-price td:first-child {
+  background: rgba(20, 100, 244, 0.06) !important;
+  background-color: rgba(20, 100, 244, 0.06) !important;
+  color: #1464f4 !important;
+  font-weight: 800 !important;
+  border-bottom: 2px solid #1464f4 !important;
+}
+
+/* ======================================================================
+   FORCE PURE WHITE UNIFIED TABLE CELLS (ZERO SÓC NGỰA / ZERO DIFFERENCES)
+   ====================================================================== */
+html body table.compare-spec-table td,
+html body table.compare-spec-table td:first-child,
+html body table.compare-spec-table td:nth-child(n+2),
+html body table.compare-spec-table tr td,
+html body table.compare-spec-table tr td:first-child,
+html body table.compare-spec-table tr:nth-child(even) td,
+html body table.compare-spec-table tr:nth-child(even) td:first-child,
+html body table.compare-spec-table tr:nth-child(odd) td,
+html body table.compare-spec-table tr:nth-child(odd) td:first-child {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  color: #334155 !important;
+}
+
+html body table.compare-spec-table td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  width: 125px !important;
+  min-width: 125px !important;
+  max-width: 125px !important;
+  font-weight: 750 !important;
+  border-right: 2px solid #cbd5e1 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+html body table.compare-spec-table th,
+html body table.compare-spec-table th:first-child,
+html body table.compare-spec-table th:nth-child(n+2) {
+  background: #eff6ff !important;
+  background-color: #eff6ff !important;
+  color: #1464f4 !important;
+  font-weight: 850 !important;
+  border-bottom: 2px solid #93c5fd !important;
+}
+
+html body table.compare-spec-table tr.compare-row-price td,
+html body table.compare-spec-table tr.compare-row-price td:first-child,
+html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
+  background: rgba(20, 100, 244, 0.06) !important;
+  background-color: rgba(20, 100, 244, 0.06) !important;
+  color: #1464f4 !important;
+  font-weight: 800 !important;
+  border-bottom: 2px solid #1464f4 !important;
+}
+
+/* ======================================================================
+   CRITICAL 100% OPAQUE STICKY COLUMN 1 FIX (ZERO TRANSPARENCY BLEED-THROUGH)
+   ====================================================================== */
+html body table.compare-spec-table th:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  background-color: #dbeafe !important;
+  background: #dbeafe !important;
+  color: #1e40af !important;
+  border-right: 2px solid #94a3b8 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+html body table.compare-spec-table td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border-right: 2px solid #94a3b8 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+html body table.compare-spec-table tr.compare-row-price td:first-child {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+  background-color: #eff6ff !important;
+  background: #eff6ff !important;
+  color: #1e3a8a !important;
+  font-weight: 850 !important;
+  border-right: 2px solid #94a3b8 !important;
+  border-bottom: 2px solid #1464f4 !important;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
+  background-color: #f0f9ff !important;
+  background: #f0f9ff !important;
+  color: #1464f4 !important;
+  font-weight: 850 !important;
+  border-bottom: 2px solid #1464f4 !important;
+}

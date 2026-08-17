@@ -1,0 +1,126 @@
+# ======================================================================
+# CẤU HÌNH HE THỐNG WEB VINFAST PREMIUM (.HTACCESS)
+# Tự động tối ưu SEO, Bảo mật, Nén GZIP và Caching cho Hosting thật/Local Laragon
+# ======================================================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Chặn truy cập vào thư mục ẩn và tệp ẩn (như .git, .idea, .env)
+  RewriteRule (^\.|\/\.) - [F,L]
+
+  # LƯU Ý KHI DÙNG REWRITEBASE:
+  # - Khi chạy local Laragon ở thư mục con (ví dụ: http://localhost/vfstamphong/), không cần dùng RewriteBase nếu dùng đường dẫn tương đối.
+  # - Khi đẩy lên Hosting / Tên miền thật (ví dụ: https://vinfast-vietnam.vn/), RewriteBase mặc định là Root (/).
+  # Để đảm bảo tương thích 100% cho cả local và live server, ta không cần khai báo RewriteBase hoặc để mặc định:
+  # RewriteBase /
+
+  # ÉP SSL (HTTPS) CHO TÊN MIỀN CHẠY THẬT
+  # Tự động chuyển từ HTTP sang HTTPS (Bỏ qua localhost/127.0.0.1 để tiện test local)
+  RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:|$)
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Route requests for admin/assets/... directly to the physical assets/...
+  RewriteRule ^admin/assets/(.*)$ assets/$1 [L,NC]
+
+  # Bỏ qua thư mục vật lý admin để định tuyến qua Front Controller index.php (trừ các file vật lý thực tế như migrate.php)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^admin(/|$) index.php [QSA,L]
+
+  # ĐỊNH TUYẾN FRONT CONTROLLER ROUTER TRUNG TÂM
+  # Nếu không phải là tệp tin hoặc thư mục vật lý có sẵn, chuyển toàn bộ về index.php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# 5. NÉN DỮ LIỆU GZIP (GIÚP TĂNG TỐC TẢI TRANG WEB LÊN 70% TRÊN LIGHTHOUSE)
+# ----------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# ----------------------------------------------------------------------
+# 6. BỘ NHỚ ĐỆM TRÌNH DUYỆT (BROWSER EXPIRES CACHING - TỐI ƯU HIỆU SUẤT)
+# ----------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # CSS, JavaScript (Lưu cache 1 năm)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType application/x-javascript "access plus 1 year"
+
+  # Hình ảnh (Lưu cache 1 năm)
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Font chữ (Lưu cache 1 năm)
+  ExpiresByType font/truetype "access plus 1 year"
+  ExpiresByType font/opentype "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/x-font-woff "access plus 1 year"
+</IfModule>
+
+# ----------------------------------------------------------------------
+# 7. TỐI ƯU KẾT NỐI (KEEP-ALIVE) & CÁC TIÊU ĐỀ BẢO MẬT (SECURITY HEADERS)
+# ----------------------------------------------------------------------
+<IfModule mod_headers.c>
+  Header set Connection keep-alive
+  
+  # Bảo mật chống clickjacking, mã độc XSS, đánh cắp kiểu file
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  
+  # Ép cache vĩnh viễn với tài nguyên tĩnh (Tối ưu điểm Lighthouse tối đa)
+  <FilesMatch "\.(css|js|woff2|webp|jpg|jpeg|png|gif|ico|svg)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+</IfModule>
+
+# ----------------------------------------------------------------------
+# 8. BẢO MẬT: CHẶN TRUY CẬP TRỰC TIẾP CÁC FILE NHẠY CẢM
+# Chặn truy cập file database SQLite, log, backup cấu hình... từ trình duyệt
+# ----------------------------------------------------------------------
+<FilesMatch "\.(sqlite|db|sql|git|env|ini|log|bak|zip|rar|tar|gz)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order Deny,Allow
+    Deny from all
+  </IfModule>
+</FilesMatch>
+

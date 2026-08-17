@@ -1,0 +1,208 @@
+/* ==========================================================================
+   7. TRADE-IN VALUATION SECTION UPGRADES (Section 7)
+   ========================================================================== */
+  .tradein-grid {
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      gap: 30px !important;
+      align-items: stretch !important; /* Stretch columns to equal height */
+  }
+
+  @media (min-width: 992px) {
+      .tradein-grid {
+          grid-template-columns: 1fr 1.1fr !important; /* Side-by-side 2-column layout with perfect ratio */
+          gap: 40px !important;
+          align-items: stretch !important;
+      }
+  }
+
+  .tradein-promo-card {
+      display: flex !important;
+      flex-direction: column !important;
+      height: 100% !important; /* Stretch promotion card to fill grid cell height */
+  }
+
+  .tradein-badge-box {
+      margin-top: auto !important; /* Force the standard badge to align at the absolute bottom */
+  }
+
+  .tradein-form-card {
+      height: 100% !important; /* Stretch form card to fill grid cell height */
+  }
+
+  /* ==========================================================================
+     7. TRADE-IN VALUATION CONCIERGE CARD UPGRADES (Section 7)
+     ========================================================================== */
+  .tradein-concierge-card {
+      padding: 20px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 15px !important;
+      border-radius: 12px !important;
+      background: #ffffff !important;
+      border: 1px solid rgba(20, 100, 244, 0.1) !important;
+  }
+
+  .tradein-concierge-profile {
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+
+  .tradein-concierge-actions {
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      gap: 14px !important;
+      width: 100% !important;
+  }
+
+  .btn-tradein-action-hotline, .btn-tradein-action-zalo {
+      flex: 1 !important;
+      border-radius: 30px !important; /* Make both buttons uniform pill shape */
+      padding: 10px 16px !important;
+      height: 42px !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 11px !important;
+      font-weight: 700 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.5px !important;
+  }
+  
+  .tradein-concierge-actions .btn-tradein-action-hotline {
+      background-color: var(--color-primary);
+      color: #ffffff;
+      border: 1px solid var(--color-primary);
+  }
+  .tradein-concierge-actions .btn-tradein-action-hotline * {
+      color: #ffffff;
+  }
+  .tradein-concierge-actions .btn-tradein-action-hotline:hover {
+      background-color: #0b4fc4;
+      color: #ffffff;
+      border-color: #0b4fc4;
+  }
+  .tradein-concierge-actions .btn-tradein-action-zalo {
+      background-color: #0068ff;
+      color: #ffffff;
+      border: 1px solid #0068ff;
+  }
+  .tradein-concierge-actions .btn-tradein-action-zalo * {
+      color: #ffffff;
+  }
+  .tradein-concierge-actions .btn-tradein-action-zalo:hover {
+      background-color: #0052cc;
+      color: #ffffff;
+      border-color: #0052cc;
+  }
+
+
+  /* Trade-in Section Overrides for 100% Clean Light Mode */
+  .tradein-section {
+      position: relative !important;
+      overflow: hidden !important;
+      background-color: #f8fafc !important;
+      border-bottom: 1px solid #e2e8f0 !important;
+      color: #0f172a !important;
+  }
+
+  .tradein-section::before {
+      content: "" !important;
+      position: absolute !important;
+      inset: 0 !important;
+      background-image: linear-gradient(90deg, rgba(248, 250, 252, 0.96) 0%, rgba(248, 250, 252, 0.90) 50%, rgba(248, 250, 252, 0.96) 100%), url('../images/trade-in-bg.jpg') !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      pointer-events: none !important;
+      opacity: 0.12 !important;
+      z-index: 0 !important;
+  }
+
+  .tradein-section > .container {
+      position: relative !important;
+      z-index: 1 !important;
+  }
+  
+  .tradein-section .section-title,
+  .tradein-promo-title,
+  .tradein-step-title,
+  .tradein-concierge-name,
+  .tradein-form-card h3,
+  .tradein-form-card h4,
+  .tradein-form-card label,
+  .tradein-badge-text strong {
+      color: #0f172a !important;
+      font-weight: 800 !important;
+  }
+
+  .tradein-section .compare-subtitle,
+  .tradein-step-desc,
+  .tradein-badge-text,
+  .tradein-promo-card p,
+  .tradein-concierge-tag,
+  .tradein-section p {
+      color: #475569 !important;
+  }
+
+  .tradein-section .section-tag,
+  .tradein-step-num {
+      color: #1464f4 !important;
+      font-weight: 800 !important;
+  }
+  
+  .tradein-promo-card,
+  .tradein-form-card {
+      background: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+      border-radius: 18px !important;
+      color: #0f172a !important;
+  }
+
+  .tradein-form-card .calc-input-select {
+      background: #ffffff !important;
+      color: #0f172a !important;
+      border: 1.5px solid #cbd5e1 !important;
+  }
+
+  .tradein-form-card select option {
+      background-color: #0f172a !important;
+      color: #ffffff !important;
+  }
+  
+  .tradein-calc-card {
+      background-color: #ffffff !important;
+      border: 1.5px solid #cbd5e1 !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
+  }
+  
+  .tradein-step {
+      background-color: #f8fafc !important;
+      border: 1.5px solid #e2e8f0 !important;
+  }
+  
+  .btn-tradein-submit {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: var(--color-primary, #1464f4) !important;
+      color: #ffffff !important;
+      padding: 14px 32px !important;
+      font-size: 13.5px !important;
+      font-weight: 800 !important;
+      border-radius: 30px !important;
+      border: none !important;
+      cursor: pointer !important;
+      box-shadow: 0 4px 14px rgba(20, 100, 244, 0.4) !important;
+      transition: all 0.3s ease !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.5px !important;
+  }
+  .btn-tradein-submit:hover {
+      background: #1155cc !important;
+      box-shadow: 0 6px 20px rgba(20, 100, 244, 0.6) !important;
+      transform: translateY(-2px) !important;
+      color: #ffffff !important;
+  }

@@ -1727,3 +1727,13 @@ html body .counselor-btn-vip--call:hover {
                 inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
 }
 
+/* Red Gradient hotline button override */
+html body .nav-btn-hotline {
+    background: linear-gradient(135deg, #b91c1c 0%, #ef4444 100%) !important;
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3) !important;
+}
+html body .nav-btn-hotline:hover {
+    box-shadow: 0 6px 18px rgba(239, 68, 68, 0.5) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+}
+

@@ -385,7 +385,7 @@ $menuItems = [
     .nav-btn-hotline {
       display: inline-flex !important;
       align-items: center !important;
-      background: linear-gradient(135deg, #1464f4 0%, #00aaff 100%) !important;
+      background: linear-gradient(135deg, #b91c1c 0%, #ef4444 100%) !important;
       color: #ffffff !important;
       border: none !important;
       padding: 8px 18px !important;
@@ -396,11 +396,11 @@ $menuItems = [
       letter-spacing: 0.8px !important;
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
       text-decoration: none !important;
-      box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+      box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3) !important;
     }
     .nav-btn-hotline:hover {
       transform: translateY(-2px) scale(1.02) !important;
-      box-shadow: 0 6px 18px rgba(20, 100, 244, 0.4) !important;
+      box-shadow: 0 6px 18px rgba(239, 68, 68, 0.5) !important;
       color: #ffffff !important;
       filter: brightness(1.08) !important;
     }

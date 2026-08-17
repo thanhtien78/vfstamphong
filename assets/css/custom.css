@@ -143,7 +143,6 @@ html body .privileges-section .section-tag {
 }
 
 /* Dark Sections Tags */
-html body .brand-spotlight .spotlight-tag,
 html body .ev-tech-section .section-tag,
 html body .why-official-section .section-tag,
 html body .dealer-offers-section .section-tag,
@@ -779,7 +778,6 @@ html body .counselor-compare-pulse::after {
    11. CONTRAST & LEGIBILITY OVERRIDES INSIDE DARK SECTIONS (CRITICAL FOR INVISIBILITY PREVENTION)
    -------------------------------------------------------------------------- */
 /* General typography inside Dark Blocks */
-html body .brand-spotlight,
 html body .ev-tech-section,
 html body .why-official-section,
 html body .dealer-offers-section,
@@ -1306,7 +1304,7 @@ html body .brand-spotlight .spotlight-desc {
     margin-bottom: 28px !important;
 }
 
-html body .spotlight-desc p {
+html body .brand-spotlight .spotlight-desc p {
     color: #3d564e !important;
     margin-bottom: 12px !important;
 }

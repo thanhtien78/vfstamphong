@@ -1,186 +1,265 @@
-/* VinFast Premium Tech-Blue Light Mode Overrides */
+/* ==========================================================================
+   SECTION 1: HERO STAGE - PEAK LUXURY GREEN TECH REDESIGN
+   ========================================================================== */
+
 :root {
-  --color-ev-green: #10b981; /* Standardized to Tech-Blue */
-  --color-ev-green-hover: #059669;
+  --color-ev-green: #059669;
+  --color-ev-green-hover: #047857;
   --color-ev-cyan: #34d399;
-  --color-ev-gold: #d97706;
-  --color-bg-light: #f4f6fa; /* Slate-tinted light background */
-  --color-text-dark: #0f172a;
-  --color-text-slate: #3d564e;
-  --glow-green: 0 0 15px rgba(16, 185, 129, 0.2);
-  --glow-gold: 0 0 15px rgba(217, 119, 6, 0.25);
-  --card-shadow: 0 10px 30px rgba(16, 185, 129, 0.05), 0 1px 3px rgba(0,0,0,0.02);
+  --color-ev-gold: #dfc384;
 }
 
-/* 1. Futuristic Hero Carousel HUD Overrides - High Contrast Cinematic Mode */
 .hero-stage {
   display: block !important;
   position: relative;
   overflow: hidden;
-  height: 620px;
-  background-color: #050811;
-  border-bottom: 2px solid rgba(16, 185, 129, 0.25);
-
+  height: 640px;
+  background-color: #030a07; /* Thể hiện nền lục bảo tối nguyên bản */
 }
+
 .hero-slider {
   position: relative;
   height: 100%;
   width: 100% !important;
 }
+
 .hero-slides-container {
   height: 100%;
   position: relative;
 }
+
 .hero-slide {
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), visibility 1s cubic-bezier(0.16, 1, 0.3, 1);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   display: flex;
   align-items: center;
   z-index: 1;
 }
+
 .hero-slide.active {
   opacity: 1;
   visibility: visible;
   z-index: 2;
 }
 
-/* Removed Cinematic Dark Overlay on Slide background per user request */
-.hero-slide::before {
-  content: "";
-  display: none !important;
+/* Cinematic Dark Gradient Overlay */
+.hero-slide-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(3, 10, 7, 0.88) 0%, rgba(3, 10, 7, 0.45) 50%, rgba(3, 10, 7, 0.1) 100%) !important;
+  z-index: 2;
+  pointer-events: none;
 }
 
-/* Ensure contents sit above the overlay and use absolute high contrast */
 .hero-slide .container {
   position: relative;
   z-index: 3;
 }
+
 .hero-flex-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding-top: 50px !important; /* Reset to clean centered padding */
-  gap: 30px;
-}
-.hero-content {
-  text-align: left;
-  max-width: 620px;
-  margin: 0;
-  padding-left: 40px;
+  padding-top: 20px !important;
+  gap: 40px;
 }
 
-/* Force high contrast white text to override any inline styles */
+.hero-content {
+  text-align: left;
+  max-width: 650px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* Luxury Headline & Tagline Typography */
+.spotlight-tag {
+  color: #34d399 !important; /* Xanh Mint Neon nổi bật */
+  font-weight: 700 !important;
+  font-size: 11.5px !important;
+  letter-spacing: 2px !important;
+  display: inline-block !important;
+  margin-bottom: 12px !important;
+  text-transform: uppercase !important;
+}
+
 .hero-headline {
-  font-size: 48px !important;
-  font-weight: 950 !important;
+  font-size: 52px !important;
+  font-weight: 900 !important;
   color: #ffffff !important;
-  text-shadow: 0 4px 15px rgba(0,0,0,0.85), 0 0 30px rgba(16, 185, 129, 0.45) !important;
-  line-height: 1.15 !important;
-  margin-bottom: 20px !important;
+  line-height: 1.12 !important;
+  margin-bottom: 24px !important;
   font-family: 'Montserrat', sans-serif !important;
   letter-spacing: -0.5px !important;
 }
+
 .hero-subline {
-  font-size: 16px !important;
-  color: rgba(255, 255, 255, 0.9) !important;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.9) !important;
+  font-size: 16.5px !important;
+  color: rgba(255, 255, 255, 0.85) !important;
   line-height: 1.6 !important;
   font-weight: 500 !important;
-  margin-bottom: 35px !important;
+  margin-bottom: 40px !important;
 }
 
-/* HUD Glass Card Overrides - Premium Futuristic Tech Style */
-.hero-hud-card {
-  background: rgba(6, 10, 24, 0.45) !important; /* Semi-transparent windshield glass */
-  backdrop-filter: blur(16px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
-  border: 1.5px solid rgba(52, 211, 153, 0.55) !important; /* Neon cyan border */
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4), 
-              0 0 25px rgba(52, 211, 153, 0.3), 
-              inset 0 0 20px rgba(52, 211, 153, 0.25) !important;
-  border-radius: 18px;
-  padding: 26px;
-  width: 330px;
-  z-index: 4;
+/* Sequenced Luxury Reveal Animation System */
+.hero-slide .hero-animate-tag,
+.hero-slide .hero-animate-title,
+.hero-slide .hero-animate-sub,
+.hero-slide .hero-animate-ctas,
+.hero-slide .hero-animate-hud {
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: transform 1.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+.hero-slide .hero-animate-tag {
+  transform: translateY(-20px);
+}
+.hero-slide .hero-animate-title,
+.hero-slide .hero-animate-sub,
+.hero-slide .hero-animate-ctas {
+  transform: translateY(35px);
+}
+.hero-slide .hero-animate-hud {
+  transform: scale(0.95) translateY(20px);
+}
+
+/* Active Class Animation Triggers */
+.hero-slide.active .hero-animate-tag {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.1s;
+}
+.hero-slide.active .hero-animate-title {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.25s;
+}
+.hero-slide.active .hero-animate-sub {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+.hero-slide.active .hero-animate-ctas {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.55s;
+}
+.hero-slide.active .hero-animate-hud {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition-delay: 0.7s;
+}
+
+/* Premium Windshield Glass HUD Specs Card */
+.hero-hud-card {
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(25px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(25px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35), 
+              inset 0 1px 0 rgba(255, 255, 255, 0.1),
+              0 0 40px rgba(16, 185, 129, 0.05) !important;
+  border-radius: 20px;
+  padding: 28px;
+  width: 345px;
+  z-index: 4;
+  box-sizing: border-box;
+}
+
 .hud-header {
-  border-bottom: 1.5px solid rgba(52, 211, 153, 0.4) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
   padding-bottom: 14px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .hud-title {
-  font-size: 11.5px !important;
-  letter-spacing: 2.5px;
-  color: #ffffff !important; /* White title for high clarity */
-  font-weight: 800;
-  text-shadow: 0 0 8px rgba(52, 211, 153, 0.8);
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-shadow: none !important;
+  text-transform: uppercase;
 }
+
 .hud-badge {
-  background: rgba(16, 185, 129, 0.15) !important; /* Electric Green base */
-  border: 1px solid rgba(16, 185, 129, 0.5) !important;
-  color: #10b981 !important; /* Glowing Green */
-  font-size: 9.5px !important;
-  padding: 3px 10px;
-  border-radius: 20px;
+  background: rgba(16, 185, 129, 0.1) !important;
+  border: 1px solid rgba(16, 185, 129, 0.35) !important;
+  color: #34d399 !important;
+  font-size: 9px !important;
+  padding: 4px 12px;
+  border-radius: 30px;
   font-weight: 800;
   letter-spacing: 1px;
   animation: hudPulse 2.5s infinite alternate ease-in-out;
 }
+
 @keyframes hudPulse {
-  0% { box-shadow: 0 0 4px rgba(16, 185, 129, 0.2); border-color: rgba(16, 185, 129, 0.4); }
-  100% { box-shadow: 0 0 12px rgba(16, 185, 129, 0.6); border-color: rgba(16, 185, 129, 0.8); }
+  0% { box-shadow: 0 0 4px rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.25); }
+  100% { box-shadow: 0 0 15px rgba(52, 211, 153, 0.5); border-color: rgba(52, 211, 153, 0.7); }
 }
+
 .hud-spec-row {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
+
 .hud-spec-row:last-child {
   margin-bottom: 0;
 }
+
 .hud-spec-icon-box {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: rgba(52, 211, 153, 0.2) !important;
-  border: 1.5px solid rgba(52, 211, 153, 0.45) !important;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #34d399 !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
-  color: #34d399 !important; /* Bright sky-blue neon */
-  box-shadow: 0 0 10px rgba(52, 211, 153, 0.35) !important;
+  box-shadow: none !important;
 }
+
+.hud-spec-icon-box svg {
+  width: 18px;
+  height: 18px;
+  stroke: #34d399 !important;
+  fill: none;
+}
+
 .hud-spec-info {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
+
 .hud-spec-val {
-  font-size: 20px !important; /* Slightly larger for clarity */
+  font-size: 20px !important;
   font-weight: 900 !important;
   color: #ffffff !important;
   font-family: 'Montserrat', sans-serif !important;
-  text-shadow: 0 0 8px rgba(52, 211, 153, 0.85), 0 0 20px rgba(52, 211, 153, 0.4) !important; /* Tech Cyan Glow! */
-}
-.hud-spec-lbl {
-  font-size: 11.5px !important;
-  color: #ffffff !important; /* White for maximum contrast */
-  font-weight: 600;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9) !important; /* Dark text shadow to make it extremely clear on light backgrounds */
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.25) !important;
 }
 
-/* Slider Navigation Arrows - Positioning and Styling */
+.hud-spec-lbl {
+  font-size: 11px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-weight: 500 !important;
+  text-shadow: none !important;
+}
+
+/* Navigation Arrows and Dot Indicators */
 .slider-arrow {
   position: absolute;
   top: 50%;
@@ -188,226 +267,127 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: rgba(9, 19, 15, 0.7) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(0, 0, 0, 0.25) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
   color: #ffffff !important;
   display: flex !important;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 10;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
+
+.slider-arrow svg {
+  stroke: #ffffff !important;
+}
+
 .slider-arrow:hover {
   background: #10b981 !important;
   border-color: #10b981 !important;
-  box-shadow: 0 0 15px rgba(16, 185, 129, 0.6) !important;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.5) !important;
   transform: translateY(-50%) scale(1.05);
 }
-.slider-arrow-prev {
-  left: 24px;
-}
-.slider-arrow-next {
-  right: 24px;
-}
 
-/* Slider Navigation Dots - Positioning and Styling */
+.slider-arrow-prev { left: 24px; }
+.slider-arrow-next { right: 24px; }
+
 .slider-dots {
   position: absolute;
-  bottom: 24px;
+  bottom: 28px;
   left: 50%;
   transform: translateX(-50%);
   display: flex !important;
   gap: 8px;
   z-index: 10;
 }
+
 .slider-dot {
   width: 8px;
   height: 8px;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.4) !important;
+  background: rgba(255, 255, 255, 0.35) !important;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .slider-dot.active {
   background: #10b981 !important;
-  box-shadow: 0 0 10px rgba(16, 185, 129, 0.8) !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.7) !important;
   width: 24px;
 }
+
 .slider-dot:hover {
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: rgba(255, 255, 255, 0.7) !important;
 }
+
+/* Call-to-Action (CTA) Buttons styling */
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+}
+
 .hero-ctas .btn-primary {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
   color: #ffffff !important;
   border: none;
   font-weight: 700;
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.35) !important;
   transition: all 0.3s ease;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px !important;
 }
+
 .hero-ctas .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 25px rgba(16, 185, 129, 0.6) !important;
+  box-shadow: 0 6px 22px rgba(16, 185, 129, 0.55) !important;
 }
+
 .hero-ctas .btn-secondary {
-  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
   color: #ffffff !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   font-weight: 600;
   transition: all 0.3s ease;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px !important;
 }
+
 .hero-ctas .btn-secondary:hover {
   transform: translateY(-2px);
   background: #ffffff !important;
-  color: #000000 !important;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4) !important;
+  color: #0f172a !important;
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.35) !important;
 }
+
 /* ======================================================================
    MOBILE HERO CAROUSEL BREAKPOINT OVERRIDES (MAX-WIDTH: 768PX)
    ====================================================================== */
 @media (max-width: 768px) {
-  .hero-stage {
-    height: auto !important;
-    min-height: 480px !important;
-    padding: 0 !important;
-  }
-
-  .hero-slide {
-    padding: 65px 14px 35px !important;
-    background-size: cover !important;
-    background-position: center center !important;
-    position: relative !important;
-  }
-
-  .hero-slide::before {
-    content: '' !important;
-    display: block !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: linear-gradient(180deg, rgba(7, 15, 30, 0.8) 0%, rgba(7, 15, 30, 0.94) 100%) !important;
-    z-index: 1 !important;
-  }
-
-  .hero-flex-wrapper {
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 14px !important;
-    height: auto !important;
-    padding-top: 0 !important;
-  }
-
-  .hero-content {
-    max-width: 100% !important;
-    text-align: center !important;
-    margin: 0 !important;
-  }
-
-  .hero-headline {
-    font-size: 21px !important;
-    line-height: 1.25 !important;
-    margin-bottom: 10px !important;
-    font-weight: 900 !important;
-    text-align: center !important;
-    letter-spacing: 0.2px !important;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.9) !important;
-  }
-
-  .hero-subline {
-    font-size: 12.5px !important;
-    line-height: 1.5 !important;
-    margin-bottom: 16px !important;
-    text-align: center !important;
-    color: #c8ded7 !important;
-  }
-
-  .hero-ctas {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    gap: 10px !important;
-    align-items: stretch !important;
-    margin-top: 0 !important;
-  }
-
-  .hero-ctas .btn-primary,
-  .hero-ctas .btn-secondary {
-    width: 100% !important;
-    padding: 12px 16px !important;
-    font-size: 12px !important;
-    font-weight: 800 !important;
-    border-radius: 25px !important;
-    text-align: center !important;
-    box-sizing: border-box !important;
-  }
-
-  .hero-hud-card {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 10px 12px !important;
-    border-radius: 12px !important;
-    background: rgba(15, 23, 42, 0.85) !important;
-    border: 1px solid rgba(52, 211, 153, 0.4) !important;
-    backdrop-filter: blur(10px) !important;
-    margin-top: 10px !important;
-  }
-
-  .hud-specs-list {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 6px !important;
-  }
-
-  .hud-spec-row {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 2px !important;
-    margin-bottom: 0 !important;
-  }
-
-  .hud-spec-val {
-    font-size: 11px !important;
-    font-weight: 850 !important;
-    color: #10b981 !important;
-  }
-
-  .hud-spec-lbl {
-    font-size: 8px !important;
-    color: #94a3b8 !important;
-    line-height: 1.2 !important;
-  }
-
-  .slider-arrow {
-    width: 32px !important;
-    height: 32px !important;
-  }
-  .slider-arrow-prev { left: 8px !important; }
-  .slider-arrow-next { right: 8px !important; }
-}
-
-/* ======================================================================
-   HERO BANNER MOBILE POSITION & ALIGNMENT FIX (PREVENTS OFF-SCREEN SHIFT)
-   ====================================================================== */
-@media (max-width: 768px) {
   html body .hero-stage {
     height: auto !important;
-    min-height: 500px !important;
-    max-height: 650px !important;
+    min-height: 520px !important;
     position: relative !important;
     overflow: hidden !important;
+    background-color: #030a07 !important;
+    padding-top: 115px !important;
   }
 
   html body .hero-slider,
   html body .hero-slides-container {
     height: auto !important;
-    min-height: 500px !important;
+    min-height: 520px !important;
     position: relative !important;
   }
 
@@ -417,8 +397,8 @@
     left: 0 !important;
     width: 100% !important;
     height: auto !important;
-    min-height: 500px !important;
-    padding: 75px 14px 30px !important;
+    min-height: 520px !important;
+    padding: 10px 14px 30px !important;
     box-sizing: border-box !important;
     display: none !important;
     align-items: flex-start !important;
@@ -429,6 +409,10 @@
     display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
+  }
+
+  html body .hero-slide-overlay {
+    background: linear-gradient(180deg, rgba(3, 10, 7, 0.82) 0%, rgba(3, 10, 7, 0.95) 100%) !important;
   }
 
   html body .hero-slide .container {
@@ -457,6 +441,7 @@
     max-width: 100% !important;
     text-align: center !important;
     margin: 0 auto !important;
+    padding-left: 0 !important;
   }
 
   html body .hero-headline {
@@ -475,7 +460,7 @@
     line-height: 1.45 !important;
     margin-bottom: 14px !important;
     text-align: center !important;
-    color: #c8ded7 !important;
+    color: rgba(255, 255, 255, 0.75) !important;
   }
 
   html body .hero-ctas {
@@ -497,6 +482,8 @@
     text-align: center !important;
     box-sizing: border-box !important;
     white-space: nowrap !important;
+    height: auto !important;
+    display: inline-flex !important;
   }
 
   html body .hero-hud-card {
@@ -504,47 +491,48 @@
     max-width: 100% !important;
     padding: 8px 10px !important;
     border-radius: 10px !important;
-    background: rgba(15, 23, 42, 0.85) !important;
+    background: rgba(15, 23, 42, 0.8) !important;
     border: 1px solid rgba(52, 211, 153, 0.3) !important;
     margin-top: 6px !important;
     box-sizing: border-box !important;
   }
-}
 
-/* ======================================================================
-   HERO STAGE MARGIN TOP FIX (ACCOMMODATES FIXED HEADER 70PX + TICKER 40PX)
-   ====================================================================== */
-@media (max-width: 768px) {
-  html body .hero-stage {
-    margin-top: 110px !important;
-    height: auto !important;
-    min-height: 480px !important;
-    position: relative !important;
-    overflow: hidden !important;
+  .hud-specs-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
   }
 
-  html body .hero-slide {
-    padding: 20px 14px 25px !important;
-  }
-}
-
-/* ======================================================================
-   FIX WHITE BLANK GAP ABOVE HERO BANNER ON MOBILE (SEAMLESS DARK HEADER)
-   ====================================================================== */
-@media (max-width: 768px) {
-  html body .hero-stage {
-    margin-top: 0 !important; /* REMOVE WHITE GAP ENTIRELY */
-    padding-top: 115px !important; /* Push text below fixed header (70px) & ticker (40px) */
-    height: auto !important;
-    min-height: 520px !important;
-    position: relative !important;
-    overflow: hidden !important;
-    background-color: #070f1e !important; /* Dark seamless background */
+  .hud-spec-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 2px !important;
+    margin-bottom: 0 !important;
   }
 
-  html body .hero-slide {
-    padding: 10px 14px 30px !important;
-    background-size: cover !important;
-    background-position: center center !important;
+  .hud-spec-icon-box {
+    display: none !important; /* Hide small icons on small mobile cells */
   }
+
+  .hud-spec-val {
+    font-size: 11.5px !important;
+    font-weight: 850 !important;
+    color: #34d399 !important;
+    text-shadow: none !important;
+  }
+
+  .hud-spec-lbl {
+    font-size: 8px !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+    line-height: 1.2 !important;
+  }
+
+  .slider-arrow {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .slider-arrow-prev { left: 8px !important; }
+  .slider-arrow-next { right: 8px !important; }
 }

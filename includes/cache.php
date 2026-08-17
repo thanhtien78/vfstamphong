@@ -13,6 +13,10 @@ class PageCache {
      * Checks if the current request can be cached or served from cache.
      */
     private static function checkEligibility($pageKey) {
+        // PageCache is disabled globally by user request to prevent caching issues on local virtual domains and during updates.
+        self::$isEligible = false;
+        return false;
+
         if (self::$isEligible !== null) {
             return self::$isEligible;
         }

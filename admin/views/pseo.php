@@ -4,7 +4,7 @@
  * Organized into beautiful, highly intuitive premium tabbed sections
  * matching the precise multi-campaign workflow of SEO Địa Danh PRO.
  */
-require_once 'includes/class-pseo-helper.php';
+require_once 'backend/includes/class-pseo-helper.php';
 $basePath = $basePath ?? rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
 
 // Dedicated Campaign Editor Routing Setup

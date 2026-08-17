@@ -138,16 +138,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $action = isset($_POST['action']) ? trim($_POST['action']) : '';
     
     $allowedControllers = ['media', 'inventory', 'appointments', 'crm', 'service', 'cms', 'settings', 'branding', 'counselors', 'pseo'];
-    if (in_array($page, $allowedControllers) && file_exists(dirname(__DIR__) . "/admin/controllers/{$page}.php")) {
-        require dirname(__DIR__) . "/admin/controllers/{$page}.php";
+    if (in_array($page, $allowedControllers) && file_exists(dirname(dirname(__DIR__)) . "/admin/controllers/{$page}.php")) {
+        require dirname(dirname(__DIR__)) . "/admin/controllers/{$page}.php";
     }
 }
 
 // ----------------------------------------------------
 // RENDERING DYNAMIC MODULAR LAYOUT
 // ----------------------------------------------------
-include dirname(__DIR__) . '/admin/views/layout/header.php';
-include dirname(__DIR__) . '/admin/views/layout/sidebar.php';
+include dirname(dirname(__DIR__)) . '/admin/views/layout/header.php';
+include dirname(dirname(__DIR__)) . '/admin/views/layout/sidebar.php';
 ?>
 
 <!-- RIGHT CONTENT AREA -->
@@ -191,14 +191,14 @@ include dirname(__DIR__) . '/admin/views/layout/sidebar.php';
   <!-- DYNAMIC VIEW ROUTER -->
   <?php
   $allowedViews = ['dashboard', 'inventory', 'appointments', 'crm', 'service', 'cms', 'settings', 'branding', 'counselors', 'media', 'pseo'];
-  if (in_array($page, $allowedViews) && file_exists(dirname(__DIR__) . "/admin/views/{$page}.php")) {
-      require dirname(__DIR__) . "/admin/views/{$page}.php";
+  if (in_array($page, $allowedViews) && file_exists(dirname(dirname(__DIR__)) . "/admin/views/{$page}.php")) {
+      require dirname(dirname(__DIR__)) . "/admin/views/{$page}.php";
   } else {
       echo "<div class='card__title'>Trang không tồn tại hoặc bạn không có quyền truy cập!</div>";
   }
   ?>
 
 <?php
-include dirname(__DIR__) . '/admin/views/layout/media-picker.php';
-include dirname(__DIR__) . '/admin/views/layout/footer.php';
+include dirname(dirname(__DIR__)) . '/admin/views/layout/media-picker.php';
+include dirname(dirname(__DIR__)) . '/admin/views/layout/footer.php';
 ?>

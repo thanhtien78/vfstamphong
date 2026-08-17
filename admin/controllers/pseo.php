@@ -4,8 +4,8 @@
  * Handles templates, custom keyword lists, dynamic status toggles, and AJAX chunked index rebuilding.
  */
 if ($page === 'pseo') {
-    require_once 'includes/class-pseo-helper.php';
-    require_once 'includes/cache.php';
+    require_once 'backend/includes/class-pseo-helper.php';
+    require_once 'backend/includes/cache.php';
 
     // ----------------------------------------------------
     // AJAX CAMPAIGN IMAGES MULTI-UPLOAD

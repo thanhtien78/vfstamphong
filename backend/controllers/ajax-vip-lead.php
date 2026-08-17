@@ -3,7 +3,10 @@
  * VinFast Premium CRM AJAX Lead Handler
  * Captures, sanitizes, and records customer leads from the global VIP popup.
  */
-require_once 'db.php';
+use App\Models\Lead;
+use App\Models\Car;
+use App\Core\Database;
+
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -25,11 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     try {
-        // Fetch car name for detailed logging
-        $stmtCar = $db->prepare("SELECT model_name FROM cars WHERE id = ?");
-        $stmtCar->execute([$car_id]);
-        $car = $stmtCar->fetch();
-        $carName = $car ? $car['model_name'] : 'Không xác định';
+        // Fetch car name via Model
+        $carName = Car::getNameById($car_id);
         
         // Dynamic CRM Tagging based on location details
         if (!empty($loc_name)) {
@@ -38,8 +38,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $notes = "[Đăng ký từ VIP Popup] Khách hàng muốn nhận ưu đãi và tư vấn đặc quyền cho dòng xe: $carName";
         }
         
-        $stmt = $db->prepare("INSERT INTO leads (car_id, fullname, phone, email, notes, status) VALUES (?, ?, ?, '', ?, 'Chưa liên hệ')");
-        $stmt->execute([$car_id, $fullname, $phone, $notes]);
+        // Save lead using Lead Model
+        Lead::create([
+            'car_id' => $car_id,
+            'fullname' => $fullname,
+            'phone' => $phone,
+            'email' => '',
+            'notes' => $notes,
+            'status' => 'Chưa liên hệ'
+        ]);
         
         // Trigger Telegram Notification
         try {
@@ -58,6 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         // Administrative activity log entry
         try {
+            $db = Database::getConnection();
             if (!empty($loc_name)) {
                 $stmtLog = $db->prepare("INSERT INTO activity_logs (user_id, username, action, detail) VALUES (NULL, 'Khách hàng', 'Đăng ký pSEO VIP', ?)");
                 $stmtLog->execute(["Khách hàng: $fullname tại khu vực $loc_name đăng ký nhận báo giá dòng xe $carName"]);

@@ -12,6 +12,10 @@
 
 
 
+use App\Core\Database;
+
+$db = Database::getConnection();
+
 // Safe input sanitization
 $slug = isset($_GET['slug']) ? trim($_GET['slug']) : '';
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;

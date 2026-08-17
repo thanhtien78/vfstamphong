@@ -2,13 +2,14 @@
 /**
  * Controller for route: home
  */
+use App\Models\Setting;
+use App\Models\Counselor;
+use App\Models\News;
+use App\Models\Car;
+use App\Models\Lead;
 
-// Fetch settings from database
-$stmt = $db->query("SELECT * FROM settings");
-$settings = [];
-while ($row = $stmt->fetch()) {
-    $settings[$row['key']] = $row['value'];
-}
+// Fetch settings from database via Model
+$settings = Setting::getAll();
 
 // Global configurations & SEO Meta
 $siteTitle = $settings['site_title'] ?? "VinFast Việt Nam - Cổng thông tin chính thức";
@@ -148,21 +149,17 @@ if (!is_array($s7_tradein_steps_data) || count($s7_tradein_steps_data) < 3) {
 
 
 
-// Fetch one active counselor for Section 7 (Trade-in) VIP Concierge
-$stmtHomeCounselor = $db->query("SELECT * FROM counselors WHERE status = 'ONLINE' ORDER BY id ASC LIMIT 1");
-$homeCounselor = $stmtHomeCounselor->fetch();
+// Fetch one active counselor for Section 7 (Trade-in) VIP Concierge via Model
+$homeCounselor = Counselor::getPrimary();
 
-// Fetch up to 3 active counselors for Section 9 (Comparison Counselors)
-$stmtCompareCounselors = $db->query("SELECT * FROM counselors WHERE status = 'ONLINE' ORDER BY id ASC LIMIT 3");
-$compareCounselors = $stmtCompareCounselors->fetchAll();
+// Fetch up to 3 active counselors for Section 9 (Comparison Counselors) via Model
+$compareCounselors = Counselor::getOnline(3);
 
-// Fetch latest 3 news posts for clean homepage presentation
-$stmtPosts = $db->query("SELECT * FROM posts ORDER BY id DESC LIMIT 3");
-$posts = $stmtPosts->fetchAll();
+// Fetch latest 3 news posts for clean homepage presentation via Model
+$posts = News::getLatest(3);
 
-// Fetch cars for comparison & calculator
-$stmtCars = $db->query("SELECT * FROM cars ORDER BY id ASC");
-$compareCars = $stmtCars->fetchAll();
+// Fetch cars for comparison & calculator via Model
+$compareCars = Car::all();
 
 // Handle Trade-in / Old Car Valuation Request Submission
 $successTradeIn = false;
@@ -192,14 +189,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                  "- Khách đăng ký online qua Cổng thông tin.";
                  
         try {
-            $stmtInsert = $db->prepare("INSERT INTO leads (car_id, fullname, phone, email, test_drive_type, notes, status) VALUES (?, ?, ?, ?, ?, ?, ?)");
-            $stmtInsert->execute([$targetCarId, $fullname, $phone, $email, 'Thu cũ đổi mới', $notes, 'Chưa liên hệ']);
+            // Save lead using Lead Model
+            Lead::create([
+                'car_id' => $targetCarId,
+                'fullname' => $fullname,
+                'phone' => $phone,
+                'email' => $email,
+                'test_drive_type' => 'Thu cũ đổi mới',
+                'notes' => $notes,
+                'status' => 'Chưa liên hệ'
+            ]);
             
             // Trigger Telegram Notification
             try {
-                $stmtCar = $db->prepare("SELECT model_name FROM cars WHERE id = ?");
-                $stmtCar->execute([$targetCarId]);
-                $targetCarName = $stmtCar->fetchColumn() ?: 'Không xác định';
+                $targetCarName = Car::getNameById($targetCarId);
 
                 $teleMsg = "<b>🔄 YÊU CẦU THU CŨ ĐỔI MỚI (TRADE-IN)</b>\n"
                          . "-----------------------------------\n"

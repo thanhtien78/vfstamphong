@@ -1,23 +1,22 @@
-﻿<?php
+<?php
 /**
  * Controller for route: cars
  * Optimized for High-Ranking On-Page SEO (Keywords: Các Dòng Xe VinFast, Bảng Giá Xe VinFast 2026, Xe Điện VinFast)
  */
+use App\Models\Setting;
+use App\Models\Car;
+use App\Models\Lead;
+use App\Core\Database;
 
-// Fetch SEO settings from database
-$stmt = $db->query("SELECT * FROM settings");
-$settings = [];
-while ($row = $stmt->fetch()) {
-    $settings[$row['key']] = $row['value'];
-}
+// Fetch SEO settings from database via Model
+$settings = Setting::getAll();
 
 // On-Page SEO Meta Title & Meta Description Blueprint for 2026 (Perfect Length: 153 chars)
 $siteTitle = "Bảng Giá Các Dòng Xe VinFast 2026 | Xe Ô Tô Điện Chính Hãng";
 $siteDesc = "Bảng giá tất cả dòng xe ô tô điện VinFast 2026: VF 3, VF 5, VF 6, VF 7, VF 8, VF 9. Hỗ trợ trả góp 85%, ưu đãi độc quyền tại đại lý VinFast Tam Phong.";
 
-// Query all cars
-$stmtCars = $db->query("SELECT * FROM cars ORDER BY id ASC");
-$cars = $stmtCars->fetchAll();
+// Query all cars via Model
+$cars = Car::all();
 
 // Handle VIP Test Drive Form Submission
 $successBookingMessage = '';
@@ -32,13 +31,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     
     if ($fullname && $phone && $car_id > 0) {
         try {
-            $stmtInsert = $db->prepare("INSERT INTO leads (car_id, fullname, phone, email, preferred_date, test_drive_type, test_drive_address) VALUES (?, ?, ?, ?, ?, 'Tại Showroom', '')");
-            $stmtInsert->execute([$car_id, $fullname, $phone, $email, $preferred_date]);
+            // Save lead using Lead Model
+            Lead::create([
+                'car_id' => $car_id,
+                'fullname' => $fullname,
+                'phone' => $phone,
+                'email' => $email,
+                'preferred_date' => $preferred_date,
+                'test_drive_type' => 'Tại Showroom',
+                'test_drive_address' => ''
+            ]);
             
-            // Fetch car name for detailed logging
-            $stmtCar = $db->prepare("SELECT model_name FROM cars WHERE id = ?");
-            $stmtCar->execute([$car_id]);
-            $carModel = $stmtCar->fetchColumn() ?: 'Mẫu xe VinFast';
+            // Fetch car name for detailed logging via Model
+            $carModel = Car::getNameById($car_id);
             
             // Trigger Telegram Notification
             try {
@@ -56,6 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 
             // Log activity
             try {
+                $db = Database::getConnection();
                 $stmtLog = $db->prepare("INSERT INTO activity_logs (user_id, username, action, detail) VALUES (NULL, 'Khách hàng', 'Đăng ký Lái thử', ?)");
                 $stmtLog->execute(["Khách hàng: $fullname đăng ký lái thử $carModel (Lịch hẹn: $preferred_date)"]);
             } catch (Exception $logEx) {}

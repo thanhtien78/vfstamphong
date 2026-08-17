@@ -12,6 +12,10 @@
 
 
 
+use App\Core\Database;
+
+$db = Database::getConnection();
+
 // Safe input sanitization
 $categoryFilter = isset($_GET['category']) ? trim($_GET['category']) : '';
 $searchQuery = isset($_GET['search']) ? trim($_GET['search']) : '';

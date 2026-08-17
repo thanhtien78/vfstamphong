@@ -2,13 +2,13 @@
 /**
  * Controller for route: car-detail
  */
+use App\Models\Setting;
+use App\Models\Car;
+use App\Models\Lead;
+use App\Core\Database;
 
-// Fetch settings from database
-$stmtSettings = $db->query("SELECT * FROM settings");
-$settings = [];
-while ($row = $stmtSettings->fetch()) {
-    $settings[$row['key']] = $row['value'];
-}
+// Fetch settings from database via Model
+$settings = Setting::getAll();
 
 // Validate car ID or slug parameter
 $carId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
@@ -16,31 +16,28 @@ $carSlug = isset($_GET['slug']) ? trim($_GET['slug']) : '';
 $car = null;
 
 if (!empty($carSlug)) {
-    $stmt = $db->prepare("SELECT * FROM cars WHERE slug = ? LIMIT 1");
-    $stmt->execute([$carSlug]);
-    $car = $stmt->fetch();
+    $car = Car::findBySlug($carSlug);
     
-        // Automatic 301 Redirection to prevent broken links (SEO Redirection Plugin)
-        if (!$car) {
-            $stmtRedir = $db->prepare("SELECT new_url FROM redirects WHERE old_url = ? LIMIT 1");
-            $stmtRedir->execute([$carSlug]);
-            $redir = $stmtRedir->fetch();
-            if ($redir && !empty($redir['new_url'])) {
-                $basePath = rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
-                $queryParams = $_GET;
-                unset($queryParams['slug']);
-                $newQuery = !empty($queryParams) ? '?' . http_build_query($queryParams) : '';
-                header("HTTP/1.1 301 Moved Permanently");
-                header("Location: " . $basePath . "/xe-vinfast/" . urlencode($redir['new_url']) . $newQuery);
-                exit;
-            }
+    // Automatic 301 Redirection to prevent broken links (SEO Redirection Plugin)
+    if (!$car) {
+        $db = Database::getConnection();
+        $stmtRedir = $db->prepare("SELECT new_url FROM redirects WHERE old_url = ? LIMIT 1");
+        $stmtRedir->execute([$carSlug]);
+        $redir = $stmtRedir->fetch();
+        if ($redir && !empty($redir['new_url'])) {
+            $basePath = rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
+            $queryParams = $_GET;
+            unset($queryParams['slug']);
+            $newQuery = !empty($queryParams) ? '?' . http_build_query($queryParams) : '';
+            header("HTTP/1.1 301 Moved Permanently");
+            header("Location: " . $basePath . "/xe-vinfast/" . urlencode($redir['new_url']) . $newQuery);
+            exit;
         }
     }
+}
 
 if (!$car && $carId > 0) {
-    $stmt = $db->prepare("SELECT * FROM cars WHERE id = ?");
-    $stmt->execute([$carId]);
-    $car = $stmt->fetch();
+    $car = Car::find($carId);
 }
 
 if (!$car) {
@@ -106,8 +103,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         }
 
         try {
-            $stmtInsert = $db->prepare("INSERT INTO leads (car_id, fullname, phone, email, preferred_date, test_drive_type, test_drive_address, notes, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'Chưa liên hệ')");
-            $stmtInsert->execute([$carId, $fullname, $phone, $email, $preferredDate, $testDriveType, $testDriveAddress, $notes]);
+            // Save lead using Lead Model
+            Lead::create([
+                'car_id' => $carId,
+                'fullname' => $fullname,
+                'phone' => $phone,
+                'email' => $email,
+                'preferred_date' => $preferredDate,
+                'test_drive_type' => $testDriveType,
+                'test_drive_address' => $testDriveAddress,
+                'notes' => $notes
+            ]);
             
             // Trigger Telegram Notification
             try {
@@ -126,12 +132,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                     $teleMsg .= "🛠️ <b>Cấu hình chọn thêm:</b> " . htmlspecialchars($buildSheet) . "\n";
                 }
                 $teleMsg .= "📝 <b>Ghi chú:</b> " . htmlspecialchars($notes) . "\n"
-                          . "⏰ <b>Thời gian:</b> " . date('d/m/Y H:i:s');
+                           . "⏰ <b>Thời gian:</b> " . date('d/m/Y H:i:s');
                 send_telegram_notification($teleMsg);
             } catch (Exception $teleEx) {}
 
             // Log administrative/system activity in activity_logs
             try {
+                $db = Database::getConnection();
                 $stmtLog = $db->prepare("INSERT INTO activity_logs (user_id, username, action, detail) VALUES (NULL, 'Khách hàng', 'Đăng ký Lái thử', ?)");
                 $stmtLog->execute(["Khách hàng: $fullname đăng ký lái thử " . $car['model_name'] . ($buildSheet ? " ($buildSheet)" : "")]);
             } catch (Exception $logEx) {}

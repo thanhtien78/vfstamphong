@@ -2,21 +2,18 @@
 /**
  * Controller for route: installment
  */
+use App\Models\Setting;
+use App\Models\Car;
 
-// Fetch settings from database
-$stmtSettings = $db->query("SELECT * FROM settings");
-$settings = [];
-while ($row = $stmtSettings->fetch()) {
-    $settings[$row['key']] = $row['value'];
-}
+// Fetch settings from database via Model
+$settings = Setting::getAll();
 $agencyName = $settings['agency_name'] ?? 'VinFast Hồ Chí Minh';
 $agencyPhone = $settings['agency_phone'] ?? '081.7777.855';
 $agencyAddress = $settings['agency_address'] ?? 'Tòa nhà Lim Tower, 9-11 Tôn Đức Thắng, Q.1, TP. HCM';
 $agencyHours = $settings['agency_hours'] ?? 'Thứ 2 - Thứ 7: 8:00 - 18:00 | Chủ Nhật: 9:00 - 17:00';
 
-// Fetch cars from database for dynamic select dropdown
-$stmt = $db->query("SELECT * FROM cars ORDER BY segment ASC, price ASC");
-$cars = $stmt->fetchAll();
+// Fetch cars from database for dynamic select dropdown via Model
+$cars = Car::getPricelist();
 
 $navCarId = 1;
 if (!empty($cars)) {

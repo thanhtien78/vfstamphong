@@ -15,6 +15,7 @@
   overflow: hidden;
   height: 640px;
   background-color: #030a07; /* Thể hiện nền lục bảo tối nguyên bản */
+  padding: 0 !important; /* Loại bỏ khoảng đệm đen thừa ở trên và dưới banner */
 }
 
 .hero-slider {

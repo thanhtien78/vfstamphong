@@ -1086,67 +1086,63 @@
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 html body .car-card__price-box {
-  background: transparent !important;
+  background: #f8fafc !important; /* Nền xám xanh sáng dịu mát */
   border: none !important;
-  border-top: 1px solid rgba(226, 232, 240, 0.7) !important; /* Dải phân cách mảnh tinh xảo */
-  padding: 12px 0 0 0 !important;
+  border-left: 4px solid #10b981 !important; /* Vạch định vị dọc màu Xanh Mint */
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
   margin-bottom: 16px !important;
   display: flex !important;
-  flex-direction: row !important; /* Dàn hàng ngang */
-  justify-content: space-between !important; /* Nhãn bên trái, giá trị bên phải */
-  align-items: center !important;
+  flex-direction: column !important; /* Sắp xếp dạng cột HUD */
+  align-items: flex-start !important;
+  gap: 3px !important;
   width: 100% !important;
   box-sizing: border-box !important;
-  border-radius: 0 !important;
 }
 
 html body .car-card__price-lbl {
-  font-size: 10px !important;
+  font-size: 9px !important;
   color: #64748b !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   text-transform: uppercase !important;
-  letter-spacing: 1.5px !important;
+  letter-spacing: 1px !important;
   margin: 0 !important;
 }
 
 html body .car-card__price-val {
   display: flex !important;
   flex-direction: column !important;
-  align-items: flex-end !important; /* Căn phải nội dung giá */
-  text-align: right !important;
+  align-items: flex-start !important;
+  text-align: left !important;
   margin: 0 !important;
+  width: 100% !important;
 }
 
 html body .price-main-num {
-  font-size: 16px !important; /* Tăng kích thước số giá nổi bật */
+  font-size: 15px !important;
   font-weight: 850 !important;
-  color: #10b981 !important; /* Xanh Mint Công Nghệ */
+  color: #0f172a !important; /* Chữ tối màu độ tương phản cao */
   display: block !important;
   line-height: 1.2 !important;
 }
 
 html body .price-sub-note {
   font-size: 9.5px !important;
-  font-weight: 500 !important;
-  color: #64748b !important;
+  font-weight: 600 !important;
+  color: #10b981 !important; /* Nhấn mạnh ưu đãi sạc bằng màu xanh mint */
   display: block !important;
   line-height: 1.25 !important;
-  margin-top: 2px !important;
+  margin-top: 1px !important;
 }
 
 @media (max-width: 768px) {
   html body .car-card__price-box {
-    padding: 8px 0 0 0 !important;
+    padding: 8px 12px !important;
     margin-bottom: 10px !important;
   }
 
-  html body .car-card__price-lbl {
-    font-size: 8.5px !important;
-    letter-spacing: 1px !important;
-  }
-
   html body .price-main-num {
-    font-size: 13.5px !important;
+    font-size: 13px !important;
   }
 
   html body .price-sub-note {
@@ -1276,9 +1272,10 @@ html body .btn-detail-card--fleet:hover {
 
 /* Fleet ROI Indicator badge inside card */
 html body .car-card--fleet .car-card__price-box {
-  background: transparent !important;
+  background: #f0fdf4 !important; /* Nền xanh mint nhạt doanh nghiệp */
   border: none !important;
-  border-top: 1.5px dashed rgba(16, 185, 129, 0.25) !important; /* Elegant dashed mint divider line instead of grey line */
+  border-left: 4px solid #059669 !important; /* Viền trái xanh lục bảo đậm */
+  border-radius: 6px !important;
 }
 
 html body .car-card--fleet .price-main-num {

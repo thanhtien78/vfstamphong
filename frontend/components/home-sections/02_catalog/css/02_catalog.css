@@ -1,26 +1,21 @@
 /* 2. Brand Spotlight Overrides (Green Tech Theme) */
 .brand-spotlight {
-  background: linear-gradient(180deg, #f5f9ff 0%, var(--color-bg-light) 100%);
-  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+  background: #ffffff !important;
   position: relative;
-  color: var(--color-text-slate);
 }
-.spotlight-tag {
-  color: var(--color-ev-green) !important;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-shadow: 0 0 8px rgba(16, 185, 129, 0.15);
+.brand-spotlight .spotlight-tag {
+  color: #059669 !important;
 }
-.spotlight-title {
-  color: var(--color-text-dark) !important;
+.brand-spotlight .spotlight-title {
+  color: #0f172a !important;
 }
-.spotlight-desc {
-  color: var(--color-text-slate) !important;
+.brand-spotlight .spotlight-desc,
+.brand-spotlight .spotlight-desc p {
+  color: #3d564e !important;
 }
-.spotlight-visual img {
-  border-radius: 12px;
+.brand-spotlight .spotlight-visual img {
+  border-radius: 20px;
   border: 1px solid rgba(16, 185, 129, 0.15);
-  box-shadow: var(--card-shadow);
 }
 
 /* 3. EV Tech Interactive Center (Premium macOS Light Mode Glassmorphism) */

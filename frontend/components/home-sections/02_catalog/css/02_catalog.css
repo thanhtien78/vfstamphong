@@ -1086,27 +1086,28 @@
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 html body .car-card__price-box {
-  background: #f3fbf7 !important; /* Nền xám xanh sáng dịu mát */
-  border: none !important;
-  border-left: 4px solid #10b981 !important; /* Vạch định vị dọc màu Xanh Mint */
-  border-radius: 6px !important;
+  background: #09130f !important; /* Đen ánh ngọc lục bảo sâu thẳm */
+  border: 1px solid rgba(16, 185, 129, 0.22) !important; /* Viền mờ phát sáng nhẹ */
+  border-radius: 8px !important;
   padding: 10px 14px !important;
   margin-bottom: 16px !important;
   display: flex !important;
-  flex-direction: column !important; /* Sắp xếp dạng cột HUD */
+  flex-direction: column !important;
   align-items: flex-start !important;
   gap: 3px !important;
   width: 100% !important;
   box-sizing: border-box !important;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05), 0 4px 12px rgba(0, 0, 0, 0.12) !important;
 }
 
 html body .car-card__price-lbl {
-  font-size: 9px !important;
-  color: #506e63 !important;
+  font-size: 8.5px !important;
+  color: #a7f3d0 !important; /* Bạc ánh lục bảo nhạt dễ đọc trên nền tối */
   font-weight: 700 !important;
   text-transform: uppercase !important;
-  letter-spacing: 1px !important;
+  letter-spacing: 1.5px !important;
   margin: 0 !important;
+  opacity: 0.85 !important;
 }
 
 html body .car-card__price-val {
@@ -1121,7 +1122,7 @@ html body .car-card__price-val {
 html body .price-main-num {
   font-size: 15px !important;
   font-weight: 850 !important;
-  color: #0f172a !important; /* Chữ tối màu độ tương phản cao */
+  color: #ffffff !important; /* Chữ trắng tinh khiết sáng rõ trên nền đen */
   display: block !important;
   line-height: 1.2 !important;
 }
@@ -1129,7 +1130,7 @@ html body .price-main-num {
 html body .price-sub-note {
   font-size: 9.5px !important;
   font-weight: 600 !important;
-  color: #10b981 !important; /* Nhấn mạnh ưu đãi sạc bằng màu xanh mint */
+  color: #34d399 !important; /* Xanh Mint Neon nổi bật cực đẹp */
   display: block !important;
   line-height: 1.25 !important;
   margin-top: 1px !important;
@@ -1272,13 +1273,12 @@ html body .btn-detail-card--fleet:hover {
 
 /* Fleet ROI Indicator badge inside card */
 html body .car-card--fleet .car-card__price-box {
-  background: #f0fdf4 !important; /* Nền xanh mint nhạt doanh nghiệp */
-  border: none !important;
-  border-left: 4px solid #059669 !important; /* Viền trái xanh lục bảo đậm */
-  border-radius: 6px !important;
+  background: #041a12 !important; /* Emerald Carbon Black */
+  border: 1px solid rgba(52, 211, 153, 0.45) !important; /* Rich mint glowing border */
+  border-radius: 8px !important;
 }
 
 html body .car-card--fleet .price-main-num {
-  color: #059669 !important;
-  font-weight: 900 !important;
+  color: #34d399 !important; /* Bright green text for fleet quote */
+  font-weight: 850 !important;
 }

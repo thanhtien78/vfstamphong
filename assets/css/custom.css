@@ -92,11 +92,9 @@ html body .counselor-compare-title {
 }
 
 /* Dark Sections text colors */
-html body .brand-spotlight h2,
 html body .ev-tech-section h2,
 html body .dealer-offers-section h2,
 html body .faq-section h2,
-html body .brand-spotlight h3,
 html body .ev-tech-section h3,
 html body .dealer-offers-section h3,
 html body .faq-section h3,
@@ -105,7 +103,6 @@ html body .faq-question {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
 }
 
-html body .brand-spotlight .section-desc,
 html body .ev-tech-section .section-desc,
 html body .dealer-offers-section .section-desc,
 html body .faq-section .section-desc,
@@ -1180,11 +1177,9 @@ html body .faq-section .faq-btn-hotline:hover {
 /* --------------------------------------------------------------------------
    12. ABSOLUTE SECTION HEADER LEGIBILITY FOR DARK SECTIONS
    -------------------------------------------------------------------------- */
-html body .brand-spotlight .section-header .section-title,
 html body .ev-tech-section .section-header .section-title,
 html body .dealer-offers-section .section-header .section-title,
 html body .faq-section .section-header .section-title,
-html body .brand-spotlight .section-title,
 html body .ev-tech-section .section-title,
 html body .dealer-offers-section .section-title,
 html body .faq-section .section-title {
@@ -1192,14 +1187,12 @@ html body .faq-section .section-title {
     text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
 }
 
-html body .brand-spotlight .section-header p,
 html body .ev-tech-section .section-header p,
 html body .dealer-offers-section .section-header p,
 html body .faq-section .section-header p,
 html body .ev-tech-section .compare-subtitle {
     color: #c8ded7 !important; /* Extremely clear light silver text color */
 }
-html body .brand-spotlight .section-header .section-tag,
 html body .ev-tech-section .section-header .section-tag,
 html body .dealer-offers-section .section-header .section-tag,
 html body .faq-section .section-header .section-tag {
@@ -1297,7 +1290,7 @@ html body .brand-spotlight .spotlight-tag {
   text-transform: uppercase !important;
 }
 
-html body .spotlight-title {
+html body .brand-spotlight .spotlight-title {
     color: #0f172a !important; /* Chữ đen tương phản cao */
     font-size: 34px !important;
     line-height: 1.22 !important;
@@ -1306,7 +1299,7 @@ html body .spotlight-title {
     text-shadow: none !important;
 }
 
-html body .spotlight-desc {
+html body .brand-spotlight .spotlight-desc {
     color: #3d564e !important; /* Xanh xô thơm nhẹ */
     font-size: 15.5px !important;
     line-height: 1.65 !important;

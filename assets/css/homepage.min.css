@@ -14,8 +14,8 @@
   /* VinFast Corporate Design System - Core Color Palette */
   --color-bg-base: #ffffff;
   --color-surface: #f4f5f8;
-  --color-primary: #1464f4;
-  --color-accent-glow: #1464f4;
+  --color-primary: #10b981;
+  --color-accent-glow: #10b981;
   --color-text-main: #3c3c3c;
   --color-text-muted: #757575;
 
@@ -34,9 +34,9 @@
   --color-text-white: var(--color-text-main);
   --color-text-muted: var(--color-text-muted);
   --color-accent: var(--color-primary);
-  --color-cyber-mint: #1464f4;
-  --color-accent-glow-alpha: rgba(20, 100, 244, 0.1);
-  --color-accent-glow-hover: rgba(20, 100, 244, 0.2);
+  --color-cyber-mint: #10b981;
+  --color-accent-glow-alpha: rgba(16, 185, 129, 0.1);
+  --color-accent-glow-hover: rgba(16, 185, 129, 0.2);
   --transition-normal: all 0.3s ease-in-out;
 
   /* Premium Luxury Spacing System (8px-based Grid Scale) */
@@ -590,7 +590,7 @@ section {
   .mobile-phone-shortcut:hover {
     background: var(--color-primary) !important;
     color: #ffffff !important;
-    box-shadow: 0 0 10px rgba(20, 100, 244, 0.2) !important;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.2) !important;
   }
 
   .nav-menu {
@@ -865,7 +865,7 @@ section {
 
 /* Gradients and Brand Colors from daily-lexus.com */
 .bg-gradient-blue { 
-    background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%); 
+    background: linear-gradient(135deg, #34d399 0%, #3a7bd5 100%); 
     --ripple-color: rgba(0, 210, 255, 0.9);
 }
 .bg-gradient-purple { 
@@ -1340,8 +1340,8 @@ section {
 }
 
 .counselor-item:hover {
-  border-color: rgba(20, 100, 244, 0.2);
-  background: rgba(20, 100, 244, 0.03);
+  border-color: rgba(16, 185, 129, 0.2);
+  background: rgba(16, 185, 129, 0.03);
 }
 
 .counselor-avatar-wrap {
@@ -1485,7 +1485,7 @@ section {
 .counselor-card-vip:hover {
   border-color: var(--color-primary);
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(20, 100, 244, 0.08);
+  box-shadow: 0 15px 35px rgba(16, 185, 129, 0.08);
 }
 
 .counselor-avatar-wrap-vip {
@@ -1671,7 +1671,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
     }
 
     .local-hero-banner {
-      background: linear-gradient(135deg, rgba(20, 100, 244, 0.05) 0%, var(--color-surface) 100%);
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, var(--color-surface) 100%);
       border: var(--ev-border-light);
       border-radius: var(--ev-border-radius);
       padding: 35px 30px;
@@ -1686,7 +1686,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
       position: absolute;
       width: 300px;
       height: 300px;
-      background: radial-gradient(circle, rgba(20, 100, 244, 0.04) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.04) 0%, transparent 70%);
       top: -100px;
       right: -100px;
     }
@@ -1703,8 +1703,8 @@ body .table-scroll-container table.compare-spec-table td:first-child {
 
     .local-seo-tag {
       display: inline-block;
-      background: rgba(20, 100, 244, 0.12);
-      border: 1px solid rgba(20, 100, 244, 0.3);
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
       color: var(--color-primary);
       padding: 4px 14px;
       border-radius: var(--ev-border-radius);
@@ -2329,8 +2329,8 @@ body .table-scroll-container table.compare-spec-table td:first-child {
       transition: all 0.3s ease;
     }
     .faq-item:hover {
-      border-color: rgba(20, 100, 244, 0.3);
-      background: rgba(20, 100, 244, 0.02);
+      border-color: rgba(16, 185, 129, 0.3);
+      background: rgba(16, 185, 129, 0.02);
     }
     .faq-header {
       padding: 16px 20px;
@@ -2385,7 +2385,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
 body { background-color: var(--color-bg-base); color: var(--color-text-main); margin: 0; }
 .premium-header { background: rgba(255, 255, 255, 0.98); height: 70px; border-bottom: 1px solid var(--color-border); }
 .nav-btn-hotline { display: inline-flex; align-items: center; background: transparent; border: 1px solid rgba(0, 0, 0, 0.12); color: var(--color-text-main); padding: 8px 16px; border-radius: var(--ev-border-radius); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; transition: var(--transition-normal); text-decoration: none; }
-.nav-btn-hotline:hover { background: rgba(20, 100, 244, 0.05); color: var(--color-primary); border-color: var(--color-primary); box-shadow: 0 0 20px var(--color-accent-glow-hover); transform: translateY(-1px); }
+.nav-btn-hotline:hover { background: rgba(16, 185, 129, 0.05); color: var(--color-primary); border-color: var(--color-primary); box-shadow: 0 0 20px var(--color-accent-glow-hover); transform: translateY(-1px); }
 @media (max-width: 991px) { .nav-hotline-item { margin-top: 15px; width: 100%; text-align: center; } .nav-btn-hotline { width: 100%; justify-content: center; padding: 12px; } }
 
 /* Inlined Footer Geo-Toast CSS Overrides */
@@ -2399,7 +2399,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
       background: var(--color-surface); backdrop-filter: var(--ev-glass-filter); -webkit-backdrop-filter: var(--ev-glass-filter);
       border: var(--ev-border-light);
       border-radius: var(--ev-border-radius);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 20px rgba(20, 100, 244, 0.02);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 20px rgba(16, 185, 129, 0.02);
       padding: 16px;
       animation: geo-slide-in 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
       font-family: 'Montserrat', sans-serif;
@@ -2424,8 +2424,8 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
     }
     
     .geo-toast-icon {
-      color: var(--color-primary, #1464f4);
-      background: rgba(20, 100, 244, 0.05);
+      color: var(--color-primary, #10b981);
+      background: rgba(16, 185, 129, 0.05);
       border-radius: 50%;
       padding: 8px;
       display: flex;
@@ -2461,7 +2461,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
       font-size: 10px;
       font-weight: 700 !important;
       color: #fff !important;
-      background: var(--color-primary, #1464f4);
+      background: var(--color-primary, #10b981);
       border-radius: var(--ev-border-radius);
       padding: 8px 14px;
       text-decoration: none;
@@ -2475,7 +2475,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
     .geo-toast-btn:hover {
       background: #1155cc;
       color: #fff !important;
-      box-shadow: 0 4px 12px rgba(20, 100, 244, 0.25);
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
     }
     
     .geo-toast-close {
@@ -2524,16 +2524,16 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 
 /* VinFast Premium Tech-Blue Light Mode Overrides */
 :root {
-  --color-ev-green: #1464f4; /* Standardized to Tech-Blue */
-  --color-ev-green-hover: #0052cc;
+  --color-ev-green: #10b981; /* Standardized to Tech-Blue */
+  --color-ev-green-hover: #059669;
   --color-ev-cyan: #00a3ff;
   --color-ev-gold: #d97706;
   --color-bg-light: #f4f6fa; /* Slate-tinted light background */
   --color-text-dark: #0f172a;
   --color-text-slate: #475569;
-  --glow-green: 0 0 15px rgba(20, 100, 244, 0.2);
+  --glow-green: 0 0 15px rgba(16, 185, 129, 0.2);
   --glow-gold: 0 0 15px rgba(217, 119, 6, 0.25);
-  --card-shadow: 0 10px 30px rgba(20, 100, 244, 0.05), 0 1px 3px rgba(0,0,0,0.02);
+  --card-shadow: 0 10px 30px rgba(16, 185, 129, 0.05), 0 1px 3px rgba(0,0,0,0.02);
 }
 
 /* 1. Futuristic Hero Carousel HUD Overrides - High Contrast Cinematic Mode */
@@ -2543,7 +2543,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   overflow: hidden;
   height: 620px;
   background-color: #050811;
-  border-bottom: 2px solid rgba(20, 100, 244, 0.25);
+  border-bottom: 2px solid rgba(16, 185, 129, 0.25);
 
 }
 .hero-slider {
@@ -2603,7 +2603,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   font-size: 48px !important;
   font-weight: 950 !important;
   color: #ffffff !important;
-  text-shadow: 0 4px 15px rgba(0,0,0,0.85), 0 0 30px rgba(20, 100, 244, 0.45) !important;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.85), 0 0 30px rgba(16, 185, 129, 0.45) !important;
   line-height: 1.15 !important;
   margin-bottom: 20px !important;
   font-family: 'Montserrat', sans-serif !important;
@@ -2723,9 +2723,9 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
 }
 .slider-arrow:hover {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 0 15px rgba(20, 100, 244, 0.6) !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.6) !important;
   transform: translateY(-50%) scale(1.05);
 }
 .slider-arrow-prev {
@@ -2754,24 +2754,24 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   transition: all 0.3s ease;
 }
 .slider-dot.active {
-  background: #1464f4 !important;
-  box-shadow: 0 0 10px rgba(20, 100, 244, 0.8) !important;
+  background: #10b981 !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.8) !important;
   width: 24px;
 }
 .slider-dot:hover {
   background: rgba(255, 255, 255, 0.8) !important;
 }
 .hero-ctas .btn-primary {
-  background: linear-gradient(135deg, #1464f4 0%, #0052cc 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
   color: #ffffff !important;
   border: none;
   font-weight: 700;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.4) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4) !important;
   transition: all 0.3s ease;
 }
 .hero-ctas .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 25px rgba(20, 100, 244, 0.6) !important;
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.6) !important;
 }
 .hero-ctas .btn-secondary {
   border: 1px solid rgba(255, 255, 255, 0.4) !important;
@@ -2898,7 +2898,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   .hud-spec-val {
     font-size: 11px !important;
     font-weight: 850 !important;
-    color: #38bdf8 !important;
+    color: #34d399 !important;
   }
 
   .hud-spec-lbl {
@@ -3075,7 +3075,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 /* 2. Brand Spotlight Overrides (Green Tech Theme) */
 .brand-spotlight {
   background: linear-gradient(180deg, #f5f9ff 0%, var(--color-bg-light) 100%);
-  border-bottom: 1px solid rgba(20, 100, 244, 0.1);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
   position: relative;
   color: var(--color-text-slate);
 }
@@ -3083,7 +3083,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   color: var(--color-ev-green) !important;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 0 0 8px rgba(20, 100, 244, 0.15);
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.15);
 }
 .spotlight-title {
   color: var(--color-text-dark) !important;
@@ -3093,7 +3093,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 }
 .spotlight-visual img {
   border-radius: 12px;
-  border: 1px solid rgba(20, 100, 244, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.15);
   box-shadow: var(--card-shadow);
 }
 
@@ -3109,7 +3109,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   content: "" !important;
   position: absolute !important;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: radial-gradient(rgba(20, 100, 244, 0.04) 1.2px, transparent 1.2px) !important;
+  background-image: radial-gradient(rgba(16, 185, 129, 0.04) 1.2px, transparent 1.2px) !important;
   background-size: 24px 24px !important;
   pointer-events: none !important;
 }
@@ -3119,7 +3119,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 }
 .ev-tech-section .section-tag {
   background: transparent !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
@@ -3158,9 +3158,9 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   color: #0f172a !important;
 }
 .ev-tech-tab-btn.active {
-  background: linear-gradient(135deg, #1464f4 0%, #00a3ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #00a3ff 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
 }
 
 .ev-tech-pane {
@@ -3207,14 +3207,14 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   transition: all 0.3s ease !important;
 }
 .range-calc-model-card:hover {
-  background: rgba(20, 100, 244, 0.03) !important;
-  border-color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border-color: #10b981 !important;
   transform: translateX(4px) !important;
 }
 .range-calc-model-card.active {
   background: #ffffff !important;
-  border: 2.5px solid #1464f4 !important; /* Thick solid brand blue border (B) */
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.12) !important;
+  border: 2.5px solid #10b981 !important; /* Thick solid brand blue border (B) */
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.12) !important;
 }
 .range-calc-model-thumb {
   width: 70px !important;
@@ -3264,13 +3264,13 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   transition: all 0.3s ease !important;
 }
 .range-slider-group-premium:hover {
-  border-color: #1464f4 !important;
-  box-shadow: 0 6px 16px rgba(20, 100, 244, 0.05) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.05) !important;
 }
 .slider-icon-box {
   width: 44px !important;
   height: 44px !important;
-  background: rgba(20, 100, 244, 0.08) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
   border-radius: 50% !important;
   display: flex !important;
   align-items: center !important;
@@ -3325,7 +3325,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   stroke-linecap: round !important;
   stroke-dasharray: 565.48 !important;
   transition: stroke-dashoffset 0.3s ease !important;
-  filter: drop-shadow(0 4px 12px rgba(20, 100, 244, 0.25)) !important;
+  filter: drop-shadow(0 4px 12px rgba(16, 185, 129, 0.25)) !important;
 }
 .range-number-box {
   position: absolute !important;
@@ -3340,7 +3340,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   font-family: system-ui, -apple-system, sans-serif !important;
 }
 .range-number-unit {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   text-shadow: none !important;
   font-size: 13.5px !important;
   font-weight: 700 !important;
@@ -3356,7 +3356,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 .range-slider-value {
   font-size: 15px !important;
   font-weight: 700 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 .range-slider-input {
   background: #cbd5e1 !important;
@@ -3372,18 +3372,18 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   width: 20px !important;
   height: 20px !important;
   border-radius: 50% !important;
-  background: #1464f4 !important;
-  box-shadow: 0 2px 8px rgba(20, 100, 244, 0.3) !important;
+  background: #10b981 !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3) !important;
   cursor: pointer !important;
 }
 .range-efficiency-badge {
   margin-top: 12px !important;
-  background: rgba(20, 100, 244, 0.08) !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
   padding: 8px 20px !important;
   border-radius: 20px !important;
   font-size: 12px !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 700 !important;
 }
 
@@ -3412,7 +3412,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 }
 .metric-bar-item:hover {
   transform: translateY(-2px) !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 .metric-bar-label {
   font-size: 11px !important;
@@ -3476,12 +3476,12 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   color: #1e293b !important;
 }
 .roi-select:focus {
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 .roi-results-panel {
   background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
-  border: 2.5px solid #1464f4 !important; /* High-contrast blue border (B) */
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.08) !important;
+  border: 2.5px solid #10b981 !important; /* High-contrast blue border (B) */
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.08) !important;
   border-radius: 16px !important;
   padding: 32px !important;
   display: flex !important;
@@ -3558,15 +3558,15 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 
 /* 4. Comparison Pulse Button Custom Override (Brand Theme) */
 .btn-compare-pulse {
-  background: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
   padding: 12px 24px !important;
   border-radius: 30px !important;
   font-size: 13px !important;
   font-weight: 700 !important;
   letter-spacing: 1.2px !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.05) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.05) !important;
   animation: pulse-blue 2s infinite !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   display: inline-flex !important;
@@ -3574,20 +3574,20 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   gap: 8px !important;
 }
 .btn-compare-pulse:hover {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3) !important;
   transform: translateY(-2px) !important;
 }
 @keyframes pulse-blue {
   0% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.3);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.3);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(20, 100, 244, 0);
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
   }
 }
 
@@ -3595,7 +3595,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 .car-card {
   /* White background with premium gradient border */
   border: 1px solid transparent !important;
-  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(135deg, rgba(20, 100, 244, 0.12) 0%, rgba(0, 229, 255, 0.12) 100%) !important;
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(0, 229, 255, 0.12) 100%) !important;
   background-origin: border-box !important;
   background-clip: padding-box, border-box !important;
   
@@ -3605,23 +3605,23 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   position: relative !important;
   
   /* Layered 3D diffuse shadows */
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 10px 20px -3px rgba(20, 100, 244, 0.03), 0 20px 25px -5px rgba(0, 0, 0, 0.01) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 10px 20px -3px rgba(16, 185, 129, 0.03), 0 20px 25px -5px rgba(0, 0, 0, 0.01) !important;
 }
 
 .car-card:hover {
   transform: translateY(-8px) !important;
   
   /* Brighten gradient border on hover */
-  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(135deg, rgba(20, 100, 244, 0.35) 0%, rgba(0, 229, 255, 0.35) 100%) !important;
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(135deg, rgba(16, 185, 129, 0.35) 0%, rgba(0, 229, 255, 0.35) 100%) !important;
   
   /* Lifted 3D glow shadow */
-  box-shadow: 0 25px 35px -5px rgba(20, 100, 244, 0.12), 0 10px 15px -5px rgba(0, 0, 0, 0.03) !important;
+  box-shadow: 0 25px 35px -5px rgba(16, 185, 129, 0.12), 0 10px 15px -5px rgba(0, 0, 0, 0.03) !important;
 }
 
 .car-card__media {
   position: relative !important;
   overflow: hidden !important;
-  background: radial-gradient(circle at center, rgba(20, 100, 244, 0.03) 0%, #ffffff 80%) !important;
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.03) 0%, #ffffff 80%) !important;
   padding: 16px !important;
 }
 
@@ -3654,9 +3654,9 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   border: 1px solid rgba(0, 229, 255, 0.3) !important;
 }
 .car-card[data-group="midsize"] .car-card__badge {
-  background: rgba(20, 100, 244, 0.1) !important;
-  color: #1464f4 !important;
-  border: 1px solid rgba(20, 100, 244, 0.3) !important;
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
 }
 .car-card[data-group="large"] .car-card__badge {
   background: rgba(217, 119, 6, 0.1) !important;
@@ -3687,8 +3687,8 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   transition: all 0.3s ease !important;
 }
 .car-card:hover .car-card__spec-item {
-  background: rgba(20, 100, 244, 0.02) !important;
-  border-color: rgba(20, 100, 244, 0.06) !important;
+  background: rgba(16, 185, 129, 0.02) !important;
+  border-color: rgba(16, 185, 129, 0.06) !important;
 }
 .car-card__spec-lbl {
   font-size: 10px !important;
@@ -3705,10 +3705,10 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 
 /* Premium pricing badge - Column Stack for No-wrap and Symmetry */
 .car-card__price-box {
-  background: rgba(20, 100, 244, 0.03) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
   border-radius: 12px !important;
   padding: 12px 14px !important;
-  border: 1px dashed rgba(20, 100, 244, 0.12) !important;
+  border: 1px dashed rgba(16, 185, 129, 0.12) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
@@ -3726,7 +3726,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 }
 .car-card__price-val {
   font-size: 15px !important;
-  color: #1464f4 !important; /* Premium tech blue price */
+  color: #10b981 !important; /* Premium tech blue price */
   font-weight: 800 !important;
   margin: 0 !important;
 }
@@ -3864,10 +3864,10 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 .car-card__price-box {
-  background: rgba(20, 100, 244, 0.03) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
   border-radius: 10px !important;
   padding: 8px 10px !important;
-  border: 1px dashed rgba(20, 100, 244, 0.18) !important;
+  border: 1px dashed rgba(16, 185, 129, 0.18) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
@@ -3900,7 +3900,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 .price-main-num {
   font-size: 13.5px !important;
   font-weight: 900 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   display: block !important;
   line-height: 1.2 !important;
 }
@@ -3933,7 +3933,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
 }
 
 /* ======================================================================
-   CATALOG FILTER TAB BUTTONS: VINFAST ELECTRIC BLUE ACTIVE STATE (#1464F4)
+   CATALOG FILTER TAB BUTTONS: VINFAST ELECTRIC BLUE ACTIVE STATE (#10b981)
    ====================================================================== */
 html body .filter-tabs {
   display: flex !important;
@@ -3958,17 +3958,17 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-  background: rgba(20, 100, 244, 0.08) !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
-  border-color: #1464f4 !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
 }
 
 @media (max-width: 768px) {
@@ -4002,7 +4002,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
 }
 .compare-header-block .section-tag {
   background: transparent !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
@@ -4087,12 +4087,12 @@ html body .filter-tab-btn.filter-tab-btn--active {
 
   /* 2. Spec Comparison Section - Official VinFast Light Overrides */
   .compare-section {
-      background: radial-gradient(circle at 80% 20%, rgba(0, 180, 216, 0.02) 0%, rgba(20, 100, 244, 0.03) 100%), #ffffff !important;
+      background: radial-gradient(circle at 80% 20%, rgba(0, 180, 216, 0.02) 0%, rgba(16, 185, 129, 0.03) 100%), #ffffff !important;
       border-bottom: 1px solid #cbd5e1 !important;
   }
   
   .compare-header-block .section-tag {
-      color: #1464f4 !important; /* VinFast Corporate Blue tag */
+      color: #10b981 !important; /* VinFast Corporate Blue tag */
       font-weight: 800 !important;
   }
   
@@ -4111,9 +4111,9 @@ html body .filter-tab-btn.filter-tab-btn--active {
   }
   
   .compare-spec-table th {
-      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important; /* Soft VinFast corporate blue tint */
-      color: #1464f4 !important; /* Standardized VinFast Corporate Primary Blue */
-      border-bottom: 2px solid #93c5fd !important;
+      background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%) !important; /* Soft VinFast corporate blue tint */
+      color: #10b981 !important; /* Standardized VinFast Corporate Primary Blue */
+      border-bottom: 2px solid #6ee7b7 !important;
       font-weight: 800 !important;
   }
   
@@ -4130,7 +4130,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   
   .compare-spec-table tr:hover td {
       background: #f0f9ff !important; /* Soft blue highlight on hover */
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   /* Fixed first sticky column styles for Light mode compatibility */
@@ -4147,22 +4147,22 @@ html body .filter-tab-btn.filter-tab-btn--active {
   
   .compare-spec-table tr:hover td:first-child {
       background-color: #f0f9ff !important;
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .compare-spec-table tr.compare-row-price td {
-      background-color: rgba(20, 100, 244, 0.06) !important; /* Soft corporate blue highlight for price */
-      border-bottom: 2px solid #1464f4 !important;
+      background-color: rgba(16, 185, 129, 0.06) !important; /* Soft corporate blue highlight for price */
+      border-bottom: 2px solid #10b981 !important;
   }
   
   .compare-spec-table tr.compare-row-price td:not(:first-child) {
-      color: #1464f4 !important;
+      color: #10b981 !important;
       font-weight: 700 !important;
   }
   
   .compare-spec-table tr.compare-row-price td:first-child {
-      background-color: rgba(20, 100, 244, 0.12) !important;
-      color: #1e3a8a !important;
+      background-color: rgba(16, 185, 129, 0.12) !important;
+      color: #065f46 !important;
   }
 
   /* Make the Genuine VinFast Dealer image fully bright and remove the dark overlay */
@@ -4338,7 +4338,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
    VINFAST ELECTRIC BLUE PULSING "VUỐT ĐỂ SO SÁNH" BUTTON (MATCHES BRAND THEME)
    ====================================================================== */
 .btn-compare-pulse {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
   color: #ffffff !important;
   border: 1.5px solid #60a5fa !important;
   padding: 11px 24px !important;
@@ -4347,7 +4347,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   font-weight: 900 !important;
   letter-spacing: 1.2px !important;
   text-transform: uppercase !important;
-  box-shadow: 0 4px 18px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 4px 18px rgba(16, 185, 129, 0.45) !important;
   animation: pulse-blue-glow 2s infinite ease-in-out !important;
   display: inline-flex !important;
   align-items: center !important;
@@ -4358,16 +4358,16 @@ html body .filter-tab-btn.filter-tab-btn--active {
 }
 
 .btn-compare-pulse:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 6px 24px rgba(20, 100, 244, 0.65) !important;
+  box-shadow: 0 6px 24px rgba(16, 185, 129, 0.65) !important;
   transform: translateY(-2px) scale(1.02) !important;
 }
 
 @keyframes pulse-blue-glow {
-  0% { box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.6); transform: scale(1); }
-  50% { box-shadow: 0 0 0 14px rgba(20, 100, 244, 0); transform: scale(1.03); }
-  100% { box-shadow: 0 0 0 0 rgba(20, 100, 244, 0); transform: scale(1); }
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); transform: scale(1); }
+  50% { box-shadow: 0 0 0 14px rgba(16, 185, 129, 0); transform: scale(1.03); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); transform: scale(1); }
 }
 
 /* ======================================================================
@@ -4405,7 +4405,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   html body .compare-spec-table th {
     font-size: 12px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 }
 
@@ -4510,7 +4510,7 @@ html body .compare-spec-table td:nth-child(n+2) {
 
 html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
   font-weight: 800 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-size: 13px !important;
 }
 
@@ -4557,8 +4557,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table th:first-child {
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
 }
 
 /* Columns 2+ (Car Models) */
@@ -4580,8 +4580,8 @@ html body .compare-spec-table td:nth-child(n+2) {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -4591,7 +4591,7 @@ html body .compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 100 !important;
-  background: #eff6ff !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
+  background: #f0fdf4 !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
@@ -4610,8 +4610,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background: #dbeafe !important; /* SOLID PRICE ROW BACKGROUND */
-  color: #1e3a8a !important;
+  background: #d1fae5 !important; /* SOLID PRICE ROW BACKGROUND */
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -4733,8 +4733,8 @@ html body .compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Colors for Column 1 Sticky Cells */
 html body .compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body .compare-spec-table td:first-child {
@@ -4748,8 +4748,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns */
@@ -4813,8 +4813,8 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Backgrounds for Column 1 Sticky Cells */
 html body table.compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body table.compare-spec-table td:first-child {
@@ -4828,8 +4828,8 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns (Relative positioning to stay strictly underneath Sticky Column 1) */
@@ -4876,9 +4876,9 @@ html body table.compare-spec-table {
 
 /* Header Row (All Columns Unified) */
 html body table.compare-spec-table th {
-  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
-  color: #1464f4 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%) !important;
+  color: #10b981 !important;
+  border-bottom: 2px solid #6ee7b7 !important;
   font-weight: 850 !important;
   font-family: 'Montserrat', sans-serif !important;
 }
@@ -4892,8 +4892,8 @@ html body table.compare-spec-table th:first-child {
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
-  background: #eff6ff !important; /* Unified header tint */
-  color: #1464f4 !important;
+  background: #f0fdf4 !important; /* Unified header tint */
+  color: #10b981 !important;
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
@@ -4919,9 +4919,9 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: rgba(20, 100, 244, 0.08) !important; /* Unified price highlight */
-  color: #1464f4 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important; /* Unified price highlight */
+  color: #10b981 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* Car Model Columns (Columns 2+) */
@@ -4950,11 +4950,11 @@ html body table.compare-spec-table tr:nth-child(even) td:nth-child(n+2) {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background-color: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   font-size: 13px !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -4989,11 +4989,11 @@ html body table.compare-spec-table td:first-child {
 /* Price Row Highlight (Column 1 and Product Columns) */
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -5029,21 +5029,21 @@ html body table.compare-spec-table td:first-child {
 html body table.compare-spec-table th,
 html body table.compare-spec-table th:first-child,
 html body table.compare-spec-table th:nth-child(n+2) {
-  background: #eff6ff !important;
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background: #f0fdf4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  border-bottom: 2px solid #6ee7b7 !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child,
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -5054,9 +5054,9 @@ html body table.compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #dbeafe !important;
-  background: #dbeafe !important;
-  color: #1e40af !important;
+  background-color: #d1fae5 !important;
+  background: #d1fae5 !important;
+  color: #047857 !important;
   border-right: 2px solid #94a3b8 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
@@ -5078,21 +5078,21 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #eff6ff !important;
-  background: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  background: #f0fdf4 !important;
+  color: #065f46 !important;
   font-weight: 850 !important;
   border-right: 2px solid #94a3b8 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   background-color: #f0f9ff !important;
   background: #f0f9ff !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* 1. EV Tech Section - 100% Clean Light Mode */
@@ -5141,10 +5141,10 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .ev-tech-section .section-tag {
-      color: #1464f4 !important;
+      color: #10b981 !important;
       font-weight: 800 !important;
-      background: rgba(20, 100, 244, 0.08) !important;
-      border: 1px solid rgba(20, 100, 244, 0.18) !important;
+      background: rgba(16, 185, 129, 0.08) !important;
+      border: 1px solid rgba(16, 185, 129, 0.18) !important;
       padding: 6px 16px !important;
       border-radius: 20px !important;
       display: inline-block !important;
@@ -5162,7 +5162,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .ev-tech-tab-btn.active {
-      background: #1464f4 !important;
+      background: #10b981 !important;
       color: #ffffff !important;
   }
   
@@ -5185,7 +5185,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   
   .range-calc-model-card.active {
       background: #ffffff !important;
-      border: 2.5px solid #1464f4 !important;
+      border: 2.5px solid #10b981 !important;
   }
   
   .range-calc-model-card {
@@ -5195,14 +5195,14 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .range-calc-model-card:hover {
-      background: rgba(20, 100, 244, 0.2) !important;
-      border-color: #38bdf8 !important;
+      background: rgba(16, 185, 129, 0.2) !important;
+      border-color: #34d399 !important;
   }
   
   .range-calc-model-card.active {
-      background: rgba(20, 100, 244, 0.25) !important;
-      border: 2px solid #38bdf8 !important;
-      box-shadow: 0 0 20px rgba(56, 189, 248, 0.3) !important;
+      background: rgba(16, 185, 129, 0.25) !important;
+      border: 2px solid #34d399 !important;
+      box-shadow: 0 0 20px rgba(52, 211, 153, 0.3) !important;
   }
   
   .range-calc-model-name, .calc-label, .roi-res-val {
@@ -5219,16 +5219,16 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .range-slider-group-premium:hover {
-      border-color: #1464f4 !important;
-      box-shadow: 0 6px 16px rgba(20, 100, 244, 0.05) !important;
+      border-color: #10b981 !important;
+      box-shadow: 0 6px 16px rgba(16, 185, 129, 0.05) !important;
   }
   
   .slider-icon-box {
-      background: rgba(20, 100, 244, 0.08) !important;
+      background: rgba(16, 185, 129, 0.08) !important;
   }
   
   .slider-icon-box svg {
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .range-slider-label {
@@ -5236,7 +5236,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .range-slider-value {
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .slider-ticks {
@@ -5248,8 +5248,8 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .range-slider-input::-webkit-slider-thumb {
-      background: #1464f4 !important;
-      box-shadow: 0 2px 8px rgba(20, 100, 244, 0.3) !important;
+      background: #10b981 !important;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3) !important;
   }
   
   /* visualizer ring */
@@ -5262,13 +5262,13 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .range-circle-box .range-number-unit {
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .range-efficiency-badge {
-      background: rgba(20, 100, 244, 0.08) !important;
-      border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
-      color: #1464f4 !important;
+      background: rgba(16, 185, 129, 0.08) !important;
+      border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
+      color: #10b981 !important;
   }
   
   .range-cockpit-metrics-bar {
@@ -5281,7 +5281,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .metric-bar-item:hover {
-      border-color: #1464f4 !important;
+      border-color: #10b981 !important;
   }
   
   .metric-bar-label {
@@ -5314,13 +5314,13 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .roi-select:focus {
-      border-color: #1464f4 !important;
+      border-color: #10b981 !important;
   }
   
   .roi-results-panel {
       background: #ffffff !important;
-      border: 2.5px solid #1464f4 !important;
-      box-shadow: 0 10px 30px rgba(20, 100, 244, 0.08) !important;
+      border: 2.5px solid #10b981 !important;
+      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.08) !important;
   }
   
   .roi-saving-title {
@@ -5328,7 +5328,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .roi-saving-value {
-      color: #1464f4 !important; /* Official blue color instead of green */
+      color: #10b981 !important; /* Official blue color instead of green */
   }
   
   .roi-breakdown {
@@ -5345,12 +5345,12 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .roi-green-impact {
-      background: rgba(20, 100, 244, 0.05) !important;
-      border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+      background: rgba(16, 185, 129, 0.05) !important;
+      border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
   }
   
   .roi-green-info {
-      color: #1e3a8a !important; /* Dark blue */
+      color: #065f46 !important; /* Dark blue */
   }
   
 
@@ -5372,13 +5372,13 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   
   .range-calc-model-card:hover {
-      background: rgba(20, 100, 244, 0.03) !important;
-      border-color: #1464f4 !important;
+      background: rgba(16, 185, 129, 0.03) !important;
+      border-color: #10b981 !important;
   }
   
   .range-calc-model-card.active {
       background: #ffffff !important;
-      border: 2.5px solid #1464f4 !important;
+      border: 2.5px solid #10b981 !important;
   }
   
   .range-calc-interactive-panel {
@@ -5456,9 +5456,9 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
 
   html body .ev-tech-tab-btn.active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
   }
 
   html body .ev-tech-tab-btn:not(.active) {
@@ -5668,7 +5668,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   html body .range-number-value {
     font-size: 38px !important;
     font-weight: 900 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .range-number-unit {
@@ -5771,13 +5771,13 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   html body .privilege-card__icon-wrap {
     width: 38px !important;
     height: 38px !important;
-    background: rgba(20, 100, 244, 0.08) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
     border-radius: 12px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     margin-bottom: 8px !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .privilege-card__icon-wrap svg {
@@ -5813,9 +5813,9 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
     padding: 7px 4px !important;
     font-size: 11px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 20px !important;
     text-decoration: none !important;
     text-align: center !important;
@@ -5843,14 +5843,14 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 3px 10px rgba(20, 100, 244, 0.28) !important;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.28) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -5867,9 +5867,9 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
 }
 
 .privilege-card__link:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 5px 14px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 5px 14px rgba(16, 185, 129, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -5896,14 +5896,14 @@ html body .privilege-card__link {
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: #1464f4 !important;
+  background: #10b981 !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -6023,7 +6023,7 @@ html body .privilege-card__link .btn-arr-icon {
       top: -15px !important;
       font-family: Georgia, serif !important;
       font-size: 55px !important;
-      color: rgba(20, 100, 244, 0.08) !important; /* Subtle decorative mark */
+      color: rgba(16, 185, 129, 0.08) !important; /* Subtle decorative mark */
       line-height: 1 !important;
       pointer-events: none !important;
   }
@@ -6039,8 +6039,8 @@ html body .privilege-card__link .btn-arr-icon {
 
   .why-brand-visual {
       border-radius: 16px !important; /* Softer, modern corners */
-      border: 1px solid rgba(20, 100, 244, 0.12) !important;
-      box-shadow: 0 15px 35px rgba(20, 100, 244, 0.05) !important;
+      border: 1px solid rgba(16, 185, 129, 0.12) !important;
+      box-shadow: 0 15px 35px rgba(16, 185, 129, 0.05) !important;
       overflow: hidden !important;
   }
 
@@ -6072,8 +6072,8 @@ html body .privilege-card__link .btn-arr-icon {
   }
 
   .why-row:hover {
-      border-color: #1464f4 !important; /* Highlight border on hover */
-      box-shadow: 0 12px 24px rgba(20, 100, 244, 0.06) !important;
+      border-color: #10b981 !important; /* Highlight border on hover */
+      box-shadow: 0 12px 24px rgba(16, 185, 129, 0.06) !important;
       transform: translateY(-2px) !important;
   }
 
@@ -6081,9 +6081,9 @@ html body .privilege-card__link .btn-arr-icon {
       font-family: 'Georgia', serif !important;
       font-size: 18px !important;
       font-weight: 700 !important;
-      color: #1464f4 !important;
-      background: rgba(20, 100, 244, 0.04) !important;
-      border: 1px solid rgba(20, 100, 244, 0.15) !important;
+      color: #10b981 !important;
+      background: rgba(16, 185, 129, 0.04) !important;
+      border: 1px solid rgba(16, 185, 129, 0.15) !important;
       border-radius: 50% !important; /* Perfect circles */
       min-width: 40px !important;
       height: 40px !important;
@@ -6096,9 +6096,9 @@ html body .privilege-card__link .btn-arr-icon {
 
   /* Clean hover effect for indexes */
   .why-row:hover .why-row__idx {
-      background: #1464f4 !important;
+      background: #10b981 !important;
       color: #ffffff !important;
-      border-color: #1464f4 !important;
+      border-color: #10b981 !important;
   }
 
   .why-row__title {
@@ -6111,7 +6111,7 @@ html body .privilege-card__link .btn-arr-icon {
   }
 
   .why-row:hover .why-row__title {
-      color: #1464f4 !important; /* Title color changes on hover */
+      color: #10b981 !important; /* Title color changes on hover */
   }
 
   .why-row__desc {
@@ -6181,9 +6181,9 @@ html body .privilege-card__link .btn-arr-icon {
     height: 32px !important;
     font-size: 13px !important;
     font-weight: 800 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    color: #1464f4 !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #10b981 !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 10px !important;
     margin: 0 !important;
     display: flex !important;
@@ -6259,7 +6259,7 @@ html body .privilege-card__link .btn-arr-icon {
       gap: 15px !important;
       border-radius: 12px !important;
       background: #ffffff !important;
-      border: 1px solid rgba(20, 100, 244, 0.1) !important;
+      border: 1px solid rgba(16, 185, 129, 0.1) !important;
   }
 
   .tradein-concierge-profile {
@@ -6303,17 +6303,17 @@ html body .privilege-card__link .btn-arr-icon {
       border-color: #0b4fc4;
   }
   .tradein-concierge-actions .btn-tradein-action-zalo {
-      background-color: #0068ff;
+      background-color: #10b981;
       color: #ffffff;
-      border: 1px solid #0068ff;
+      border: 1px solid #10b981;
   }
   .tradein-concierge-actions .btn-tradein-action-zalo * {
       color: #ffffff;
   }
   .tradein-concierge-actions .btn-tradein-action-zalo:hover {
-      background-color: #0052cc;
+      background-color: #059669;
       color: #ffffff;
-      border-color: #0052cc;
+      border-color: #059669;
   }
 
 
@@ -6367,7 +6367,7 @@ html body .privilege-card__link .btn-arr-icon {
 
   .tradein-section .section-tag,
   .tradein-step-num {
-      color: #1464f4 !important;
+      color: #10b981 !important;
       font-weight: 800 !important;
   }
   
@@ -6403,7 +6403,7 @@ html body .privilege-card__link .btn-arr-icon {
   }
 /* Enhance readability and contrast for Exclusive Dealership Offers Section */
   .dealer-offers-section .section-tag {
-      color: #1464f4 !important;
+      color: #10b981 !important;
       font-weight: 800 !important;
       text-transform: uppercase !important;
       letter-spacing: 2px !important;
@@ -6495,15 +6495,15 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 .compare-counselors-tag {
-  color: #1464f4 !important;
-  background-color: rgba(20, 100, 244, 0.08) !important;
-  border: 1px solid rgba(20, 100, 244, 0.18) !important;
+  color: #10b981 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+  border: 1px solid rgba(16, 185, 129, 0.18) !important;
 }
 
 .counselor-compare-card {
   background: #ffffff !important;
   border: 1.5px solid #cbd5e1 !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.06) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.06) !important;
   border-radius: 18px !important;
 }
 
@@ -6527,9 +6527,9 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 .btn-zalo-card, .faq-btn-zalo, .btn-tradein-action-zalo, .btn-zalo-mini, .counselor-btn-zalo, .counselor-btn-vip--zalo {
-  background: #0068ff !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border: 1px solid #0068ff !important;
+  border: 1px solid #10b981 !important;
   font-weight: 700 !important;
   box-shadow: 0 4px 12px rgba(0, 104, 255, 0.3) !important;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
@@ -6568,12 +6568,12 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 .btn-detail-card {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border: 1px solid #1464f4 !important;
+  border: 1px solid #10b981 !important;
   font-weight: 700 !important;
   transition: all 0.3s ease !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
   border-radius: 8px !important; /* Unified modern soft-rectangular radius */
   animation: detailWave 2.2s infinite ease-in-out !important;
   position: relative !important;
@@ -6599,22 +6599,22 @@ html body .privilege-card__link .btn-arr-icon {
   z-index: 2 !important;
 }
 .btn-detail-card:hover {
-  background: #0052cc !important;
-  border-color: #0052cc !important;
+  background: #059669 !important;
+  border-color: #059669 !important;
   color: #ffffff !important; /* Prevent text from turning dark on hover */
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 18px rgba(20, 100, 244, 0.4) !important;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.4) !important;
 }
 
 @keyframes detailWave {
   0% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.6);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6);
   }
   70% {
-    box-shadow: 0 0 0 8px rgba(20, 100, 244, 0);
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
   }
 }
 
@@ -6638,20 +6638,20 @@ html body .privilege-card__link .btn-arr-icon {
     border-radius: 30px !important;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     white-space: nowrap !important;
-    background: rgba(20, 100, 244, 0.05) !important;
+    background: rgba(16, 185, 129, 0.05) !important;
     color: var(--color-text-slate) !important;
-    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
   }
   .filter-tab-btn:hover {
-    background: rgba(20, 100, 244, 0.1) !important;
-    color: #1464f4 !important;
-    border-color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.1) !important;
+    color: #10b981 !important;
+    border-color: #10b981 !important;
   }
   .filter-tab-btn--active, .filter-tab-btn.filter-tab-btn--active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    border-color: #1464f4 !important;
-    box-shadow: 0 4px 15px rgba(20, 100, 244, 0.3) !important;
+    border-color: #10b981 !important;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
   }
 }
 /* FAQ Section 100% Clean Light Mode */
@@ -6694,7 +6694,7 @@ html body .privilege-card__link .btn-arr-icon {
 
 .faq-num-badge,
 .faq-section .section-tag {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
 }
 
@@ -6715,7 +6715,7 @@ html body .privilege-card__link .btn-arr-icon {
 
 .faq-item:hover, .faq-item.faq-item--active {
   background: #f0f7ff !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 
 .faq-trigger {
@@ -6733,7 +6733,7 @@ html body .privilege-card__link .btn-arr-icon {
 
   /* Style the VinFast Official Badge as a premium blue gradient pill */
   .why-visual-badge {
-      background: linear-gradient(135deg, #1464f4 0%, #00b4d8 100%) !important; /* Premium corporate gradient */
+      background: linear-gradient(135deg, #10b981 0%, #00b4d8 100%) !important; /* Premium corporate gradient */
       color: #ffffff !important; /* Crisp white text for contrast */
       border: none !important;
       border-radius: 30px !important; /* Modern pill shape */
@@ -6741,7 +6741,7 @@ html body .privilege-card__link .btn-arr-icon {
       font-weight: 700 !important;
       font-size: 9.5px !important;
       letter-spacing: 1px !important;
-      box-shadow: 0 4px 15px rgba(20, 100, 244, 0.25) !important;
+      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
       backdrop-filter: none !important;
   }
 
@@ -6806,13 +6806,13 @@ html body .privilege-card__link .btn-arr-icon {
         left: 0;
         right: 0;
         bottom: 0;
-        background: radial-gradient(circle, rgba(20, 100, 244, 0.02) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(16, 185, 129, 0.02) 0%, transparent 70%);
         pointer-events: none;
       }
       
       .faq-radar-container {
-        background: #dbeafe; /* The ice-blue screen inside the radar */
-        border: 1px solid #bfdbfe; /* Sky-blue border */
+        background: #d1fae5; /* The ice-blue screen inside the radar */
+        border: 1px solid #a7f3d0; /* Sky-blue border */
         border-radius: 8px;
         position: relative;
         overflow: hidden;
@@ -6838,23 +6838,23 @@ html body .privilege-card__link .btn-arr-icon {
       }
       
       .faq-radar-svg circle {
-        stroke: rgba(20, 100, 244, 0.08);
+        stroke: rgba(16, 185, 129, 0.08);
       }
       
       .faq-radar-svg circle.radar-orbit-1 {
-        stroke: rgba(20, 100, 244, 0.15);
+        stroke: rgba(16, 185, 129, 0.15);
       }
       
       .faq-radar-svg circle.radar-orbit-2 {
-        stroke: rgba(20, 100, 244, 0.25);
+        stroke: rgba(16, 185, 129, 0.25);
       }
       
       .faq-radar-svg .radar-sweep-line {
-        stroke: #1464f4;
+        stroke: #10b981;
       }
       
       .faq-radar-svg .radar-core-glow {
-        fill: #1464f4;
+        fill: #10b981;
       }
       
       .faq-visual-item {
@@ -6862,8 +6862,8 @@ html body .privilege-card__link .btn-arr-icon {
       }
       
       .faq-visual-icon {
-        background: rgba(20, 100, 244, 0.06);
-        color: #1464f4;
+        background: rgba(16, 185, 129, 0.06);
+        color: #10b981;
       }
       
       /* Accordion Items - clean light cards */
@@ -7017,7 +7017,7 @@ html body .privilege-card__link .btn-arr-icon {
   .hud-spec-val {
     font-size: 11px !important;
     font-weight: 850 !important;
-    color: #38bdf8 !important;
+    color: #34d399 !important;
   }
 
   .hud-spec-lbl {
@@ -7693,7 +7693,7 @@ html body .privilege-card__link .btn-arr-icon {
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(20, 100, 244, 0.25) !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(16, 185, 129, 0.25) !important;
     margin: 0 !important;
     padding: 0 !important;
     white-space: nowrap !important;
@@ -7716,10 +7716,10 @@ html body .privilege-card__link .btn-arr-icon {
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 .car-card__price-box {
-  background: rgba(20, 100, 244, 0.03) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
   border-radius: 10px !important;
   padding: 8px 10px !important;
-  border: 1px dashed rgba(20, 100, 244, 0.18) !important;
+  border: 1px dashed rgba(16, 185, 129, 0.18) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
@@ -7752,7 +7752,7 @@ html body .privilege-card__link .btn-arr-icon {
 .price-main-num {
   font-size: 13.5px !important;
   font-weight: 900 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   display: block !important;
   line-height: 1.2 !important;
 }
@@ -7788,7 +7788,7 @@ html body .privilege-card__link .btn-arr-icon {
    VINFAST ELECTRIC BLUE PULSING "VUỐT ĐỂ SO SÁNH" BUTTON (MATCHES BRAND THEME)
    ====================================================================== */
 .btn-compare-pulse {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
   color: #ffffff !important;
   border: 1.5px solid #60a5fa !important;
   padding: 11px 24px !important;
@@ -7797,7 +7797,7 @@ html body .privilege-card__link .btn-arr-icon {
   font-weight: 900 !important;
   letter-spacing: 1.2px !important;
   text-transform: uppercase !important;
-  box-shadow: 0 4px 18px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 4px 18px rgba(16, 185, 129, 0.45) !important;
   animation: pulse-blue-glow 2s infinite ease-in-out !important;
   display: inline-flex !important;
   align-items: center !important;
@@ -7808,16 +7808,16 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 .btn-compare-pulse:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 6px 24px rgba(20, 100, 244, 0.65) !important;
+  box-shadow: 0 6px 24px rgba(16, 185, 129, 0.65) !important;
   transform: translateY(-2px) scale(1.02) !important;
 }
 
 @keyframes pulse-blue-glow {
-  0% { box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.6); transform: scale(1); }
-  50% { box-shadow: 0 0 0 14px rgba(20, 100, 244, 0); transform: scale(1.03); }
-  100% { box-shadow: 0 0 0 0 rgba(20, 100, 244, 0); transform: scale(1); }
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); transform: scale(1); }
+  50% { box-shadow: 0 0 0 14px rgba(16, 185, 129, 0); transform: scale(1.03); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); transform: scale(1); }
 }
 
 /* ======================================================================
@@ -7855,9 +7855,9 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 .ev-tech-tab-btn.active {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.35);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
 }
 
 .ev-tech-tab-btn:hover:not(.active) {
@@ -7962,9 +7962,9 @@ html body .privilege-card__link .btn-arr-icon {
   }
 
   html body .ev-tech-tab-btn.active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
   }
 
   html body .ev-tech-tab-btn:not(.active) {
@@ -8023,9 +8023,9 @@ html body .privilege-card__link .btn-arr-icon {
   }
 
   html body .ev-tech-tab-btn.active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
   }
 
   html body .ev-tech-tab-btn:not(.active) {
@@ -8247,13 +8247,13 @@ html body .privilege-card__link .btn-arr-icon {
   html body .privilege-card__icon-wrap {
     width: 38px !important;
     height: 38px !important;
-    background: rgba(20, 100, 244, 0.08) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
     border-radius: 12px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     margin-bottom: 8px !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .privilege-card__icon-wrap svg {
@@ -8289,9 +8289,9 @@ html body .privilege-card__link .btn-arr-icon {
     padding: 7px 4px !important;
     font-size: 11px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 20px !important;
     text-decoration: none !important;
     text-align: center !important;
@@ -8319,14 +8319,14 @@ html body .privilege-card__link .btn-arr-icon {
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 3px 10px rgba(20, 100, 244, 0.28) !important;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.28) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -8343,9 +8343,9 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 .privilege-card__link:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 5px 14px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 5px 14px rgba(16, 185, 129, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -8372,14 +8372,14 @@ html body .privilege-card__link {
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: #1464f4 !important;
+  background: #10b981 !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -8448,9 +8448,9 @@ html body .privilege-card__link .btn-arr-icon {
     height: 32px !important;
     font-size: 13px !important;
     font-weight: 800 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    color: #1464f4 !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #10b981 !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 10px !important;
     margin: 0 !important;
     display: flex !important;
@@ -8523,7 +8523,7 @@ html body .privilege-card__link .btn-arr-icon {
   html body .range-number-value {
     font-size: 38px !important;
     font-weight: 900 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .range-number-unit {
@@ -8566,7 +8566,7 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 /* ======================================================================
-   CATALOG FILTER TAB BUTTONS: VINFAST ELECTRIC BLUE ACTIVE STATE (#1464F4)
+   CATALOG FILTER TAB BUTTONS: VINFAST ELECTRIC BLUE ACTIVE STATE (#10b981)
    ====================================================================== */
 html body .filter-tabs {
   display: flex !important;
@@ -8591,17 +8591,17 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-  background: rgba(20, 100, 244, 0.08) !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
-  border-color: #1464f4 !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
 }
 
 @media (max-width: 768px) {
@@ -8658,7 +8658,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   html body .compare-spec-table th {
     font-size: 12px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 }
 
@@ -8763,7 +8763,7 @@ html body .compare-spec-table td:nth-child(n+2) {
 
 html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
   font-weight: 800 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-size: 13px !important;
 }
 
@@ -8810,8 +8810,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table th:first-child {
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
 }
 
 /* Columns 2+ (Car Models) */
@@ -8833,8 +8833,8 @@ html body .compare-spec-table td:nth-child(n+2) {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -8844,7 +8844,7 @@ html body .compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 100 !important;
-  background: #eff6ff !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
+  background: #f0fdf4 !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
@@ -8863,8 +8863,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background: #dbeafe !important; /* SOLID PRICE ROW BACKGROUND */
-  color: #1e3a8a !important;
+  background: #d1fae5 !important; /* SOLID PRICE ROW BACKGROUND */
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -8986,8 +8986,8 @@ html body .compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Colors for Column 1 Sticky Cells */
 html body .compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body .compare-spec-table td:first-child {
@@ -9001,8 +9001,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns */
@@ -9066,8 +9066,8 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Backgrounds for Column 1 Sticky Cells */
 html body table.compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body table.compare-spec-table td:first-child {
@@ -9081,8 +9081,8 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns (Relative positioning to stay strictly underneath Sticky Column 1) */
@@ -9129,9 +9129,9 @@ html body table.compare-spec-table {
 
 /* Header Row (All Columns Unified) */
 html body table.compare-spec-table th {
-  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
-  color: #1464f4 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%) !important;
+  color: #10b981 !important;
+  border-bottom: 2px solid #6ee7b7 !important;
   font-weight: 850 !important;
   font-family: 'Montserrat', sans-serif !important;
 }
@@ -9145,8 +9145,8 @@ html body table.compare-spec-table th:first-child {
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
-  background: #eff6ff !important; /* Unified header tint */
-  color: #1464f4 !important;
+  background: #f0fdf4 !important; /* Unified header tint */
+  color: #10b981 !important;
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
@@ -9172,9 +9172,9 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: rgba(20, 100, 244, 0.08) !important; /* Unified price highlight */
-  color: #1464f4 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important; /* Unified price highlight */
+  color: #10b981 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* Car Model Columns (Columns 2+) */
@@ -9203,11 +9203,11 @@ html body table.compare-spec-table tr:nth-child(even) td:nth-child(n+2) {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background-color: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   font-size: 13px !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -9242,11 +9242,11 @@ html body table.compare-spec-table td:first-child {
 /* Price Row Highlight (Column 1 and Product Columns) */
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -9282,21 +9282,21 @@ html body table.compare-spec-table td:first-child {
 html body table.compare-spec-table th,
 html body table.compare-spec-table th:first-child,
 html body table.compare-spec-table th:nth-child(n+2) {
-  background: #eff6ff !important;
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background: #f0fdf4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  border-bottom: 2px solid #6ee7b7 !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child,
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -9307,9 +9307,9 @@ html body table.compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #dbeafe !important;
-  background: #dbeafe !important;
-  color: #1e40af !important;
+  background-color: #d1fae5 !important;
+  background: #d1fae5 !important;
+  color: #047857 !important;
   border-right: 2px solid #94a3b8 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
@@ -9331,21 +9331,21 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #eff6ff !important;
-  background: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  background: #f0fdf4 !important;
+  color: #065f46 !important;
   font-weight: 850 !important;
   border-right: 2px solid #94a3b8 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   background-color: #f0f9ff !important;
   background: #f0f9ff !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -9432,7 +9432,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
 
   html body .faq-btn-zalo {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
   }
 
@@ -9565,14 +9565,14 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
   html body .nav-menu .nav-link:hover,
   html body .nav-menu .nav-link--active {
-    color: #38bdf8 !important;
-    border-bottom-color: #38bdf8 !important;
+    color: #34d399 !important;
+    border-bottom-color: #34d399 !important;
     background: transparent !important;
   }
   html body .nav-menu .nav-btn-hotline {
     display: inline-flex !important;
     align-items: center !important;
-    background: linear-gradient(135deg, #1464f4 0%, #00aaff 100%) !important;
+    background: linear-gradient(135deg, #10b981 0%, #00aaff 100%) !important;
     color: #ffffff !important;
     padding: 8px 18px !important;
     border-radius: 30px !important;
@@ -9664,7 +9664,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
     max-height: calc(100vh - 60px) !important;
     overflow-y: auto !important;
     background: linear-gradient(180deg, #070f1e 0%, #0b1627 100%) !important;
-    border-bottom: 3px solid #1464f4 !important;
+    border-bottom: 3px solid #10b981 !important;
     flex-direction: column !important;
     padding: 16px 20px 25px !important;
     gap: 8px !important;
@@ -9763,7 +9763,7 @@ html body .car-card__footer-official {
 html body .btn-card-calc-price {
   position: relative !important;
   z-index: 25 !important;
-  background: linear-gradient(135deg, #1464f4 0%, #00aaff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #00aaff 100%) !important;
   color: #ffffff !important;
   font-weight: 850 !important;
   font-size: 11px !important;
@@ -9873,16 +9873,16 @@ html body .filter-btn {
   box-shadow: none !important;
 }
 html body .filter-btn:hover:not(.filter-btn--active) {
-  background: rgba(20, 100, 244, 0.08) !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
 }
 html body .filter-btn--active,
 html body .filter-btn.filter-btn--active {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
-  border-color: #1464f4 !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
 }
 @media (max-width: 768px) {
   html body .filter-panel {
@@ -9983,14 +9983,14 @@ html body .btn-secondary {
 }
 
 html body .btn-primary {
-  background: linear-gradient(135deg, #1464f4 0%, #0052cc 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
   color: #ffffff !important;
   border: none !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
 }
 html body .btn-primary:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45) !important;
   color: #ffffff !important;
 }
 
@@ -10001,16 +10001,16 @@ html body .btn-secondary {
   box-shadow: none !important;
 }
 html body .btn-secondary:hover {
-  background: rgba(20, 100, 244, 0.08) !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
   transform: translateY(-2px) !important;
 }
 
 /* 2. Spotlight Section & Grid Layout */
 html body .brand-spotlight {
   padding: 80px 0 !important;
-  background: radial-gradient(circle at center, rgba(20, 100, 244, 0.03) 0%, transparent 80%) !important;
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.03) 0%, transparent 80%) !important;
   width: 100% !important;
   box-sizing: border-box !important;
 }
@@ -10077,7 +10077,7 @@ html body .btn-tradein-submit {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: var(--color-primary, #1464f4) !important;
+  background: var(--color-primary, #10b981) !important;
   color: #ffffff !important;
   padding: 14px 32px !important;
   font-size: 13.5px !important;
@@ -10085,14 +10085,14 @@ html body .btn-tradein-submit {
   border-radius: 30px !important;
   border: none !important;
   cursor: pointer !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.4) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4) !important;
   transition: all 0.3s ease !important;
   text-transform: uppercase !important;
   letter-spacing: 0.5px !important;
 }
 html body .btn-tradein-submit:hover {
   background: #1155cc !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.6) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6) !important;
   transform: translateY(-2px) !important;
   color: #ffffff !important;
 }

@@ -62,7 +62,7 @@ html body .about-hero {
 }
 
 html body .about-hero-tag {
-  color: #38bdf8 !important;
+  color: #34d399 !important;
   font-weight: 800 !important;
   font-size: 12px !important;
   letter-spacing: 2.5px !important;
@@ -99,11 +99,11 @@ html body .stat-card {
   border-radius: 16px !important;
   padding: 24px !important;
   text-align: center !important;
-  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.02) !important;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.02) !important;
 }
 
 html body .stat-number {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-size: 36px !important;
   font-weight: 900 !important;
   display: block !important;
@@ -138,13 +138,13 @@ html body .tech-tab-btn {
 }
 
 html body .tech-tab-btn.active {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 
 html body .tech-panel-info span[style*="color: var(--color-primary)"] {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 html body .tech-panel-info h3[style*="color: var(--color-text-white)"] {
@@ -182,7 +182,7 @@ html body .blockquote-text {
 }
 
 html body .blockquote-author {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   font-size: 14px !important;
 }
@@ -213,7 +213,7 @@ html body .product-card__desc {
 }
 
 html body .product-card__price-val {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 html body .spec-label {
@@ -227,17 +227,17 @@ html body .spec-val {
 /* Fix product card buttons (remove black background) */
 html body .product-card__btn {
   background: #ffffff !important;
-  color: #1464f4 !important;
-  border: 1px solid #1464f4 !important;
+  color: #10b981 !important;
+  border: 1px solid #10b981 !important;
   font-weight: 700 !important;
   transition: all 0.3s ease !important;
 }
 
 html body .product-card__btn:hover {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 5px 15px rgba(20, 100, 244, 0.2) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 5px 15px rgba(16, 185, 129, 0.2) !important;
 }
 
 /* Unify CTA buttons style */
@@ -260,10 +260,10 @@ html body .btn-about-cta {
 html body .btn-about-cta.btn-about-zalo,
 html body .btn-about-cta.btn-about-gold,
 html body .btn-about-cta.btn-about-outline {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border: 1px solid #1464f4 !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.15) !important;
+  border: 1px solid #10b981 !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.15) !important;
 }
 
 html body .btn-about-cta.btn-about-zalo:hover,
@@ -271,24 +271,24 @@ html body .btn-about-cta.btn-about-gold:hover,
 html body .btn-about-cta.btn-about-outline:hover {
   background: #0f52d9 !important;
   border-color: #0f52d9 !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3) !important;
   transform: translateY(-2px) !important;
 }
 
 /* Premium Blue Tech Gradient CTA Cards Background Option B */
 html body .cta-box {
-  background: linear-gradient(135deg, rgba(20, 100, 244, 0.03) 0%, #ffffff 100%) !important;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.03) 0%, #ffffff 100%) !important;
   border: 1px solid #e2e8f0 !important;
   border-radius: 16px !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.02) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.02) !important;
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
   padding: 40px 30px !important;
 }
 
 html body .cta-box:hover {
   background: #ffffff !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 15px 35px rgba(20, 100, 244, 0.08) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 15px 35px rgba(16, 185, 129, 0.08) !important;
   transform: translateY(-5px) !important;
 }
 
@@ -309,7 +309,7 @@ html body .cta-box-desc {
 /* Styling for address split box inside intro section */
 html body .address-split-box {
   background: #f1f5f9 !important;
-  border-left: 4px solid #1464f4 !important;
+  border-left: 4px solid #10b981 !important;
   border-radius: 8px !important;
   padding: 16px 20px !important;
   margin: 20px 0 !important;
@@ -344,8 +344,8 @@ html body .old-badge {
 }
 
 html body .new-badge {
-  background: rgba(20, 100, 244, 0.1) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: #10b981 !important;
 }
 
 html body .address-detail {
@@ -432,7 +432,7 @@ html body .cert-container-box {
   border: 1px solid #e2e8f0 !important;
   border-radius: 16px !important;
   padding: 30px !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.02) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.02) !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
@@ -447,7 +447,7 @@ html body .cert-container-box::before {
   left: 0 !important;
   width: 4px !important;
   height: 100% !important;
-  background: #1464f4 !important;
+  background: #10b981 !important;
 }
 
 html body .cert-badge-wrapper {
@@ -460,8 +460,8 @@ html body .cert-badge-wrapper {
 html body .cert-icon {
   width: 50px !important;
   height: 50px !important;
-  background: rgba(20, 100, 244, 0.1) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: #10b981 !important;
   border-radius: 12px !important;
   display: flex !important;
   align-items: center !important;
@@ -504,7 +504,7 @@ html body .cert-list li::before {
   position: absolute !important;
   left: 0 !important;
   top: 0 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 900 !important;
 }
 
@@ -541,7 +541,7 @@ html body .about-faq-question {
 
 html body .about-faq-icon {
   font-size: 18px !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   transition: transform 0.3s ease !important;
 }
 
@@ -561,8 +561,8 @@ html body .about-faq-content-inner {
 }
 
 html body .about-faq-item.active {
-  border-color: #1464f4 !important;
-  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.03) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.03) !important;
 }
 
 html body .about-faq-item.active .about-faq-icon {

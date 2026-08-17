@@ -2492,7 +2492,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | removeformat code fullscreen',
       skin: 'oxide-dark',
       content_css: 'dark',
-      content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #38bdf8 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
+      content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #34d399 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
       branding: false,
       promotion: false,
       images_upload_url: '<?php echo $basePath; ?>/admin/admin.php?upload_tinymce_image=1',

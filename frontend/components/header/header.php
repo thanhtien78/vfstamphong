@@ -414,7 +414,7 @@ $menuItems = [
     /* Live Ticker Container Styles */
     
     .live-ticker-container {
-      background: linear-gradient(90deg, rgba(11, 22, 39, 0.85) 0%, rgba(20, 100, 244, 0.15) 100%);
+      background: linear-gradient(90deg, rgba(11, 22, 39, 0.85) 0%, rgba(16, 185, 129, 0.15) 100%);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       color: #cbd5e1;
@@ -424,7 +424,7 @@ $menuItems = [
       overflow: hidden;
       font-size: 13px;
       font-weight: 600;
-      border-bottom: 2px solid rgba(56, 189, 248, 0.3);
+      border-bottom: 2px solid rgba(52, 211, 153, 0.3);
       position: fixed;
       top: 70px !important;
       z-index: 998;
@@ -440,7 +440,7 @@ $menuItems = [
     }
     .ticker-label {
       background-color: rgba(15, 32, 66, 0.9) !important; /* Deep Blue-Slate for contrast */
-      color: #38bdf8 !important; /* Bright Sky Blue text */
+      color: #34d399 !important; /* Bright Sky Blue text */
       display: flex !important;
       align-items: center !important;
       height: 100% !important;
@@ -453,24 +453,24 @@ $menuItems = [
       box-shadow: 4px 0 10px rgba(0,0,0,0.3) !important; /* separate label from text */
     }
     .ticker-label svg {
-      color: #38bdf8 !important;
+      color: #34d399 !important;
       animation: pulse-blue 2s infinite ease-in-out !important; /* Pulsing brand lightning bolt */
     }
     @keyframes pulse-blue {
       0% {
         transform: scale(1);
         opacity: 1;
-        filter: drop-shadow(0 0 2px rgba(56, 189, 248, 0.8));
+        filter: drop-shadow(0 0 2px rgba(52, 211, 153, 0.8));
       }
       50% {
         transform: scale(1.25);
         opacity: 0.7;
-        filter: drop-shadow(0 0 8px rgba(56, 189, 248, 1));
+        filter: drop-shadow(0 0 8px rgba(52, 211, 153, 1));
       }
       100% {
         transform: scale(1);
         opacity: 1;
-        filter: drop-shadow(0 0 2px rgba(56, 189, 248, 0.8));
+        filter: drop-shadow(0 0 2px rgba(52, 211, 153, 0.8));
       }
     }
     .ticker-wrapper {
@@ -501,12 +501,12 @@ $menuItems = [
       text-shadow: 0 1px 2px rgba(0,0,0,0.3) !important; /* Subtle shadow to prevent clashing with background */
     }
     .ticker-item strong {
-      color: #38bdf8 !important; /* Highlight Sky Blue matching brand */
+      color: #34d399 !important; /* Highlight Sky Blue matching brand */
       font-weight: 800 !important;
       margin: 0 4px !important;
     }
     .ticker-check-icon {
-      color: #38bdf8 !important; /* Bright Sky Blue checkmark */
+      color: #34d399 !important; /* Bright Sky Blue checkmark */
       margin-right: 8px !important;
       flex-shrink: 0 !important;
     }
@@ -535,7 +535,7 @@ $menuItems = [
       color: #ffffff !important;
     }
     .premium-header .logo-link:hover {
-      color: #38bdf8 !important;
+      color: #34d399 !important;
     }
     .nav-link {
       color: #cbd5e1 !important; /* Light silver text */
@@ -544,8 +544,8 @@ $menuItems = [
       color: #ffffff !important;
     }
     .nav-link--active {
-      color: #38bdf8 !important; /* Highlight tech blue */
-      border-bottom: 2px solid #38bdf8 !important;
+      color: #34d399 !important; /* Highlight tech blue */
+      border-bottom: 2px solid #34d399 !important;
     }
     .mobile-menu-toggle .bar {
       background-color: #ffffff !important; /* Ensure hamburger menu is visible on dark background */
@@ -560,7 +560,7 @@ $menuItems = [
     .live-ticker-container.scrolled {
       background: #0b1528 !important; /* Solid dark Slate-Blue matching bottom header */
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
-      border-bottom: 2px solid rgba(56, 189, 248, 0.2) !important;
+      border-bottom: 2px solid rgba(52, 211, 153, 0.2) !important;
     }
   /* ======================================================================
    LUXURY MOBILE HEADER & LOGO ALIGNMENT
@@ -584,7 +584,7 @@ $menuItems = [
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(20, 100, 244, 0.25) !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(16, 185, 129, 0.25) !important;
     margin: 0 !important;
     padding: 0 !important;
     white-space: nowrap !important;
@@ -779,7 +779,7 @@ $menuItems = [
       color: #ffffff !important;
     }
     .premium-header .logo-link:hover {
-      color: #38bdf8 !important;
+      color: #34d399 !important;
     }
     .nav-link {
       color: #cbd5e1 !important; /* Light silver text */
@@ -788,8 +788,8 @@ $menuItems = [
       color: #ffffff !important;
     }
     .nav-link--active {
-      color: #38bdf8 !important; /* Highlight tech blue */
-      border-bottom: 2px solid #38bdf8 !important;
+      color: #34d399 !important; /* Highlight tech blue */
+      border-bottom: 2px solid #34d399 !important;
     }
     .mobile-menu-toggle .bar {
       background-color: #ffffff !important; /* Ensure hamburger menu is visible on dark background */
@@ -804,7 +804,7 @@ $menuItems = [
     .live-ticker-container.scrolled {
       background: #0b1528 !important; /* Solid dark Slate-Blue matching bottom header */
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
-      border-bottom: 2px solid rgba(56, 189, 248, 0.2) !important;
+      border-bottom: 2px solid rgba(52, 211, 153, 0.2) !important;
     }
   </style>
 

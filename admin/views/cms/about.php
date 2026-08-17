@@ -445,7 +445,7 @@
 
     <!-- STICKY BOTTOM PUBLISH BAR -->
     <div style="position: sticky; bottom: 20px; z-index: 10; margin-top: 30px; display: flex; justify-content: center; width: 100%;">
-      <button class="btn-gold" type="submit" style="width: 80%; padding: 16px 32px; font-size: 14px; font-weight: 800; border-radius: 30px; box-shadow: 0 10px 30px rgba(56, 189, 248, 0.25); text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s ease;">
+      <button class="btn-gold" type="submit" style="width: 80%; padding: 16px 32px; font-size: 14px; font-weight: 800; border-radius: 30px; box-shadow: 0 10px 30px rgba(52, 211, 153, 0.25); text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s ease;">
         💾 Lưu toàn bộ thay đổi trang Giới Thiệu
       </button>
     </div>

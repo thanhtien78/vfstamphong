@@ -3,7 +3,7 @@
 .charging-hero {
   padding: 80px 0;
   background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
-  border-bottom: 1px solid rgba(20, 100, 244, 0.1);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -12,7 +12,7 @@
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: radial-gradient(rgba(20, 100, 244, 0.05) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px);
   background-size: 20px 20px;
   pointer-events: none;
 }
@@ -38,8 +38,8 @@
 }
 .finder-card {
   background: #ffffff;
-  border: 1px solid rgba(20, 100, 244, 0.1);
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.05);
   border-radius: 16px;
   padding: 32px;
   margin-top: -30px;
@@ -91,7 +91,7 @@
 }
 .station-card {
   background: #f8fafc;
-  border: 1px solid rgba(20, 100, 244, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.08);
   border-radius: 12px;
   padding: 20px;
   transition: all 0.3s ease;
@@ -102,7 +102,7 @@
 }
 .station-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.06);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.06);
   border-color: var(--color-primary);
 }
 .station-name {
@@ -161,13 +161,13 @@
 .btn-directions:hover {
   background: var(--color-primary);
   color: #fff;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
 }
 
 .spec-section {
   padding: 80px 0;
   background: #f8fafc;
-  border-top: 1px solid rgba(20, 100, 244, 0.05);
+  border-top: 1px solid rgba(16, 185, 129, 0.05);
 }
 .charging-spec-table {
   width: 100%;
@@ -215,7 +215,7 @@
 }
 .guide-card {
   background: #f8fafc;
-  border: 1px solid rgba(20, 100, 244, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.05);
   border-radius: 12px;
   padding: 30px;
   text-align: center;
@@ -240,7 +240,7 @@
 .faq-page-section {
   padding: 80px 0;
   background: #f8fafc;
-  border-top: 1px solid rgba(20, 100, 244, 0.05);
+  border-top: 1px solid rgba(16, 185, 129, 0.05);
 }
 .faq-accordion-container {
   max-width: 800px;
@@ -286,7 +286,7 @@
 }
 .faq-item-card.active {
   border-color: var(--color-primary);
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.05);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.05);
 }
 .faq-item-card.active .faq-question-btn {
   color: var(--color-primary);
@@ -529,7 +529,7 @@ function renderStations() {
         <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
           <h3 class="station-name">${s.name}</h3>
           <span class="status-badge">
-            <span style="width: 6px; height: 6px; background: #1464f4; border-radius: 50%; display: inline-block;"></span>
+            <span style="width: 6px; height: 6px; background: #10b981; border-radius: 50%; display: inline-block;"></span>
             ${s.status}
           </span>
         </div>

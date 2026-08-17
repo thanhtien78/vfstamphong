@@ -64,7 +64,7 @@ global $basePath;
             <!-- IMAGE SEO ALT OPTIMIZER INPUT -->
             <div id="wp-media-alt-container" style="display: none; flex-direction: column; gap: 6px;">
               <label for="wp-media-alt-input" style="font-size:10px; font-weight:bold; color:var(--color-primary); text-transform:uppercase; letter-spacing:0.5px;">🔍 Thẻ ALT (Mô tả SEO):</label>
-              <input type="text" id="wp-media-alt-input" placeholder="Mô tả nội dung hình ảnh chuẩn SEO (vd: xe VinFast EV)..." style="font-size: 12px; padding: 8px 10px; border-radius: 4px; border: 1px solid rgba(56, 189, 248, 0.3); background: rgba(0,0,0,0.2); color: #fff; width: 100%; outline: none; box-sizing: border-box;">
+              <input type="text" id="wp-media-alt-input" placeholder="Mô tả nội dung hình ảnh chuẩn SEO (vd: xe VinFast EV)..." style="font-size: 12px; padding: 8px 10px; border-radius: 4px; border: 1px solid rgba(52, 211, 153, 0.3); background: rgba(0,0,0,0.2); color: #fff; width: 100%; outline: none; box-sizing: border-box;">
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ global $basePath;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: 12px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(56, 189, 248, 0.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(52, 211, 153, 0.05);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -200,7 +200,7 @@ global $basePath;
 }
 .wp-upload-drag-zone.dragover {
   border-color: var(--color-primary);
-  background: rgba(56, 189, 248, 0.05);
+  background: rgba(52, 211, 153, 0.05);
 }
 .wp-media-grid {
   display: grid;
@@ -234,7 +234,7 @@ global $basePath;
 }
 .wp-media-item:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.15);
+  box-shadow: 0 4px 15px rgba(52, 211, 153, 0.15);
 }
 .wp-media-item:hover img {
   transform: scale(1.08); /* Premium micro-interaction zoom */
@@ -267,7 +267,7 @@ global $basePath;
 }
 .wp-media-item.selected {
   border-color: var(--color-primary);
-  box-shadow: 0 0 15px rgba(56, 189, 248, 0.35);
+  box-shadow: 0 0 15px rgba(52, 211, 153, 0.35);
 }
 .wp-media-item.selected::after {
   content: '✓';

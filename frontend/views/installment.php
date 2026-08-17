@@ -31,7 +31,7 @@ html body .banks-section {
 
 html body .loan-showcase-section {
   background-color: #ffffff !important;
-  background: radial-gradient(circle at center, rgba(20, 100, 244, 0.02) 0%, #ffffff 100%) !important;
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.02) 0%, #ffffff 100%) !important;
   border-bottom: 1px solid #e2e8f0 !important;
 }
 
@@ -63,7 +63,7 @@ html body .section-title::after {
   transform: translateX(-50%) !important;
   width: 60px !important;
   height: 4px !important;
-  background: #1464f4 !important;
+  background: #10b981 !important;
   border-radius: 2px !important;
 }
 
@@ -79,7 +79,7 @@ html body .schedule-wrapper {
   background-color: #ffffff !important;
   background: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.02), 0 1px 3px rgba(0, 0, 0, 0.01) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.02), 0 1px 3px rgba(0, 0, 0, 0.01) !important;
 }
 
 html body .quick-lead-card:hover,
@@ -90,8 +90,8 @@ html body .checklist-card:hover,
 html body .bank-card:hover,
 html body .faq-acc-item:hover,
 html body .schedule-wrapper:hover {
-  border-color: rgba(20, 100, 244, 0.25) !important;
-  box-shadow: 0 20px 40px rgba(20, 100, 244, 0.06), 0 1px 3px rgba(0, 0, 0, 0.01) !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
+  box-shadow: 0 20px 40px rgba(16, 185, 129, 0.06), 0 1px 3px rgba(0, 0, 0, 0.01) !important;
   transform: translateY(-5px) !important;
 }
 
@@ -169,8 +169,8 @@ html body .form-control::placeholder {
 }
 
 html body .form-control:focus {
-  border-color: #1464f4 !important;
-  box-shadow: 0 0 0 3px rgba(20, 100, 244, 0.15) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15) !important;
   outline: none !important;
   background: #ffffff !important;
   background-color: #ffffff !important;
@@ -187,14 +187,14 @@ html body .counselors-compact-card {
   background: #ffffff !important;
   background-color: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.02), 0 1px 3px rgba(0, 0, 0, 0.01) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.02), 0 1px 3px rgba(0, 0, 0, 0.01) !important;
   border-radius: 12px !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
 }
 
 html body .counselors-compact-card h4 {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   font-size: 14px !important;
   border-bottom: 1px solid #e2e8f0 !important;
@@ -211,8 +211,8 @@ html body .counselor-compact-row {
 
 html body .counselor-compact-row:hover {
   background: #f8fafc !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 8px 16px rgba(20, 100, 244, 0.06) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 8px 16px rgba(16, 185, 129, 0.06) !important;
 }
 
 html body .counselor-name-txt {
@@ -229,17 +229,17 @@ html body .counselor-status-txt {
 
 /* Counselor VIP Zalo & Call Action Buttons Overrides */
 html body .counselor-btn-call {
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
-  border: 1px solid rgba(20, 100, 244, 0.2) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.2) !important;
   font-weight: 700 !important;
 }
 
 html body .counselor-btn-call:hover {
-  background-color: #1464f4 !important;
+  background-color: #10b981 !important;
   color: #ffffff !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
 }
 
 html body .counselor-btn-zalo {
@@ -250,8 +250,8 @@ html body .counselor-btn-zalo {
 }
 
 html body .counselor-btn-zalo:hover {
-  background-color: #0052cc !important;
-  border-color: #0052cc !important;
+  background-color: #059669 !important;
+  border-color: #059669 !important;
   box-shadow: 0 4px 12px rgba(0, 102, 255, 0.3) !important;
 }
 
@@ -262,11 +262,11 @@ html body .loan-specs-grid > div {
   border: 1px solid #e2e8f0 !important;
   border-radius: 16px !important;
   padding: 35px 30px !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.02) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.02) !important;
 }
 
 html body .loan-specs-grid h3 {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   border-bottom: 1px solid #e2e8f0 !important;
 }
@@ -280,8 +280,8 @@ html body .checklist-item {
 }
 
 html body .checklist-item svg {
-  color: #1464f4 !important;
-  background-color: rgba(20, 100, 244, 0.08) !important;
+  color: #10b981 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
   border-radius: 50% !important;
   padding: 4px !important;
   width: 22px !important;
@@ -317,7 +317,7 @@ html body .checklist-item strong {
 
 /* Upgraded Savings Calculator Visual Overrides */
 html body .savings-calculator-section {
-  background: radial-gradient(circle at 50% 15%, rgba(20, 100, 244, 0.02) 0%, #ffffff 75%) !important;
+  background: radial-gradient(circle at 50% 15%, rgba(16, 185, 129, 0.02) 0%, #ffffff 75%) !important;
 }
 
 html body #savings-distance-range {
@@ -326,7 +326,7 @@ html body #savings-distance-range {
   width: 100% !important;
   height: 8px !important;
   border-radius: 6px !important;
-  background: linear-gradient(to right, #1464f4 0%, #cbd5e1 0%) !important;
+  background: linear-gradient(to right, #10b981 0%, #cbd5e1 0%) !important;
   outline: none !important;
   transition: background 0.1s ease !important;
 }
@@ -338,24 +338,24 @@ html body #savings-distance-range::-webkit-slider-thumb {
   height: 22px !important;
   border-radius: 50% !important;
   background: #ffffff !important;
-  border: 4px solid #1464f4 !important;
-  box-shadow: 0 0 10px rgba(20, 100, 244, 0.4) !important;
+  border: 4px solid #10b981 !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4) !important;
   cursor: pointer !important;
   transition: transform 0.15s ease, background-color 0.15s !important;
 }
 
 html body #savings-distance-range::-webkit-slider-thumb:hover {
   transform: scale(1.2) !important;
-  background-color: #1464f4 !important;
+  background-color: #10b981 !important;
 }
 
 html body .savings-display-panel {
   text-align: center !important;
-  background: linear-gradient(135deg, rgba(20, 100, 244, 0.02) 0%, rgba(0, 210, 255, 0.02) 100%) !important;
-  border: 1px solid rgba(20, 100, 244, 0.12) !important;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.02) 0%, rgba(0, 210, 255, 0.02) 100%) !important;
+  border: 1px solid rgba(16, 185, 129, 0.12) !important;
   border-radius: 16px !important;
   padding: 28px 20px !important;
-  box-shadow: 0 15px 35px rgba(20, 100, 244, 0.03), inset 0 1px 1px rgba(255,255,255,0.6) !important;
+  box-shadow: 0 15px 35px rgba(16, 185, 129, 0.03), inset 0 1px 1px rgba(255,255,255,0.6) !important;
   backdrop-filter: blur(10px) !important;
   position: relative !important;
   overflow: hidden !important;
@@ -368,7 +368,7 @@ html body .savings-display-panel::before {
   left: -50% !important;
   width: 200% !important;
   height: 200% !important;
-  background: radial-gradient(circle, rgba(20, 100, 244, 0.05) 0%, transparent 70%) !important;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.05) 0%, transparent 70%) !important;
   pointer-events: none !important;
 }
 
@@ -376,7 +376,7 @@ html body .savings-gradient-text {
   font-size: 38px !important;
   font-weight: 900 !important;
   font-family: 'Outfit', 'Montserrat', sans-serif !important;
-  background: linear-gradient(135deg, #1464f4 0%, #00b0ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #00b0ff 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important;
@@ -403,7 +403,7 @@ html body #savings-bar-gas {
 
 html body #savings-bar-ev {
   height: 100% !important;
-  background: linear-gradient(90deg, #1464f4 0%, #00d2ff 100%) !important;
+  background: linear-gradient(90deg, #10b981 0%, #34d399 100%) !important;
   border-radius: 10px !important;
   box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) !important;
   transition: width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
@@ -469,7 +469,7 @@ html body .faq-acc-trigger {
 }
 
 html body .faq-acc-trigger:hover {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 html body .faq-acc-content {
@@ -503,7 +503,7 @@ html body section .container > div[style*="margin-bottom"] {
     <div class="container">
       <div class="installment-hero__grid">
         <div class="hero-left-info">
-          <span class="section-tag" style="color: #ffffff; background: rgba(20, 100, 244, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); padding: 4px 12px; border-radius: 12px; font-weight: 700;">ĐẶC QUYỀN TÀI CHÍNH VIP</span>
+          <span class="section-tag" style="color: #ffffff; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); padding: 4px 12px; border-radius: 12px; font-weight: 700;">ĐẶC QUYỀN TÀI CHÍNH VIP</span>
           <h1 class="hero-headline">MUA XE VinFast TRẢ GÓP LÃI SUẤT ƯU ĐÃI 2026</h1>
           <p class="hero-subline">Chỉ từ 20% giá trị xe nhận ngay dòng xe điện thông minh VinFast thời thượng. Ngân hàng liên kết phê duyệt hồ sơ bảo lãnh chỉ trong 4 giờ làm việc, thủ tục nhanh chóng, bảo mật thông tin.</p>
           <div style="display: flex; gap: 16px; flex-wrap: wrap;">
@@ -552,7 +552,7 @@ html body section .container > div[style*="margin-bottom"] {
       <div style="text-align: center; margin-bottom: 48px;">
         <span class="section-tag">DỊCH VỤ CHUYÊN NGHIỆP TRỌN GÓI</span>
         <h2 class="section-title">QUY TRÌNH MUA XE TRẢ GÓP 4 BƯỚC TINH GỌN</h2>
-        <p class="section-desc" style="margin-left: auto; margin-right: auto;">Sở hữu ngay các dòng xe trong <a href="<?php echo seo_url('dong-xe-vinfast'); ?>" style="color: #1464f4; text-decoration: underline; font-weight: 700;">bảng dòng xe VinFast</a> thời thượng với lộ trình duyệt vay tài chính và đăng ký lăn bánh diễn ra nhanh chóng, thông thoáng.</p>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto;">Sở hữu ngay các dòng xe trong <a href="<?php echo seo_url('dong-xe-vinfast'); ?>" style="color: #10b981; text-decoration: underline; font-weight: 700;">bảng dòng xe VinFast</a> thời thượng với lộ trình duyệt vay tài chính và đăng ký lăn bánh diễn ra nhanh chóng, thông thoáng.</p>
       </div>
 
       <div class="roadmap-grid">
@@ -593,7 +593,7 @@ html body section .container > div[style*="margin-bottom"] {
       <div style="text-align: center; margin-bottom: 48px;">
         <span class="section-tag">TIÊU CHUẨN TÀI CHÍNH QUỐC TẾ</span>
         <h2 class="section-title">ĐẶC ĐIỂM &amp; ĐIỀU KIỆN VAY MUA XE CHI TIẾT</h2>
-        <p class="section-desc" style="margin-left: auto; margin-right: auto;">Thông tin minh bạch về gói tín dụng theo <a href="<?php echo seo_url('bang-gia-xe-vinfast'); ?>" style="color: #1464f4; text-decoration: underline; font-weight: 700;">bảng giá xe VinFast trả góp</a> và quy chuẩn hệ thống ngân hàng liên kết đối tác lớn.</p>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto;">Thông tin minh bạch về gói tín dụng theo <a href="<?php echo seo_url('bang-gia-xe-vinfast'); ?>" style="color: #10b981; text-decoration: underline; font-weight: 700;">bảng giá xe VinFast trả góp</a> và quy chuẩn hệ thống ngân hàng liên kết đối tác lớn.</p>
       </div>
 
       <div class="loan-specs-grid">
@@ -750,7 +750,7 @@ html body section .container > div[style*="margin-bottom"] {
       <div style="text-align: center; margin-bottom: 48px;">
         <span class="section-tag">ĐỐI TÁC TÀI CHÍNH LIÊN KẾT</span>
         <h2 class="section-title">HỆ THỐNG NGÂN HÀNG LIÊN KẾT ĐẠI LÝ</h2>
-        <p class="section-desc" style="margin-left: auto; margin-right: auto;">Chúng tôi liên kết chặt chẽ với các ngân hàng uy tín nhất tại đại lý <a href="/" style="color: #1464f4; text-decoration: underline; font-weight: 700;">VinFast Tam Phong</a> nhằm đem lại mức lãi suất ưu đãi vượt trội.</p>
+        <p class="section-desc" style="margin-left: auto; margin-right: auto;">Chúng tôi liên kết chặt chẽ với các ngân hàng uy tín nhất tại đại lý <a href="/" style="color: #10b981; text-decoration: underline; font-weight: 700;">VinFast Tam Phong</a> nhằm đem lại mức lãi suất ưu đãi vượt trội.</p>
       </div>
 
       <!-- Mobile swipe hint for Partner Banks -->
@@ -903,7 +903,7 @@ html body section .container > div[style*="margin-bottom"] {
           <div class="showcase-card" style="background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform 0.4s ease, border-color 0.4s ease;">
             <div style="height: 180px; overflow: hidden; position: relative;">
               <img src="<?php echo htmlspecialchars($sc['image']); ?>" alt="<?php echo htmlspecialchars($sc['title']); ?>" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease;" loading="lazy" width="400" height="250">
-              <div style="position: absolute; top: 12px; left: 12px; background: #1464f4; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(20, 100, 244, 0.25);">
+              <div style="position: absolute; top: 12px; left: 12px; background: #10b981; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(16, 185, 129, 0.25);">
                 <span style="font-size: 9px; font-weight: 800; color: #ffffff; letter-spacing: 1.5px; text-transform: uppercase;"><?php echo htmlspecialchars($sc['tag']); ?></span>
               </div>
             </div>
@@ -911,7 +911,7 @@ html body section .container > div[style*="margin-bottom"] {
               <h3 style="font-size: 16px; font-weight: 700; color: var(--color-text-main); margin: 0; text-transform: uppercase;"><?php echo htmlspecialchars($sc['title']); ?></h3>
               <p style="font-size: 13px; color: var(--color-text-muted); line-height: 1.6; margin: 0;"><?php echo htmlspecialchars($sc['desc']); ?></p>
               <div style="background: rgba(25, 96, 215,0.03); border: 1px solid rgba(25, 96, 215,0.1); border-radius: 8px; padding: 12px; margin-top: auto;">
-                <div style="display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 6px;"><span style="color: var(--color-text-muted);">Trả trước:</span><strong style="color: #1464f4; font-weight: 700;"><?php echo htmlspecialchars($sc['prepay']); ?></strong></div>
+                <div style="display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 6px;"><span style="color: var(--color-text-muted);">Trả trước:</span><strong style="color: #10b981; font-weight: 700;"><?php echo htmlspecialchars($sc['prepay']); ?></strong></div>
                 <div style="display: flex; justify-content: space-between; font-size: 12px;"><span style="color: var(--color-text-muted);">Hàng tháng từ:</span><strong style="color: var(--color-text-main); font-weight: 700;"><?php echo htmlspecialchars($sc['monthly']); ?></strong></div>
               </div>
               <button onclick="applyShowcaseCar('<?php echo htmlspecialchars($sc['preset']); ?>')" class="btn-primary" style="padding: 10px 16px; font-size: 10px; margin-top: 8px; width: 100%;"><?php echo $isETron ? 'Khởi động máy tính điện ⚡' : 'Áp dụng bảng tính ⚡'; ?></button>
@@ -1133,7 +1133,7 @@ html body section .container > div[style*="margin-bottom"] {
   <section class="savings-calculator-section" style="padding: 80px 0; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
     <div class="container">
       <div style="text-align: center; margin-bottom: 54px;" class="reveal-on-scroll">
-        <span class="section-tag" style="color: #1464f4 !important; font-weight: 700; background: rgba(20, 100, 244, 0.06); padding: 6px 16px; border-radius: 20px;">Đặc Quyền Xe Điện VinFast ⚡</span>
+        <span class="section-tag" style="color: #10b981 !important; font-weight: 700; background: rgba(16, 185, 129, 0.06); padding: 6px 16px; border-radius: 20px;">Đặc Quyền Xe Điện VinFast ⚡</span>
         <h2 class="section-title" style="color: #0f172a !important; margin-top: 16px;">BỘ TÍNH TOÁN TIẾT KIỆM NHIÊN LIỆU</h2>
         <p class="section-desc" style="margin-left: auto; margin-right: auto; color: #475569 !important; max-width: 650px;">So sánh trực quan chi phí vận hành hàng tháng & tổng số tiền tiết kiệm được khi sử dụng xe điện VinFast so với xe xăng truyền thống tương đương.</p>
       </div>
@@ -1141,9 +1141,9 @@ html body section .container > div[style*="margin-bottom"] {
       <div class="savings-grid reveal-on-scroll" style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: start;">
         
         <!-- Cột 1: Sliders & Cấu hình -->
-        <div class="savings-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px 35px; box-shadow: 0 15px 35px rgba(20, 100, 244, 0.02);">
+        <div class="savings-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px 35px; box-shadow: 0 15px 35px rgba(16, 185, 129, 0.02);">
           <h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 16px; display: flex; align-items: center; gap: 12px;">
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#1464f4" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
             Cấu Hình Vận Hành Hàng Tháng
           </h3>
           
@@ -1154,7 +1154,7 @@ html body section .container > div[style*="margin-bottom"] {
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#64748b" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12,6 12,12 16,14"></polyline></svg>
                 Quãng đường di chuyển:
               </span>
-              <strong id="savings-distance-val" style="color: #1464f4; font-size: 18px; font-weight: 800; font-family: 'Outfit', sans-serif;">2.000 km</strong>
+              <strong id="savings-distance-val" style="color: #10b981; font-size: 18px; font-weight: 800; font-family: 'Outfit', sans-serif;">2.000 km</strong>
             </div>
             <input type="range" id="savings-distance-range" min="500" max="5000" step="100" value="2000" oninput="updateSavings()">
             <div style="display: flex; justify-content: space-between; font-size: 11px; color: #64748b; margin-top: 8px; font-weight: 600;">
@@ -1179,26 +1179,26 @@ html body section .container > div[style*="margin-bottom"] {
           </div>
           
           <!-- Note -->
-          <div style="background: rgba(20, 100, 244, 0.03); border-left: 4px solid #1464f4; padding: 16px; border-radius: 8px; font-size: 12px; color: #475569; line-height: 1.6; border-top: 1px solid rgba(20, 100, 244, 0.05); border-right: 1px solid rgba(20, 100, 244, 0.05); border-bottom: 1px solid rgba(20, 100, 244, 0.05);">
-            💡 <strong>Phương án sạc:</strong> Đơn giá sạc của hệ thống <a href="<?php echo seo_url('tram-sac-vinfast'); ?>" style="color: #1464f4; text-decoration: underline; font-weight: 700;">trạm sạc VinFast toàn quốc</a> là <strong>3.850 VNĐ/kWh</strong>. 
+          <div style="background: rgba(16, 185, 129, 0.03); border-left: 4px solid #10b981; padding: 16px; border-radius: 8px; font-size: 12px; color: #475569; line-height: 1.6; border-top: 1px solid rgba(16, 185, 129, 0.05); border-right: 1px solid rgba(16, 185, 129, 0.05); border-bottom: 1px solid rgba(16, 185, 129, 0.05);">
+            💡 <strong>Phương án sạc:</strong> Đơn giá sạc của hệ thống <a href="<?php echo seo_url('tram-sac-vinfast'); ?>" style="color: #10b981; text-decoration: underline; font-weight: 700;">trạm sạc VinFast toàn quốc</a> là <strong>3.850 VNĐ/kWh</strong>. 
             Phương án xăng tính theo giá xăng RON 95 hiện hành là <strong>23.000 VNĐ/Lít</strong>.
           </div>
 
           <!-- Dynamic Carbon Footprint Offset (Eco Blue Dashboard Card) -->
-          <div style="margin-top: 24px; padding: 20px; background: linear-gradient(135deg, rgba(20, 100, 244, 0.02) 0%, rgba(20, 100, 244, 0.06) 100%); border: 1px solid rgba(20, 100, 244, 0.12); border-radius: 16px;">
+          <div style="margin-top: 24px; padding: 20px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.02) 0%, rgba(16, 185, 129, 0.06) 100%); border: 1px solid rgba(16, 185, 129, 0.12); border-radius: 16px;">
             <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
               <span style="font-size: 16px; line-height: 1;">⚡</span>
-              <h4 style="font-size: 12.5px; font-weight: 800; color: #1464f4; margin: 0; text-transform: uppercase; letter-spacing: 0.5px;">Chỉ số Bảo vệ Môi trường</h4>
+              <h4 style="font-size: 12.5px; font-weight: 800; color: #10b981; margin: 0; text-transform: uppercase; letter-spacing: 0.5px;">Chỉ số Bảo vệ Môi trường</h4>
             </div>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; border-top: 1px dashed rgba(20, 100, 244, 0.15); padding-top: 12px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; border-top: 1px dashed rgba(16, 185, 129, 0.15); padding-top: 12px;">
               <div>
                 <span style="display: block; font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">CO2 Giảm Thiểu</span>
-                <strong style="font-size: 20px; font-weight: 900; color: #1464f4; font-family: 'Outfit', sans-serif;"><span id="savings-co2-val">240</span> kg</strong>
+                <strong style="font-size: 20px; font-weight: 900; color: #10b981; font-family: 'Outfit', sans-serif;"><span id="savings-co2-val">240</span> kg</strong>
                 <span style="display: block; font-size: 10px; color: #64748b; margin-top: 2px;">phát thải / tháng</span>
               </div>
-              <div style="border-left: 1px solid rgba(20, 100, 244, 0.15); padding-left: 16px;">
+              <div style="border-left: 1px solid rgba(16, 185, 129, 0.15); padding-left: 16px;">
                 <span style="display: block; font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">Trồng Mới</span>
-                <strong style="font-size: 20px; font-weight: 900; color: #1464f4; font-family: 'Outfit', sans-serif;"><span id="savings-trees-val">12</span> cây</strong>
+                <strong style="font-size: 20px; font-weight: 900; color: #10b981; font-family: 'Outfit', sans-serif;"><span id="savings-trees-val">12</span> cây</strong>
                 <span style="display: block; font-size: 10px; color: #64748b; margin-top: 2px;">xanh tự nhiên</span>
               </div>
             </div>
@@ -1207,13 +1207,13 @@ html body section .container > div[style*="margin-bottom"] {
         </div>
 
         <!-- Cột 2: Bảng so sánh & Kết quả -->
-        <div class="savings-results-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px 35px; box-shadow: 0 15px 35px rgba(20, 100, 244, 0.02); display: flex; flex-direction: column; gap: 28px; position: sticky; top: 100px;">
+        <div class="savings-results-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px 35px; box-shadow: 0 15px 35px rgba(16, 185, 129, 0.02); display: flex; flex-direction: column; gap: 28px; position: sticky; top: 100px;">
           
           <!-- Hộp kết quả to tiết kiệm 5 năm -->
           <div class="savings-display-panel">
             <div style="display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 4px;">
               <span class="pulse-dot" style="width: 8px; height: 8px; background-color: #2ecc71; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #2ecc71;"></span>
-              <span style="font-size: 10px; font-weight: 800; color: #1464f4; text-transform: uppercase; letter-spacing: 2px;">TỔNG CHI PHÍ TIẾT KIỆM SAU 5 NĂM (60 THÁNG)</span>
+              <span style="font-size: 10px; font-weight: 800; color: #10b981; text-transform: uppercase; letter-spacing: 2px;">TỔNG CHI PHÍ TIẾT KIỆM SAU 5 NĂM (60 THÁNG)</span>
             </div>
             <div id="savings-total-5yr" class="savings-gradient-text" style="animation: savingsPulse 2.5s infinite;">
               112.500.000 VNĐ
@@ -1224,7 +1224,7 @@ html body section .container > div[style*="margin-bottom"] {
           <!-- Biểu đồ chi phí hàng tháng dạng thanh -->
           <div>
             <h4 style="font-size: 13.5px; font-weight: 800; color: #0f172a; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px; display: flex; align-items: center; gap: 8px;">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#1464f4" stroke-width="2.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#10b981" stroke-width="2.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
               Chi Phí Vận Hành Hàng Tháng
             </h4>
             
@@ -1242,8 +1242,8 @@ html body section .container > div[style*="margin-bottom"] {
             <!-- Thanh Xe Điện VinFast -->
             <div>
               <div style="display: flex; justify-content: space-between; font-size: 12px; color: #475569; margin-bottom: 8px; font-weight: 600;">
-                <span style="display: flex; align-items: center; gap: 6px; color: #1464f4; font-weight: 700;">⚡ Chi phí Xe điện VinFast:</span>
-                <strong id="savings-monthly-ev" style="color: #1464f4; font-weight: 800;">1.615.000 VNĐ</strong>
+                <span style="display: flex; align-items: center; gap: 6px; color: #10b981; font-weight: 700;">⚡ Chi phí Xe điện VinFast:</span>
+                <strong id="savings-monthly-ev" style="color: #10b981; font-weight: 800;">1.615.000 VNĐ</strong>
               </div>
               <div class="meter-bar-container">
                 <div id="savings-bar-ev"></div>
@@ -1420,7 +1420,7 @@ html body section .container > div[style*="margin-bottom"] {
 
       // Update slider track background fill dynamically
       const sliderPct = ((distance - 500) / (5000 - 500)) * 100;
-      distanceInput.style.background = `linear-gradient(to right, #1464f4 0%, #1464f4 ${sliderPct}%, #cbd5e1 ${sliderPct}%, #cbd5e1 100%)`;
+      distanceInput.style.background = `linear-gradient(to right, #10b981 0%, #10b981 ${sliderPct}%, #cbd5e1 ${sliderPct}%, #cbd5e1 100%)`;
 
       // Consumption ratios (Gas consumption L/100km, EV consumption kWh/100km, Battery Rental VND/month)
       const gasConsumption = { 'A': 6.5, 'B': 7.5, 'C': 8.5, 'D': 9.5 };
@@ -1797,7 +1797,7 @@ html body section .container > div[style*="margin-bottom"] {
         </tr>
         <tr style="border-top: 1px dashed #e5e7eb;">
           <td style="padding: 8px 0; color: #4b5563; font-weight: 500;">Hạn mức vay ngân hàng:</td>
-          <td style="padding: 8px 0; color: #2563eb; font-weight: 700;" id="print-loan-amount"></td>
+          <td style="padding: 8px 0; color: #059669; font-weight: 700;" id="print-loan-amount"></td>
           <td style="padding: 8px 0; color: #4b5563; font-weight: 500;">Thời gian vay góp:</td>
           <td style="padding: 8px 0; color: #000000; font-weight: 700; text-align: right;" id="print-term"></td>
         </tr>
@@ -1807,7 +1807,7 @@ html body section .container > div[style*="margin-bottom"] {
           <td style="padding: 8px 0; color: #4b5563; font-weight: 500;">Tiền gốc đóng hàng tháng:</td>
           <td style="padding: 8px 0; color: #000000; font-weight: 700; text-align: right;" id="print-monthly-principal"></td>
         </tr>
-        <tr style="border-top: 1px dashed #e5e7eb; background-color: #eff6ff;">
+        <tr style="border-top: 1px dashed #e5e7eb; background-color: #f0fdf4;">
           <td style="padding: 10px 8px; color: #000000; font-weight: 700;">Thanh toán tháng đầu tiên:</td>
           <td colspan="3" style="padding: 10px 8px; color: #b78a28; font-weight: 800; text-align: right; font-size: 13.5px;" id="print-monthly-first"></td>
         </tr>

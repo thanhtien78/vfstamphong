@@ -30,7 +30,7 @@ html body .news-related-card__title {
 }
 
 html body .news-related-card__segment {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 html body .news-price-lbl {
@@ -38,12 +38,12 @@ html body .news-price-lbl {
 }
 
 html body .news-price-val {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 /* Button modernization */
 html body .news-related-card__btn {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
   border-radius: 30px !important;
   padding: 8px 18px !important;
@@ -76,11 +76,11 @@ html body .privilege-widget-item {
 }
 
 html body .privilege-widget-btn {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
   border-radius: 30px !important;
   border: none !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3) !important;
 }
 
 html body .privilege-widget-btn:hover {
@@ -103,8 +103,8 @@ html body .tag-item {
 }
 
 html body .tag-item:hover {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
 }
 
@@ -131,8 +131,8 @@ html body .sound-dna-tab {
 }
 
 html body .sound-dna-tab.active {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
 }
 
@@ -146,11 +146,11 @@ html body .sound-dna-status-text {
 }
 
 html body .sound-dna-cta {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
   border-radius: 30px !important;
   border: none !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3) !important;
 }
 
 html body .sound-dna-cta:hover {
@@ -172,9 +172,9 @@ html body .staff-btn {
 }
 
 html body .btn-call {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border: 1px solid #1464f4 !important;
+  border: 1px solid #10b981 !important;
 }
 
 html body .btn-call svg {
@@ -190,19 +190,19 @@ html body .btn-call:hover {
 
 html body .btn-zalo {
   background: #ffffff !important;
-  color: #1464f4 !important;
-  border: 1px solid rgba(20, 100, 244, 0.3) !important;
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
 }
 
 html body .btn-zalo svg {
-  stroke: #1464f4 !important;
+  stroke: #10b981 !important;
   fill: none !important;
 }
 
 html body .btn-zalo:hover {
-  background: rgba(20, 100, 244, 0.05) !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.05) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
 }
 </style>
 
@@ -671,8 +671,8 @@ html body .btn-zalo:hover {
         if (tabGasoline) tabGasoline.classList.remove('active');
         if (statusText) statusText.innerText = 'Chạm để khởi động động cơ EV';
         if (btn) {
-          btn.style.borderColor = '#00d2ff';
-          btn.style.color = '#00d2ff';
+          btn.style.borderColor = '#34d399';
+          btn.style.color = '#34d399';
         }
       }
     }
@@ -704,9 +704,9 @@ html body .btn-zalo:hover {
       const isElectric = (currentEngineType === 'electric');
       
       if (btn && text && path) {
-        btn.style.background = isElectric ? '#00d2ff' : 'var(--color-primary)';
+        btn.style.background = isElectric ? '#34d399' : 'var(--color-primary)';
         btn.style.color = '#ffffff';
-        btn.style.borderColor = isElectric ? '#00d2ff' : 'var(--color-primary)';
+        btn.style.borderColor = isElectric ? '#34d399' : 'var(--color-primary)';
         text.innerText = isElectric ? 'Đang giả lập động cơ EV thuần điện...' : 'Đang giả lập động cơ V8 xăng...';
         path.setAttribute('d', 'M6 19h4V5H6v14zm8-14v14h4V5h-4z'); // Pause icon path
       }
@@ -799,8 +799,8 @@ html body .btn-zalo:hover {
       
       if (btn && text && path) {
         btn.style.background = 'rgba(255, 255, 255, 0.05)';
-        btn.style.color = isElectric ? '#00d2ff' : 'var(--color-primary)';
-        btn.style.borderColor = isElectric ? '#00d2ff' : 'var(--color-primary)';
+        btn.style.color = isElectric ? '#34d399' : 'var(--color-primary)';
+        btn.style.borderColor = isElectric ? '#34d399' : 'var(--color-primary)';
         text.innerText = isElectric ? 'Chạm để khởi động động cơ EV' : 'Chạm để khởi động động cơ Xăng V8';
         path.setAttribute('d', 'M8 5v14l11-7z'); // Play icon path
       }
@@ -828,9 +828,9 @@ html body .btn-zalo:hover {
         ctx.lineWidth = 1.8;
         
         // Pick visual color: Cyan for EV electric, Gold for gasoline engine
-        ctx.strokeStyle = isElectric ? '#00d2ff' : '#1960d7';
+        ctx.strokeStyle = isElectric ? '#34d399' : '#1960d7';
         ctx.shadowBlur = 10;
-        ctx.shadowColor = isElectric ? '#00d2ff' : '#1960d7';
+        ctx.shadowColor = isElectric ? '#34d399' : '#1960d7';
         
         const width = canvas.width;
         const height = canvas.height;

@@ -46,9 +46,9 @@ body, button, input, select, textarea {
 }
 
 .section-tag {
-  background: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.2) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.2) !important;
   padding: 6px 16px !important;
   font-size: 11px !important;
   font-weight: 800 !important;
@@ -57,7 +57,7 @@ body, button, input, select, textarea {
   border-radius: 50px !important;
   display: inline-block !important;
   margin-bottom: 15px !important;
-  box-shadow: 0 2px 10px rgba(20, 100, 244, 0.04) !important;
+  box-shadow: 0 2px 10px rgba(16, 185, 129, 0.04) !important;
   font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -108,7 +108,7 @@ html body .btn-counselor-compare {
 }
 
 .hero-headline {
-  text-shadow: 0 4px 20px rgba(0,0,0,0.9), 0 0 40px rgba(20, 100, 244, 0.6) !important;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.9), 0 0 40px rgba(16, 185, 129, 0.6) !important;
 }
 
 .hero-slider-btn {
@@ -165,19 +165,19 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-  background: rgba(20, 100, 244, 0.05) !important;
-  border-color: rgba(20, 100, 244, 0.3) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.05) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+  color: #10b981 !important;
   transform: translateY(-1px) !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
   font-weight: 700 !important;
-  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.15) !important;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.15) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -224,7 +224,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
     left: 0 !important;
     width: 100% !important;
     height: 3px !important;
-    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    background: linear-gradient(90deg, transparent, #10b981, #34d399, #10b981, transparent) !important;
     opacity: 0 !important;
     transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     z-index: 5 !important;
@@ -232,8 +232,8 @@ html body .filter-tab-btn.filter-tab-btn--active {
 
   .car-card:hover {
     transform: translateY(-8px) !important; /* Sleek hover lift */
-    border-color: rgba(20, 100, 244, 0.4) !important;
-    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+    border-color: rgba(16, 185, 129, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.12) !important;
   }
 
   .car-card:hover::before {
@@ -284,15 +284,15 @@ html body .filter-tab-btn.filter-tab-btn--active {
     top: 16px !important;
     right: 16px !important;
     left: auto !important;
-    background: rgba(20, 100, 244, 0.06) !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    color: #10b981 !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
     font-size: 9.5px !important;
     letter-spacing: 0.8px !important;
     border-radius: 30px !important;
     padding: 4px 12px !important;
-    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
     box-shadow: none !important;
     z-index: 10 !important;
   }
@@ -307,7 +307,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   .car-card__segment {
     font-size: 11px !important;
     font-weight: 600 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
     margin-bottom: 6px !important;
@@ -324,7 +324,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   }
 
   .car-card:hover .car-card__name {
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   /* Description text - regular */
@@ -430,7 +430,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 800 !important;
     font-size: 16px !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: none !important;
     -webkit-text-fill-color: initial !important;
     -webkit-background-clip: initial !important;
@@ -464,7 +464,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
     font-size: 11.5px !important;
     font-weight: 700 !important;
     color: #ffffff !important;
-    background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+    background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
     border: none !important;
     border-radius: 30px !important;
     text-transform: uppercase !important;
@@ -472,12 +472,12 @@ html body .filter-tab-btn.filter-tab-btn--active {
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     text-decoration: none !important;
     height: 40px !important;
-    box-shadow: 0 4px 14px rgba(20, 100, 244, 0.25) !important;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.25) !important;
   }
 
   .btn-detail-card:hover {
     color: #ffffff !important;
-    background: linear-gradient(135deg, #0077ff 0%, #00d2ff 100%) !important;
+    background: linear-gradient(135deg, #0077ff 0%, #34d399 100%) !important;
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 20px rgba(0, 210, 255, 0.45) !important;
   }
@@ -491,9 +491,9 @@ html body .filter-tab-btn.filter-tab-btn--active {
     padding: 10px 8px !important;
     font-size: 11.5px !important;
     font-weight: 700 !important;
-    color: #1464f4 !important;
-    background: rgba(20, 100, 244, 0.04) !important;
-    border: 1.5px solid rgba(20, 100, 244, 0.15) !important;
+    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.04) !important;
+    border: 1.5px solid rgba(16, 185, 129, 0.15) !important;
     border-radius: 30px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
@@ -503,14 +503,14 @@ html body .filter-tab-btn.filter-tab-btn--active {
   }
 
   .btn-zalo-card svg {
-    stroke: #1464f4 !important;
+    stroke: #10b981 !important;
     fill: none !important;
     transition: transform 0.3s ease !important;
   }
 
   .btn-zalo-card:hover {
-    background: rgba(20, 100, 244, 0.08) !important;
-    border-color: rgba(20, 100, 244, 0.35) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    border-color: rgba(16, 185, 129, 0.35) !important;
     color: #0055ff !important;
     transform: translateY(-2px) !important;
   }
@@ -568,15 +568,15 @@ html body .filter-tab-btn.filter-tab-btn--active {
     top: 6px !important;
     right: 6px !important;
     left: auto !important;
-    background: rgba(20, 100, 244, 0.06) !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    color: #10b981 !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
     font-size: 7.5px !important;
     letter-spacing: 0.5px !important;
     border-radius: 20px !important;
     padding: 2px 6px !important;
-    border: 0.5px solid rgba(20, 100, 244, 0.15) !important;
+    border: 0.5px solid rgba(16, 185, 129, 0.15) !important;
     z-index: 10 !important;
     box-shadow: none !important;
   }
@@ -591,7 +591,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   .car-card__segment {
     font-size: 10px !important;
     font-weight: 600 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     margin-bottom: 2px !important;
@@ -692,7 +692,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   .price-main-num {
     font-size: 15px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: none !important;
     -webkit-text-fill-color: initial !important;
     -webkit-background-clip: initial !important;
@@ -718,8 +718,8 @@ html body .filter-tab-btn.filter-tab-btn--active {
     font-size: 9.5px !important;
     font-weight: 700 !important;
     color: #ffffff !important;
-    background: #1464f4 !important;
-    border: 1px solid #1464f4 !important;
+    background: #10b981 !important;
+    border: 1px solid #10b981 !important;
     border-radius: 20px !important;
     height: 32px !important;
     line-height: 1.2 !important;
@@ -732,9 +732,9 @@ html body .filter-tab-btn.filter-tab-btn--active {
     padding: 8px 2px !important;
     font-size: 9.5px !important;
     font-weight: 700 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: transparent !important;
-    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
     border-radius: 20px !important;
     height: 32px !important;
     line-height: 1.2 !important;
@@ -743,7 +743,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   }
 
   .btn-zalo-card svg {
-    fill: #1464f4 !important;
+    fill: #10b981 !important;
   }
 }
 
@@ -751,26 +751,26 @@ html body .filter-tab-btn.filter-tab-btn--active {
    3. COMPARISON SECTION (VUỐT ĐỂ SO SÁNH BUTTON)
    ---------------------------------------------------------------------- */
 .compare-section {
-  background: radial-gradient(circle at 50% 0%, rgba(20, 100, 244, 0.02) 0%, #ffffff 100%) !important;
+  background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.02) 0%, #ffffff 100%) !important;
 }
 
 @keyframes blue-pulse-ring-lux {
   0% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.4), 0 10px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4), 0 10px 25px rgba(0, 0, 0, 0.05);
   }
   70% {
-    box-shadow: 0 0 0 15px rgba(20, 100, 244, 0), 0 10px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 15px rgba(16, 185, 129, 0), 0 10px 25px rgba(0, 0, 0, 0.05);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0), 0 10px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0), 0 10px 25px rgba(0, 0, 0, 0.05);
   }
 }
 
 /* PROMIMENT PULSING COMPARE BUTTON FOR MOBILE AND DESKTOP - ELECTRIC BLUE ACCENT PER USER THEME PREFERENCE */
 .btn-compare-pulse {
   background: #ffffff !important; /* White background per user preference to remove black button */
-  color: #1464f4 !important; /* Electric Blue text */
-  border: 1.5px solid #1464f4 !important; /* Electric Blue border */
+  color: #10b981 !important; /* Electric Blue text */
+  border: 1.5px solid #10b981 !important; /* Electric Blue border */
   border-radius: 50px !important;
   padding: 14px 32px !important;
   font-size: 13px !important;
@@ -781,16 +781,16 @@ html body .filter-tab-btn.filter-tab-btn--active {
   justify-content: center !important;
   gap: 8px !important;
   animation: blue-pulse-ring-lux 2s infinite ease-in-out !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.15) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.15) !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
   cursor: pointer;
 }
 
 .btn-compare-pulse:hover {
-  background: #1464f4 !important; /* Premium Electric Blue hover state */
+  background: #10b981 !important; /* Premium Electric Blue hover state */
   color: #ffffff !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 12px 25px rgba(20, 100, 244, 0.25) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 12px 25px rgba(16, 185, 129, 0.25) !important;
   transform: translateY(-3px) !important;
 }
 
@@ -811,8 +811,8 @@ html body .filter-tab-btn.filter-tab-btn--active {
    4. EV TECH SECTION
    ---------------------------------------------------------------------- */
 .ev-tech-tab-btn.active {
-  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
-  box-shadow: 0 8px 25px rgba(20, 100, 244, 0.3) !important;
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3) !important;
 }
 
 .range-calc-panel, .roi-calc-panel {
@@ -856,8 +856,8 @@ html body .privilege-card {
 
 html body .privilege-card:hover {
   transform: translateY(-8px) !important;
-  box-shadow: 0 25px 50px rgba(20, 100, 244, 0.08) !important;
-  border-color: rgba(20, 100, 244, 0.25) !important;
+  box-shadow: 0 25px 50px rgba(16, 185, 129, 0.08) !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
 }
 
 html body .privilege-card__watermark {
@@ -866,7 +866,7 @@ html body .privilege-card__watermark {
   top: 15px !important;
   font-size: 32px !important;
   font-weight: 900 !important;
-  color: rgba(20, 100, 244, 0.03) !important;
+  color: rgba(16, 185, 129, 0.03) !important;
   font-family: 'Montserrat', sans-serif !important;
   text-transform: uppercase !important;
   user-select: none !important;
@@ -878,13 +878,13 @@ html body .privilege-card__icon-wrap {
   width: 54px !important;
   height: 54px !important;
   border-radius: 14px !important;
-  background: rgba(20, 100, 244, 0.06) !important;
+  background: rgba(16, 185, 129, 0.06) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   margin-bottom: 24px !important;
-  border: 1px solid rgba(20, 100, 244, 0.1) !important;
+  border: 1px solid rgba(16, 185, 129, 0.1) !important;
 }
 
 html body .privilege-card__title {
@@ -914,10 +914,10 @@ html body .privilege-card__link {
   font-size: 12px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   border: none !important;
   border-radius: 30px !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25) !important;
   margin-top: auto !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
   text-decoration: none !important;
@@ -929,8 +929,8 @@ html body .privilege-card__link span {
 
 html body .privilege-card__link:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.4) !important;
-  background: linear-gradient(135deg, #00d2ff 0%, #00bcff 100%) !important;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4) !important;
+  background: linear-gradient(135deg, #34d399 0%, #00bcff 100%) !important;
   color: #ffffff !important;
 }
 
@@ -954,7 +954,7 @@ html body .privilege-card__link:hover {
 
 .signature-quote-panel {
   background: #ffffff !important;
-  border-left: 5px solid #1464f4 !important;
+  border-left: 5px solid #10b981 !important;
   border-radius: 0 16px 16px 0 !important;
   box-shadow: 0 15px 40px rgba(0,0,0,0.02) !important;
   padding: 35px !important;
@@ -962,7 +962,7 @@ html body .privilege-card__link:hover {
 }
 
 .quote-icon-gold {
-  color: rgba(20, 100, 244, 0.12) !important;
+  color: rgba(16, 185, 129, 0.12) !important;
   font-size: 80px !important;
   position: absolute !important;
   top: -15px !important;
@@ -1021,8 +1021,8 @@ html body .privilege-card__link:hover {
   width: 32px !important;
   height: 32px !important;
   border-radius: 50% !important;
-  background: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -1057,7 +1057,7 @@ html body .privilege-card__link:hover {
 /* VIP Concierge Card on Left Column */
 .tradein-concierge-card {
   background: #f8fafc !important;
-  border: 1px solid rgba(20, 100, 244, 0.08) !important;
+  border: 1px solid rgba(16, 185, 129, 0.08) !important;
   border-radius: 16px !important;
   padding: 20px !important;
   margin-bottom: 24px !important;
@@ -1077,7 +1077,7 @@ html body .privilege-card__link:hover {
   width: 60px !important;
   height: 60px !important;
   border-radius: 50% !important;
-  border: 2.5px solid rgba(20, 100, 244, 0.15) !important;
+  border: 2.5px solid rgba(16, 185, 129, 0.15) !important;
   overflow: hidden !important;
   flex-shrink: 0 !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
@@ -1135,7 +1135,7 @@ html body .privilege-card__link:hover {
 }
 
 .btn-tradein-action-hotline {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   border-radius: 10px !important;
   font-weight: 800 !important;
@@ -1147,10 +1147,10 @@ html body .privilege-card__link:hover {
   gap: 6px !important;
   font-size: 11.5px !important;
   text-decoration: none !important;
-  box-shadow: 0 4px 10px rgba(20, 100, 244, 0.15) !important;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.15) !important;
 }
 .btn-tradein-action-hotline:hover {
-  background: #0052cc !important;
+  background: #059669 !important;
 }
 
 .btn-tradein-action-zalo,
@@ -1187,8 +1187,8 @@ html body .privilege-card__link:hover {
   gap: 12px !important;
   align-items: flex-start !important;
   padding: 16px 20px !important;
-  background: rgba(20, 100, 244, 0.03) !important;
-  border: 1px dashed rgba(20, 100, 244, 0.15) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border: 1px dashed rgba(16, 185, 129, 0.15) !important;
   border-radius: 12px !important;
   margin-top: auto !important;
 }
@@ -1209,8 +1209,8 @@ html body .privilege-card__link:hover {
 }
 
 .tradein-form-card h3 {
-  color: #1464f4 !important;
-  border-bottom: 1.5px solid rgba(20, 100, 244, 0.1) !important;
+  color: #10b981 !important;
+  border-bottom: 1.5px solid rgba(16, 185, 129, 0.1) !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 800 !important;
   font-size: 15px !important;
@@ -1251,13 +1251,13 @@ html body .privilege-card__link:hover {
 
 .calc-input-select:focus {
   background: #ffffff !important;
-  border-color: #1464f4 !important;
-  box-shadow: 0 0 0 4px rgba(20, 100, 244, 0.1) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1) !important;
 }
 
 .tradein-form-card button[type="submit"],
 .tradein-form-card .btn-tradein-submit {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 800 !important;
@@ -1267,7 +1267,7 @@ html body .privilege-card__link:hover {
   border-radius: 12px !important;
   cursor: pointer !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
-  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.2) !important;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.2) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -1277,13 +1277,13 @@ html body .privilege-card__link:hover {
 
 .tradein-form-card button[type="submit"]:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 15px 30px rgba(20, 100, 244, 0.35) !important;
-  background: linear-gradient(135deg, #00d2ff 0%, #00bcff 100%) !important;
+  box-shadow: 0 15px 30px rgba(16, 185, 129, 0.35) !important;
+  background: linear-gradient(135deg, #34d399 0%, #00bcff 100%) !important;
   color: #0b1c3f !important;
 }
 
 .concierge-vip-badge {
-  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
   color: #ffffff !important;
   border: 1.5px solid #ffffff !important;
   font-family: 'Montserrat', sans-serif !important;
@@ -1376,14 +1376,14 @@ html body .offers-stage-tab__title {
 }
 
 html body .offers-stage-tab.offers-stage-tab--active {
-  background: #1464f4 !important; /* Solid electric blue background */
-  border-color: #1464f4 !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.2) !important;
+  background: #10b981 !important; /* Solid electric blue background */
+  border-color: #10b981 !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.2) !important;
   transition: none !important; /* Instant change, no white transition lag on click */
 }
 
 html body .offers-stage-tab.offers-stage-tab--active .offers-stage-tab__num {
-  color: #00d2ff !important;
+  color: #34d399 !important;
   transition: none !important;
 }
 
@@ -1429,7 +1429,7 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 
 .offers-stage-card__tag {
   background: rgba(0, 210, 255, 0.08) !important;
-  color: #00d2ff !important;
+  color: #34d399 !important;
   border: 1.5px solid rgba(0, 210, 255, 0.2) !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 800 !important;
@@ -1476,19 +1476,19 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 
 .offers-stage-card__bullets li::before {
   content: "✦" !important;
-  color: #00d2ff !important;
+  color: #34d399 !important;
   font-size: 14px !important;
 }
 
 .offers-stage-card .btn-tradein-submit {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 800 !important;
   font-size: 12px !important;
   padding: 14px 36px !important;
   border-radius: 12px !important;
-  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3) !important;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
   text-decoration: none !important;
   display: inline-block !important;
@@ -1497,7 +1497,7 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 .offers-stage-card .btn-tradein-submit:hover {
   transform: translateY(-2px) !important;
   box-shadow: 0 15px 30px rgba(0, 210, 255, 0.4) !important;
-  background: linear-gradient(135deg, #00d2ff 0%, #00bcff 100%) !important;
+  background: linear-gradient(135deg, #34d399 0%, #00bcff 100%) !important;
   color: #0b1c3f !important;
 }
 
@@ -1545,25 +1545,25 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 
 .counselor-compare-card:hover {
   transform: translateY(-8px) !important;
-  box-shadow: 0 25px 50px rgba(20, 100, 244, 0.08) !important;
-  border-color: rgba(20, 100, 244, 0.25) !important;
+  box-shadow: 0 25px 50px rgba(16, 185, 129, 0.08) !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
 }
 
 .counselor-compare-badge {
-  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
   color: #ffffff !important;
   border-radius: 30px !important;
   font-size: 10px !important;
   font-weight: 800 !important;
   padding: 4px 12px !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  box-shadow: 0 4px 10px rgba(20, 100, 244, 0.2) !important;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2) !important;
 }
 
 .counselor-compare-avatar-wrap {
   width: 90px !important;
   height: 90px !important;
-  border: 3px solid rgba(20, 100, 244, 0.1) !important;
+  border: 3px solid rgba(16, 185, 129, 0.1) !important;
   border-radius: 50% !important;
   margin-bottom: 16px !important;
   position: relative !important;
@@ -1577,7 +1577,7 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 }
 
 .counselor-compare-avatar-initials {
-  background: linear-gradient(135deg, #1464f4 0%, #00d2ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
   color: #ffffff !important;
   display: flex !important;
   align-items: center !important;
@@ -1636,7 +1636,7 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 }
 
 .counselor-compare-rating .stars {
-  color: #00d2ff !important;
+  color: #34d399 !important;
   font-size: 13px !important;
 }
 
@@ -1683,13 +1683,13 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 }
 
 .btn-counselor-compare--phone {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
 }
 .btn-counselor-compare--phone:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 10px 20px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 10px 20px rgba(16, 185, 129, 0.35) !important;
   color: #ffffff !important;
 }
 
@@ -1720,13 +1720,13 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 }
 
 .faq-accordion-item:hover {
-  border-color: rgba(20, 100, 244, 0.3) !important;
-  box-shadow: 0 5px 15px rgba(20, 100, 244, 0.03) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+  box-shadow: 0 5px 15px rgba(16, 185, 129, 0.03) !important;
 }
 
 .faq-accordion-item--active {
-  border-color: #1464f4 !important;
-  box-shadow: 0 10px 25px rgba(20, 100, 244, 0.05) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.05) !important;
 }
 
 .faq-header {
@@ -1739,7 +1739,7 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
   font-size: 15px !important;
 }
 .faq-accordion-item--active .faq-question {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 .faq-content {
@@ -1753,10 +1753,10 @@ html body .offers-stage-tab.offers-stage-tab--active:hover {
 
 /* FAQ section buttons (no black, no gold/yellow) */
 html body .faq-btn-hotline {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   border: none !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.15) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -1771,8 +1771,8 @@ html body .faq-btn-hotline {
 }
 html body .faq-btn-hotline:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.3) !important;
-  background: #0052cc !important;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3) !important;
+  background: #059669 !important;
 }
 html body .faq-btn-hotline * {
   color: #ffffff !important;
@@ -1844,12 +1844,12 @@ html body .faq-btn-zalo:hover * {
    12. FLOATING CONTACT SIDEBAR BRAND RECOLOR (NO ORANGE/YELLOW, NO BLACK)
    ---------------------------------------------------------------------- */
 html body .floating-contact-sidebar .bg-gradient-orange {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
-  --ripple-color: rgba(20, 100, 244, 0.9) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
+  --ripple-color: rgba(16, 185, 129, 0.9) !important;
 }
 
 html body .floating-contact-sidebar .bg-gradient-yellow {
-  background: linear-gradient(135deg, #00d2ff 0%, #00a5ff 100%) !important;
+  background: linear-gradient(135deg, #34d399 0%, #00a5ff 100%) !important;
   --ripple-color: rgba(0, 210, 255, 0.9) !important;
 }
 
@@ -1862,9 +1862,9 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
 .catalog-section {
   background-color: #ffffff !important;
   background-image: 
-    radial-gradient(circle at 10% 10%, rgba(20, 100, 244, 0.03) 0%, transparent 45%),
+    radial-gradient(circle at 10% 10%, rgba(16, 185, 129, 0.03) 0%, transparent 45%),
     radial-gradient(circle at 90% 90%, rgba(0, 210, 255, 0.02) 0%, transparent 45%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='400' viewBox='0 0 1440 400' fill='none'%3E%3Cpath d='M-100,100 C300,150 700,50 1100,180 C1300,240 1500,200 1600,220' stroke='rgba(20, 100, 244, 0.02)' stroke-width='1.5' fill='none'/%3E%3Cpath d='M-50,150 C350,220 750,90 1150,240 C1350,310 1550,250 1650,270' stroke='rgba(20, 100, 244, 0.012)' stroke-width='1' fill='none'/%3E%3C/svg%3E") !important;
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='400' viewBox='0 0 1440 400' fill='none'%3E%3Cpath d='M-100,100 C300,150 700,50 1100,180 C1300,240 1500,200 1600,220' stroke='rgba(16, 185, 129, 0.02)' stroke-width='1.5' fill='none'/%3E%3Cpath d='M-50,150 C350,220 750,90 1150,240 C1350,310 1550,250 1650,270' stroke='rgba(16, 185, 129, 0.012)' stroke-width='1' fill='none'/%3E%3C/svg%3E") !important;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -1874,7 +1874,7 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
   background-color: #f8fafc !important;
   background-image: 
     radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.6) 100%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'%3E%3Ccircle cx='40' cy='40' r='0.8' fill='rgba(20, 100, 244, 0.08)'/%3E%3Cpath d='M0 40h80M40 0v80' stroke='rgba(20, 100, 244, 0.015)' stroke-width='0.5'/%3E%3C/svg%3E") !important;
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'%3E%3Ccircle cx='40' cy='40' r='0.8' fill='rgba(16, 185, 129, 0.08)'/%3E%3Cpath d='M0 40h80M40 0v80' stroke='rgba(16, 185, 129, 0.015)' stroke-width='0.5'/%3E%3C/svg%3E") !important;
   border-bottom: 1px solid rgba(15, 23, 42, 0.05) !important;
   border-top: 1px solid rgba(15, 23, 42, 0.05) !important;
 }
@@ -1882,7 +1882,7 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
 /* 3. Privileges Section - Pure Clean White with Top-Right Energy Radiations */
 .privileges-section {
   background: 
-    radial-gradient(circle at 85% 15%, rgba(20, 100, 244, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.03) 0%, transparent 50%),
     #ffffff !important;
 }
 
@@ -1891,7 +1891,7 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
   background-color: #f5f5f7 !important;
   background-image: 
     radial-gradient(circle at 50% 30%, #ffffff 0%, rgba(245, 245, 247, 0.6) 100%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240' fill='none'%3E%3Ccircle cx='30' cy='50' r='1.5' fill='rgba(20, 100, 244, 0.025)'/%3E%3Ccircle cx='180' cy='70' r='2' fill='rgba(20, 100, 244, 0.025)'/%3E%3Ccircle cx='100' cy='180' r='1.5' fill='rgba(20, 100, 244, 0.02)'/%3E%3Cpath d='M30 50 L180 70 L100 180 Z' stroke='rgba(20, 100, 244, 0.015)' stroke-width='0.5' fill='none'/%3E%3C/svg%3E") !important;
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240' fill='none'%3E%3Ccircle cx='30' cy='50' r='1.5' fill='rgba(16, 185, 129, 0.025)'/%3E%3Ccircle cx='180' cy='70' r='2' fill='rgba(16, 185, 129, 0.025)'/%3E%3Ccircle cx='100' cy='180' r='1.5' fill='rgba(16, 185, 129, 0.02)'/%3E%3Cpath d='M30 50 L180 70 L100 180 Z' stroke='rgba(16, 185, 129, 0.015)' stroke-width='0.5' fill='none'/%3E%3C/svg%3E") !important;
   border-bottom: 1px solid rgba(15, 23, 42, 0.05) !important;
 }
 
@@ -1899,8 +1899,8 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
 .tradein-section {
   background-color: #ffffff !important;
   background-image: 
-    radial-gradient(circle at 15% 50%, rgba(20, 100, 244, 0.03) 0%, transparent 45%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='350' viewBox='0 0 1440 350' fill='none'%3E%3Cpath d='M1500,-50 C1100,100 800,20 400,280 C200,340 0,300 -100,320' stroke='rgba(20, 100, 244, 0.012)' stroke-width='1.5' fill='none'/%3E%3C/svg%3E") !important;
+    radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.03) 0%, transparent 45%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='350' viewBox='0 0 1440 350' fill='none'%3E%3Cpath d='M1500,-50 C1100,100 800,20 400,280 C200,340 0,300 -100,320' stroke='rgba(16, 185, 129, 0.012)' stroke-width='1.5' fill='none'/%3E%3C/svg%3E") !important;
   background-size: cover !important;
 }
 
@@ -2018,7 +2018,7 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
   /* Brand Spotlight section (Kỷ nguyên điện hóa mới) mobile alignments */
   html body .brand-spotlight {
     padding: 45px 0 !important;
-    background: radial-gradient(circle at center, rgba(20, 100, 244, 0.03) 0%, transparent 80%) !important;
+    background: radial-gradient(circle at center, rgba(16, 185, 129, 0.03) 0%, transparent 80%) !important;
   }
   html body .spotlight-grid {
     grid-template-columns: 1fr !important;
@@ -2129,9 +2129,9 @@ html body .btn-card-compare {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
 }
 html body .btn-card-compare.active {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 html body .car-card__img {
   display: block !important;
@@ -2196,7 +2196,7 @@ html body .car-card__price-val {
   text-align: left !important;
   font-size: 15px !important;
   font-weight: 800 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   width: 100% !important;
 }
 html body .car-card__footer-official {
@@ -2208,7 +2208,7 @@ html body .car-card__footer-official {
 html body .btn-card-calc-price {
   grid-column: span 2 !important;
   height: 42px !important;
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   border: none !important;
   border-radius: 10px !important;
@@ -2220,18 +2220,18 @@ html body .btn-card-calc-price {
   gap: 8px !important;
   cursor: pointer !important;
   transition: all 0.3s ease !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.2) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.2) !important;
 }
 html body .btn-card-calc-price:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3) !important;
   filter: brightness(1.08) !important;
 }
 html body .btn-card-outline {
   height: 40px !important;
-  background: rgba(20, 100, 244, 0.04) !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.15) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.04) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.15) !important;
+  color: #10b981 !important;
   border-radius: 10px !important;
   font-size: 13px !important;
   font-weight: 700 !important;
@@ -2242,8 +2242,8 @@ html body .btn-card-outline {
   transition: all 0.3s ease !important;
 }
 html body .btn-card-outline:hover {
-  background: rgba(20, 100, 244, 0.08) !important;
-  border-color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border-color: #10b981 !important;
 }
 html body .btn-card-zalo {
   height: 40px !important;
@@ -2356,7 +2356,7 @@ html body .estimator-select-input {
   transition: border-color 0.2s ease !important;
 }
 html body .estimator-select-input:focus {
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 html body .estimator-summary-card {
   background: #f8fafc !important;
@@ -2386,7 +2386,7 @@ html body .estimator-row-val {
   font-weight: 700 !important;
 }
 html body .estimator-row-val--highlight {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-size: 15px !important;
   font-weight: 800 !important;
 }
@@ -2475,7 +2475,7 @@ html body .compare-floating-bar.active {
 html body .compare-bar-label {
   font-size: 11.5px !important;
   font-weight: 800 !important;
-  color: #00d2ff !important;
+  color: #34d399 !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
   white-space: nowrap !important;
@@ -2507,7 +2507,7 @@ html body .compare-chip-remove:hover {
   color: #ef4444 !important;
 }
 html body .btn-open-compare {
-  background: linear-gradient(135deg, #1464f4 0%, #00aaff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #00aaff 100%) !important;
   color: #ffffff !important;
   border: none !important;
   border-radius: 30px !important;
@@ -2516,12 +2516,12 @@ html body .btn-open-compare {
   font-weight: 800 !important;
   cursor: pointer !important;
   transition: all 0.3s ease !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
   white-space: nowrap !important;
 }
 html body .btn-open-compare:hover {
   transform: translateY(-2px) !important;
-  box-shadow: 0 6px 16px rgba(20, 100, 244, 0.4) !important;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4) !important;
 }
 
 /* Floating Spin Wheel Widget */
@@ -2690,7 +2690,7 @@ html body .catalog-hero-radar {
 html body .catalog-hero__subtitle {
   font-size: 11px !important;
   font-weight: 700 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   letter-spacing: 3px !important;
   text-transform: uppercase !important;
   margin-bottom: 12px !important;
@@ -2748,9 +2748,9 @@ html body .car-badge-container {
   left: 15px !important;
 }
 html body .car-card__badge {
-  background: rgba(20, 100, 244, 0.08) !important; /* Premium blue badge instead of black */
-  color: #1464f4 !important;
-  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  background: rgba(16, 185, 129, 0.08) !important; /* Premium blue badge instead of black */
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.15) !important;
   font-size: 9px !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
@@ -2765,9 +2765,9 @@ html body .btn-card-compare {
   font-weight: 600 !important;
 }
 html body .btn-card-compare:hover {
-  background: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
-  border-color: rgba(20, 100, 244, 0.3) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
 }
 html body .car-card__title {
   font-family: 'Montserrat', sans-serif !important;
@@ -2821,7 +2821,7 @@ html body .car-card__price-val {
 
 /* Action Buttons: flat, square-edged, solid colors */
 html body .btn-card-calc-price {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important; /* Premium electric blue gradient primary */
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important; /* Premium electric blue gradient primary */
   color: #ffffff !important;
   font-size: 12px !important;
   font-weight: 700 !important;
@@ -2833,8 +2833,8 @@ html body .btn-card-calc-price:hover {
   background: linear-gradient(135deg, #0077ff 0%, #00bcff 100%) !important; /* Brighter electric blue hover state */
 }
 html body .btn-card-outline {
-  border: 1.5px solid #1464f4 !important; /* Premium blue outline border */
-  color: #1464f4 !important; /* Blue text */
+  border: 1.5px solid #10b981 !important; /* Premium blue outline border */
+  color: #10b981 !important; /* Blue text */
   font-size: 12px !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
@@ -2842,7 +2842,7 @@ html body .btn-card-outline {
   height: 44px !important;
 }
 html body .btn-card-outline:hover {
-  background: #1464f4 !important; /* Filled blue hover */
+  background: #10b981 !important; /* Filled blue hover */
   color: #ffffff !important;
 }
 html body .btn-card-zalo {
@@ -2938,7 +2938,7 @@ html body .calc-range-slider {
 html body .calc-range-slider::-webkit-slider-thumb {
   width: 20px !important;
   height: 20px !important;
-  background: #1464f4 !important; /* Electric Blue Slider point */
+  background: #10b981 !important; /* Electric Blue Slider point */
   border: 4px solid #ffffff !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
   border-radius: 50% !important;
@@ -2997,13 +2997,13 @@ html body .cockpit-tab-btn:hover {
 }
 html body .cockpit-tab-btn.active {
   background: #f9fafb !important;
-  border-left: 3px solid #1464f4 !important; /* Accent Active */
-  border-color: #cbd5e1 #cbd5e1 #cbd5e1 #1464f4 !important;
+  border-left: 3px solid #10b981 !important; /* Accent Active */
+  border-color: #cbd5e1 #cbd5e1 #cbd5e1 #10b981 !important;
 }
 html body .cockpit-tab-num {
   font-size: 16px !important;
   font-weight: 700 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 html body .cockpit-screen-wrap {
   border: 1px solid #cbd5e1 !important;
@@ -3085,7 +3085,7 @@ html body .form-input-premium {
   box-sizing: border-box !important;
 }
 html body .form-input-premium:focus {
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 html body select.form-input-premium {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23111111' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5'/%3E%3C/svg%3E") !important;
@@ -3097,7 +3097,7 @@ html body select.form-input-premium {
 }
 
 html body .btn-booking-submit {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important; /* Premium electric blue gradient booking submit */
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important; /* Premium electric blue gradient booking submit */
   color: #ffffff !important;
   height: 48px !important;
   width: 100% !important;
@@ -3109,12 +3109,12 @@ html body .btn-booking-submit {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.25) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.25) !important;
   transition: all 0.3s ease !important;
 }
 html body .btn-booking-submit:hover {
   background: linear-gradient(135deg, #0077ff 0%, #00bcff 100%) !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35) !important;
   transform: translateY(-2px) !important;
 }
 
@@ -3173,7 +3173,7 @@ html body .counselor-phone {
   color: #111111 !important;
 }
 html body .counselor-phone:hover {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 html body .counselor-actions {
   display: grid !important;
@@ -3182,8 +3182,8 @@ html body .counselor-actions {
 }
 html body .counselor-pill-btn {
   height: 38px !important;
-  border: 1.5px solid #1464f4 !important; /* Premium blue outline border */
-  color: #1464f4 !important; /* Blue text */
+  border: 1.5px solid #10b981 !important; /* Premium blue outline border */
+  color: #10b981 !important; /* Blue text */
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -3193,7 +3193,7 @@ html body .counselor-pill-btn {
   border-radius: 20px !important; /* Rounded */
 }
 html body .counselor-pill-btn:hover {
-  background: #1464f4 !important; /* Filled blue hover */
+  background: #10b981 !important; /* Filled blue hover */
   color: #ffffff !important;
 }
 
@@ -3307,10 +3307,10 @@ html body .faq-accordion-item.active {
   border-color: #cbd5e1 !important;
 }
 html body .faq-accordion-item.active .faq-question-title {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 html body .faq-accordion-item.active .faq-toggle-chevron {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 html body .faq-accordion-body {
   max-height: 0 !important;
@@ -3336,7 +3336,7 @@ html body .rings-story-banner {
 
 /* Eliminate Gold prices globally */
 html body .price-gold {
-  color: #1464f4 !important; /* Premium electric blue */
+  color: #10b981 !important; /* Premium electric blue */
   font-weight: 700 !important;
 }
 
@@ -3346,8 +3346,8 @@ html body .editorial-block {
 }
 
 html body .telemetry-block {
-  background: rgba(20, 100, 244, 0.03) !important;
-  border: 1px solid rgba(20, 100, 244, 0.1) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border: 1px solid rgba(16, 185, 129, 0.1) !important;
   padding: 30px 24px !important;
   border-radius: 20px !important;
 }
@@ -3376,11 +3376,11 @@ html body .telemetry-footer span {
 }
 
 html body .telemetry-bar--gold {
-  background: linear-gradient(90deg, #1464f4, #0077ff) !important;
+  background: linear-gradient(90deg, #10b981, #0077ff) !important;
 }
 
 html body .telemetry-bar--blue {
-  background: linear-gradient(90deg, #00d2ff, #00bcff) !important;
+  background: linear-gradient(90deg, #34d399, #00bcff) !important;
 }
 
 html body .telemetry-bar--red {
@@ -3406,8 +3406,8 @@ html body .configurator-card {
 }
 
 html body .build-sheet-panel {
-  background: rgba(20, 100, 244, 0.03) !important;
-  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border: 1px solid rgba(16, 185, 129, 0.15) !important;
   border-radius: 16px !important;
   padding: 20px !important;
 }
@@ -3421,8 +3421,8 @@ html body .build-sheet-details strong {
 }
 
 html body .showcase-block {
-  background: rgba(20, 100, 244, 0.03) !important;
-  border: 1px solid rgba(20, 100, 244, 0.08) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border: 1px solid rgba(16, 185, 129, 0.08) !important;
   border-radius: 24px !important;
   box-shadow: none !important;
 }
@@ -3437,9 +3437,9 @@ html body .showcase-desc {
 }
 
 html body .showcase-tag {
-  background: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
-  border: 1px solid rgba(20, 100, 244, 0.15) !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
+  border: 1px solid rgba(16, 185, 129, 0.15) !important;
   font-weight: 800 !important;
   padding: 4px 12px !important;
   border-radius: 20px !important;
@@ -3452,8 +3452,8 @@ html body .tech-feature-card {
 }
 
 html body .tech-card-icon {
-  background: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
 }
 
 html body .tech-card-title {
@@ -3465,8 +3465,8 @@ html body .tech-card-desc {
 }
 
 html body .sound-dna-block {
-  background: rgba(20, 100, 244, 0.03) !important;
-  border: 1px solid rgba(20, 100, 244, 0.1) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border: 1px solid rgba(16, 185, 129, 0.1) !important;
   border-radius: 20px !important;
   padding: 30px 24px !important;
 }
@@ -3501,15 +3501,15 @@ html body .related-cars-section .section-subtitle {
 }
 
 html body .result-val--gold {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 /* Button overrides to eliminate all black, gold, and dark styles on details page */
 html body .btn-submit-booking {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   border: none !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.25) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
   transition: all 0.3s ease !important;
   display: inline-flex !important;
   align-items: center !important;
@@ -3518,47 +3518,47 @@ html body .btn-submit-booking {
 }
 
 html body .btn-submit-booking:hover {
-  background: linear-gradient(135deg, #0077ff 0%, #1464f4 100%) !important;
-  box-shadow: 0 6px 22px rgba(20, 100, 244, 0.4) !important;
+  background: linear-gradient(135deg, #0077ff 0%, #10b981 100%) !important;
+  box-shadow: 0 6px 22px rgba(16, 185, 129, 0.4) !important;
   transform: translateY(-2px) !important;
   color: #ffffff !important;
 }
 
 html body .calc-action-btn--phone {
-  background: linear-gradient(135deg, #1464f4 0%, #0077ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0077ff 100%) !important;
   color: #ffffff !important;
   border: none !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.2) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2) !important;
 }
 
 html body .calc-action-btn--phone:hover {
-  background: linear-gradient(135deg, #0077ff 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #0077ff 0%, #10b981 100%) !important;
   color: #ffffff !important;
   transform: translateY(-3px) !important;
 }
 
 html body .btn-specs-toggle:hover {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 
 html body .repayment-tab-btn--active {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 0 10px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3) !important;
 }
 
 html body .sound-dna-play-btn {
-  background: rgba(20, 100, 244, 0.05) !important;
-  border: 1px solid rgba(20, 100, 244, 0.15) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.05) !important;
+  border: 1px solid rgba(16, 185, 129, 0.15) !important;
+  color: #10b981 !important;
 }
 
 html body .sound-dna-play-btn:hover {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 
 /* Catalog Grid layout for related cars on detail pages */
@@ -3619,14 +3619,14 @@ html body .repayment-tab-btn {
 }
 
 html body .repayment-tab-btn:hover {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 html body .repayment-tab-btn--active {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
   font-weight: 700 !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25) !important;
 }
 
 /* Ensure the Zalo contact button text and SVG icon are high-contrast white */

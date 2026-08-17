@@ -97,14 +97,14 @@
     <section class="editorial-block">
       <!-- pSEO Location Welcome Personalization Banner -->
       <?php if (!empty($refLocationName)): ?>
-        <div class="seo-rich-content-block" style="margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg, rgba(20, 100, 244, 0.05) 0%, rgba(20, 100, 244, 0.12) 100%); border-left: 4px solid #10b981; border-radius: var(--ev-border-radius); font-size: 13.5px; line-height: 1.6; color: var(--color-text-main);">
+        <div class="seo-rich-content-block" style="margin-bottom: 24px; padding: 18px 22px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(16, 185, 129, 0.12) 100%); border-left: 4px solid #10b981; border-radius: var(--ev-border-radius); font-size: 13.5px; line-height: 1.6; color: var(--color-text-main);">
           <span style="font-size: 11px; font-weight: 700; color: #10b981; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 4px;">✦ ĐẶC QUYỀN KHU VỰC <?php echo htmlspecialchars($refLocationName); ?></span>
           Chào mừng quý khách tại <strong><?php echo htmlspecialchars($refLocationName); ?></strong>! Khi đăng ký mua xe <strong><?php echo htmlspecialchars($car['model_name']); ?></strong> tại đây, quý khách được áp dụng chính sách ưu đãi đặc quyền: <strong>Miễn 100% lệ phí trước bạ</strong> xe điện của Chính phủ, hỗ trợ mua trả góp lãi suất cực thấp chỉ từ 6.9%/năm, và dịch vụ <strong>lái thử xe & giao xe tận nhà riêng</strong> tại địa bàn <?php echo htmlspecialchars($refLocationName); ?> hoàn toàn miễn phí.
         </div>
       <?php endif; ?>
 
       <!-- SEO Rich Content Block -->
-      <div class="seo-rich-content-block" style="margin-bottom: 24px; padding: 16px; background: rgba(20, 100, 244, 0.03); border-left: 4px solid var(--color-primary); border-radius: 4px; font-size: 14px; line-height: 1.6; color: var(--color-text-main);">
+      <div class="seo-rich-content-block" style="margin-bottom: 24px; padding: 16px; background: rgba(16, 185, 129, 0.03); border-left: 4px solid var(--color-primary); border-radius: 4px; font-size: 14px; line-height: 1.6; color: var(--color-text-main);">
         Bạn đang tìm kiếm thông tin về <strong>giá xe <?php echo htmlspecialchars($car['model_name']); ?></strong> lăn bánh mới nhất và phương thức <strong>mua xe <?php echo htmlspecialchars($car['model_name']); ?> trả góp</strong>? Tại đại lý ủy quyền <strong>VinFast Tam Phong</strong>, chúng tôi hỗ trợ trọn gói thủ tục làm hồ sơ <strong>trả góp xe <?php echo htmlspecialchars($car['model_name']); ?></strong> với lãi suất ưu đãi cực tốt, thời hạn vay linh hoạt và bàn giao xe nhanh chóng trên toàn quốc.
       </div>
 
@@ -136,7 +136,7 @@
         ?>
 
         <?php if ($basePriceNum === 0): ?>
-          <div style="padding: 20px 24px; background: rgba(20, 100, 244, 0.03); border: 1px dashed var(--color-primary); border-radius: var(--ev-border-radius); text-align: center; margin-bottom: 24px;">
+          <div style="padding: 20px 24px; background: rgba(16, 185, 129, 0.03); border: 1px dashed var(--color-primary); border-radius: var(--ev-border-radius); text-align: center; margin-bottom: 24px;">
             <p style="font-size: 14.5px; line-height: 1.6; color: var(--color-text-main); font-weight: 700; margin-bottom: 8px;">
               ✦ Mức giá áp dụng theo chính sách bán lô doanh nghiệp hoặc gói dự án chuyên biệt
             </p>
@@ -149,7 +149,7 @@
           <div style="overflow-x: auto; margin-bottom: 24px;">
             <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
               <thead>
-                <tr style="background: rgba(20, 100, 244, 0.05); border-bottom: 2px solid var(--color-primary); border-top: 1px solid var(--color-border);">
+                <tr style="background: rgba(16, 185, 129, 0.05); border-bottom: 2px solid var(--color-primary); border-top: 1px solid var(--color-border);">
                   <th style="padding: 10px; font-weight: 700;">Phiên bản <?php echo htmlspecialchars($car['model_name']); ?></th>
                   <th style="padding: 10px; font-weight: 700;">Giá Niêm Yết</th>
                   <th style="padding: 10px; font-weight: 700;">Lăn Bánh TP.HCM</th>
@@ -629,7 +629,7 @@
               
               <!-- Ambient lighting profile selectors -->
               <div class="ambient-color-swatches">
-                <button class="ambient-swatch ambient-swatch--active" style="background-color: #00d2ff; --swatch-color: rgba(0, 210, 255, 0.4);" onclick="changeAmbientColor('#00d2ff', 'Glacier Ice Blue', this)" title="Glacier Ice Blue"></button>
+                <button class="ambient-swatch ambient-swatch--active" style="background-color: #34d399; --swatch-color: rgba(0, 210, 255, 0.4);" onclick="changeAmbientColor('#34d399', 'Glacier Ice Blue', this)" title="Glacier Ice Blue"></button>
                 <button class="ambient-swatch" style="background-color: #ff003c; --swatch-color: rgba(255, 0, 60, 0.4);" onclick="changeAmbientColor('#ff003c', 'VinFast Sport Red', this)" title="VinFast Sport Red"></button>
                 <button class="ambient-swatch" style="background-color: #1960d7; --swatch-color: rgba(25, 96, 215, 0.4);" onclick="changeAmbientColor('#1960d7', 'Sunset Gold', this)" title="Sunset Gold"></button>
                 <button class="ambient-swatch" style="background-color: #39ff14; --swatch-color: rgba(57, 255, 20, 0.4);" onclick="changeAmbientColor('#39ff14', 'EV Neon Green', this)" title="EV Neon Green"></button>
@@ -637,7 +637,7 @@
               </div>
               
               <div style="font-size: 11px; color: var(--color-text-muted); font-weight: 600; margin-top: 6px; text-transform: uppercase; letter-spacing: 0.5px;">
-                Cấu hình: <span id="ambient-color-name" style="color: #00d2ff; font-weight: 700; transition: color 0.3s;">Glacier Ice Blue</span>
+                Cấu hình: <span id="ambient-color-name" style="color: #34d399; font-weight: 700; transition: color 0.3s;">Glacier Ice Blue</span>
               </div>
             </div>
           </div>
@@ -1041,7 +1041,7 @@
   <section class="related-cars-section" style="background: #f8fafc !important; border-top: 1px solid #e2e8f0 !important; padding: 80px 0 !important;">
     <div class="container">
       <div class="section-header" style="text-align: center; margin-bottom: 48px;">
-        <span class="section-tag" style="background: rgba(20, 100, 244, 0.06); color: #1464f4; border: 1px solid rgba(20, 100, 244, 0.15); font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; font-size: 10px; letter-spacing: 1px;">Khám phá thêm</span>
+        <span class="section-tag" style="background: rgba(16, 185, 129, 0.06); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.15); font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; font-size: 10px; letter-spacing: 1px;">Khám phá thêm</span>
         <h2 class="section-title" style="color: #0f172a !important; margin-top: 12px; margin-bottom: 8px;">Dòng xe tham khảo khác</h2>
         <p class="section-subtitle" style="color: #64748b !important;">Khám phá các mẫu xe VinFast sang trọng và đẳng cấp cùng phân khúc hoặc dòng xe EV thuần điện nổi bật.</p>
       </div>
@@ -1228,7 +1228,7 @@
         icon.innerText = '−';
         icon.style.transform = 'rotate(180deg)';
         item.style.borderColor = 'var(--color-primary)';
-        item.style.background = 'rgba(20, 100, 244, 0.02)';
+        item.style.background = 'rgba(16, 185, 129, 0.02)';
       } else {
         content.style.maxHeight = '0px';
         icon.innerText = '+';

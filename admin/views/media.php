@@ -21,7 +21,7 @@ $basePath = $basePath ?? rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
         .media-card:hover {
           border-color: var(--color-primary);
           transform: translateY(-4px);
-          box-shadow: 0 10px 25px rgba(56, 189, 248, 0.08);
+          box-shadow: 0 10px 25px rgba(52, 211, 153, 0.08);
         }
         .media-preview {
           width: 100%;

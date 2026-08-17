@@ -5,7 +5,7 @@
       .faq-section {
         border-top: none;
         margin-top: 0;
-        background: #070b13 radial-gradient(circle at 50% 90%, rgba(20, 100, 244, 0.1) 0%, transparent 60%) !important; /* Bottom spotlight aura */
+        background: #070b13 radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.1) 0%, transparent 60%) !important; /* Bottom spotlight aura */
         padding: 80px 0;
       }
       .faq-split-container {
@@ -49,7 +49,7 @@
       }
       .faq-radar-container {
         background: rgba(0, 0, 0, 0.25); /* Dark screen background */
-        border: 1px solid rgba(20, 100, 244, 0.2);
+        border: 1px solid rgba(16, 185, 129, 0.2);
         border-radius: 12px;
         position: relative;
         padding: 20px;
@@ -57,7 +57,7 @@
         flex-direction: column;
         align-items: center;
         overflow: hidden;
-        box-shadow: inset 0 0 20px rgba(20, 100, 244, 0.08);
+        box-shadow: inset 0 0 20px rgba(16, 185, 129, 0.08);
       }
       .faq-radar-svg {
         position: relative;
@@ -106,7 +106,7 @@
         gap: 6px;
       }
       .faq-editorial-visual .readout-label {
-        color: #00d2ff !important; /* Glowing electric cyan */
+        color: #34d399 !important; /* Glowing electric cyan */
         font-weight: 700 !important;
         font-size: 9px;
         letter-spacing: 0.5px;
@@ -132,9 +132,9 @@
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        background: rgba(20, 100, 244, 0.12);
-        border: 1px solid rgba(20, 100, 244, 0.25);
-        color: #00d2ff;
+        background: rgba(16, 185, 129, 0.12);
+        border: 1px solid rgba(16, 185, 129, 0.25);
+        color: #34d399;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -169,12 +169,12 @@
         transform: translateY(-2px);
       }
       .faq-btn-zalo {
-        background: #1464f4;
+        background: #10b981;
         color: #ffffff;
-        border: 1px solid #1464f4;
+        border: 1px solid #10b981;
       }
       .faq-btn-zalo:hover {
-        background: #0052cc;
+        background: #059669;
         transform: translateY(-2px);
       }
       
@@ -194,7 +194,7 @@
       }
       .faq-item--active {
         background: rgba(255, 255, 255, 0.04);
-        border-color: rgba(20, 100, 244, 0.4);
+        border-color: rgba(16, 185, 129, 0.4);
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
       }
       .faq-trigger {
@@ -221,11 +221,11 @@
       }
       .faq-num-badge {
         font-family: 'Montserrat', sans-serif;
-        color: #00d2ff;
+        color: #34d399;
         font-size: 12px;
         font-weight: 800;
-        background: rgba(20, 100, 244, 0.15);
-        border: 1px solid rgba(20, 100, 244, 0.3);
+        background: rgba(16, 185, 129, 0.15);
+        border: 1px solid rgba(16, 185, 129, 0.3);
         padding: 3px 8px;
         border-radius: 6px;
       }
@@ -242,8 +242,8 @@
         transition: all 0.3s ease;
       }
       .faq-item--active .faq-icon-wrap {
-        background: #1464f4;
-        border-color: #1464f4;
+        background: #10b981;
+        border-color: #10b981;
         color: #ffffff;
         transform: rotate(45deg);
       }
@@ -326,16 +326,16 @@
                 <line x1="100" y1="0" x2="100" y2="200" stroke="rgba(0, 210, 255, 0.08)" stroke-width="1" />
                 
                 <!-- Rotating concentric rings -->
-                <circle cx="100" cy="100" r="80" stroke="rgba(20, 100, 244, 0.15)" stroke-width="1" fill="none" />
+                <circle cx="100" cy="100" r="80" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1" fill="none" />
                 <circle class="radar-orbit-1" cx="100" cy="100" r="65" stroke="rgba(0, 210, 255, 0.25)" stroke-width="1" stroke-dasharray="4 8" fill="none" />
-                <circle class="radar-orbit-2" cx="100" cy="100" r="45" stroke="rgba(20, 100, 244, 0.3)" stroke-width="1" stroke-dasharray="12 6" fill="none" />
-                <circle cx="100" cy="100" r="25" stroke="rgba(20, 100, 244, 0.2)" stroke-width="1" fill="none" />
+                <circle class="radar-orbit-2" cx="100" cy="100" r="45" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" stroke-dasharray="12 6" fill="none" />
+                <circle cx="100" cy="100" r="25" stroke="rgba(16, 185, 129, 0.2)" stroke-width="1" fill="none" />
                 
                 <!-- Pulsing scanning radar line -->
-                <line class="radar-sweep-line" x1="100" y1="100" x2="100" y2="20" stroke="#00d2ff" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+                <line class="radar-sweep-line" x1="100" y1="100" x2="100" y2="20" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
                 
                 <!-- Core pulsing glowing dot -->
-                <circle class="radar-core-glow" cx="100" cy="100" r="5" fill="#00d2ff" />
+                <circle class="radar-core-glow" cx="100" cy="100" r="5" fill="#34d399" />
               </svg>
               
               <!-- Tech overlay readouts (Telemetry and System Online) -->

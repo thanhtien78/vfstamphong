@@ -42,9 +42,9 @@
     line-height: 1.65 !important;
   }
   .electric-badge-overlay {
-    background: rgba(20, 100, 244, 0.08) !important;
-    border: 1px solid rgba(20, 100, 244, 0.25) !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.25) !important;
+    color: #10b981 !important;
     font-weight: 700 !important;
     border-radius: 6px !important;
   }
@@ -66,9 +66,9 @@
     color: #10b981 !important;
   }
   .promo-badge {
-    background: rgba(20, 100, 244, 0.05) !important;
-    border: 1px solid rgba(20, 100, 244, 0.15) !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.05) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
+    color: #10b981 !important;
     border-radius: 6px !important;
     font-weight: 600 !important;
   }
@@ -96,7 +96,7 @@
   html body .btn-primary-mini,
   html body .vip-btn-submit,
   html body .geo-toast-btn {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
     font-weight: 700 !important;
     border: none !important;
@@ -111,10 +111,10 @@
   
   html body .view-switch-btn.view-switch-btn--active,
   html body .table-filter-btn.table-filter-btn--active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
     font-weight: 700 !important;
-    border-color: #1464f4 !important;
+    border-color: #10b981 !important;
   }
   
   html body .view-switch-btn,
@@ -131,7 +131,7 @@
   
   html body .btn-zalo-mini,
   html body .btn-zalo-invoice {
-    background: #0068ff !important;
+    background: #10b981 !important;
     color: #ffffff !important;
     border: 1px solid #0054d1 !important;
     font-weight: 600 !important;
@@ -144,22 +144,22 @@
   
   
   html body .counselor-btn-vip--zalo {
-    color: #0068ff !important;
+    color: #10b981 !important;
     background: rgba(0, 104, 255, 0.08) !important;
     font-weight: 600 !important;
   }
   html body .counselor-btn-vip--zalo:hover {
-    background: #0068ff !important;
+    background: #10b981 !important;
     color: #ffffff !important;
   }
   
   html body .counselor-btn-vip--call {
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: rgba(25, 96, 215, 0.08) !important;
     font-weight: 600 !important;
   }
   html body .counselor-btn-vip--call:hover {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
   }
   
@@ -413,7 +413,7 @@
                       <span class="price-val" style="font-size: 14px; display: inline-flex; align-items: center;">
                         <?php echo htmlspecialchars($c['model_name']); ?>
                         <?php if ($isElectric === 1): ?>
-                          <span style="display: inline-block; background: rgba(20, 100, 244, 0.08); border: 1px solid rgba(20, 100, 244, 0.25); color: #1464f4; font-size: 8px; padding: 2px 6px; border-radius: 4px; font-weight: 700; margin-left: 8px; text-transform: uppercase; letter-spacing: 0.5px;">0% Trước Bạ</span>
+                          <span style="display: inline-block; background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); color: #10b981; font-size: 8px; padding: 2px 6px; border-radius: 4px; font-weight: 700; margin-left: 8px; text-transform: uppercase; letter-spacing: 0.5px;">0% Trước Bạ</span>
                         <?php endif; ?>
                       </span>
                       <div style="font-size: 11px; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px;">

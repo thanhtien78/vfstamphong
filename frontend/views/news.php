@@ -20,16 +20,16 @@ html body .tag-item {
 }
 
 html body .tag-item:hover {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
 }
 
 /* Remove dark/black background from VIP Invitation CTA and turn it into a premium light gold-tech theme */
 html body .vip-invite-card {
-  background: linear-gradient(135deg, rgba(20, 100, 244, 0.02) 0%, rgba(20, 100, 244, 0.08) 100%) !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.2) !important;
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.06) !important;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.02) 0%, rgba(16, 185, 129, 0.08) 100%) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.2) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.06) !important;
 }
 
 html body .vip-invite-title {
@@ -41,19 +41,19 @@ html body .vip-invite-desc {
 }
 
 html body .vip-invite-logo {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 
 html body .vip-invite-btn {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
   border: none !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3) !important;
 }
 
 html body .vip-invite-btn:hover {
   background: #0f52c9 !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.4) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4) !important;
   color: #ffffff !important;
 }
 
@@ -65,15 +65,15 @@ html body .news-category-pill {
 }
 
 html body .news-category-pill--active {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
 }
 
 html body .news-category-pill:hover:not(.news-category-pill--active) {
   background: #f8fafc !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
 }
 
 /* News row list styling */

@@ -88,7 +88,7 @@
                 <!-- Slider 1: Speed -->
                 <div class="range-slider-group-premium">
                   <div class="slider-icon-box">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: #1464f4;">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: #10b981;">
                       <circle cx="12" cy="12" r="9"></circle>
                       <polyline points="12 7 12 12 15 15"></polyline>
                     </svg>
@@ -135,7 +135,7 @@
                   <svg class="range-svg-ring" viewBox="0 0 200 200">
                     <defs>
                       <linearGradient id="green-teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1464f4" />
+                        <stop offset="0%" stop-color="#10b981" />
                         <stop offset="100%" stop-color="#00a3ff" />
                       </linearGradient>
                     </defs>
@@ -330,13 +330,13 @@
           }
           .station-card:hover {
             transform: translateY(-2px);
-            border-color: #1464f4 !important;
-            background: rgba(20, 100, 244, 0.08) !important;
+            border-color: #10b981 !important;
+            background: rgba(16, 185, 129, 0.08) !important;
           }
           .station-card.active {
-            background: rgba(20, 100, 244, 0.15) !important;
-            border: 2.5px solid #1464f4 !important;
-            box-shadow: 0 4px 12px rgba(20, 100, 244, 0.15) !important;
+            background: rgba(16, 185, 129, 0.15) !important;
+            border: 2.5px solid #10b981 !important;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
             color: #ffffff !important;
           }
           .station-card strong {
@@ -346,9 +346,9 @@
             color: #94a3b8 !important;
           }
           .station-card .badge {
-            background: rgba(20, 100, 244, 0.15) !important;
-            color: #00d2ff !important;
-            border: 1px solid rgba(20, 100, 244, 0.3) !important;
+            background: rgba(16, 185, 129, 0.15) !important;
+            color: #34d399 !important;
+            border: 1px solid rgba(16, 185, 129, 0.3) !important;
           }
           .map-simulation {
             background: #0b0f19 !important;
@@ -471,10 +471,10 @@
             <!-- Map Simulation Visualizer -->
             <div class="map-simulation" style="background: #0b0f19; position: relative; overflow: hidden; min-height: 400px; display: flex; align-items: center; justify-content: center;">
               <!-- Grid overlay to represent map grid -->
-              <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-image: radial-gradient(rgba(20, 100, 244, 0.15) 1.5px, transparent 1.5px), radial-gradient(rgba(20, 100, 244, 0.08) 1px, transparent 1px); background-size: 30px 30px, 15px 15px; background-position: 0 0, 7.5px 7.5px; opacity: 0.8;"></div>
+              <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-image: radial-gradient(rgba(16, 185, 129, 0.15) 1.5px, transparent 1.5px), radial-gradient(rgba(16, 185, 129, 0.08) 1px, transparent 1px); background-size: 30px 30px, 15px 15px; background-position: 0 0, 7.5px 7.5px; opacity: 0.8;"></div>
               
               <!-- Radar sweep scanning effect for futuristic mapping -->
-              <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: conic-gradient(from 0deg, rgba(20, 100, 244, 0) 50%, rgba(20, 100, 244, 0.02) 90%, rgba(20, 100, 244, 0.06) 100%); animation: radarSweep 6s linear infinite; transform-origin: center; pointer-events: none;"></div>
+              <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: conic-gradient(from 0deg, rgba(16, 185, 129, 0) 50%, rgba(16, 185, 129, 0.02) 90%, rgba(16, 185, 129, 0.06) 100%); animation: radarSweep 6s linear infinite; transform-origin: center; pointer-events: none;"></div>
               
               <!-- Province center point label -->
               <div style="position: absolute; top: 12px; left: 12px; background: rgba(8, 12, 28, 0.85); border-radius: 6px; padding: 4px 10px; border: 1px solid rgba(255, 255, 255, 0.15); font-size: 11px; font-weight: 700; color: #ffffff; letter-spacing: 0.5px; text-transform: uppercase; z-index: 5;">
@@ -636,7 +636,7 @@
           <div style="font-size: 11px; color: #94a3b8; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: left;" title="${st.addr}">${st.addr}</div>
           <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 4px;">
             <div style="display: flex; flex-wrap: wrap; gap: 4px;">${plugBadges}</div>
-            <span style="font-size: 11px; font-weight: 700; color: #00d2ff; flex-shrink:0;">${st.distance}</span>
+            <span style="font-size: 11px; font-weight: 700; color: #34d399; flex-shrink:0;">${st.distance}</span>
           </div>
         `;
         listContainer.appendChild(card);
@@ -648,7 +648,7 @@
         pin.style.top = st.y;
         
         // Pin color by type
-        let pinColor = '#1464f4'; // Default blue
+        let pinColor = '#10b981'; // Default blue
         if (st.plugs.superfast > 0) pinColor = '#10b981'; // Green for superfast
         else if (st.plugs.fast > 0) pinColor = '#facc15'; // Gold/Yellow for fast
         
@@ -856,7 +856,7 @@
         const stations = provinceStations[province] || [];
         const st = stations.find(s => s.id === activeStationId);
         if (st) {
-          let pinColor = '#1464f4';
+          let pinColor = '#10b981';
           if (st.plugs.superfast > 0) pinColor = '#10b981';
           else if (st.plugs.fast > 0) pinColor = '#facc15';
           positionRadarRing(st.x, st.y, pinColor);

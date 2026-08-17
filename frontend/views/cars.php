@@ -64,7 +64,7 @@ html, body {
   font-family: 'Outfit', sans-serif !important;
   font-size: 15vw;
   font-weight: 900;
-  color: rgba(20, 100, 244, 0.035);
+  color: rgba(16, 185, 129, 0.035);
   white-space: nowrap;
   pointer-events: none;
   z-index: 1;
@@ -84,7 +84,7 @@ html, body {
   font-weight: 800;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #1464f4;
+  color: #10b981;
   margin-bottom: 6px;
   display: block;
 }
@@ -155,7 +155,7 @@ html, body {
 }
 
 .slide-color-dot.active {
-  box-shadow: 0 0 0 2px #1464f4;
+  box-shadow: 0 0 0 2px #10b981;
   transform: scale(1.2);
 }
 
@@ -202,7 +202,7 @@ html, body {
 }
 
 .btn-slide-primary {
-  background: #1464f4;
+  background: #10b981;
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
@@ -212,13 +212,13 @@ html, body {
   border: none;
   cursor: pointer;
   text-decoration: none;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.3);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
   transition: all 0.3s;
 }
 
 .btn-slide-primary:hover {
   background: #004ecc;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.45);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45);
   transform: translateY(-2px);
 }
 
@@ -238,8 +238,8 @@ html, body {
 
 .btn-slide-outline:hover {
   background: #ffffff;
-  border-color: #1464f4;
-  color: #1464f4;
+  border-color: #10b981;
+  color: #10b981;
   transform: translateY(-2px);
 }
 
@@ -269,7 +269,7 @@ html, body {
   left: 50%;
   transform: translateX(-50%);
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(20, 100, 244, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.12);
   padding: 6px 12px;
   border-radius: 40px;
   display: flex;
@@ -294,14 +294,14 @@ html, body {
 }
 
 .dock-item:hover {
-  color: #1464f4;
-  background: rgba(20, 100, 244, 0.04);
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.04);
 }
 
 .dock-item.active {
   color: #ffffff !important;
-  background: #1464f4 !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.3);
+  background: #10b981 !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
 }
 
 /* Hide navigation buttons default styles or adjust them inside slides */
@@ -340,12 +340,12 @@ html, body {
   transition: all 0.3s;
 }
 .cockpit-tab-btn.active {
-  border-color: #1464f4 !important;
-  box-shadow: 0 8px 24px rgba(20, 100, 244, 0.06) !important;
-  background: rgba(20, 100, 244, 0.01) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.06) !important;
+  background: rgba(16, 185, 129, 0.01) !important;
 }
 .cockpit-tab-btn.active .cockpit-tab-num {
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 .cockpit-tab-btn:hover {
   border-color: #cbd5e1;
@@ -367,9 +367,9 @@ html, body {
   transition: all 0.3s;
 }
 .car-picker-item.active {
-  border-color: #1464f4 !important;
-  background: rgba(20, 100, 244, 0.02) !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.15) !important;
+  border-color: #10b981 !important;
+  background: rgba(16, 185, 129, 0.02) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
 }
 
 /* Dynamic Color Selector Info style */
@@ -756,7 +756,7 @@ body.page-cars .cockpit-display {
             <span class="slide-spec-lbl">Gia tốc</span>
           </div>
           <div class="slide-spec-item">
-            <span class="slide-spec-val" style="color: #1464f4;"><?php echo htmlspecialchars($displayPrice); ?></span>
+            <span class="slide-spec-val" style="color: #10b981;"><?php echo htmlspecialchars($displayPrice); ?></span>
             <span class="slide-spec-lbl">Giá xe từ</span>
           </div>
         </div>
@@ -832,7 +832,7 @@ body.page-cars .cockpit-display {
       <span style="font-size: 26px;">🧮</span>
       <div>
         <h3 style="font-size: 19px; font-weight: 850; color: #0f172a; margin: 0;" id="estimator-car-title">Bảng Dự Toán Chi Phí Lăn Bánh</h3>
-        <span style="font-size: 12px; font-weight: 700; color: #1464f4;" id="estimator-car-price-display">Giá niêm yết: -- VNĐ</span>
+        <span style="font-size: 12px; font-weight: 700; color: #10b981;" id="estimator-car-price-display">Giá niêm yết: -- VNĐ</span>
       </div>
     </div>
 
@@ -878,12 +878,12 @@ body.page-cars .cockpit-display {
       <!-- Progress Bar Chart proportions -->
       <div class="estimator-progress-wrap" style="margin-bottom: 15px; display: none;" id="est-progress-container">
         <div style="display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: #cbd5e1; margin-bottom: 6px;">
-          <div id="est-bar-downpayment" style="background: #1464f4; width: 15%; transition: width 0.4s ease;"></div>
+          <div id="est-bar-downpayment" style="background: #10b981; width: 15%; transition: width 0.4s ease;"></div>
           <div id="est-bar-fees" style="background: #10b981; width: 5%; transition: width 0.4s ease;"></div>
           <div id="est-bar-loan" style="background: #94a3b8; width: 80%; transition: width 0.4s ease;"></div>
         </div>
         <div style="display: flex; justify-content: space-between; font-size: 10px; font-weight: 700; color: #64748b;">
-          <span style="color: #1464f4;">● Trả trước</span>
+          <span style="color: #10b981;">● Trả trước</span>
           <span style="color: #10b981;">● Thuế phí</span>
           <span id="est-lbl-loan-pct" style="color: #475569;">● Vay 85%</span>
         </div>
@@ -903,7 +903,7 @@ body.page-cars .cockpit-display {
       </div>
       <div class="estimator-row" style="display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px; border-top: 1px dashed #cbd5e1; padding-top: 8px;">
         <span class="estimator-row-lbl" style="color: #1e293b; font-weight: 700;">CẦN TRẢ TRƯỚC NHẬN XE:</span>
-        <span class="estimator-row-val estimator-row-val--highlight" id="est-val-upfront" style="font-weight: 900; color: #1464f4; font-size: 15px;">-- VNĐ</span>
+        <span class="estimator-row-val estimator-row-val--highlight" id="est-val-upfront" style="font-weight: 900; color: #10b981; font-size: 15px;">-- VNĐ</span>
       </div>
       <div class="estimator-row" id="est-row-monthly" style="display: flex; justify-content: space-between; font-size: 13px;">
         <span class="estimator-row-lbl" style="color: #1e293b; font-weight: 700;">GỐC + LÃI TRẢ GÓP THÁNG:</span>

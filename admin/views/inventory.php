@@ -263,7 +263,7 @@
 
             <div class="form-group" style="margin-top: 15px;">
               <label class="form-label" for="exterior_colors">Màu sơn ngoại thất (Định dạng: Tên màu|Mã hex, cách nhau bằng dấu phẩy)</label>
-              <input class="form-input" type="text" name="exterior_colors" id="exterior_colors" value="<?php echo $editCar ? htmlspecialchars($editCar['exterior_colors']) : 'Trắng Brahminy|#ffffff,Đen Jet Black|#121212,Xám Neptune|#4a4e52,Xanh VinFast Blue|#1464f4'; ?>" placeholder="Đen Jet Black|#000000,Trắng Brahminy|#ffffff">
+              <input class="form-input" type="text" name="exterior_colors" id="exterior_colors" value="<?php echo $editCar ? htmlspecialchars($editCar['exterior_colors']) : 'Trắng Brahminy|#ffffff,Đen Jet Black|#121212,Xám Neptune|#4a4e52,Xanh VinFast Blue|#10b981'; ?>" placeholder="Đen Jet Black|#000000,Trắng Brahminy|#ffffff">
             </div>
 
             <div class="form-group" style="margin-top: 15px;">

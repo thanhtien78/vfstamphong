@@ -189,7 +189,7 @@
                 <span style="color:var(--color-primary);"><?php echo $ratio; ?>%</span>
               </div>
               <div style="height:6px; background:rgba(255,255,255,0.05); border-radius:3px; overflow:hidden;">
-                <div style="width:<?php echo $ratio; ?>%; height:100%; background:linear-gradient(90deg, #38bdf8, #00d2ff); box-shadow:0 0 8px var(--color-primary-glow); border-radius:3px;"></div>
+                <div style="width:<?php echo $ratio; ?>%; height:100%; background:linear-gradient(90deg, #34d399, #34d399); box-shadow:0 0 8px var(--color-primary-glow); border-radius:3px;"></div>
               </div>
               <div style="display:flex; justify-content:space-between; font-size:10px; color:var(--color-text-muted); margin-top:4px;">
                 <span>Đã chốt: <?php echo $countClosed; ?> yêu cầu</span>

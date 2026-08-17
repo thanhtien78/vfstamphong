@@ -338,9 +338,9 @@
         </div>
 
         <!-- TARGET KEYWORD INPUT -->
-        <div style="margin-bottom: 20px; background: var(--color-primary-glow); border: 1px dashed rgba(56, 189, 248, 0.25); padding: 14px; border-radius: 8px;">
+        <div style="margin-bottom: 20px; background: var(--color-primary-glow); border: 1px dashed rgba(52, 211, 153, 0.25); padding: 14px; border-radius: 8px;">
           <label style="font-size: 11px; font-weight: bold; color: var(--color-primary); text-transform: uppercase; display: block; margin-bottom: 6px; letter-spacing: 0.5px;">🎯 Từ khóa tập trung (Focus Keyword)</label>
-          <input type="text" id="seo_focus_keyword" placeholder="Nhập từ khóa chính cần tối ưu SEO (vd: EV, VinFast q8)..." style="width: 100%; padding: 8px 12px; font-size: 12px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3); background: rgba(0,0,0,0.3); color: #fff; outline: none; transition: border-color 0.2s;" oninput="window.updateSeoAnalysis()">
+          <input type="text" id="seo_focus_keyword" placeholder="Nhập từ khóa chính cần tối ưu SEO (vd: EV, VinFast q8)..." style="width: 100%; padding: 8px 12px; font-size: 12px; border-radius: 6px; border: 1px solid rgba(52, 211, 153, 0.3); background: rgba(0,0,0,0.3); color: #fff; outline: none; transition: border-color 0.2s;" oninput="window.updateSeoAnalysis()">
         </div>
 
         <!-- SEO REALTIME CHECKLIST -->
@@ -468,7 +468,7 @@
           </div>
 
           <!-- SUGGESTED KEYWORDS -->
-          <div style="display: flex; flex-direction: column; gap: 6px; border: 1px dashed rgba(56, 189, 248, 0.15); padding: 10px; border-radius: 8px; background: var(--color-primary-glow);">
+          <div style="display: flex; flex-direction: column; gap: 6px; border: 1px dashed rgba(52, 211, 153, 0.15); padding: 10px; border-radius: 8px; background: var(--color-primary-glow);">
             <span style="font-weight: bold; color: var(--color-primary); font-size: 11.5px; text-transform: uppercase;">💡 Gợi ý từ khóa khuyên dùng:</span>
             <div id="seo-smart-tags" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px;">
               <!-- Tags will load dynamically using JS based on Category selector -->

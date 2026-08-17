@@ -38,7 +38,7 @@
 
 .faq-num-badge,
 .faq-section .section-tag {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
 }
 
@@ -59,7 +59,7 @@
 
 .faq-item:hover, .faq-item.faq-item--active {
   background: #f0f7ff !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 
 .faq-trigger {
@@ -77,7 +77,7 @@
 
   /* Style the VinFast Official Badge as a premium blue gradient pill */
   .why-visual-badge {
-      background: linear-gradient(135deg, #1464f4 0%, #00b4d8 100%) !important; /* Premium corporate gradient */
+      background: linear-gradient(135deg, #10b981 0%, #00b4d8 100%) !important; /* Premium corporate gradient */
       color: #ffffff !important; /* Crisp white text for contrast */
       border: none !important;
       border-radius: 30px !important; /* Modern pill shape */
@@ -85,7 +85,7 @@
       font-weight: 700 !important;
       font-size: 9.5px !important;
       letter-spacing: 1px !important;
-      box-shadow: 0 4px 15px rgba(20, 100, 244, 0.25) !important;
+      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
       backdrop-filter: none !important;
   }
 
@@ -150,13 +150,13 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: radial-gradient(circle, rgba(20, 100, 244, 0.02) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(16, 185, 129, 0.02) 0%, transparent 70%);
         pointer-events: none;
       }
       
       .faq-radar-container {
-        background: #dbeafe; /* The ice-blue screen inside the radar */
-        border: 1px solid #bfdbfe; /* Sky-blue border */
+        background: #d1fae5; /* The ice-blue screen inside the radar */
+        border: 1px solid #a7f3d0; /* Sky-blue border */
         border-radius: 8px;
         position: relative;
         overflow: hidden;
@@ -182,23 +182,23 @@
       }
       
       .faq-radar-svg circle {
-        stroke: rgba(20, 100, 244, 0.08);
+        stroke: rgba(16, 185, 129, 0.08);
       }
       
       .faq-radar-svg circle.radar-orbit-1 {
-        stroke: rgba(20, 100, 244, 0.15);
+        stroke: rgba(16, 185, 129, 0.15);
       }
       
       .faq-radar-svg circle.radar-orbit-2 {
-        stroke: rgba(20, 100, 244, 0.25);
+        stroke: rgba(16, 185, 129, 0.25);
       }
       
       .faq-radar-svg .radar-sweep-line {
-        stroke: #1464f4;
+        stroke: #10b981;
       }
       
       .faq-radar-svg .radar-core-glow {
-        fill: #1464f4;
+        fill: #10b981;
       }
       
       .faq-visual-item {
@@ -206,8 +206,8 @@
       }
       
       .faq-visual-icon {
-        background: rgba(20, 100, 244, 0.06);
-        color: #1464f4;
+        background: rgba(16, 185, 129, 0.06);
+        color: #10b981;
       }
       
       /* Accordion Items - clean light cards */
@@ -361,7 +361,7 @@
   .hud-spec-val {
     font-size: 11px !important;
     font-weight: 850 !important;
-    color: #38bdf8 !important;
+    color: #34d399 !important;
   }
 
   .hud-spec-lbl {
@@ -1037,7 +1037,7 @@
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(20, 100, 244, 0.25) !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5), 0 0 15px rgba(16, 185, 129, 0.25) !important;
     margin: 0 !important;
     padding: 0 !important;
     white-space: nowrap !important;
@@ -1060,10 +1060,10 @@
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 .car-card__price-box {
-  background: rgba(20, 100, 244, 0.03) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
   border-radius: 10px !important;
   padding: 8px 10px !important;
-  border: 1px dashed rgba(20, 100, 244, 0.18) !important;
+  border: 1px dashed rgba(16, 185, 129, 0.18) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
@@ -1096,7 +1096,7 @@
 .price-main-num {
   font-size: 13.5px !important;
   font-weight: 900 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   display: block !important;
   line-height: 1.2 !important;
 }
@@ -1132,7 +1132,7 @@
    VINFAST ELECTRIC BLUE PULSING "VUỐT ĐỂ SO SÁNH" BUTTON (MATCHES BRAND THEME)
    ====================================================================== */
 .btn-compare-pulse {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
   color: #ffffff !important;
   border: 1.5px solid #60a5fa !important;
   padding: 11px 24px !important;
@@ -1141,7 +1141,7 @@
   font-weight: 900 !important;
   letter-spacing: 1.2px !important;
   text-transform: uppercase !important;
-  box-shadow: 0 4px 18px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 4px 18px rgba(16, 185, 129, 0.45) !important;
   animation: pulse-blue-glow 2s infinite ease-in-out !important;
   display: inline-flex !important;
   align-items: center !important;
@@ -1152,16 +1152,16 @@
 }
 
 .btn-compare-pulse:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 6px 24px rgba(20, 100, 244, 0.65) !important;
+  box-shadow: 0 6px 24px rgba(16, 185, 129, 0.65) !important;
   transform: translateY(-2px) scale(1.02) !important;
 }
 
 @keyframes pulse-blue-glow {
-  0% { box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.6); transform: scale(1); }
-  50% { box-shadow: 0 0 0 14px rgba(20, 100, 244, 0); transform: scale(1.03); }
-  100% { box-shadow: 0 0 0 0 rgba(20, 100, 244, 0); transform: scale(1); }
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); transform: scale(1); }
+  50% { box-shadow: 0 0 0 14px rgba(16, 185, 129, 0); transform: scale(1.03); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); transform: scale(1); }
 }
 
 /* ======================================================================
@@ -1199,9 +1199,9 @@
 }
 
 .ev-tech-tab-btn.active {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.35);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
 }
 
 .ev-tech-tab-btn:hover:not(.active) {
@@ -1306,9 +1306,9 @@
   }
 
   html body .ev-tech-tab-btn.active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
   }
 
   html body .ev-tech-tab-btn:not(.active) {
@@ -1367,9 +1367,9 @@
   }
 
   html body .ev-tech-tab-btn.active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
   }
 
   html body .ev-tech-tab-btn:not(.active) {
@@ -1591,13 +1591,13 @@
   html body .privilege-card__icon-wrap {
     width: 38px !important;
     height: 38px !important;
-    background: rgba(20, 100, 244, 0.08) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
     border-radius: 12px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     margin-bottom: 8px !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .privilege-card__icon-wrap svg {
@@ -1633,9 +1633,9 @@
     padding: 7px 4px !important;
     font-size: 11px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 20px !important;
     text-decoration: none !important;
     text-align: center !important;
@@ -1663,14 +1663,14 @@
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 3px 10px rgba(20, 100, 244, 0.28) !important;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.28) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -1687,9 +1687,9 @@
 }
 
 .privilege-card__link:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 5px 14px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 5px 14px rgba(16, 185, 129, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -1716,14 +1716,14 @@ html body .privilege-card__link {
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: #1464f4 !important;
+  background: #10b981 !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -1792,9 +1792,9 @@ html body .privilege-card__link .btn-arr-icon {
     height: 32px !important;
     font-size: 13px !important;
     font-weight: 800 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    color: #1464f4 !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #10b981 !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 10px !important;
     margin: 0 !important;
     display: flex !important;
@@ -1867,7 +1867,7 @@ html body .privilege-card__link .btn-arr-icon {
   html body .range-number-value {
     font-size: 38px !important;
     font-weight: 900 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .range-number-unit {
@@ -1910,7 +1910,7 @@ html body .privilege-card__link .btn-arr-icon {
 }
 
 /* ======================================================================
-   CATALOG FILTER TAB BUTTONS: VINFAST ELECTRIC BLUE ACTIVE STATE (#1464F4)
+   CATALOG FILTER TAB BUTTONS: VINFAST ELECTRIC BLUE ACTIVE STATE (#10b981)
    ====================================================================== */
 html body .filter-tabs {
   display: flex !important;
@@ -1935,17 +1935,17 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-  background: rgba(20, 100, 244, 0.08) !important;
-  border-color: #1464f4 !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
-  border-color: #1464f4 !important;
+  background: linear-gradient(135deg, #10b981 0%, #0d4bbf 100%) !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35) !important;
 }
 
 @media (max-width: 768px) {
@@ -2002,7 +2002,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
   html body .compare-spec-table th {
     font-size: 12px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 }
 
@@ -2107,7 +2107,7 @@ html body .compare-spec-table td:nth-child(n+2) {
 
 html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
   font-weight: 800 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-size: 13px !important;
 }
 
@@ -2154,8 +2154,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table th:first-child {
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
 }
 
 /* Columns 2+ (Car Models) */
@@ -2177,8 +2177,8 @@ html body .compare-spec-table td:nth-child(n+2) {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -2188,7 +2188,7 @@ html body .compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 100 !important;
-  background: #eff6ff !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
+  background: #f0fdf4 !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
@@ -2207,8 +2207,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background: #dbeafe !important; /* SOLID PRICE ROW BACKGROUND */
-  color: #1e3a8a !important;
+  background: #d1fae5 !important; /* SOLID PRICE ROW BACKGROUND */
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -2330,8 +2330,8 @@ html body .compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Colors for Column 1 Sticky Cells */
 html body .compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body .compare-spec-table td:first-child {
@@ -2345,8 +2345,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns */
@@ -2410,8 +2410,8 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Backgrounds for Column 1 Sticky Cells */
 html body table.compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body table.compare-spec-table td:first-child {
@@ -2425,8 +2425,8 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns (Relative positioning to stay strictly underneath Sticky Column 1) */
@@ -2473,9 +2473,9 @@ html body table.compare-spec-table {
 
 /* Header Row (All Columns Unified) */
 html body table.compare-spec-table th {
-  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
-  color: #1464f4 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%) !important;
+  color: #10b981 !important;
+  border-bottom: 2px solid #6ee7b7 !important;
   font-weight: 850 !important;
   font-family: 'Montserrat', sans-serif !important;
 }
@@ -2489,8 +2489,8 @@ html body table.compare-spec-table th:first-child {
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
-  background: #eff6ff !important; /* Unified header tint */
-  color: #1464f4 !important;
+  background: #f0fdf4 !important; /* Unified header tint */
+  color: #10b981 !important;
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
@@ -2516,9 +2516,9 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: rgba(20, 100, 244, 0.08) !important; /* Unified price highlight */
-  color: #1464f4 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important; /* Unified price highlight */
+  color: #10b981 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* Car Model Columns (Columns 2+) */
@@ -2547,11 +2547,11 @@ html body table.compare-spec-table tr:nth-child(even) td:nth-child(n+2) {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background-color: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   font-size: 13px !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -2586,11 +2586,11 @@ html body table.compare-spec-table td:first-child {
 /* Price Row Highlight (Column 1 and Product Columns) */
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -2626,21 +2626,21 @@ html body table.compare-spec-table td:first-child {
 html body table.compare-spec-table th,
 html body table.compare-spec-table th:first-child,
 html body table.compare-spec-table th:nth-child(n+2) {
-  background: #eff6ff !important;
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background: #f0fdf4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  border-bottom: 2px solid #6ee7b7 !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child,
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -2651,9 +2651,9 @@ html body table.compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #dbeafe !important;
-  background: #dbeafe !important;
-  color: #1e40af !important;
+  background-color: #d1fae5 !important;
+  background: #d1fae5 !important;
+  color: #047857 !important;
   border-right: 2px solid #94a3b8 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
@@ -2675,21 +2675,21 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #eff6ff !important;
-  background: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  background: #f0fdf4 !important;
+  color: #065f46 !important;
   font-weight: 850 !important;
   border-right: 2px solid #94a3b8 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   background-color: #f0f9ff !important;
   background: #f0f9ff !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -2776,7 +2776,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
   }
 
   html body .faq-btn-zalo {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
   }
 

@@ -140,7 +140,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
 
   html body .local-card-title {
     color: #0f172a !important;
-    border-left-color: #1464f4 !important;
+    border-left-color: #10b981 !important;
   }
 
   html body .local-card-text {
@@ -166,9 +166,9 @@ if (!function_exists('estimate_distance_to_showroom')) {
 
   /* Counselor button colors: white background with blue text and solid blue call button */
   html body .local-card-box a[style*="background: rgba(76,175,80,0.1)"] {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    border-color: #1464f4 !important;
+    border-color: #10b981 !important;
   }
 
   html body .local-card-box a[style*="background: rgba(76,175,80,0.1)"]:hover {
@@ -179,11 +179,11 @@ if (!function_exists('estimate_distance_to_showroom')) {
   html body .local-card-box a[style*="background: var(--color-primary-glow)"] {
     background: #ffffff !important;
     color: var(--color-primary) !important;
-    border-color: rgba(56, 189, 248, 0.3) !important;
+    border-color: rgba(52, 211, 153, 0.3) !important;
   }
 
   html body .local-card-box a[style*="background: var(--color-primary-glow)"]:hover {
-    background: rgba(56, 189, 248, 0.05) !important;
+    background: rgba(52, 211, 153, 0.05) !important;
     border-color: var(--color-primary) !important;
   }
 
@@ -230,12 +230,12 @@ if (!function_exists('estimate_distance_to_showroom')) {
   }
 
   html body .vip-local-card-calculator div[style*="background: rgba(0,0,0,0.3)"] span[style*="color: var(--color-primary)"] {
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   /* Calculator submit button */
   html body .vip-local-card-calculator a[style*="background: var(--color-primary)"] {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
   }
 
@@ -259,7 +259,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
   }
 
   html body .vip-local-card svg {
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .vip-local-card input,
@@ -270,19 +270,19 @@ if (!function_exists('estimate_distance_to_showroom')) {
   }
 
   html body .vip-local-btn {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
     border-radius: 30px !important;
     font-weight: 700 !important;
     padding: 12px 24px !important;
     transition: all 0.3s ease !important;
-    box-shadow: 0 4px 14px rgba(20, 100, 244, 0.3) !important;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3) !important;
     border: none !important;
   }
 
   html body .vip-local-btn:hover {
     background: #0f52c9 !important;
-    box-shadow: 0 6px 20px rgba(20, 100, 244, 0.4) !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4) !important;
   }
 
   /* 6. Interlinking blocks */
@@ -293,9 +293,9 @@ if (!function_exists('estimate_distance_to_showroom')) {
   }
 
   html body .local-card-box a[style*="background: rgba(255,255,255,0.01)"]:hover {
-    border-color: #1464f4 !important;
-    color: #1464f4 !important;
-    background: rgba(20, 100, 244, 0.02) !important;
+    border-color: #10b981 !important;
+    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.02) !important;
   }
 
   /* 7. Featured cars cards */
@@ -350,9 +350,9 @@ if (!function_exists('estimate_distance_to_showroom')) {
   }
 
   html body .local-seo-section .nearby-link:hover {
-    border-color: #1464f4 !important;
-    color: #1464f4 !important;
-    background: rgba(20, 100, 244, 0.04) !important;
+    border-color: #10b981 !important;
+    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.04) !important;
   }
 
   /* 11. Status Badges for Pricing Table */
@@ -418,7 +418,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
     font-family: 'Montserrat', sans-serif !important;
   }
   .pseo-toc-trigger {
-    background: #1464f4;
+    background: #10b981;
     color: #fff;
     border: none;
     width: 50px;
@@ -428,7 +428,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 24px rgba(20, 100, 244, 0.35);
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.35);
     cursor: pointer;
     transition: all 0.3s ease;
   }
@@ -498,7 +498,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
     transition: color 0.2s;
   }
   .pseo-toc-list a:hover {
-    color: #1464f4;
+    color: #10b981;
   }
   @keyframes scale-in {
     from { transform: scale(0.9); opacity: 0; }
@@ -603,7 +603,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 <h4 style="font-size: 13.5px; color: var(--color-text-main); margin-bottom: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Tiện ích nội khu đẳng cấp:</h4>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
                   <?php foreach ($projectData['tien_ich_noi_bat'] as $util): ?>
-                    <span style="background: var(--color-primary-glow); border: 1px solid rgba(56, 189, 248, 0.15); padding: 5px 12px; border-radius: 20px; font-size: 11.5px; color: var(--color-primary); font-weight: 500;">
+                    <span style="background: var(--color-primary-glow); border: 1px solid rgba(52, 211, 153, 0.15); padding: 5px 12px; border-radius: 20px; font-size: 11.5px; color: var(--color-primary); font-weight: 500;">
                       ✦ <?php echo htmlspecialchars($util); ?>
                     </span>
                   <?php endforeach; ?>
@@ -817,11 +817,11 @@ if (!function_exists('estimate_distance_to_showroom')) {
               </p>
 
               <!-- Sub-tab 1: Smart Quiz -->
-              <div style="background: rgba(20, 100, 244, 0.02); border: 1px solid rgba(20, 100, 244, 0.1); border-radius: var(--ev-border-radius); padding: 18px; margin-bottom: 20px;">
+              <div style="background: rgba(16, 185, 129, 0.02); border: 1px solid rgba(16, 185, 129, 0.1); border-radius: var(--ev-border-radius); padding: 18px; margin-bottom: 20px;">
                 <h4 style="font-size: 13.5px; font-weight: 700; color: #0f172a; margin: 0 0 12px; display: flex; align-items: center; gap: 8px;">🚗 Gợi Ý Chọn Xe Theo Nhu Cầu Thực Tế:</h4>
                 <div style="display: flex; flex-direction: column; gap: 12px;">
-                  <div style="border-left: 3px solid #1464f4; padding-left: 10px;">
-                    <span style="font-size: 11px; font-weight: 700; color: #1464f4; text-transform: uppercase; display: block; margin-bottom: 2px;">Di chuyển đô thị, dễ luồn lách:</span>
+                  <div style="border-left: 3px solid #10b981; padding-left: 10px;">
+                    <span style="font-size: 11px; font-weight: 700; color: #10b981; text-transform: uppercase; display: block; margin-bottom: 2px;">Di chuyển đô thị, dễ luồn lách:</span>
                     <span style="font-size: 12.5px; color: #475569;">👉 Lựa chọn dòng xe <strong>VinFast VF 3</strong> hoặc <strong>VF 5 Plus</strong>. Kích thước nhỏ gọn, bán kính quay vòng tối ưu, dễ đỗ xe trong phố và chi phí vận hành siêu tiết kiệm.</span>
                   </div>
                   <div style="border-left: 3px solid #10b981; padding-left: 10px;">
@@ -887,7 +887,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 </p>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; font-size: 12.5px; line-height: 1.5; color: #475569;">
                   <div>
-                    <strong style="color: #1464f4; display:block; margin-bottom:4px;">1. Hình thức Thuê Pin:</strong>
+                    <strong style="color: #10b981; display:block; margin-bottom:4px;">1. Hình thức Thuê Pin:</strong>
                     Giúp hạ thấp giá mua xe ban đầu (tiết kiệm từ 90 triệu - 500 triệu đồng). Đặc biệt, hãng chịu mọi rủi ro về pin, cam kết **đổi pin mới 100% miễn phí** khi dung lượng pin tối đa giảm dưới 70%.
                   </div>
                   <div>
@@ -915,7 +915,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=70&fm=webp" alt="VinFast Terminal Showroom" style="width:100%; height:100%; object-fit:cover; filter:brightness(0.55);" loading="lazy" width="800" height="500">
                 <div style="position: absolute; inset:0; background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 75%);"></div>
                 <div style="position: absolute; bottom: 24px; left: 24px; right: 24px; z-index:3;">
-                  <span style="font-size: 10px; font-weight:700; color:#38bdf8 !important; letter-spacing:1px; text-transform:uppercase; display:block; margin-bottom:5px; text-shadow: 0 1px 2px rgba(0,0,0,0.8);">TRẠI NGHIỆM ĐẲNG CẤP CHÂU ÂU</span>
+                  <span style="font-size: 10px; font-weight:700; color:#34d399 !important; letter-spacing:1px; text-transform:uppercase; display:block; margin-bottom:5px; text-shadow: 0 1px 2px rgba(0,0,0,0.8);">TRẠI NGHIỆM ĐẲNG CẤP CHÂU ÂU</span>
                   <h3 style="font-size: 18px; font-weight:700; color: #ffffff !important; margin-bottom: 8px; text-transform:uppercase; font-family:'Montserrat', sans-serif !important; text-shadow: 0 2px 4px rgba(0,0,0,0.9);">Tiêu chuẩn 4S Ủy Quyền Chính Thức</h3>
                   <p style="font-size:12px; color:rgba(255,255,255,0.9) !important; line-height:1.6; margin:0; text-shadow: 0 1px 2px rgba(0,0,0,0.8);">
                     Đáp ứng trọn vẹn từ không gian trưng bày xe sang, khu xưởng dịch vụ kỹ thuật cao, kho phụ tùng chính hãng VinFast và trạm sạc nhanh VinFast DC 150kW.
@@ -927,7 +927,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                     $routes = ['Đại lộ Võ Văn Kiệt', 'Đại lộ Nguyễn Văn Linh', 'Xa lộ Hà Nội', 'Đường Mai Chí Thọ', 'Đường Điện Biên Phủ'];
                     $chosenRoute = $routes[$hashVal % count($routes)];
                     ?>
-                    <br><span style="color: #38bdf8 !important; font-weight: 700;">📍 Hướng dẫn di chuyển:</span> Từ địa bàn <strong style="color:#ffffff !important;"><?php echo $locationName; ?></strong>, quý khách có thể di chuyển qua tuyến đường huyết mạch <strong style="color:#ffffff !important;"><?php echo $chosenRoute; ?></strong> để kết nối trực tiếp đến Showroom của chúng tôi ở Quận 1 (Cách khoảng <strong style="color:#ffffff !important;"><?php echo $dist1; ?> km</strong>, đi xe mất khoảng <strong style="color:#ffffff !important;"><?php echo $timeEstimate; ?> phút</strong>).
+                    <br><span style="color: #34d399 !important; font-weight: 700;">📍 Hướng dẫn di chuyển:</span> Từ địa bàn <strong style="color:#ffffff !important;"><?php echo $locationName; ?></strong>, quý khách có thể di chuyển qua tuyến đường huyết mạch <strong style="color:#ffffff !important;"><?php echo $chosenRoute; ?></strong> để kết nối trực tiếp đến Showroom của chúng tôi ở Quận 1 (Cách khoảng <strong style="color:#ffffff !important;"><?php echo $dist1; ?> km</strong>, đi xe mất khoảng <strong style="color:#ffffff !important;"><?php echo $timeEstimate; ?> phút</strong>).
                   </p>
                 </div>
               </div>
@@ -963,7 +963,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
               
               <div class="local-perks-grid">
                 <div class="local-perk-card">
-                  <div style="background: rgba(20, 100, 244, 0.08); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #1464f4; margin-bottom: 12px;">
+                  <div style="background: rgba(16, 185, 129, 0.08); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #10b981; margin-bottom: 12px;">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16,8 20,8 23,11 23,16 16,16"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
                   </div>
                   <h4 style="font-size: 13.5px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Cứu Hộ 24/7 Chuyên Nghiệp</h4>
@@ -971,7 +971,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 </div>
                 
                 <div class="local-perk-card">
-                  <div style="background: rgba(20, 100, 244, 0.08); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #1464f4; margin-bottom: 12px;">
+                  <div style="background: rgba(16, 185, 129, 0.08); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #10b981; margin-bottom: 12px;">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9,22 9,12 15,12 15,22"></polyline></svg>
                   </div>
                   <h4 style="font-size: 13.5px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Nhận Trả Xe Bảo Dưỡng</h4>
@@ -979,7 +979,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 </div>
 
                 <div class="local-perk-card">
-                  <div style="background: rgba(20, 100, 244, 0.08); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #1464f4; margin-bottom: 12px;">
+                  <div style="background: rgba(16, 185, 129, 0.08); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #10b981; margin-bottom: 12px;">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12,6 12,12 16,14"></polyline></svg>
                   </div>
                   <h4 style="font-size: 13.5px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Lái Thử Tại Nhà (Free)</h4>
@@ -989,7 +989,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
             </div>
 
             <!-- EXCLUSIVE DEALER PROMOTIONS BOARD -->
-            <div class="local-card-box" id="pseo-promotions-section" style="border: 1px solid rgba(20, 100, 244, 0.3); background: linear-gradient(135deg, rgba(15, 23, 42, 0.98) 0%, rgba(20, 100, 244, 0.05) 100%);">
+            <div class="local-card-box" id="pseo-promotions-section" style="border: 1px solid rgba(16, 185, 129, 0.3); background: linear-gradient(135deg, rgba(15, 23, 42, 0.98) 0%, rgba(16, 185, 129, 0.05) 100%);">
               <h3 class="local-card-title" style="border-left-color: var(--color-primary); color: #fff; font-family: 'Montserrat', sans-serif !important; font-size: 14.5px; text-transform: uppercase;">
                 🎁 Ưu Đãi Đặc Quyền Khi Mua Xe Tại Đại Lý <?php echo htmlspecialchars($locationName); ?> (Tháng <?php echo "$currentMonth/$currentYear"; ?>)
               </h3>
@@ -1044,7 +1044,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #facc15; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Vàng (Solar Yellow)"></span>
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #6b7280; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xám (Zenith Grey)"></span>
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #ec4899; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Hồng (Rose Pink)"></span>
-                        <span style="width: 14px; height: 14px; border-radius: 50%; background: #38bdf8; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xanh lục (Creative Green)"></span>
+                        <span style="width: 14px; height: 14px; border-radius: 50%; background: #34d399; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xanh lục (Creative Green)"></span>
                       </div>
                     </div>
                   </div>
@@ -1064,7 +1064,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                       <span style="font-size: 11px; color: var(--color-text-muted);">Màu sẵn có:</span>
                       <div style="display: flex; gap: 5px;">
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #ffffff; border: 1px solid rgba(0,0,0,0.25); display: inline-block;" title="Trắng (Brahminy White)"></span>
-                        <span style="width: 14px; height: 14px; border-radius: 50%; background: #1d4ed8; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xanh dương (Aurora Blue)"></span>
+                        <span style="width: 14px; height: 14px; border-radius: 50%; background: #047857; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xanh dương (Aurora Blue)"></span>
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #f97316; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Cam (Sunset Orange)"></span>
                       </div>
                     </div>
@@ -1087,7 +1087,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #ffffff; border: 1px solid rgba(0,0,0,0.25); display: inline-block;" title="Trắng (Brahminy White)"></span>
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #111827; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Đen (Deep Black)"></span>
                         <span style="width: 14px; height: 14px; border-radius: 50%; background: #dc2626; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Đỏ (Crimson Red)"></span>
-                        <span style="width: 14px; height: 14px; border-radius: 50%; background: #1d4ed8; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xanh dương (Aurora Blue)"></span>
+                        <span style="width: 14px; height: 14px; border-radius: 50%; background: #047857; border: 1px solid rgba(0,0,0,0.15); display: inline-block;" title="Xanh dương (Aurora Blue)"></span>
                       </div>
                     </div>
                   </div>
@@ -1114,7 +1114,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
               
               <div style="display: grid; grid-template-columns: 1fr; gap: 15px;">
                 <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: var(--ev-border-radius); padding: 18px; position: relative;">
-                  <span style="font-size: 30px; color: rgba(20, 100, 244, 0.15); position: absolute; top: 10px; right: 15px; font-family: Georgia, serif; line-height: 1;">“</span>
+                  <span style="font-size: 30px; color: rgba(16, 185, 129, 0.15); position: absolute; top: 10px; right: 15px; font-family: Georgia, serif; line-height: 1;">“</span>
                   <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                     <strong style="font-size: 13px; color: var(--color-text-main);">Anh Quốc Bảo</strong>
                     <span style="color: var(--color-text-muted); font-size: 11px;">(Đại diện cư dân tại <?php echo htmlspecialchars($loc1); ?>)</span>
@@ -1125,7 +1125,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 </div>
 
                 <div style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: var(--ev-border-radius); padding: 18px; position: relative;">
-                  <span style="font-size: 30px; color: rgba(20, 100, 244, 0.15); position: absolute; top: 10px; right: 15px; font-family: Georgia, serif; line-height: 1;">“</span>
+                  <span style="font-size: 30px; color: rgba(16, 185, 129, 0.15); position: absolute; top: 10px; right: 15px; font-family: Georgia, serif; line-height: 1;">“</span>
                   <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
                     <strong style="font-size: 13px; color: var(--color-text-main);">Chị Thanh Vân</strong>
                     <span style="color: var(--color-text-muted); font-size: 11px;">(Chủ xe VF 3 sinh sống tại <?php echo htmlspecialchars($loc2); ?>)</span>
@@ -1264,7 +1264,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                   </p>
                   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; font-size: 12.5px; line-height: 1.5; color: #475569;">
                     <div>
-                      <strong style="color: #1464f4; display:block; margin-bottom:4px;">1. Hình thức Thuê Pin:</strong>
+                      <strong style="color: #10b981; display:block; margin-bottom:4px;">1. Hình thức Thuê Pin:</strong>
                       Giúp hạ thấp giá mua xe ban đầu (tiết kiệm từ 90 triệu - 500 triệu đồng). Đặc biệt, hãng chịu mọi rủi ro về pin, cam kết **đổi pin mới 100% miễn phí** khi dung lượng pin tối đa giảm dưới 70%.
                     </div>
                     <div>
@@ -1345,7 +1345,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                     <a href="tel:<?php echo htmlspecialchars($c['phone']); ?>" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(76,175,80,0.1); border: 1.5px solid rgba(76,175,80,0.3); color: #4caf50; padding: 6px 14px; border-radius: var(--ev-border-radius); font-size: 12px; font-weight: 700; text-decoration: none; transition: all 0.3s;" onmouseover="this.style.background='#4caf50'; this.style.color='#fff';" onmouseout="this.style.background='rgba(76,175,80,0.1)'; this.style.color='#4caf50';">
                       <?php echo get_svg_icon('fa-phone-alt', 10, 10, 'vertical-align: middle;'); ?> Gọi
                     </a>
-                    <a href="<?php echo htmlspecialchars($c['zalo']); ?>" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: var(--color-primary-glow); border: 1.5px solid rgba(56, 189, 248, 0.3); color: var(--color-primary); padding: 6px 14px; border-radius: var(--ev-border-radius); font-size: 12px; font-weight: 700; text-decoration: none; transition: all 0.3s;" onmouseover="this.style.background='var(--color-primary)'; this.style.color='#fff';" onmouseout="this.style.background='var(--color-primary-glow)'; this.style.color='var(--color-primary)';">
+                    <a href="<?php echo htmlspecialchars($c['zalo']); ?>" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: var(--color-primary-glow); border: 1.5px solid rgba(52, 211, 153, 0.3); color: var(--color-primary); padding: 6px 14px; border-radius: var(--ev-border-radius); font-size: 12px; font-weight: 700; text-decoration: none; transition: all 0.3s;" onmouseover="this.style.background='var(--color-primary)'; this.style.color='#fff';" onmouseout="this.style.background='var(--color-primary-glow)'; this.style.color='var(--color-primary)';">
                       <?php echo get_svg_icon('fa-comment-dots', 10, 10, 'vertical-align: middle;'); ?> Zalo
                     </a>
                   </div>
@@ -1482,7 +1482,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 <?php foreach ($cars as $car): 
                   $carUrl = seo_url('xe-vinfast/' . $car['slug'] . '?ref_loc=' . urlencode($locSlug));
                 ?>
-                  <a href="<?php echo htmlspecialchars($carUrl); ?>" style="color: #1464f4; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
+                  <a href="<?php echo htmlspecialchars($carUrl); ?>" style="color: #10b981; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
                     👉 Bảng giá xe <?php echo htmlspecialchars($car['model_name']); ?> tại <?php echo htmlspecialchars($locationName); ?>
                   </a>
                 <?php endforeach; ?>
@@ -1731,7 +1731,7 @@ if (!function_exists('estimate_distance_to_showroom')) {
               $dist2 = round((($hashVal * 7) % 12) + 2.5, 1);
               $dist3 = round((($hashVal * 13) % 8) + 0.8, 1);
               ?>
-              <div style="background: rgba(20, 100, 244, 0.02); border: 1.5px dashed rgba(20, 100, 244, 0.15); border-radius: var(--ev-border-radius); padding: 15px; margin-top: 15px;">
+              <div style="background: rgba(16, 185, 129, 0.02); border: 1.5px dashed rgba(16, 185, 129, 0.15); border-radius: var(--ev-border-radius); padding: 15px; margin-top: 15px;">
                 <h4 style="font-size: 12.5px; font-weight: 700; color: #0f172a; margin: 0 0 10px; display: flex; align-items: center; gap: 8px; text-transform: uppercase;">⚡ Điểm Sạc Pin Gần <?php echo htmlspecialchars($locationName); ?> Nhất:</h4>
                 <ul style="margin: 0; padding-left: 20px; font-size: 12.5px; color: #475569; display: flex; flex-direction: column; gap: 6px; list-style-type: square;">
                   <li><strong><?php echo $nearestShowroomLabel; ?>:</strong> Cách khoảng <strong><?php echo $dist1; ?> km</strong></li>

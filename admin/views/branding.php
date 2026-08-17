@@ -363,7 +363,7 @@
               toolbar: 'undo redo | bold italic | alignleft aligncenter alignright | link code | removeformat',
               content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:13px; background-color:#141a26; color:#fff; }' +
                              'body.mce-content-body { background-color: #141a26; color: #fff; }' +
-                             'a { color: #38bdf8 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
+                             'a { color: #34d399 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
               skin: 'oxide-dark',
               content_css: 'dark',
               setup: function(editor) {

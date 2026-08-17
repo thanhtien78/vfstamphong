@@ -877,7 +877,7 @@ section {
 
 /* Gradients and Brand Colors from daily-lexus.com */
 .bg-gradient-blue { 
-    background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%); 
+    background: linear-gradient(135deg, #34d399 0%, #3a7bd5 100%); 
     --ripple-color: rgba(0, 210, 255, 0.9);
 }
 .bg-gradient-purple { 
@@ -2436,7 +2436,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
     }
     
     .geo-toast-icon {
-      color: var(--color-primary, #1464f4);
+      color: var(--color-primary, #10b981);
       background: rgba(16, 185, 129, 0.05);
       border-radius: 50%;
       padding: 8px;
@@ -2473,7 +2473,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
       font-size: 10px;
       font-weight: 700 !important;
       color: #fff !important;
-      background: var(--color-primary, #1464f4);
+      background: var(--color-primary, #10b981);
       border-radius: var(--ev-border-radius);
       padding: 8px 14px;
       text-decoration: none;

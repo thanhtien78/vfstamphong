@@ -11,7 +11,7 @@
             <div class="privilege-card__watermark">Warranty</div>
             <div class="privilege-card__icon-wrap">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="10.5" stroke="rgba(20, 100, 244, 0.15)" stroke-dasharray="3 3" />
+              <circle cx="12" cy="12" r="10.5" stroke="rgba(16, 185, 129, 0.15)" stroke-dasharray="3 3" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 11 2 2 4-4" />
             </svg>            </div>
@@ -26,7 +26,7 @@
             <div class="privilege-card__watermark">EV</div>
             <div class="privilege-card__icon-wrap">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="10.5" stroke="rgba(20, 100, 244, 0.15)" stroke-dasharray="3 3" />
+              <circle cx="12" cy="12" r="10.5" stroke="rgba(16, 185, 129, 0.15)" stroke-dasharray="3 3" />
               <rect x="7" y="6" width="10" height="13" rx="2" stroke-width="1.8" />
               <path d="M11 3h2v3h-2V3z" fill="currentColor" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" fill="currentColor" d="m13.5 9-3 3.5h3.5l-2.5 4" />
@@ -42,7 +42,7 @@
             <div class="privilege-card__watermark">Roadside</div>
             <div class="privilege-card__icon-wrap">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="10.5" stroke="rgba(20, 100, 244, 0.15)" stroke-dasharray="3 3" />
+              <circle cx="12" cy="12" r="10.5" stroke="rgba(16, 185, 129, 0.15)" stroke-dasharray="3 3" />
               <circle cx="12" cy="12" r="3.5" stroke-width="1.8" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 2v2M12 20v2M2 12h2M20 12h2" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.36 5.64l-1.42 1.42M7.05 16.95l-1.42 1.42M5.64 5.64l1.42 1.42M16.95 16.95l1.42 1.42" />
@@ -58,7 +58,7 @@
             <div class="privilege-card__watermark">Trade-in</div>
             <div class="privilege-card__icon-wrap">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="10.5" stroke="rgba(20, 100, 244, 0.15)" stroke-dasharray="3 3" />
+              <circle cx="12" cy="12" r="10.5" stroke="rgba(16, 185, 129, 0.15)" stroke-dasharray="3 3" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M17 1l4 4-4 4" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 11V9a4 4 0 0 1 4-4h14" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7 23l-4-4 4-4" />

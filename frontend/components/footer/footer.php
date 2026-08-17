@@ -83,10 +83,10 @@ try {
       text-transform: uppercase !important;
       text-decoration: none !important;
       transition: all 0.3s ease !important;
-      text-shadow: 0 0 10px rgba(56, 189, 248, 0.15) !important;
+      text-shadow: 0 0 10px rgba(52, 211, 153, 0.15) !important;
     }
     .premium-footer .logo-link:hover {
-      color: #38bdf8 !important; /* Brand Blue glow on hover */
+      color: #34d399 !important; /* Brand Blue glow on hover */
     }
     .footer-tagline {
       color: #94a3b8 !important; /* Muted tech gray */
@@ -112,11 +112,11 @@ try {
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     }
     .social-icon-link:hover {
-      background: #38bdf8 !important;
+      background: #34d399 !important;
       color: #ffffff !important;
-      border-color: #38bdf8 !important;
+      border-color: #34d399 !important;
       transform: translateY(-3px) !important;
-      box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3) !important;
+      box-shadow: 0 5px 15px rgba(52, 211, 153, 0.3) !important;
     }
     .footer-heading {
       color: #ffffff !important;
@@ -136,7 +136,7 @@ try {
       bottom: 0 !important;
       width: 35px !important;
       height: 2px !important;
-      background: #38bdf8 !important; /* Brand Blue bottom accent line */
+      background: #34d399 !important; /* Brand Blue bottom accent line */
     }
     .footer-links-list {
       list-style: none !important;
@@ -154,7 +154,7 @@ try {
       display: inline-block !important;
     }
     .footer-link-item a:hover {
-      color: #38bdf8 !important;
+      color: #34d399 !important;
       transform: translateX(4px) !important;
     }
     .footer-contact-info {
@@ -171,7 +171,7 @@ try {
       line-height: 1.55 !important;
     }
     .contact-info-item svg {
-      color: #38bdf8 !important; /* Brand Blue icons */
+      color: #34d399 !important; /* Brand Blue icons */
       flex-shrink: 0 !important;
       margin-top: 3px !important;
     }
@@ -206,7 +206,7 @@ try {
       transition: all 0.25s ease !important;
     }
     .footer-legal-links a:hover {
-      color: #38bdf8 !important;
+      color: #34d399 !important;
     }
     @media (max-width: 768px) {
       .footer-bottom-wrap {

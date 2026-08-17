@@ -50,7 +50,7 @@
     <div class="container">
       <div class="compare-counselors-block">
         <div class="compare-counselors-header" style="text-align: center; margin-bottom: 30px;">
-          <span class="compare-counselors-tag" style="display: inline-block; font-size: 11px; font-weight: 800; color: #1464f4; background-color: rgba(20, 100, 244, 0.06); padding: 5px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1.5px; border: 1px solid rgba(20, 100, 244, 0.12); font-family: 'Montserrat', sans-serif;">Hỗ trợ trực tiếp</span>
+          <span class="compare-counselors-tag" style="display: inline-block; font-size: 11px; font-weight: 800; color: #10b981; background-color: rgba(16, 185, 129, 0.06); padding: 5px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1.5px; border: 1px solid rgba(16, 185, 129, 0.12); font-family: 'Montserrat', sans-serif;">Hỗ trợ trực tiếp</span>
           <h3 class="compare-counselors-title" style="font-size: 21px; font-weight: 750; color: #0f172a; margin-top: 12px; margin-bottom: 8px; font-family: 'Montserrat', sans-serif;">Bạn đang băn khoăn chưa biết lựa chọn dòng xe nào phù hợp?</h3>
           <p class="compare-counselors-subtitle" style="font-size: 13.5px; color: #475569; max-width: 650px; margin: 0 auto; line-height: 1.6; font-family: 'Montserrat', sans-serif;">Kết nối ngay với các Chuyên viên tư vấn VIP để nhận so sánh chi tiết, tính toán giá lăn bánh trả góp và đăng ký lịch lái thử tại nhà hoàn toàn miễn phí.</p>
         </div>

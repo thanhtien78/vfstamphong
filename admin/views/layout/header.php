@@ -55,7 +55,7 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
           toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | removeformat code fullscreen',
           skin: 'oxide-dark',
           content_css: 'dark',
-          content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #38bdf8 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
+          content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #34d399 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
           branding: false,
           promotion: false,
           images_upload_url: '<?php echo $basePath; ?>/admin/admin.php?upload_tinymce_image=1',
@@ -84,7 +84,7 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
           toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | removeformat code fullscreen',
           skin: 'oxide-dark',
           content_css: 'dark',
-          content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #38bdf8 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
+          content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #34d399 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
           branding: false,
           promotion: false,
           images_upload_url: '<?php echo $basePath; ?>/admin/admin.php?upload_tinymce_image=1',
@@ -107,7 +107,7 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
           toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image table | removeformat code fullscreen',
           skin: 'oxide-dark',
           content_css: 'dark',
-          content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #38bdf8 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
+          content_style: 'body { font-family:Montserrat,sans-serif; color:#fff; } a { color: #34d399 !important; text-decoration: underline !important; } a:hover { color: #fff !important; }',
           branding: false,
           promotion: false,
           images_upload_url: '<?php echo $basePath; ?>/admin/admin.php?upload_tinymce_image=1',
@@ -271,8 +271,8 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
       --color-text-muted: #94a3b8;         /* Soft Gray-Blue (Slate 400) */
       --color-border: #334155;             /* Border line (Slate 700) */
       --color-border-active: #475569;      /* Border line active (Slate 600) */
-      --color-primary: #38bdf8;            /* Futuristic Sky Blue/Cyan */
-      --color-primary-glow: rgba(56, 189, 248, 0.18);
+      --color-primary: #34d399;            /* Futuristic Sky Blue/Cyan */
+      --color-primary-glow: rgba(52, 211, 153, 0.18);
       --transition-speed: 200ms;
     }
 
@@ -418,7 +418,7 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
     .content-area {
       padding: 40px;
       overflow-y: auto;
-      background-image: radial-gradient(circle at top right, rgba(56, 189, 248, 0.03), transparent 600px);
+      background-image: radial-gradient(circle at top right, rgba(52, 211, 153, 0.03), transparent 600px);
     }
 
     .header-bar {
@@ -527,7 +527,7 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
     .form-input:focus {
       outline: none;
       border-color: var(--color-primary);
-      box-shadow: 0 0 8px rgba(56, 189, 248, 0.15);
+      box-shadow: 0 0 8px rgba(52, 211, 153, 0.15);
     }
 
     textarea.form-input {
@@ -666,7 +666,7 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
     .btn-gold:hover {
       background: var(--color-primary);
       color: #000;
-      box-shadow: 0 0 15px rgba(56, 189, 248, 0.35);
+      box-shadow: 0 0 15px rgba(52, 211, 153, 0.35);
     }
 
     .btn-danger {
@@ -780,8 +780,8 @@ global $page, $currentUser, $basePath, $pseo_phone, $pseo_website;
 
     /* Modal Form / Popups simulation inline */
     .inline-action-card {
-      border: 1px solid rgba(56, 189, 248, 0.15);
-      background-image: linear-gradient(135deg, rgba(56, 189, 248, 0.01), rgba(0,0,0,0));
+      border: 1px solid rgba(52, 211, 153, 0.15);
+      background-image: linear-gradient(135deg, rgba(52, 211, 153, 0.01), rgba(0,0,0,0));
     }
   </style>
 </head>

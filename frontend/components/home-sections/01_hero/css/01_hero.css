@@ -6,7 +6,7 @@
   --color-ev-gold: #d97706;
   --color-bg-light: #f4f6fa; /* Slate-tinted light background */
   --color-text-dark: #0f172a;
-  --color-text-slate: #475569;
+  --color-text-slate: #3d564e;
   --glow-green: 0 0 15px rgba(16, 185, 129, 0.2);
   --glow-gold: 0 0 15px rgba(217, 119, 6, 0.25);
   --card-shadow: 0 10px 30px rgba(16, 185, 129, 0.05), 0 1px 3px rgba(0,0,0,0.02);
@@ -323,7 +323,7 @@
     line-height: 1.5 !important;
     margin-bottom: 16px !important;
     text-align: center !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
   }
 
   .hero-ctas {
@@ -475,7 +475,7 @@
     line-height: 1.45 !important;
     margin-bottom: 14px !important;
     text-align: center !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
   }
 
   html body .hero-ctas {

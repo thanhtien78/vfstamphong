@@ -38,7 +38,7 @@
   }
 
   .privilege-card__desc {
-      color: #cbd5e1 !important;
+      color: #c8ded7 !important;
   }
 
   .privilege-card__watermark {
@@ -130,7 +130,7 @@
 
   html body .privilege-card__desc {
     font-size: 11px !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     line-height: 1.4 !important;
     margin: 0 0 10px 0 !important;
     display: -webkit-box !important;

@@ -27,7 +27,7 @@
 .ev-tech-section {
   padding: 45px 0 !important;
   background: #ffffff !important; /* Pure white background */
-  border-bottom: 1px solid #cbd5e1 !important;
+  border-bottom: 1px solid #c8ded7 !important;
   position: relative !important;
   overflow: hidden !important;
 }
@@ -63,8 +63,8 @@
 }
 .ev-tech-tabs {
   display: inline-flex !important;
-  background: #e2e8f0 !important; /* Darker tab container for highlight */
-  border: 1.5px solid #cbd5e1 !important;
+  background: #e2eeea !important; /* Darker tab container for highlight */
+  border: 1.5px solid #c8ded7 !important;
   padding: 6px !important;
   border-radius: 30px !important;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.03) !important;
@@ -72,7 +72,7 @@
 .ev-tech-tab-btn {
   background: transparent !important;
   border: none !important;
-  color: #475569 !important; /* Darker inactive tab text */
+  color: #3d564e !important; /* Darker inactive tab text */
   padding: 12px 28px !important;
   font-size: 14px !important;
   font-weight: 700 !important; /* Bold tab text */
@@ -110,8 +110,8 @@
   align-items: stretch !important;
 }
 .range-calc-models-panel {
-  background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
-  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  background: #ebf5f0 !important; /* Darker Slate-100 background (A) */
+  border: 1.5px solid #c8ded7 !important; /* Darker border */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
   border-radius: 16px !important;
   padding: 24px !important;
@@ -127,7 +127,7 @@
   gap: 16px !important;
   padding: 16px !important;
   background: #ffffff !important; /* Contrast white inside grey box */
-  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border: 1.5px solid #c8ded7 !important; /* Darker border */
   border-radius: 12px !important;
   cursor: pointer !important;
   transition: all 0.3s ease !important;
@@ -158,15 +158,15 @@
 }
 .range-calc-model-meta {
   font-size: 12px !important;
-  color: #475569 !important;
+  color: #3d564e !important;
 }
 
 .range-calc-interactive-panel {
   display: flex !important;
   flex-direction: column !important;
   gap: 32px !important;
-  background: #f1f5f9 !important;
-  border: 1.5px solid #cbd5e1 !important;
+  background: #ebf5f0 !important;
+  border: 1.5px solid #c8ded7 !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
   border-radius: 16px !important;
   padding: 32px !important;
@@ -183,7 +183,7 @@
   align-items: flex-start !important;
   gap: 16px !important;
   background: #ffffff !important;
-  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border: 1.5px solid #c8ded7 !important; /* Darker border */
   border-radius: 14px !important;
   padding: 20px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01) !important;
@@ -212,7 +212,7 @@
   display: flex !important;
   justify-content: space-between !important;
   font-size: 11px !important;
-  color: #64748b !important;
+  color: #506e63 !important;
   margin-top: 6px !important;
   font-weight: 600 !important;
 }
@@ -241,7 +241,7 @@
 }
 .range-svg-bg {
   fill: none !important;
-  stroke: #cbd5e1 !important; /* Darker stroke background */
+  stroke: #c8ded7 !important; /* Darker stroke background */
   stroke-width: 12 !important;
 }
 .range-svg-progress {
@@ -285,7 +285,7 @@
   color: #10b981 !important;
 }
 .range-slider-input {
-  background: #cbd5e1 !important;
+  background: #c8ded7 !important;
   height: 6px !important;
   border-radius: 3px !important;
   outline: none !important;
@@ -319,7 +319,7 @@
   grid-template-columns: 1fr 1fr 1fr !important;
   gap: 16px !important;
   width: 100% !important;
-  border-top: 1.5px dashed #cbd5e1 !important;
+  border-top: 1.5px dashed #c8ded7 !important;
   padding-top: 24px !important;
   margin-top: 8px !important;
 }
@@ -330,7 +330,7 @@
   justify-content: center !important;
   padding: 14px 20px !important;
   background: #ffffff !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   border-radius: 12px !important;
   text-align: center !important;
   box-shadow: 0 4px 10px rgba(0,0,0,0.01) !important;
@@ -342,7 +342,7 @@
 }
 .metric-bar-label {
   font-size: 11px !important;
-  color: #475569 !important;
+  color: #3d564e !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.5px !important;
@@ -362,8 +362,8 @@
   align-items: stretch !important;
 }
 .roi-calc-form-panel {
-  background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
-  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  background: #ebf5f0 !important; /* Darker Slate-100 background (A) */
+  border: 1.5px solid #c8ded7 !important; /* Darker border */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
   border-radius: 16px !important;
   padding: 32px !important;
@@ -384,11 +384,11 @@
 .roi-input-label {
   font-size: 13px !important;
   font-weight: 700 !important;
-  color: #475569 !important;
+  color: #3d564e !important;
 }
 .roi-select {
   background: #ffffff !important;
-  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border: 1.5px solid #c8ded7 !important; /* Darker border */
   color: #1e293b !important;
   padding: 12px !important;
   border-radius: 8px !important;
@@ -405,7 +405,7 @@
   border-color: #10b981 !important;
 }
 .roi-results-panel {
-  background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
+  background: #ebf5f0 !important; /* Darker Slate-100 background (A) */
   border: 2.5px solid #10b981 !important; /* High-contrast blue border (B) */
   box-shadow: 0 10px 30px rgba(16, 185, 129, 0.08) !important;
   border-radius: 16px !important;
@@ -416,13 +416,13 @@
   gap: 24px !important;
 }
 .roi-result-header {
-  border-bottom: 1.5px solid #cbd5e1 !important;
+  border-bottom: 1.5px solid #c8ded7 !important;
   padding-bottom: 16px !important;
   text-align: center !important;
 }
 .roi-saving-title {
   font-size: 14px !important;
-  color: #475569 !important;
+  color: #3d564e !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
   font-weight: 700 !important;
@@ -439,7 +439,7 @@
   flex-direction: column !important;
   gap: 16px !important;
   background: #ffffff !important; /* White contrast card */
-  border: 1.5px solid #cbd5e1 !important; /* Darker border */
+  border: 1.5px solid #c8ded7 !important; /* Darker border */
   border-radius: 12px !important;
   padding: 16px !important;
 }
@@ -450,7 +450,7 @@
   font-size: 13.5px !important;
 }
 .roi-breakdown-label {
-  color: #475569 !important;
+  color: #3d564e !important;
   font-weight: 600 !important;
 }
 .roi-breakdown-value {
@@ -560,7 +560,7 @@
     position: relative !important;
     overflow: hidden !important;
     height: 190px !important;
-    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f3fbf7 100%) !important;
     padding: 24px 20px 0 20px !important; /* Spacing so the car sits on a stage */
     border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
     display: flex !important;
@@ -646,7 +646,7 @@
   .car-card__desc {
     font-size: 12px !important;
     font-weight: 400 !important;
-    color: #64748b !important;
+    color: #506e63 !important;
     line-height: 1.5 !important;
     margin-bottom: 16px !important;
   }
@@ -728,7 +728,7 @@
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
     font-size: 10px !important;
-    color: #64748b !important;
+    color: #506e63 !important;
     margin: 0 !important;
   }
 
@@ -757,7 +757,7 @@
   .price-sub-note {
     font-size: 9.5px !important;
     font-weight: 400 !important;
-    color: #64748b !important;
+    color: #506e63 !important;
     display: block !important;
     line-height: 1.15 !important;
   }
@@ -849,7 +849,7 @@
     position: relative !important;
     overflow: hidden !important;
     height: 100px !important;
-    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f3fbf7 100%) !important;
     padding: 14px 10px 0 10px !important;
     border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
     display: flex !important;
@@ -993,7 +993,7 @@
   .car-card__price-lbl {
     font-size: 7.5px !important;
     font-weight: 500 !important;
-    color: #64748b !important;
+    color: #506e63 !important;
     margin: 0 !important;
   }
 
@@ -1016,7 +1016,7 @@
   .price-sub-note {
     font-size: 8.5px !important;
     font-weight: 400 !important;
-    color: #64748b !important;
+    color: #506e63 !important;
   }
 
   .car-card__footer {
@@ -1086,7 +1086,7 @@
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 html body .car-card__price-box {
-  background: #f8fafc !important; /* Nền xám xanh sáng dịu mát */
+  background: #f3fbf7 !important; /* Nền xám xanh sáng dịu mát */
   border: none !important;
   border-left: 4px solid #10b981 !important; /* Vạch định vị dọc màu Xanh Mint */
   border-radius: 6px !important;
@@ -1102,7 +1102,7 @@ html body .car-card__price-box {
 
 html body .car-card__price-lbl {
   font-size: 9px !important;
-  color: #64748b !important;
+  color: #506e63 !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
@@ -1165,9 +1165,9 @@ html body .filter-tabs {
 }
 
 html body .filter-tab-btn {
-  background: #f8fafc !important;
-  border: 1px solid #e2e8f0 !important;
-  color: #64748b !important;
+  background: #f3fbf7 !important;
+  border: 1px solid #e2eeea !important;
+  color: #506e63 !important;
   padding: 8px 20px !important;
   border-radius: 30px !important;
   font-size: 12.5px !important;

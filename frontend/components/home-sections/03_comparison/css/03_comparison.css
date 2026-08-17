@@ -2,7 +2,7 @@
 .compare-section {
   padding: 80px 0 !important;
   background: #ffffff !important;
-  border-bottom: 1px solid #cbd5e1 !important;
+  border-bottom: 1px solid #c8ded7 !important;
 }
 .compare-header-block {
   text-align: center !important;
@@ -29,31 +29,31 @@
 }
 .compare-subtitle {
   font-size: 15px !important;
-  color: #475569 !important;
+  color: #3d564e !important;
   max-width: 600px !important;
   margin: 0 auto !important;
   line-height: 1.6 !important;
 }
 .compare-spec-table {
   background: #ffffff;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
   border-radius: 12px !important;
   overflow: visible !important;
 }
 .compare-spec-table th {
-  background: #f1f5f9 !important;
+  background: #ebf5f0 !important;
   color: #1e293b !important;
-  border-bottom: 2px solid #cbd5e1 !important;
+  border-bottom: 2px solid #c8ded7 !important;
   font-weight: 750 !important;
 }
 .compare-spec-table td {
-  color: #475569 !important;
-  border-bottom: 1px solid #cbd5e1 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  color: #3d564e !important;
+  border-bottom: 1px solid #c8ded7 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 .compare-spec-table tr:hover td {
-  background: #f8fafc !important;
+  background: #f3fbf7 !important;
 }
 /* Responsive ev-tech */
 @media (max-width: 992px) {
@@ -96,7 +96,7 @@
   /* 2. Spec Comparison Section - Official VinFast Light Overrides */
   .compare-section {
       background: radial-gradient(circle at 80% 20%, rgba(0, 180, 216, 0.02) 0%, rgba(16, 185, 129, 0.03) 100%), #ffffff !important;
-      border-bottom: 1px solid #cbd5e1 !important;
+      border-bottom: 1px solid #c8ded7 !important;
   }
   
   .compare-header-block .section-tag {
@@ -109,12 +109,12 @@
   }
   
   .compare-subtitle {
-      color: #475569 !important;
+      color: #3d564e !important;
   }
   
   .compare-spec-table {
       background: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
   }
   
@@ -127,8 +127,8 @@
   
   .compare-spec-table td {
       color: #334155 !important;
-      border-bottom: 1px solid #cbd5e1 !important;
-      border-right: 1px solid #cbd5e1 !important;
+      border-bottom: 1px solid #c8ded7 !important;
+      border-right: 1px solid #c8ded7 !important;
   }
   
   /* Alternating zebra rows in comparison table */
@@ -145,7 +145,7 @@
   .compare-spec-table th:first-child,
   .compare-spec-table td:first-child {
       background-color: #ffffff !important;
-      border-right: 2px solid #cbd5e1 !important;
+      border-right: 2px solid #c8ded7 !important;
       color: #0f172a !important;
   }
   
@@ -180,7 +180,7 @@
   }
 
   /* ==========================================================================
-     ALTERNATING SLATE-BLUE (#f1f5f9) & WHITE BRAND LAYOUT
+     ALTERNATING SLATE-BLUE (#ebf5f0) & WHITE BRAND LAYOUT
      ========================================================================== */
 /* ======================================================================
    COMPLETE MOBILE AUDIT & USER GLOBAL MEMORY FIXES
@@ -229,7 +229,7 @@
   left: 0 !important;
   z-index: 10 !important;
   background-color: #ffffff !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.08) !important;
   white-space: nowrap !important;
   font-weight: 800 !important;
@@ -364,7 +364,7 @@
     position: sticky !important;
     left: 0 !important;
     z-index: 10 !important;
-    background: #f8fafc !important;
+    background: #f3fbf7 !important;
     box-shadow: 3px 0 8px rgba(0, 0, 0, 0.06) !important;
   }
 
@@ -409,7 +409,7 @@ html body .compare-spec-table td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 10 !important;
-  background: #f8fafc !important;
+  background: #f3fbf7 !important;
   box-shadow: 3px 0 8px rgba(0, 0, 0, 0.06) !important;
 }
 
@@ -432,7 +432,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   -webkit-overflow-scrolling: touch !important;
   border-radius: 14px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
 }
@@ -468,8 +468,8 @@ html body .compare-spec-table td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 10 !important;
-  background: #f8fafc !important;
-  border-right: 2px solid #cbd5e1 !important;
+  background: #f3fbf7 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.05) !important;
 }
 
@@ -482,7 +482,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   padding: 12px 10px !important;
   text-align: center !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #e2e8f0 !important;
+  border-right: 1px solid #e2eeea !important;
 }
 
 html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
@@ -525,12 +525,12 @@ html body .compare-spec-table td:first-child {
   font-weight: 800 !important;
   color: #0f172a !important;
   background-color: #ffffff !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.08) !important;
 }
 
 html body .compare-spec-table tr:nth-child(even) td:first-child {
-  background-color: #f8fafc !important;
+  background-color: #f3fbf7 !important;
 }
 
 html body .compare-spec-table th:first-child {
@@ -553,7 +553,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #e2e8f0 !important;
+  border-right: 1px solid #e2eeea !important;
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
@@ -569,7 +569,7 @@ html body .compare-spec-table th:first-child {
   left: 0 !important;
   z-index: 100 !important;
   background: #f0fdf4 !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
 
@@ -578,12 +578,12 @@ html body .compare-spec-table td:first-child {
   left: 0 !important;
   z-index: 90 !important;
   background: #ffffff !important; /* SOLID NON-TRANSPARENT WHITE BACKGROUND */
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
 
 html body .compare-spec-table tr:nth-child(even) td:first-child {
-  background: #f8fafc !important; /* SOLID EVEN ROW BACKGROUND */
+  background: #f3fbf7 !important; /* SOLID EVEN ROW BACKGROUND */
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
@@ -600,8 +600,8 @@ html body .compare-spec-table td:first-child {
   left: auto !important;
   z-index: 1 !important;
   box-shadow: none !important;
-  background-color: #f8fafc !important;
-  border-right: 1.5px solid #cbd5e1 !important;
+  background-color: #f3fbf7 !important;
+  border-right: 1.5px solid #c8ded7 !important;
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
@@ -625,7 +625,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* ======================================================================
@@ -639,8 +639,8 @@ html body .compare-spec-table tr.compare-row-price td:first-child {
   left: auto !important;
   z-index: 1 !important;
   box-shadow: none !important;
-  background-color: #f8fafc !important;
-  border-right: 1.5px solid #cbd5e1 !important;
+  background-color: #f3fbf7 !important;
+  border-right: 1.5px solid #c8ded7 !important;
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
@@ -664,7 +664,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* ======================================================================
@@ -674,7 +674,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   position: relative !important;
   border-radius: 12px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
 }
 
@@ -720,7 +720,7 @@ html body .compare-spec-table td:first-child {
 }
 
 html body .compare-spec-table tr:nth-child(even) td:first-child {
-  background-color: #f1f5f9 !important; /* Solid Soft Slate */
+  background-color: #ebf5f0 !important; /* Solid Soft Slate */
   color: #0f172a !important;
 }
 
@@ -744,7 +744,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* ======================================================================
@@ -754,7 +754,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   position: relative !important;
   border-radius: 12px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
 }
 
@@ -800,7 +800,7 @@ html body table.compare-spec-table td:first-child {
 }
 
 html body table.compare-spec-table tr:nth-child(even) td:first-child {
-  background-color: #f1f5f9 !important; /* Solid Soft Slate */
+  background-color: #ebf5f0 !important; /* Solid Soft Slate */
   color: #0f172a !important;
 }
 
@@ -824,7 +824,7 @@ html body table.compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
   background-color: #ffffff !important;
 }
 
@@ -840,7 +840,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   position: relative !important;
   border-radius: 12px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
 }
 
@@ -871,7 +871,7 @@ html body table.compare-spec-table th:first-child {
   max-width: 125px !important;
   background: #f0fdf4 !important; /* Unified header tint */
   color: #10b981 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -886,7 +886,7 @@ html body table.compare-spec-table td:first-child {
   background-color: #ffffff !important; /* Unified white odd row */
   color: #334155 !important;
   font-weight: 800 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -916,8 +916,8 @@ html body table.compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
-  border-bottom: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
+  border-bottom: 1px solid #c8ded7 !important;
   background-color: #ffffff !important;
   color: #334155 !important;
 }
@@ -945,8 +945,8 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
   background: #ffffff !important;
   background-color: #ffffff !important;
   color: #334155 !important;
-  border-bottom: 1px solid #cbd5e1 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-bottom: 1px solid #c8ded7 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* Sticky Column 1 Specific (Solid White Background with Z-Index 9999) */
@@ -959,7 +959,7 @@ html body table.compare-spec-table td:first-child {
   min-width: 125px !important;
   max-width: 125px !important;
   font-weight: 750 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -999,7 +999,7 @@ html body table.compare-spec-table td:first-child {
   min-width: 125px !important;
   max-width: 125px !important;
   font-weight: 750 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 

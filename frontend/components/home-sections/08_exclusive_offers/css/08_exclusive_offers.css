@@ -44,12 +44,12 @@
   }
 
   .offers-stage-card__desc {
-      color: #cbd5e1 !important; /* Light slate text for readability */
+      color: #c8ded7 !important; /* Light slate text for readability */
       font-weight: 500 !important;
   }
   
   .offers-stage-card__bullets li {
-      color: #e2e8f0 !important; /* Light gray text for bullet list */
+      color: #e2eeea !important; /* Light gray text for bullet list */
       font-weight: 600 !important;
   }
   /* ==========================================================================

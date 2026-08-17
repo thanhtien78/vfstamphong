@@ -18,7 +18,7 @@ html body .tradein-section,
 html body .compare-counselors-section {
     background-color: #fcfdfe !important;
     background-image: none !important;
-    border-bottom: 1px solid #f1f5f9 !important;
+    border-bottom: 1px solid #ebf5f0 !important;
     color: #3c3c3c !important;
     padding: 60px 0 !important;
 }
@@ -31,7 +31,7 @@ html body .faq-section {
     background-color: #070b13 !important; /* Solid Slate Dark background */
     background-image: none !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     padding: 60px 0 !important;
 }
 
@@ -40,7 +40,7 @@ html body .why-official-section {
     background: #070b13 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Matches EV Tech spotlight */
     background-image: none !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     padding: 60px 0 !important;
 }
 
@@ -53,7 +53,7 @@ html body .premium-header {
     background: rgba(255, 255, 255, 0.98) !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
-    border-bottom: 1px solid #e2e8f0 !important;
+    border-bottom: 1px solid #e2eeea !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -93,7 +93,7 @@ html body .privileges-section .section-desc,
 html body .tradein-section .section-desc,
 html body .compare-counselors-section .section-desc,
 html body .counselor-compare-title {
-    color: #64748b !important;
+    color: #506e63 !important;
 }
 
 /* Dark Sections text colors */
@@ -127,7 +127,7 @@ html body .catalog-section .section-tag,
 html body .tradein-section .section-tag,
 html body .compare-counselors-section .compare-counselors-tag {
     background: rgba(15, 23, 42, 0.04) !important;
-    color: #475569 !important;
+    color: #3d564e !important;
     border: 1px solid rgba(15, 23, 42, 0.08) !important;
     font-size: 10px !important;
     font-weight: 700 !important;
@@ -203,7 +203,7 @@ html body .hud-spec-icon-box {
    5. CATALOG FILTER TABS & CARDS (LIGHT BACKGROUND)
    -------------------------------------------------------------------------- */
 html body .filter-tabs {
-    border-bottom: 1px solid #e2e8f0 !important;
+    border-bottom: 1px solid #e2eeea !important;
     padding: 0 0 8px 0 !important;
     gap: 24px !important;
 }
@@ -242,7 +242,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
 /* Minimalist Product Cards */
 html body .car-card {
     background: #ffffff !important;
-    border: 1px solid #e2e8f0 !important;
+    border: 1px solid #e2eeea !important;
     box-shadow: 0 4px 20px rgba(15, 23, 42, 0.02) !important;
     border-radius: 12px !important;
     transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease !important;
@@ -259,8 +259,8 @@ html body .car-card:hover {
 }
 
 html body .car-card__media {
-    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f8fafc 100%) !important;
-    border-bottom: 1px solid #f1f5f9 !important;
+    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f3fbf7 100%) !important;
+    border-bottom: 1px solid #ebf5f0 !important;
     padding-top: 16px !important;
 }
 
@@ -279,7 +279,7 @@ html body .car-card__badge {
 
 html body .car-card__segment {
     font-weight: 600 !important;
-    color: #64748b !important;
+    color: #506e63 !important;
 }
 
 html body .car-card__name {
@@ -292,8 +292,8 @@ html body .car-card:hover .car-card__name {
 }
 
 html body .car-card__price-box {
-    background: #f8fafc !important;
-    border: 1px solid #f1f5f9 !important;
+    background: #f3fbf7 !important;
+    border: 1px solid #ebf5f0 !important;
     border-radius: 6px !important;
     padding: 10px 12px !important;
     box-shadow: none !important;
@@ -313,7 +313,7 @@ html body .price-main-num {
 
 html body .price-sub-note {
     font-size: 9px !important;
-    color: #64748b !important;
+    color: #506e63 !important;
 }
 
 /* Action Buttons (Brand compliant - No gray/black) */
@@ -472,7 +472,7 @@ html body .privileges-section {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    border-bottom: 1px solid #cbd5e1 !important;
+    border-bottom: 1px solid #c8ded7 !important;
     padding: 80px 0 !important;
     position: relative !important;
 }
@@ -527,7 +527,7 @@ html body .privilege-grid {
 /* Individual Premium Floating Card */
 html body .privilege-card {
     background: #ffffff !important;
-    border: 1px solid #e2e8f0 !important;
+    border: 1px solid #e2eeea !important;
     border-radius: 16px !important;
     padding: 32px 28px !important;
     position: relative !important;
@@ -626,7 +626,7 @@ html body .privilege-card__title {
 html body .privilege-card__desc {
     font-size: 13px !important;
     line-height: 1.55 !important;
-    color: #475569 !important; /* Extremely clear high-contrast slate color */
+    color: #3d564e !important; /* Extremely clear high-contrast slate color */
     margin: 0 0 20px 0 !important;
     max-width: 98% !important;
     flex-grow: 1 !important;
@@ -727,7 +727,7 @@ html body .tradein-section input[type="tel"],
 html body .tradein-section select,
 html body .tradein-section textarea {
     background: #ffffff !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #c8ded7 !important;
     border-radius: 8px !important;
     padding: 12px 16px !important;
     font-size: 14px !important;
@@ -792,12 +792,12 @@ html body .ev-tech-section,
 html body .why-official-section,
 html body .dealer-offers-section,
 html body .faq-section {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
 }
 
 /* 11a. Why Dealer Section */
 html body .why-official-section .signature-quote {
-    color: #cbd5e1 !important; /* Elegant light quote */
+    color: #c8ded7 !important; /* Elegant light quote */
 }
 html body .why-official-section .why-brand-visual {
     position: relative !important;
@@ -836,7 +836,7 @@ html body .why-official-section .why-row {
     background: rgba(255, 255, 255, 0.02) !important;
     border: 1px solid rgba(255, 255, 255, 0.08) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important; /* Top reflection line */
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     padding: 26px 30px !important; /* Maintain the generous borders we set */
     gap: 24px !important;
     border-radius: 16px !important;
@@ -967,7 +967,7 @@ html body .ev-tech-section .range-calc-model-card.active {
 }
 
 html body .ev-tech-section .compare-subtitle {
-    color: #cbd5e1 !important; /* Safe light silver for sublines */
+    color: #c8ded7 !important; /* Safe light silver for sublines */
 }
 html body .ev-tech-section .range-slider-label,
 html body .ev-tech-section .range-number-value,
@@ -990,7 +990,7 @@ html body .ev-tech-section .slider-ticks span {
     color: #94a3b8 !important; /* Readable light slate */
 }
 html body .ev-tech-section .roi-saving-title {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     font-weight: 600 !important;
 }
 html body .ev-tech-section .roi-saving-value {
@@ -1003,7 +1003,7 @@ html body .ev-tech-section .roi-green-impact {
     color: #10b981 !important;
 }
 html body .ev-tech-section .roi-green-info {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
 }
 html body .ev-tech-section .roi-green-number {
     color: #10b981 !important;
@@ -1015,7 +1015,7 @@ html body .ev-tech-section .charging-controls-panel {
     border-color: rgba(255, 255, 255, 0.08) !important;
 }
 html body .ev-tech-section .charging-controls-panel label {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
 }
 html body .ev-tech-section .charging-controls-panel select {
     background: rgba(6, 8, 19, 0.8) !important;
@@ -1045,10 +1045,10 @@ html body .ev-tech-section .station-count-lbl {
 html body .ev-tech-section .station-card {
     background: rgba(255, 255, 255, 0.02) !important;
     border-color: rgba(255, 255, 255, 0.06) !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
 }
 html body .ev-tech-section .station-card div {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
 }
 html body .ev-tech-section .station-card span {
     color: #94a3b8 !important;
@@ -1122,7 +1122,7 @@ html body .dealer-offers-section .offers-stage-card__title {
 }
 html body .dealer-offers-section .offers-stage-card__desc,
 html body .dealer-offers-section .offers-stage-card__bullets li {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
 }
 html body .dealer-offers-section .offers-stage-card__bullets li::before {
     background-color: #34d399 !important; /* Cyan bullets */
@@ -1151,7 +1151,7 @@ html body .faq-section .faq-trigger:hover .faq-question-wrap {
     color: #34d399 !important; /* Glowing hover question */
 }
 html body .faq-section .faq-content-inner {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 html body .faq-section .faq-item {
@@ -1202,7 +1202,7 @@ html body .ev-tech-section .section-header p,
 html body .dealer-offers-section .section-header p,
 html body .faq-section .section-header p,
 html body .ev-tech-section .compare-subtitle {
-    color: #cbd5e1 !important; /* Extremely clear light silver text color */
+    color: #c8ded7 !important; /* Extremely clear light silver text color */
 }
 html body .brand-spotlight .section-header .section-tag,
 html body .ev-tech-section .section-header .section-tag,
@@ -1298,7 +1298,7 @@ html body .spotlight-title {
 }
 
 html body .spotlight-desc {
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
     font-size: 15px !important;
     line-height: 1.65 !important;
     margin-bottom: 24px !important;
@@ -1333,7 +1333,7 @@ html body .spotlight-visual:hover img {
 
 /* 11e. Premium Car Catalog - Glassmorphism Porcelain Cards & macOS Filter Tabs */
 html body .catalog-section {
-    background-color: #f8fafc !important; /* Soft distinct off-white base */
+    background-color: #f3fbf7 !important; /* Soft distinct off-white base */
     background-image: radial-gradient(rgba(16, 185, 129, 0.03) 1.2px, transparent 1.2px) !important;
     background-size: 24px 24px !important;
     position: relative !important;
@@ -1355,7 +1355,7 @@ html body .filter-tabs {
 html body .filter-tab-btn {
     background: transparent !important;
     border: none !important;
-    color: #64748b !important;
+    color: #506e63 !important;
     padding: 10px 24px !important;
     font-size: 13px !important;
     font-weight: 700 !important;
@@ -1431,7 +1431,7 @@ html body .car-card__name {
 }
 
 html body .car-card__desc {
-    color: #64748b !important;
+    color: #506e63 !important;
     font-size: 12.5px !important;
     line-height: 1.55 !important;
 }
@@ -1466,7 +1466,7 @@ html body .car-card__spec-item[style*="span 2"] {
 html body .car-card__spec-lbl {
     font-size: 9px !important;
     font-weight: 700 !important;
-    color: #64748b !important;
+    color: #506e63 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
 }
@@ -1534,7 +1534,7 @@ html body .car-card__price-val .price-main-num {
 
 html body .car-card__price-val .price-sub-note {
     font-size: 11px !important;
-    color: #64748b !important;
+    color: #506e63 !important;
 }
 
 /* Mobile responsive fixes */

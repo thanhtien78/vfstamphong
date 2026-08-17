@@ -3,7 +3,7 @@
       position: relative !important;
       overflow: hidden !important;
       background-color: #ffffff !important;
-      border-bottom: 1px solid #e2e8f0 !important;
+      border-bottom: 1px solid #e2eeea !important;
       color: #0f172a !important;
   }
   
@@ -40,7 +40,7 @@
   .ev-tech-section .calc-res-lbl,
   .ev-tech-section .calc-label,
   .ev-tech-section p {
-      color: #475569 !important;
+      color: #3d564e !important;
   }
   
   .ev-tech-section .section-tag {
@@ -55,12 +55,12 @@
   }
   
   .ev-tech-tabs {
-      background: #f8fafc !important;
-      border: 1.5px solid #cbd5e1 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #c8ded7 !important;
   }
   
   .ev-tech-tab-btn {
-      color: #475569 !important;
+      color: #3d564e !important;
       font-weight: 700 !important;
   }
   
@@ -74,15 +74,15 @@
   .roi-calc-form-panel,
   .roi-results-panel {
       background: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
       border-radius: 18px !important;
       color: #0f172a !important;
   }
   
   .range-calc-model-card {
-      background: #f8fafc !important;
-      border: 1.5px solid #cbd5e1 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #c8ded7 !important;
       color: #0f172a !important;
   }
   
@@ -118,7 +118,7 @@
   
   .range-slider-group-premium {
       background: #ffffff !important;
-      border: 1.5px solid #e2e8f0 !important;
+      border: 1.5px solid #e2eeea !important;
   }
   
   .range-slider-group-premium:hover {
@@ -143,11 +143,11 @@
   }
   
   .slider-ticks {
-      color: #64748b !important;
+      color: #506e63 !important;
   }
   
   .range-slider-input {
-      background: #e2e8f0 !important;
+      background: #e2eeea !important;
   }
   
   .range-slider-input::-webkit-slider-thumb {
@@ -157,7 +157,7 @@
   
   /* visualizer ring */
   .range-circle-box .range-svg-bg {
-      stroke: #e2e8f0 !important;
+      stroke: #e2eeea !important;
   }
   
   .range-circle-box .range-number-value {
@@ -175,12 +175,12 @@
   }
   
   .range-cockpit-metrics-bar {
-      border-top: 1.5px dashed #e2e8f0 !important;
+      border-top: 1.5px dashed #e2eeea !important;
   }
   
   .metric-bar-item {
       background: #ffffff !important;
-      border: 1.5px solid #e2e8f0 !important;
+      border: 1.5px solid #e2eeea !important;
   }
   
   .metric-bar-item:hover {
@@ -188,7 +188,7 @@
   }
   
   .metric-bar-label {
-      color: #64748b !important;
+      color: #506e63 !important;
   }
   
   .metric-bar-val {
@@ -197,17 +197,17 @@
   
   /* Green ROI Calculator Pane */
   .roi-calc-form-panel {
-      background: #f8fafc !important;
-      border: 1.5px solid #e2e8f0 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #e2eeea !important;
   }
   
   .roi-input-label {
-      color: #475569 !important;
+      color: #3d564e !important;
   }
   
   .roi-select {
       background: #ffffff !important;
-      border: 1.5px solid #e2e8f0 !important;
+      border: 1.5px solid #e2eeea !important;
       color: #0f172a !important;
   }
   
@@ -227,7 +227,7 @@
   }
   
   .roi-saving-title {
-      color: #64748b !important;
+      color: #506e63 !important;
   }
   
   .roi-saving-value {
@@ -235,12 +235,12 @@
   }
   
   .roi-breakdown {
-      background: #f8fafc !important;
-      border: 1.5px solid #e2e8f0 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #e2eeea !important;
   }
   
   .roi-breakdown-label {
-      color: #64748b !important;
+      color: #506e63 !important;
   }
   
   .roi-breakdown-value {
@@ -259,19 +259,19 @@
 
   /* EV Tech Calculator Panel Overrides for Slate-Blue Background */
   .ev-tech-section {
-      background: #f1f5f9 !important;
-      border-bottom: 1px solid #cbd5e1 !important;
+      background: #ebf5f0 !important;
+      border-bottom: 1px solid #c8ded7 !important;
   }
   
   .range-calc-models-panel {
       background: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
   }
   
   .range-calc-model-card {
-      background: #f8fafc !important;
-      border: 1.5px solid #e2e8f0 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #e2eeea !important;
   }
   
   .range-calc-model-card:hover {
@@ -286,35 +286,35 @@
   
   .range-calc-interactive-panel {
       background: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
   }
   
   .range-slider-group-premium {
-      background: #f8fafc !important;
-      border: 1.5px solid #cbd5e1 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #c8ded7 !important;
   }
   
   .metric-bar-item {
-      background: #f8fafc !important;
-      border: 1.5px solid #cbd5e1 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #c8ded7 !important;
   }
   
   .roi-calc-form-panel {
       background: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
   }
   
   .roi-breakdown {
-      background: #f8fafc !important;
-      border: 1.5px solid #cbd5e1 !important;
+      background: #f3fbf7 !important;
+      border: 1.5px solid #c8ded7 !important;
   }
   
   /* Spec Comparison stays White for contrast */
   .compare-section {
       background: #ffffff !important;
-      border-bottom: 1px solid #cbd5e1 !important;
+      border-bottom: 1px solid #c8ded7 !important;
   }
 /* ======================================================================
    EV TECH INTERACTIVE HUB - PERFECT 3-COLUMN APP-LIKE SEGMENTED CONTROL TABS
@@ -331,10 +331,10 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 4px !important;
-    background: #f1f5f9 !important;
+    background: #ebf5f0 !important;
     padding: 5px !important;
     border-radius: 16px !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #c8ded7 !important;
     box-sizing: border-box !important;
     width: 100% !important;
   }
@@ -366,7 +366,7 @@
 
   html body .ev-tech-tab-btn:not(.active) {
     background: transparent !important;
-    color: #475569 !important;
+    color: #3d564e !important;
   }
 
   html body .ev-tab-icon {
@@ -392,10 +392,10 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 4px !important;
-    background: #f1f5f9 !important;
+    background: #ebf5f0 !important;
     padding: 5px !important;
     border-radius: 16px !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #c8ded7 !important;
     box-sizing: border-box !important;
     width: 100% !important;
   }
@@ -453,7 +453,7 @@
 
             html body .charging-map-display > div:last-child {
               border-left: none !important;
-              border-top: 1.5px solid #cbd5e1 !important;
+              border-top: 1.5px solid #c8ded7 !important;
               padding: 12px !important;
               max-height: 380px !important;
               overflow-y: auto !important;
@@ -519,7 +519,7 @@
   html body .charging-map-display > div:last-child {
     width: 100% !important;
     border-left: none !important;
-    border-top: 1.5px solid #cbd5e1 !important;
+    border-top: 1.5px solid #c8ded7 !important;
     padding: 12px !important;
     max-height: 380px !important;
     overflow-y: auto !important;
@@ -577,7 +577,7 @@
   html body .range-number-unit {
     font-size: 11px !important;
     font-weight: 700 !important;
-    color: #475569 !important;
+    color: #3d564e !important;
   }
 
   html body .range-slider-group-premium {

@@ -102,8 +102,8 @@
   .tradein-section {
       position: relative !important;
       overflow: hidden !important;
-      background-color: #f8fafc !important;
-      border-bottom: 1px solid #e2e8f0 !important;
+      background-color: #f3fbf7 !important;
+      border-bottom: 1px solid #e2eeea !important;
       color: #0f172a !important;
   }
 
@@ -143,7 +143,7 @@
   .tradein-promo-card p,
   .tradein-concierge-tag,
   .tradein-section p {
-      color: #475569 !important;
+      color: #3d564e !important;
   }
 
   .tradein-section .section-tag,
@@ -155,7 +155,7 @@
   .tradein-promo-card,
   .tradein-form-card {
       background: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
       border-radius: 18px !important;
       color: #0f172a !important;
@@ -164,7 +164,7 @@
   .tradein-form-card .calc-input-select {
       background: #ffffff !important;
       color: #0f172a !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
   }
 
   .tradein-form-card select option {
@@ -174,13 +174,13 @@
   
   .tradein-calc-card {
       background-color: #ffffff !important;
-      border: 1.5px solid #cbd5e1 !important;
+      border: 1.5px solid #c8ded7 !important;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
   }
   
   .tradein-step {
-      background-color: #f8fafc !important;
-      border: 1.5px solid #e2e8f0 !important;
+      background-color: #f3fbf7 !important;
+      border: 1.5px solid #e2eeea !important;
   }
   
   .btn-tradein-submit {

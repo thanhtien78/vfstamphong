@@ -2,9 +2,9 @@
 .faq-section {
   position: relative !important;
   overflow: hidden !important;
-  border-top: 1px solid #e2e8f0 !important;
+  border-top: 1px solid #e2eeea !important;
   margin-top: 0 !important;
-  background-color: #f8fafc !important;
+  background-color: #f3fbf7 !important;
   color: #0f172a !important;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .faq-editorial-desc {
-  color: #475569 !important;
+  color: #3d564e !important;
 }
 
 .faq-num-badge,
@@ -44,7 +44,7 @@
 
 .faq-editorial-visual {
   background: #ffffff !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
   border-radius: 14px !important;
   color: #0f172a !important;
@@ -52,7 +52,7 @@
 
 .faq-item {
   background: #ffffff !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
   border-radius: 12px !important;
 }
@@ -135,7 +135,7 @@
       /* Visual editorial card - Clean Ice-Blue console (rebuilt from scratch) */
       .faq-editorial-visual {
         background: #f0f4f8; /* Cool slate grey background (with subtle blue tint) */
-        border: 1px solid #e2e8f0; /* Light grey border */
+        border: 1px solid #e2eeea; /* Light grey border */
         border-radius: 12px;
         padding: 28px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
@@ -202,7 +202,7 @@
       }
       
       .faq-visual-item {
-        border-top: 1px solid #e2e8f0;
+        border-top: 1px solid #e2eeea;
       }
       
       .faq-visual-icon {
@@ -213,7 +213,7 @@
       /* Accordion Items - clean light cards */
       .faq-item {
         background: #ffffff !important; 
-        border: 1px solid #e2e8f0 !important; 
+        border: 1px solid #e2eeea !important; 
         border-radius: 8px !important;
         margin-bottom: 14px !important;
         overflow: hidden !important;
@@ -310,7 +310,7 @@
     line-height: 1.45 !important;
     margin-bottom: 14px !important;
     text-align: center !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
   }
 
   .hero-ctas {
@@ -733,7 +733,7 @@
     line-height: 1.45 !important;
     margin-bottom: 14px !important;
     text-align: center !important;
-    color: #cbd5e1 !important;
+    color: #c8ded7 !important;
   }
 
   html body .hero-ctas {
@@ -846,7 +846,7 @@
   left: 0 !important;
   z-index: 10 !important;
   background-color: #ffffff !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.08) !important;
   white-space: nowrap !important;
   font-weight: 800 !important;
@@ -1075,7 +1075,7 @@
 
 .car-card__price-lbl {
   font-size: 8.5px !important;
-  color: #64748b !important;
+  color: #506e63 !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.5px !important;
@@ -1104,7 +1104,7 @@
 .price-sub-note {
   font-size: 9px !important;
   font-weight: 600 !important;
-  color: #64748b !important;
+  color: #506e63 !important;
   display: block !important;
   line-height: 1.15 !important;
 }
@@ -1176,10 +1176,10 @@
 .ev-tech-tabs {
   display: inline-flex;
   gap: 8px;
-  background: #f1f5f9;
+  background: #ebf5f0;
   padding: 6px;
   border-radius: 40px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #e2eeea;
 }
 
 .ev-tech-tab-btn {
@@ -1192,7 +1192,7 @@
   border-radius: 30px;
   border: none;
   background: transparent;
-  color: #475569;
+  color: #3d564e;
   cursor: pointer;
   transition: all 0.25s ease;
   font-family: 'Montserrat', sans-serif;
@@ -1226,10 +1226,10 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 4px !important;
-    background: #f1f5f9 !important;
+    background: #ebf5f0 !important;
     padding: 5px !important;
     border-radius: 16px !important;
-    border: 1px solid #e2e8f0 !important;
+    border: 1px solid #e2eeea !important;
     box-sizing: border-box !important;
     width: 100% !important;
   }
@@ -1276,10 +1276,10 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 4px !important;
-    background: #f1f5f9 !important;
+    background: #ebf5f0 !important;
     padding: 4px !important;
     border-radius: 16px !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #c8ded7 !important;
     box-sizing: border-box !important;
     width: 100% !important;
   }
@@ -1313,7 +1313,7 @@
 
   html body .ev-tech-tab-btn:not(.active) {
     background: transparent !important;
-    color: #475569 !important;
+    color: #3d564e !important;
   }
 
   html body .ev-tab-icon {
@@ -1339,10 +1339,10 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 4px !important;
-    background: #f1f5f9 !important;
+    background: #ebf5f0 !important;
     padding: 5px !important;
     border-radius: 16px !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #c8ded7 !important;
     box-sizing: border-box !important;
     width: 100% !important;
   }
@@ -1374,7 +1374,7 @@
 
   html body .ev-tech-tab-btn:not(.active) {
     background: transparent !important;
-    color: #475569 !important;
+    color: #3d564e !important;
   }
 
   html body .ev-tab-icon {
@@ -1400,10 +1400,10 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 4px !important;
-    background: #f1f5f9 !important;
+    background: #ebf5f0 !important;
     padding: 5px !important;
     border-radius: 16px !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #c8ded7 !important;
     box-sizing: border-box !important;
     width: 100% !important;
   }
@@ -1461,7 +1461,7 @@
 
             html body .charging-map-display > div:last-child {
               border-left: none !important;
-              border-top: 1.5px solid #cbd5e1 !important;
+              border-top: 1.5px solid #c8ded7 !important;
               padding: 12px !important;
               max-height: 380px !important;
               overflow-y: auto !important;
@@ -1527,7 +1527,7 @@
   html body .charging-map-display > div:last-child {
     width: 100% !important;
     border-left: none !important;
-    border-top: 1.5px solid #cbd5e1 !important;
+    border-top: 1.5px solid #c8ded7 !important;
     padding: 12px !important;
     max-height: 380px !important;
     overflow-y: auto !important;
@@ -1570,7 +1570,7 @@
 
   html body .privilege-card {
     background-color: #ffffff !important;
-    border: 1.5px solid #cbd5e1 !important;
+    border: 1.5px solid #c8ded7 !important;
     border-radius: 16px !important;
     padding: 14px 10px !important;
     display: flex !important;
@@ -1616,7 +1616,7 @@
 
   html body .privilege-card__desc {
     font-size: 11px !important;
-    color: #475569 !important;
+    color: #3d564e !important;
     line-height: 1.4 !important;
     margin: 0 0 10px 0 !important;
     display: -webkit-box !important;
@@ -1778,7 +1778,7 @@ html body .privilege-card__link .btn-arr-icon {
     align-items: flex-start !important;
     padding: 14px 10px !important;
     background: #ffffff !important;
-    border: 1.5px solid #cbd5e1 !important;
+    border: 1.5px solid #c8ded7 !important;
     border-radius: 16px !important;
     gap: 8px !important;
     box-sizing: border-box !important;
@@ -1819,7 +1819,7 @@ html body .privilege-card__link .btn-arr-icon {
 
   html body .why-row__desc {
     font-size: 11px !important;
-    color: #475569 !important;
+    color: #3d564e !important;
     line-height: 1.4 !important;
     margin: 0 !important;
     display: -webkit-box !important;
@@ -1873,7 +1873,7 @@ html body .privilege-card__link .btn-arr-icon {
   html body .range-number-unit {
     font-size: 11px !important;
     font-weight: 700 !important;
-    color: #475569 !important;
+    color: #3d564e !important;
   }
 
   html body .range-slider-group-premium {
@@ -1921,9 +1921,9 @@ html body .filter-tabs {
 }
 
 html body .filter-tab-btn {
-  background: #f1f5f9 !important;
-  border: 1px solid #cbd5e1 !important;
-  color: #475569 !important;
+  background: #ebf5f0 !important;
+  border: 1px solid #c8ded7 !important;
+  color: #3d564e !important;
   padding: 9px 18px !important;
   border-radius: 25px !important;
   font-size: 12px !important;
@@ -1984,7 +1984,7 @@ html body .filter-tab-btn.filter-tab-btn--active {
     position: sticky !important;
     left: 0 !important;
     z-index: 10 !important;
-    background: #f8fafc !important;
+    background: #f3fbf7 !important;
     box-shadow: 3px 0 8px rgba(0, 0, 0, 0.06) !important;
   }
 
@@ -2029,7 +2029,7 @@ html body .compare-spec-table td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 10 !important;
-  background: #f8fafc !important;
+  background: #f3fbf7 !important;
   box-shadow: 3px 0 8px rgba(0, 0, 0, 0.06) !important;
 }
 
@@ -2052,7 +2052,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   -webkit-overflow-scrolling: touch !important;
   border-radius: 14px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03) !important;
 }
@@ -2088,8 +2088,8 @@ html body .compare-spec-table td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 10 !important;
-  background: #f8fafc !important;
-  border-right: 2px solid #cbd5e1 !important;
+  background: #f3fbf7 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.05) !important;
 }
 
@@ -2102,7 +2102,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   padding: 12px 10px !important;
   text-align: center !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #e2e8f0 !important;
+  border-right: 1px solid #e2eeea !important;
 }
 
 html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
@@ -2145,12 +2145,12 @@ html body .compare-spec-table td:first-child {
   font-weight: 800 !important;
   color: #0f172a !important;
   background-color: #ffffff !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.08) !important;
 }
 
 html body .compare-spec-table tr:nth-child(even) td:first-child {
-  background-color: #f8fafc !important;
+  background-color: #f3fbf7 !important;
 }
 
 html body .compare-spec-table th:first-child {
@@ -2173,7 +2173,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #e2e8f0 !important;
+  border-right: 1px solid #e2eeea !important;
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
@@ -2189,7 +2189,7 @@ html body .compare-spec-table th:first-child {
   left: 0 !important;
   z-index: 100 !important;
   background: #f0fdf4 !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
 
@@ -2198,12 +2198,12 @@ html body .compare-spec-table td:first-child {
   left: 0 !important;
   z-index: 90 !important;
   background: #ffffff !important; /* SOLID NON-TRANSPARENT WHITE BACKGROUND */
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
 
 html body .compare-spec-table tr:nth-child(even) td:first-child {
-  background: #f8fafc !important; /* SOLID EVEN ROW BACKGROUND */
+  background: #f3fbf7 !important; /* SOLID EVEN ROW BACKGROUND */
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
@@ -2220,8 +2220,8 @@ html body .compare-spec-table td:first-child {
   left: auto !important;
   z-index: 1 !important;
   box-shadow: none !important;
-  background-color: #f8fafc !important;
-  border-right: 1.5px solid #cbd5e1 !important;
+  background-color: #f3fbf7 !important;
+  border-right: 1.5px solid #c8ded7 !important;
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
@@ -2245,7 +2245,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* ======================================================================
@@ -2259,8 +2259,8 @@ html body .compare-spec-table tr.compare-row-price td:first-child {
   left: auto !important;
   z-index: 1 !important;
   box-shadow: none !important;
-  background-color: #f8fafc !important;
-  border-right: 1.5px solid #cbd5e1 !important;
+  background-color: #f3fbf7 !important;
+  border-right: 1.5px solid #c8ded7 !important;
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
@@ -2284,7 +2284,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* ======================================================================
@@ -2294,7 +2294,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   position: relative !important;
   border-radius: 12px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
 }
 
@@ -2340,7 +2340,7 @@ html body .compare-spec-table td:first-child {
 }
 
 html body .compare-spec-table tr:nth-child(even) td:first-child {
-  background-color: #f1f5f9 !important; /* Solid Soft Slate */
+  background-color: #ebf5f0 !important; /* Solid Soft Slate */
   color: #0f172a !important;
 }
 
@@ -2364,7 +2364,7 @@ html body .compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* ======================================================================
@@ -2374,7 +2374,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   position: relative !important;
   border-radius: 12px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
 }
 
@@ -2420,7 +2420,7 @@ html body table.compare-spec-table td:first-child {
 }
 
 html body table.compare-spec-table tr:nth-child(even) td:first-child {
-  background-color: #f1f5f9 !important; /* Solid Soft Slate */
+  background-color: #ebf5f0 !important; /* Solid Soft Slate */
   color: #0f172a !important;
 }
 
@@ -2444,7 +2444,7 @@ html body table.compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
   background-color: #ffffff !important;
 }
 
@@ -2460,7 +2460,7 @@ html body .table-scroll-container {
   overflow-x: auto !important;
   position: relative !important;
   border-radius: 12px !important;
-  border: 1.5px solid #cbd5e1 !important;
+  border: 1.5px solid #c8ded7 !important;
   background: #ffffff !important;
 }
 
@@ -2491,7 +2491,7 @@ html body table.compare-spec-table th:first-child {
   max-width: 125px !important;
   background: #f0fdf4 !important; /* Unified header tint */
   color: #10b981 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -2506,7 +2506,7 @@ html body table.compare-spec-table td:first-child {
   background-color: #ffffff !important; /* Unified white odd row */
   color: #334155 !important;
   font-weight: 800 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -2536,8 +2536,8 @@ html body table.compare-spec-table td:nth-child(n+2) {
   text-align: center !important;
   font-size: 12px !important;
   line-height: 1.4 !important;
-  border-right: 1px solid #cbd5e1 !important;
-  border-bottom: 1px solid #cbd5e1 !important;
+  border-right: 1px solid #c8ded7 !important;
+  border-bottom: 1px solid #c8ded7 !important;
   background-color: #ffffff !important;
   color: #334155 !important;
 }
@@ -2565,8 +2565,8 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
   background: #ffffff !important;
   background-color: #ffffff !important;
   color: #334155 !important;
-  border-bottom: 1px solid #cbd5e1 !important;
-  border-right: 1px solid #cbd5e1 !important;
+  border-bottom: 1px solid #c8ded7 !important;
+  border-right: 1px solid #c8ded7 !important;
 }
 
 /* Sticky Column 1 Specific (Solid White Background with Z-Index 9999) */
@@ -2579,7 +2579,7 @@ html body table.compare-spec-table td:first-child {
   min-width: 125px !important;
   max-width: 125px !important;
   font-weight: 750 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -2619,7 +2619,7 @@ html body table.compare-spec-table td:first-child {
   min-width: 125px !important;
   max-width: 125px !important;
   font-weight: 750 !important;
-  border-right: 2px solid #cbd5e1 !important;
+  border-right: 2px solid #c8ded7 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -2730,7 +2730,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
     font-size: 12px !important;
     line-height: 1.55 !important;
     text-align: center !important;
-    color: #475569 !important;
+    color: #3d564e !important;
     margin: 0 !important;
   }
 
@@ -2738,8 +2738,8 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
     padding: 14px 10px !important;
     border-radius: 16px !important;
     gap: 14px !important;
-    background: #f8fafc !important;
-    border: 1.5px solid #cbd5e1 !important;
+    background: #f3fbf7 !important;
+    border: 1.5px solid #c8ded7 !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03) !important;
   }
 
@@ -2782,7 +2782,7 @@ html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
 
   html body .faq-item {
     border-radius: 14px !important;
-    border: 1.5px solid #cbd5e1 !important;
+    border: 1.5px solid #c8ded7 !important;
   }
 
   html body .faq-trigger {

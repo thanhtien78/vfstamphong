@@ -11,32 +11,32 @@
 }
 
 :root {
-  /* VinFast Corporate Design System - Core Color Palette */
+  /* VinFast Corporate Design System - Core Color Palette (Aurora Mint & Silver-Green) */
   --color-bg-base: #ffffff;
-  --color-surface: #f8fafc;
-  --color-primary: #10b981;
-  --color-accent-glow: #10b981;
+  --color-surface: #f3fbf7; /* Xám ánh ngọc Mint-Slate siêu sang, tinh khiết */
+  --color-primary: #059669; /* Xanh ngọc lục bảo sâu sắc, độ tương phản cao, cực kỳ sang trọng */
+  --color-accent-glow: #10b981; /* Xanh Mint phát sáng cho các đường neon và hover */
   --color-text-main: #0f172a;
-  --color-text-muted: #475569;
+  --color-text-muted: #3d564e;
 
   /* VinFast Corporate Design System - Structural Tokens */
-  --ev-border-radius: 8px; /* Tăng bo tròn cho hiện đại hơn */
+  --ev-border-radius: 8px;
   --ev-glass-filter: blur(16px);
   --ev-border-light: 1px solid rgba(16, 185, 129, 0.15);
 
-  /* Legacy Variable Mapping for safe backward compatibility */
+  /* Legacy Variable Mapping aligned to new Premium Emerald palette */
   --color-surface-dark: var(--color-bg-base);
-  --color-bg-niken: #f1f5f9;
+  --color-bg-niken: #ebf5f0; /* Bạc Ánh Kim Mint thay thế cho xám niken cũ */
   --color-bg-card: var(--color-surface);
   --color-bg-input: #ffffff;
-  --color-border: #e2e8f0;
+  --color-border: #e2eeea; /* Viền mờ ánh xanh tinh tế */
   --color-border-active: var(--color-primary);
   --color-text-white: var(--color-text-main);
   --color-text-muted: var(--color-text-muted);
   --color-accent: var(--color-primary);
   --color-cyber-mint: #10b981;
-  --color-accent-glow-alpha: rgba(16, 185, 129, 0.08);
-  --color-accent-glow-hover: rgba(16, 185, 129, 0.15);
+  --color-accent-glow-alpha: rgba(16, 185, 129, 0.06);
+  --color-accent-glow-hover: rgba(16, 185, 129, 0.12);
   --transition-normal: all 0.3s ease-in-out;
 
   /* Premium Luxury Spacing System (8px-based Grid Scale) */

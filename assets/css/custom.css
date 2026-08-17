@@ -12,8 +12,16 @@ html body {
 }
 
 /* Light Porcelain Sections (Catalog, Privileges, Trade-in, Counselors) */
+/* Premium Light Mint-Silver Section (Brand Spotlight) */
+html body .brand-spotlight {
+    background: linear-gradient(180deg, #ffffff 0%, #edf9f4 100%) !important;
+    background-image: linear-gradient(180deg, #ffffff 0%, #edf9f4 100%) !important;
+    border-bottom: none !important;
+    color: #3d564e !important;
+    padding: var(--space-xxl) 0 !important;
+}
+
 /* Premium Light Sections (White Background, Dark Text) */
-html body .brand-spotlight,
 html body .compare-counselors-section,
 html body .why-official-section {
     background-color: #ffffff !important;
@@ -1241,7 +1249,7 @@ html body .faq-editorial-visual .readout-label {
 
 /* 11d. Brand Spotlight - Luxury Light Theme Layout (White/Silver Base with Green Tech Accent) */
 html body .brand-spotlight {
-    background: #ffffff !important; /* Nền trắng tinh khiết sáng sủa sang trọng */
+    background: linear-gradient(180deg, #ffffff 0%, #edf9f4 100%) !important; /* Nền ngọc bạc xanh mint nhẹ công nghệ */
     border-bottom: none !important;
     padding: var(--space-xxl) 0 !important;
 }

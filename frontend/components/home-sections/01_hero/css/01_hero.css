@@ -47,11 +47,11 @@
   z-index: 2;
 }
 
-/* Cinematic Dark Gradient Overlay */
+/* Cinematic Dark Gradient Overlay (Tan biến nhanh ở 60% bên trái, để lộ xe sáng rõ bên phải) */
 .hero-slide-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(3, 10, 7, 0.88) 0%, rgba(3, 10, 7, 0.45) 50%, rgba(3, 10, 7, 0.1) 100%) !important;
+  background: linear-gradient(90deg, rgba(3, 10, 7, 0.82) 0%, rgba(3, 10, 7, 0.3) 40%, rgba(3, 10, 7, 0) 65%) !important;
   z-index: 2;
   pointer-events: none;
 }
@@ -412,7 +412,7 @@
   }
 
   html body .hero-slide-overlay {
-    background: linear-gradient(180deg, rgba(3, 10, 7, 0.82) 0%, rgba(3, 10, 7, 0.95) 100%) !important;
+    background: rgba(3, 10, 7, 0.35) !important; /* Lớp phủ cực mỏng để lộ hình nền xe sáng rõ */
   }
 
   html body .hero-slide .container {
@@ -437,11 +437,17 @@
   }
 
   html body .hero-content {
-    width: 100% !important;
+    width: calc(100% - 20px) !important;
     max-width: 100% !important;
     text-align: center !important;
     margin: 0 auto !important;
-    padding-left: 0 !important;
+    padding: 20px 16px !important;
+    background: rgba(3, 10, 7, 0.62) !important; /* Hộp kính tối mỏng */
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-sizing: border-box !important;
   }
 
   html body .hero-headline {

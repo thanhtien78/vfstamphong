@@ -1219,3 +1219,68 @@ html body .filter-tab-btn.filter-tab-btn--active {
     border-radius: 20px !important;
   }
 }
+
+/* Unique High-Class Styling for Green B2B Fleet Cars */
+html body .car-card--fleet {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(16, 185, 129, 0.02) 100%) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.22) !important;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.04) !important;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+html body .car-card--fleet:hover {
+  border-color: #10b981 !important;
+  box-shadow: 0 15px 35px rgba(16, 185, 129, 0.12) !important;
+  transform: translateY(-6px) !important;
+}
+
+html body .car-card__badge--fleet {
+  position: absolute !important;
+  top: 16px !important;
+  right: 16px !important;
+  left: auto !important;
+  background: #0f172a !important; /* Premium dark background */
+  color: #34d399 !important; /* Neon mint text */
+  border: 1px solid rgba(52, 211, 153, 0.35) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 9.5px !important;
+  letter-spacing: 1px !important;
+  border-radius: 30px !important;
+  padding: 5px 14px !important;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.1) !important;
+  z-index: 10 !important;
+}
+
+@media (max-width: 768px) {
+  html body .car-card__badge--fleet {
+    top: 6px !important;
+    right: 6px !important;
+    font-size: 7.5px !important;
+    padding: 3px 8px !important;
+    border-radius: 20px !important;
+  }
+}
+
+html body .btn-detail-card--fleet {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
+}
+
+html body .btn-detail-card--fleet:hover {
+  background: #34d399 !important;
+  border-color: #34d399 !important;
+  box-shadow: 0 6px 18px rgba(52, 211, 153, 0.5) !important;
+}
+
+/* Fleet ROI Indicator badge inside card */
+html body .car-card--fleet .car-card__price-box {
+  background: rgba(16, 185, 129, 0.05) !important;
+  border: 1.5px dashed rgba(16, 185, 129, 0.3) !important;
+}
+
+html body .car-card--fleet .price-main-num {
+  color: #059669 !important;
+  font-weight: 900 !important;
+}

@@ -56,10 +56,10 @@
                 $groupLabel = 'SUV Hạng Sang';
             }
           ?>
-          <article class="car-card" data-group="<?php echo $group; ?>">
+          <article class="car-card <?php echo $group === 'service' ? 'car-card--fleet' : ''; ?>" data-group="<?php echo $group; ?>">
             <div class="car-card__media">
-              <span class="car-card__badge car-card__badge--electric">
-                <?php echo $groupLabel; ?>
+              <span class="car-card__badge <?php echo $group === 'service' ? 'car-card__badge--fleet' : 'car-card__badge--electric'; ?>">
+                <?php echo $group === 'service' ? '🚕 Dịch Vụ Green B2B' : $groupLabel; ?>
               </span>
               <img class="car-card__img" src="<?php echo htmlspecialchars(get_thumb_url($c['image'], 480)); ?>" alt="<?php echo htmlspecialchars($c['model_name']); ?>" loading="lazy" width="400" height="250" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
               <div class="car-card__img-fallback" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at center, hsla(216, 20%, 85%, 0.9), #ffffff); align-items: center; justify-content: center; text-align: center; padding: 24px; border: 1px solid rgba(16, 185, 129, 0.15); z-index: 1;">
@@ -108,7 +108,9 @@
               </div>
 
               <div class="car-card__footer">
-                <a href="xe-vinfast/<?php echo $c['slug']; ?>" class="btn-detail-card">Chi tiết</a>
+                <a href="xe-vinfast/<?php echo $c['slug']; ?>" class="btn-detail-card <?php echo $group === 'service' ? 'btn-detail-card--fleet' : ''; ?>">
+                  <?php echo $group === 'service' ? 'Báo giá sỉ' : 'Chi tiết'; ?>
+                </a>
                 <a href="https://zalo.me/<?php echo preg_replace('/[^0-9]/', '', $agencyPhone); ?>?text=Tôi%20muốn%20nhận%20báo%20giá%20và%20tư%20vấn%20dòng%20xe%20VinFast%20<?php echo urlencode($c['model_name']); ?>" target="_blank" class="btn-zalo-card" rel="noopener">
                   <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0;">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 0 1-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8Z" />

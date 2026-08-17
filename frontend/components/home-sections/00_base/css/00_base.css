@@ -13,30 +13,30 @@
 :root {
   /* VinFast Corporate Design System - Core Color Palette */
   --color-bg-base: #ffffff;
-  --color-surface: #f4f5f8;
-  --color-primary: #1464f4;
-  --color-accent-glow: #1464f4;
-  --color-text-main: #3c3c3c;
-  --color-text-muted: #757575;
+  --color-surface: #f8fafc;
+  --color-primary: #10b981;
+  --color-accent-glow: #10b981;
+  --color-text-main: #0f172a;
+  --color-text-muted: #475569;
 
   /* VinFast Corporate Design System - Structural Tokens */
-  --ev-border-radius: 4px;
-  --ev-glass-filter: none;
-  --ev-border-light: 1px solid #e0e0e0;
+  --ev-border-radius: 8px; /* Tăng bo tròn cho hiện đại hơn */
+  --ev-glass-filter: blur(16px);
+  --ev-border-light: 1px solid rgba(16, 185, 129, 0.15);
 
   /* Legacy Variable Mapping for safe backward compatibility */
   --color-surface-dark: var(--color-bg-base);
-  --color-bg-niken: #f4f5f8;
+  --color-bg-niken: #f1f5f9;
   --color-bg-card: var(--color-surface);
   --color-bg-input: #ffffff;
-  --color-border: #e0e0e0;
+  --color-border: #e2e8f0;
   --color-border-active: var(--color-primary);
   --color-text-white: var(--color-text-main);
   --color-text-muted: var(--color-text-muted);
   --color-accent: var(--color-primary);
-  --color-cyber-mint: #1464f4;
-  --color-accent-glow-alpha: rgba(20, 100, 244, 0.1);
-  --color-accent-glow-hover: rgba(20, 100, 244, 0.2);
+  --color-cyber-mint: #10b981;
+  --color-accent-glow-alpha: rgba(16, 185, 129, 0.08);
+  --color-accent-glow-hover: rgba(16, 185, 129, 0.15);
   --transition-normal: all 0.3s ease-in-out;
 
   /* Premium Luxury Spacing System (8px-based Grid Scale) */
@@ -174,7 +174,7 @@ section {
 .btn-admin-nav:hover {
   background: var(--color-primary);
   color: #000;
-  box-shadow: 0 0 15px rgba(25, 96, 215, 0.4);
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
 }
 
 /* Hamburger Menu Styling */
@@ -310,7 +310,7 @@ section {
   background: var(--color-primary);
   color: #000;
   border-color: var(--color-primary);
-  box-shadow: 0 0 12px rgba(25, 96, 215, 0.4);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
   transform: translateY(-2px);
 }
 
@@ -590,7 +590,7 @@ section {
   .mobile-phone-shortcut:hover {
     background: var(--color-primary) !important;
     color: #ffffff !important;
-    box-shadow: 0 0 10px rgba(20, 100, 244, 0.2) !important;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.2) !important;
   }
 
   .nav-menu {
@@ -1340,8 +1340,8 @@ section {
 }
 
 .counselor-item:hover {
-  border-color: rgba(20, 100, 244, 0.2);
-  background: rgba(20, 100, 244, 0.03);
+  border-color: rgba(16, 185, 129, 0.2);
+  background: rgba(16, 185, 129, 0.03);
 }
 
 .counselor-avatar-wrap {
@@ -1421,7 +1421,7 @@ section {
 .counselor-action-btn:hover {
   background: var(--color-primary);
   color: #000;
-  box-shadow: 0 0 10px rgba(25, 96, 215, 0.4);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
   transform: scale(1.1);
 }
 
@@ -1485,7 +1485,7 @@ section {
 .counselor-card-vip:hover {
   border-color: var(--color-primary);
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(20, 100, 244, 0.08);
+  box-shadow: 0 15px 35px rgba(16, 185, 129, 0.08);
 }
 
 .counselor-avatar-wrap-vip {
@@ -1671,7 +1671,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
     }
 
     .local-hero-banner {
-      background: linear-gradient(135deg, rgba(20, 100, 244, 0.05) 0%, var(--color-surface) 100%);
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, var(--color-surface) 100%);
       border: var(--ev-border-light);
       border-radius: var(--ev-border-radius);
       padding: 35px 30px;
@@ -1686,7 +1686,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
       position: absolute;
       width: 300px;
       height: 300px;
-      background: radial-gradient(circle, rgba(20, 100, 244, 0.04) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.04) 0%, transparent 70%);
       top: -100px;
       right: -100px;
     }
@@ -1703,8 +1703,8 @@ body .table-scroll-container table.compare-spec-table td:first-child {
 
     .local-seo-tag {
       display: inline-block;
-      background: rgba(20, 100, 244, 0.12);
-      border: 1px solid rgba(20, 100, 244, 0.3);
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
       color: var(--color-primary);
       padding: 4px 14px;
       border-radius: var(--ev-border-radius);
@@ -2046,7 +2046,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
     }
 
     .vip-local-btn:hover {
-      box-shadow: 0 0 18px rgba(25, 96, 215, 0.4);
+      box-shadow: 0 0 18px rgba(16, 185, 129, 0.4);
       transform: translateY(-2px);
     }
 
@@ -2329,8 +2329,8 @@ body .table-scroll-container table.compare-spec-table td:first-child {
       transition: all 0.3s ease;
     }
     .faq-item:hover {
-      border-color: rgba(20, 100, 244, 0.3);
-      background: rgba(20, 100, 244, 0.02);
+      border-color: rgba(16, 185, 129, 0.3);
+      background: rgba(16, 185, 129, 0.02);
     }
     .faq-header {
       padding: 16px 20px;
@@ -2385,7 +2385,7 @@ body .table-scroll-container table.compare-spec-table td:first-child {
 body { background-color: var(--color-bg-base); color: var(--color-text-main); margin: 0; }
 .premium-header { background: rgba(255, 255, 255, 0.98); height: 70px; border-bottom: 1px solid var(--color-border); }
 .nav-btn-hotline { display: inline-flex; align-items: center; background: transparent; border: 1px solid rgba(0, 0, 0, 0.12); color: var(--color-text-main); padding: 8px 16px; border-radius: var(--ev-border-radius); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; transition: var(--transition-normal); text-decoration: none; }
-.nav-btn-hotline:hover { background: rgba(20, 100, 244, 0.05); color: var(--color-primary); border-color: var(--color-primary); box-shadow: 0 0 20px var(--color-accent-glow-hover); transform: translateY(-1px); }
+.nav-btn-hotline:hover { background: rgba(16, 185, 129, 0.05); color: var(--color-primary); border-color: var(--color-primary); box-shadow: 0 0 20px var(--color-accent-glow-hover); transform: translateY(-1px); }
 @media (max-width: 991px) { .nav-hotline-item { margin-top: 15px; width: 100%; text-align: center; } .nav-btn-hotline { width: 100%; justify-content: center; padding: 12px; } }
 
 /* Inlined Footer Geo-Toast CSS Overrides */
@@ -2399,7 +2399,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
       background: var(--color-surface); backdrop-filter: var(--ev-glass-filter); -webkit-backdrop-filter: var(--ev-glass-filter);
       border: var(--ev-border-light);
       border-radius: var(--ev-border-radius);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 20px rgba(20, 100, 244, 0.02);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 20px rgba(16, 185, 129, 0.02);
       padding: 16px;
       animation: geo-slide-in 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
       font-family: 'Montserrat', sans-serif;
@@ -2425,7 +2425,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
     
     .geo-toast-icon {
       color: var(--color-primary, #1464f4);
-      background: rgba(20, 100, 244, 0.05);
+      background: rgba(16, 185, 129, 0.05);
       border-radius: 50%;
       padding: 8px;
       display: flex;
@@ -2475,7 +2475,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
     .geo-toast-btn:hover {
       background: #1155cc;
       color: #fff !important;
-      box-shadow: 0 4px 12px rgba(20, 100, 244, 0.25);
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
     }
     
     .geo-toast-close {

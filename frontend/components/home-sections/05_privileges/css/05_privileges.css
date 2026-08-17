@@ -14,7 +14,7 @@
   }
 
   .privileges-section .section-tag {
-      color: var(--color-ev-cyan, #00a3ff) !important;
+      color: var(--color-ev-cyan, #34d399) !important;
   }
   
   .privilege-card {
@@ -28,7 +28,7 @@
 
   .privilege-card:hover {
       background: rgba(255, 255, 255, 0.07) !important;
-      border-color: rgba(20, 100, 244, 0.4) !important;
+      border-color: rgba(16, 185, 129, 0.4) !important;
       transform: translateY(-5px) !important;
   }
 
@@ -46,9 +46,9 @@
   }
 
   .privilege-card__icon-wrap {
-      background: rgba(20, 100, 244, 0.15) !important;
-      color: var(--color-ev-cyan, #00a3ff) !important;
-      border: 1px solid rgba(20, 100, 244, 0.25) !important;
+      background: rgba(16, 185, 129, 0.15) !important;
+      color: var(--color-ev-cyan, #34d399) !important;
+      border: 1px solid rgba(16, 185, 129, 0.25) !important;
   }
 
 /* ======================================================================
@@ -104,14 +104,14 @@
   html body .privilege-card__icon-wrap {
     width: 38px !important;
     height: 38px !important;
-    background: rgba(20, 100, 244, 0.15) !important;
+    background: rgba(16, 185, 129, 0.15) !important;
     border-radius: 12px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     margin-bottom: 8px !important;
-    color: var(--color-ev-cyan, #00a3ff) !important;
-    border: 1px solid rgba(20, 100, 244, 0.25) !important;
+    color: var(--color-ev-cyan, #34d399) !important;
+    border: 1px solid rgba(16, 185, 129, 0.25) !important;
   }
 
   html body .privilege-card__icon-wrap svg {
@@ -148,14 +148,14 @@
     font-size: 11px !important;
     font-weight: 800 !important;
     color: #ffffff !important;
-    background: #1464f4 !important;
+    background: #10b981 !important;
     border: none !important;
     border-radius: 20px !important;
     text-decoration: none !important;
     text-align: center !important;
     box-sizing: border-box !important;
     margin-top: auto !important;
-    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
   }
 }
 
@@ -178,14 +178,14 @@
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: linear-gradient(135deg, #1464f4 0%, #0d4bbf 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #047857 100%) !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 3px 10px rgba(20, 100, 244, 0.28) !important;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.28) !important;
   transition: all 0.25s ease !important;
 }
 
@@ -202,9 +202,9 @@
 }
 
 .privilege-card__link:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #1464f4 100%) !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 5px 14px rgba(20, 100, 244, 0.45) !important;
+  box-shadow: 0 5px 14px rgba(16, 185, 129, 0.45) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -231,14 +231,14 @@ html body .privilege-card__link {
   font-size: 11px !important;
   font-weight: 800 !important;
   color: #ffffff !important;
-  background: #1464f4 !important;
+  background: #10b981 !important;
   border: none !important;
   border-radius: 20px !important;
   text-decoration: none !important;
   text-align: center !important;
   box-sizing: border-box !important;
   margin-top: auto !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.35) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
   transition: all 0.25s ease !important;
 }
 

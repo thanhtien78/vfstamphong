@@ -893,20 +893,37 @@ $menuItems = [
       color: #ffffff !important;
     }
 
-    /* Globally override "VUỐT ĐỂ SO SÁNH" visual hint badges to match the user's new EV theme */
+    /* Globally override "VUỐT ĐỂ SO SÁNH" visual hint badges to match the user global memory rule: prominent, gold text, dark background, gold border, and pulsing animation */
     html body .swipe-hint-pill,
     html body .compare-swipe-badge,
     html body .swipe-hint-btn {
-      background: rgba(20, 100, 244, 0.05) !important; /* Translucent blue background */
-      color: #1464f4 !important; /* Electric Blue text */
-      border: 1px solid rgba(20, 100, 244, 0.25) !important; /* Blue border */
-      box-shadow: 0 4px 12px rgba(20, 100, 244, 0.1) !important;
-      font-weight: 700 !important;
-      padding: 6px 14px !important;
+      background: #0f172a !important; /* Subtle dark background */
+      color: #dfc384 !important; /* Gold text */
+      border: 1.5px solid #dfc384 !important; /* Gold border */
+      box-shadow: 0 4px 15px rgba(223, 195, 132, 0.2) !important;
+      padding: 8px 18px !important;
       border-radius: 30px !important;
       display: inline-flex !important;
       align-items: center !important;
-      gap: 6px !important;
+      gap: 8px !important;
+      font-weight: 700 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 1px !important;
+      animation: swipePulse 2s infinite ease-in-out !important;
+    }
+    @keyframes swipePulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 4px rgba(223, 195, 132, 0.2);
+      }
+      50% {
+        transform: scale(1.03);
+        box-shadow: 0 0 16px rgba(223, 195, 132, 0.5);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 4px rgba(223, 195, 132, 0.2);
+      }
     }
   </style>
 <script>

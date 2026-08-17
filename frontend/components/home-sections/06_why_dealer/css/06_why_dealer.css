@@ -57,7 +57,7 @@
      6. WHY BUY AT OFFICIAL DEALER SECTION UPGRADES (Section 6)
      ========================================================================== */
   .why-official-section {
-      background: #070b13 radial-gradient(circle at 50% 10%, rgba(20, 100, 244, 0.12) 0%, transparent 60%) !important;
+      background: #070b13 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important;
       padding: 60px 0 !important;
   }
   
@@ -102,7 +102,7 @@
       top: -15px !important;
       font-family: Georgia, serif !important;
       font-size: 55px !important;
-      color: rgba(20, 100, 244, 0.08) !important; /* Subtle decorative mark */
+      color: rgba(16, 185, 129, 0.08) !important; /* Subtle decorative mark */
       line-height: 1 !important;
       pointer-events: none !important;
   }
@@ -118,8 +118,8 @@
 
   .why-brand-visual {
       border-radius: 16px !important; /* Softer, modern corners */
-      border: 1px solid rgba(20, 100, 244, 0.12) !important;
-      box-shadow: 0 15px 35px rgba(20, 100, 244, 0.05) !important;
+      border: 1px solid rgba(16, 185, 129, 0.12) !important;
+      box-shadow: 0 15px 35px rgba(16, 185, 129, 0.05) !important;
       overflow: hidden !important;
   }
 
@@ -151,8 +151,8 @@
   }
 
   .why-row:hover {
-      border-color: #1464f4 !important; /* Highlight border on hover */
-      box-shadow: 0 12px 24px rgba(20, 100, 244, 0.06) !important;
+      border-color: #10b981 !important; /* Highlight border on hover */
+      box-shadow: 0 12px 24px rgba(16, 185, 129, 0.06) !important;
       transform: translateY(-2px) !important;
   }
 
@@ -160,9 +160,9 @@
       font-family: 'Georgia', serif !important;
       font-size: 18px !important;
       font-weight: 700 !important;
-      color: #1464f4 !important;
-      background: rgba(20, 100, 244, 0.04) !important;
-      border: 1px solid rgba(20, 100, 244, 0.15) !important;
+      color: #10b981 !important;
+      background: rgba(16, 185, 129, 0.04) !important;
+      border: 1px solid rgba(16, 185, 129, 0.15) !important;
       border-radius: 50% !important; /* Perfect circles */
       min-width: 40px !important;
       height: 40px !important;
@@ -175,9 +175,9 @@
 
   /* Clean hover effect for indexes */
   .why-row:hover .why-row__idx {
-      background: #1464f4 !important;
+      background: #10b981 !important;
       color: #ffffff !important;
-      border-color: #1464f4 !important;
+      border-color: #10b981 !important;
   }
 
   .why-row__title {
@@ -190,7 +190,7 @@
   }
 
   .why-row:hover .why-row__title {
-      color: #1464f4 !important; /* Title color changes on hover */
+      color: #10b981 !important; /* Title color changes on hover */
   }
 
   .why-row__desc {
@@ -204,7 +204,7 @@
      Why Buy Genuine Section Overrides to White
      ========================================================================== */
   .why-official-section {
-      background: #070b13 radial-gradient(circle at 50% 10%, rgba(20, 100, 244, 0.12) 0%, transparent 60%) !important;
+      background: #070b13 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important;
       border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
   }
 /* ======================================================================
@@ -260,9 +260,9 @@
     height: 32px !important;
     font-size: 13px !important;
     font-weight: 800 !important;
-    background: rgba(20, 100, 244, 0.08) !important;
-    color: #1464f4 !important;
-    border: 1px solid rgba(20, 100, 244, 0.2) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #10b981 !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
     border-radius: 10px !important;
     margin: 0 !important;
     display: flex !important;

@@ -44,10 +44,10 @@
   }
   
   .ev-tech-section .section-tag {
-      color: #1464f4 !important;
+      color: #10b981 !important;
       font-weight: 800 !important;
-      background: rgba(20, 100, 244, 0.08) !important;
-      border: 1px solid rgba(20, 100, 244, 0.18) !important;
+      background: rgba(16, 185, 129, 0.08) !important;
+      border: 1px solid rgba(16, 185, 129, 0.18) !important;
       padding: 6px 16px !important;
       border-radius: 20px !important;
       display: inline-block !important;
@@ -65,7 +65,7 @@
   }
   
   .ev-tech-tab-btn.active {
-      background: #1464f4 !important;
+      background: #10b981 !important;
       color: #ffffff !important;
   }
   
@@ -88,7 +88,7 @@
   
   .range-calc-model-card.active {
       background: #ffffff !important;
-      border: 2.5px solid #1464f4 !important;
+      border: 2.5px solid #10b981 !important;
   }
   
   .range-calc-model-card {
@@ -98,14 +98,14 @@
   }
   
   .range-calc-model-card:hover {
-      background: rgba(20, 100, 244, 0.2) !important;
-      border-color: #38bdf8 !important;
+      background: rgba(16, 185, 129, 0.2) !important;
+      border-color: #34d399 !important;
   }
   
   .range-calc-model-card.active {
-      background: rgba(20, 100, 244, 0.25) !important;
-      border: 2px solid #38bdf8 !important;
-      box-shadow: 0 0 20px rgba(56, 189, 248, 0.3) !important;
+      background: rgba(16, 185, 129, 0.25) !important;
+      border: 2px solid #34d399 !important;
+      box-shadow: 0 0 20px rgba(52, 211, 153, 0.3) !important;
   }
   
   .range-calc-model-name, .calc-label, .roi-res-val {
@@ -122,16 +122,16 @@
   }
   
   .range-slider-group-premium:hover {
-      border-color: #1464f4 !important;
-      box-shadow: 0 6px 16px rgba(20, 100, 244, 0.05) !important;
+      border-color: #10b981 !important;
+      box-shadow: 0 6px 16px rgba(16, 185, 129, 0.05) !important;
   }
   
   .slider-icon-box {
-      background: rgba(20, 100, 244, 0.08) !important;
+      background: rgba(16, 185, 129, 0.08) !important;
   }
   
   .slider-icon-box svg {
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .range-slider-label {
@@ -139,7 +139,7 @@
   }
   
   .range-slider-value {
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .slider-ticks {
@@ -151,8 +151,8 @@
   }
   
   .range-slider-input::-webkit-slider-thumb {
-      background: #1464f4 !important;
-      box-shadow: 0 2px 8px rgba(20, 100, 244, 0.3) !important;
+      background: #10b981 !important;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3) !important;
   }
   
   /* visualizer ring */
@@ -165,13 +165,13 @@
   }
   
   .range-circle-box .range-number-unit {
-      color: #1464f4 !important;
+      color: #10b981 !important;
   }
   
   .range-efficiency-badge {
-      background: rgba(20, 100, 244, 0.08) !important;
-      border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
-      color: #1464f4 !important;
+      background: rgba(16, 185, 129, 0.08) !important;
+      border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
+      color: #10b981 !important;
   }
   
   .range-cockpit-metrics-bar {
@@ -184,7 +184,7 @@
   }
   
   .metric-bar-item:hover {
-      border-color: #1464f4 !important;
+      border-color: #10b981 !important;
   }
   
   .metric-bar-label {
@@ -217,13 +217,13 @@
   }
   
   .roi-select:focus {
-      border-color: #1464f4 !important;
+      border-color: #10b981 !important;
   }
   
   .roi-results-panel {
       background: #ffffff !important;
-      border: 2.5px solid #1464f4 !important;
-      box-shadow: 0 10px 30px rgba(20, 100, 244, 0.08) !important;
+      border: 2.5px solid #10b981 !important;
+      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.08) !important;
   }
   
   .roi-saving-title {
@@ -231,7 +231,7 @@
   }
   
   .roi-saving-value {
-      color: #1464f4 !important; /* Official blue color instead of green */
+      color: #10b981 !important; /* Official blue color instead of green */
   }
   
   .roi-breakdown {
@@ -248,8 +248,8 @@
   }
   
   .roi-green-impact {
-      background: rgba(20, 100, 244, 0.05) !important;
-      border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+      background: rgba(16, 185, 129, 0.05) !important;
+      border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
   }
   
   .roi-green-info {
@@ -275,13 +275,13 @@
   }
   
   .range-calc-model-card:hover {
-      background: rgba(20, 100, 244, 0.03) !important;
-      border-color: #1464f4 !important;
+      background: rgba(16, 185, 129, 0.03) !important;
+      border-color: #10b981 !important;
   }
   
   .range-calc-model-card.active {
       background: #ffffff !important;
-      border: 2.5px solid #1464f4 !important;
+      border: 2.5px solid #10b981 !important;
   }
   
   .range-calc-interactive-panel {
@@ -359,9 +359,9 @@
   }
 
   html body .ev-tech-tab-btn.active {
-    background: #1464f4 !important;
+    background: #10b981 !important;
     color: #ffffff !important;
-    box-shadow: 0 3px 10px rgba(20, 100, 244, 0.35) !important;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35) !important;
   }
 
   html body .ev-tech-tab-btn:not(.active) {
@@ -571,7 +571,7 @@
   html body .range-number-value {
     font-size: 38px !important;
     font-weight: 900 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   html body .range-number-unit {

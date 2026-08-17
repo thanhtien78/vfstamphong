@@ -1,7 +1,7 @@
 /* 2. Brand Spotlight Overrides (Green Tech Theme) */
 .brand-spotlight {
   background: linear-gradient(180deg, #f5f9ff 0%, var(--color-bg-light) 100%);
-  border-bottom: 1px solid rgba(20, 100, 244, 0.1);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
   position: relative;
   color: var(--color-text-slate);
 }
@@ -9,7 +9,7 @@
   color: var(--color-ev-green) !important;
   font-weight: 700;
   letter-spacing: 2px;
-  text-shadow: 0 0 8px rgba(20, 100, 244, 0.15);
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.15);
 }
 .spotlight-title {
   color: var(--color-text-dark) !important;
@@ -19,7 +19,7 @@
 }
 .spotlight-visual img {
   border-radius: 12px;
-  border: 1px solid rgba(20, 100, 244, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.15);
   box-shadow: var(--card-shadow);
 }
 
@@ -35,7 +35,7 @@
   content: "" !important;
   position: absolute !important;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: radial-gradient(rgba(20, 100, 244, 0.04) 1.2px, transparent 1.2px) !important;
+  background-image: radial-gradient(rgba(16, 185, 129, 0.04) 1.2px, transparent 1.2px) !important;
   background-size: 24px 24px !important;
   pointer-events: none !important;
 }
@@ -45,7 +45,7 @@
 }
 .ev-tech-section .section-tag {
   background: transparent !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
@@ -84,9 +84,9 @@
   color: #0f172a !important;
 }
 .ev-tech-tab-btn.active {
-  background: linear-gradient(135deg, #1464f4 0%, #00a3ff 100%) !important;
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
 }
 
 .ev-tech-pane {
@@ -133,14 +133,14 @@
   transition: all 0.3s ease !important;
 }
 .range-calc-model-card:hover {
-  background: rgba(20, 100, 244, 0.03) !important;
-  border-color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.03) !important;
+  border-color: #10b981 !important;
   transform: translateX(4px) !important;
 }
 .range-calc-model-card.active {
   background: #ffffff !important;
-  border: 2.5px solid #1464f4 !important; /* Thick solid brand blue border (B) */
-  box-shadow: 0 4px 15px rgba(20, 100, 244, 0.12) !important;
+  border: 2.5px solid #10b981 !important; /* Thick solid brand blue border (B) */
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.12) !important;
 }
 .range-calc-model-thumb {
   width: 70px !important;
@@ -190,13 +190,13 @@
   transition: all 0.3s ease !important;
 }
 .range-slider-group-premium:hover {
-  border-color: #1464f4 !important;
-  box-shadow: 0 6px 16px rgba(20, 100, 244, 0.05) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.05) !important;
 }
 .slider-icon-box {
   width: 44px !important;
   height: 44px !important;
-  background: rgba(20, 100, 244, 0.08) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
   border-radius: 50% !important;
   display: flex !important;
   align-items: center !important;
@@ -251,7 +251,7 @@
   stroke-linecap: round !important;
   stroke-dasharray: 565.48 !important;
   transition: stroke-dashoffset 0.3s ease !important;
-  filter: drop-shadow(0 4px 12px rgba(20, 100, 244, 0.25)) !important;
+  filter: drop-shadow(0 4px 12px rgba(16, 185, 129, 0.25)) !important;
 }
 .range-number-box {
   position: absolute !important;
@@ -266,7 +266,7 @@
   font-family: system-ui, -apple-system, sans-serif !important;
 }
 .range-number-unit {
-  color: #1464f4 !important;
+  color: #10b981 !important;
   text-shadow: none !important;
   font-size: 13.5px !important;
   font-weight: 700 !important;
@@ -282,7 +282,7 @@
 .range-slider-value {
   font-size: 15px !important;
   font-weight: 700 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
 }
 .range-slider-input {
   background: #cbd5e1 !important;
@@ -298,18 +298,18 @@
   width: 20px !important;
   height: 20px !important;
   border-radius: 50% !important;
-  background: #1464f4 !important;
-  box-shadow: 0 2px 8px rgba(20, 100, 244, 0.3) !important;
+  background: #10b981 !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3) !important;
   cursor: pointer !important;
 }
 .range-efficiency-badge {
   margin-top: 12px !important;
-  background: rgba(20, 100, 244, 0.08) !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
   padding: 8px 20px !important;
   border-radius: 20px !important;
   font-size: 12px !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-weight: 700 !important;
 }
 
@@ -338,7 +338,7 @@
 }
 .metric-bar-item:hover {
   transform: translateY(-2px) !important;
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 .metric-bar-label {
   font-size: 11px !important;
@@ -402,12 +402,12 @@
   color: #1e293b !important;
 }
 .roi-select:focus {
-  border-color: #1464f4 !important;
+  border-color: #10b981 !important;
 }
 .roi-results-panel {
   background: #f1f5f9 !important; /* Darker Slate-100 background (A) */
-  border: 2.5px solid #1464f4 !important; /* High-contrast blue border (B) */
-  box-shadow: 0 10px 30px rgba(20, 100, 244, 0.08) !important;
+  border: 2.5px solid #10b981 !important; /* High-contrast blue border (B) */
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.08) !important;
   border-radius: 16px !important;
   padding: 32px !important;
   display: flex !important;
@@ -484,36 +484,36 @@
 
 /* 4. Comparison Pulse Button Custom Override (Brand Theme) */
 .btn-compare-pulse {
-  background: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
-  border: 1.5px solid rgba(20, 100, 244, 0.25) !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
+  border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
   padding: 12px 24px !important;
   border-radius: 30px !important;
   font-size: 13px !important;
   font-weight: 700 !important;
   letter-spacing: 1.2px !important;
-  box-shadow: 0 4px 12px rgba(20, 100, 244, 0.05) !important;
-  animation: pulse-blue 2s infinite !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.05) !important;
+  animation: pulse-green 2s infinite !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
 }
 .btn-compare-pulse:hover {
-  background: #1464f4 !important;
+  background: #10b981 !important;
   color: #ffffff !important;
-  box-shadow: 0 6px 20px rgba(20, 100, 244, 0.3) !important;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3) !important;
   transform: translateY(-2px) !important;
 }
-@keyframes pulse-blue {
+@keyframes pulse-green {
   0% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0.3);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.3);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(20, 100, 244, 0);
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(20, 100, 244, 0);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
   }
 }
 
@@ -539,7 +539,7 @@
     left: 0 !important;
     width: 100% !important;
     height: 3px !important;
-    background: linear-gradient(90deg, transparent, #1464f4, #00d2ff, #1464f4, transparent) !important;
+    background: linear-gradient(90deg, transparent, #10b981, #34d399, #10b981, transparent) !important;
     opacity: 0 !important;
     transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     z-index: 5 !important;
@@ -547,8 +547,8 @@
 
   .car-card:hover {
     transform: translateY(-8px) !important; /* Sleek hover lift */
-    border-color: rgba(20, 100, 244, 0.4) !important;
-    box-shadow: 0 20px 45px rgba(20, 100, 244, 0.12) !important;
+    border-color: rgba(16, 185, 129, 0.4) !important;
+    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.12) !important;
   }
 
   .car-card:hover::before {
@@ -599,15 +599,15 @@
     top: 16px !important;
     right: 16px !important;
     left: auto !important;
-    background: rgba(20, 100, 244, 0.06) !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    color: #10b981 !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
     font-size: 9.5px !important;
     letter-spacing: 0.8px !important;
     border-radius: 30px !important;
     padding: 4px 12px !important;
-    border: 1px solid rgba(20, 100, 244, 0.15) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
     box-shadow: none !important;
     z-index: 10 !important;
   }
@@ -622,7 +622,7 @@
   .car-card__segment {
     font-size: 11px !important;
     font-weight: 600 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
     margin-bottom: 6px !important;
@@ -639,7 +639,7 @@
   }
 
   .car-card:hover .car-card__name {
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 
   /* Description text - regular */
@@ -745,7 +745,7 @@
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 800 !important;
     font-size: 16px !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: none !important;
     -webkit-text-fill-color: initial !important;
     -webkit-background-clip: initial !important;
@@ -779,21 +779,21 @@
     font-size: 11.5px !important;
     font-weight: 700 !important;
     color: #ffffff !important;
-    background: #1464f4 !important;
-    border: 1px solid #1464f4 !important;
+    background: #10b981 !important;
+    border: 1px solid #10b981 !important;
     border-radius: 30px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     text-decoration: none !important;
     height: 40px !important;
-    box-shadow: 0 4px 12px rgba(20, 100, 244, 0.2) !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
   }
 
   .btn-detail-card:hover {
-    border-color: #00d2ff !important;
+    border-color: #34d399 !important;
     color: #ffffff !important;
-    background: #00d2ff !important;
+    background: #34d399 !important;
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 18px rgba(0, 210, 255, 0.4) !important;
   }
@@ -807,9 +807,9 @@
     padding: 10px 8px !important;
     font-size: 11.5px !important;
     font-weight: 700 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: transparent !important;
-    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
     border-radius: 30px !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
@@ -819,14 +819,14 @@
   }
 
   .btn-zalo-card svg {
-    fill: #1464f4 !important;
+    fill: #10b981 !important;
     transition: transform 0.3s ease !important;
   }
 
   .btn-zalo-card:hover {
-    background: rgba(20, 100, 244, 0.05) !important;
-    border-color: #1464f4 !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.05) !important;
+    border-color: #10b981 !important;
+    color: #10b981 !important;
     transform: translateY(-2px) !important;
   }
 }
@@ -883,15 +883,15 @@
     top: 6px !important;
     right: 6px !important;
     left: auto !important;
-    background: rgba(20, 100, 244, 0.06) !important;
-    color: #1464f4 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    color: #10b981 !important;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700 !important;
     font-size: 7.5px !important;
     letter-spacing: 0.5px !important;
     border-radius: 20px !important;
     padding: 2px 6px !important;
-    border: 0.5px solid rgba(20, 100, 244, 0.15) !important;
+    border: 0.5px solid rgba(16, 185, 129, 0.15) !important;
     z-index: 10 !important;
     box-shadow: none !important;
   }
@@ -906,7 +906,7 @@
   .car-card__segment {
     font-size: 8px !important;
     font-weight: 600 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     margin-bottom: 2px !important;
@@ -1007,7 +1007,7 @@
   .price-main-num {
     font-size: 11.5px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: none !important;
     -webkit-text-fill-color: initial !important;
     -webkit-background-clip: initial !important;
@@ -1033,8 +1033,8 @@
     font-size: 9.5px !important;
     font-weight: 700 !important;
     color: #ffffff !important;
-    background: #1464f4 !important;
-    border: 1px solid #1464f4 !important;
+    background: #10b981 !important;
+    border: 1px solid #10b981 !important;
     border-radius: 20px !important;
     height: 32px !important;
     line-height: 1.2 !important;
@@ -1047,9 +1047,9 @@
     padding: 8px 2px !important;
     font-size: 9.5px !important;
     font-weight: 700 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: transparent !important;
-    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
     border-radius: 20px !important;
     height: 32px !important;
     line-height: 1.2 !important;
@@ -1058,7 +1058,7 @@
   }
 
   .btn-zalo-card svg {
-    fill: #1464f4 !important;
+    fill: #10b981 !important;
   }
 }
 
@@ -1067,9 +1067,9 @@
     padding: 8px 2px !important;
     font-size: 9.5px !important;
     font-weight: 700 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
     background: transparent !important;
-    border: 1px solid rgba(20, 100, 244, 0.3) !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
     border-radius: 20px !important;
     height: 32px !important;
     line-height: 1.2 !important;
@@ -1078,7 +1078,7 @@
   }
 
   .btn-zalo-card svg {
-    fill: #1464f4 !important;
+    fill: #10b981 !important;
   }
 }
 
@@ -1086,10 +1086,10 @@
    BALANCED PRICE FORMATTING (MAIN PRICE + SUB-NOTE NO TRUNCATION)
    ====================================================================== */
 .car-card__price-box {
-  background: rgba(20, 100, 244, 0.03) !important;
+  background: rgba(16, 185, 129, 0.03) !important;
   border-radius: 10px !important;
   padding: 8px 10px !important;
-  border: 1px dashed rgba(20, 100, 244, 0.18) !important;
+  border: 1px dashed rgba(16, 185, 129, 0.18) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
@@ -1122,7 +1122,7 @@
 .price-main-num {
   font-size: 13.5px !important;
   font-weight: 900 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   display: block !important;
   line-height: 1.2 !important;
 }
@@ -1183,19 +1183,19 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-  background: rgba(20, 100, 244, 0.05) !important;
-  border-color: rgba(20, 100, 244, 0.3) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.05) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+  color: #10b981 !important;
   transform: translateY(-1px) !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-  background: #1464f4 !important;
-  border-color: #1464f4 !important;
+  background: #10b981 !important;
+  border-color: #10b981 !important;
   color: #ffffff !important;
   font-weight: 700 !important;
-  box-shadow: 0 8px 20px rgba(20, 100, 244, 0.15) !important;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.15) !important;
   transform: translateY(-1px) !important;
 }
 

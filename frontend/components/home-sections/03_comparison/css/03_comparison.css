@@ -10,7 +10,7 @@
 }
 .compare-header-block .section-tag {
   background: transparent !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
@@ -95,12 +95,12 @@
 
   /* 2. Spec Comparison Section - Official VinFast Light Overrides */
   .compare-section {
-      background: radial-gradient(circle at 80% 20%, rgba(0, 180, 216, 0.02) 0%, rgba(20, 100, 244, 0.03) 100%), #ffffff !important;
+      background: radial-gradient(circle at 80% 20%, rgba(0, 180, 216, 0.02) 0%, rgba(16, 185, 129, 0.03) 100%), #ffffff !important;
       border-bottom: 1px solid #cbd5e1 !important;
   }
   
   .compare-header-block .section-tag {
-      color: #1464f4 !important; /* VinFast Corporate Blue tag */
+      color: #10b981 !important; /* VinFast Corporate Blue tag */
       font-weight: 800 !important;
   }
   
@@ -119,9 +119,9 @@
   }
   
   .compare-spec-table th {
-      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important; /* Soft VinFast corporate blue tint */
-      color: #1464f4 !important; /* Standardized VinFast Corporate Primary Blue */
-      border-bottom: 2px solid #93c5fd !important;
+      background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%) !important; /* Soft VinFast corporate blue tint */
+      color: #10b981 !important; /* Standardized VinFast Corporate Primary Blue */
+      border-bottom: 2px solid #6ee7b7 !important;
       font-weight: 800 !important;
   }
   
@@ -137,8 +137,8 @@
   }
   
   .compare-spec-table tr:hover td {
-      background: #f0f9ff !important; /* Soft blue highlight on hover */
-      color: #1464f4 !important;
+      background: #ecfdf5 !important; /* Soft blue highlight on hover */
+      color: #10b981 !important;
   }
   
   /* Fixed first sticky column styles for Light mode compatibility */
@@ -154,23 +154,23 @@
   }
   
   .compare-spec-table tr:hover td:first-child {
-      background-color: #f0f9ff !important;
-      color: #1464f4 !important;
+      background-color: #ecfdf5 !important;
+      color: #10b981 !important;
   }
   
   .compare-spec-table tr.compare-row-price td {
-      background-color: rgba(20, 100, 244, 0.06) !important; /* Soft corporate blue highlight for price */
-      border-bottom: 2px solid #1464f4 !important;
+      background-color: rgba(16, 185, 129, 0.06) !important; /* Soft corporate blue highlight for price */
+      border-bottom: 2px solid #10b981 !important;
   }
   
   .compare-spec-table tr.compare-row-price td:not(:first-child) {
-      color: #1464f4 !important;
+      color: #10b981 !important;
       font-weight: 700 !important;
   }
   
   .compare-spec-table tr.compare-row-price td:first-child {
-      background-color: rgba(20, 100, 244, 0.12) !important;
-      color: #1e3a8a !important;
+      background-color: rgba(16, 185, 129, 0.12) !important;
+      color: #065f46 !important;
   }
 
   /* Make the Genuine VinFast Dealer image fully bright and remove the dark overlay */
@@ -382,7 +382,7 @@
   html body .compare-spec-table th {
     font-size: 12px !important;
     font-weight: 800 !important;
-    color: #1464f4 !important;
+    color: #10b981 !important;
   }
 }
 
@@ -487,7 +487,7 @@ html body .compare-spec-table td:nth-child(n+2) {
 
 html body .compare-spec-table .compare-row-price td:nth-child(n+2) {
   font-weight: 800 !important;
-  color: #1464f4 !important;
+  color: #10b981 !important;
   font-size: 13px !important;
 }
 
@@ -534,8 +534,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table th:first-child {
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
 }
 
 /* Columns 2+ (Car Models) */
@@ -557,8 +557,8 @@ html body .compare-spec-table td:nth-child(n+2) {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -568,7 +568,7 @@ html body .compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 100 !important;
-  background: #eff6ff !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
+  background: #f0fdf4 !important; /* SOLID NON-TRANSPARENT BLUE-TINT BACKGROUND */
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.12) !important;
 }
@@ -587,8 +587,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background: #dbeafe !important; /* SOLID PRICE ROW BACKGROUND */
-  color: #1e3a8a !important;
+  background: #d1fae5 !important; /* SOLID PRICE ROW BACKGROUND */
+  color: #065f46 !important;
 }
 
 /* ======================================================================
@@ -710,8 +710,8 @@ html body .compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Colors for Column 1 Sticky Cells */
 html body .compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body .compare-spec-table td:first-child {
@@ -725,8 +725,8 @@ html body .compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body .compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns */
@@ -790,8 +790,8 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
 
 /* Opaque Solid Backgrounds for Column 1 Sticky Cells */
 html body table.compare-spec-table th:first-child {
-  background-color: #dbeafe !important; /* Solid Light Blue */
-  color: #1e40af !important;
+  background-color: #d1fae5 !important; /* Solid Light Blue */
+  color: #047857 !important;
 }
 
 html body table.compare-spec-table td:first-child {
@@ -805,8 +805,8 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: #bfdbfe !important; /* Solid Blue Accent for Price Header */
-  color: #1e3a8a !important;
+  background-color: #a7f3d0 !important; /* Solid Blue Accent for Price Header */
+  color: #065f46 !important;
 }
 
 /* Car Model Columns (Relative positioning to stay strictly underneath Sticky Column 1) */
@@ -853,9 +853,9 @@ html body table.compare-spec-table {
 
 /* Header Row (All Columns Unified) */
 html body table.compare-spec-table th {
-  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
-  color: #1464f4 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  background: linear-gradient(135deg, #f0fdf4 0%, #d1fae5 100%) !important;
+  color: #10b981 !important;
+  border-bottom: 2px solid #6ee7b7 !important;
   font-weight: 850 !important;
   font-family: 'Montserrat', sans-serif !important;
 }
@@ -869,8 +869,8 @@ html body table.compare-spec-table th:first-child {
   width: 125px !important;
   min-width: 125px !important;
   max-width: 125px !important;
-  background: #eff6ff !important; /* Unified header tint */
-  color: #1464f4 !important;
+  background: #f0fdf4 !important; /* Unified header tint */
+  color: #10b981 !important;
   border-right: 2px solid #cbd5e1 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.08) !important;
 }
@@ -896,9 +896,9 @@ html body table.compare-spec-table tr:nth-child(even) td:first-child {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background-color: rgba(20, 100, 244, 0.08) !important; /* Unified price highlight */
-  color: #1464f4 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important; /* Unified price highlight */
+  color: #10b981 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* Car Model Columns (Columns 2+) */
@@ -927,11 +927,11 @@ html body table.compare-spec-table tr:nth-child(even) td:nth-child(n+2) {
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background-color: rgba(20, 100, 244, 0.08) !important;
-  color: #1464f4 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
   font-size: 13px !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -966,11 +966,11 @@ html body table.compare-spec-table td:first-child {
 /* Price Row Highlight (Column 1 and Product Columns) */
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -1006,21 +1006,21 @@ html body table.compare-spec-table td:first-child {
 html body table.compare-spec-table th,
 html body table.compare-spec-table th:first-child,
 html body table.compare-spec-table th:nth-child(n+2) {
-  background: #eff6ff !important;
-  background-color: #eff6ff !important;
-  color: #1464f4 !important;
+  background: #f0fdf4 !important;
+  background-color: #f0fdf4 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #93c5fd !important;
+  border-bottom: 2px solid #6ee7b7 !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td,
 html body table.compare-spec-table tr.compare-row-price td:first-child,
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background: rgba(20, 100, 244, 0.06) !important;
-  background-color: rgba(20, 100, 244, 0.06) !important;
-  color: #1464f4 !important;
+  background: rgba(16, 185, 129, 0.06) !important;
+  background-color: rgba(16, 185, 129, 0.06) !important;
+  color: #10b981 !important;
   font-weight: 800 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }
 
 /* ======================================================================
@@ -1031,9 +1031,9 @@ html body table.compare-spec-table th:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #dbeafe !important;
-  background: #dbeafe !important;
-  color: #1e40af !important;
+  background-color: #d1fae5 !important;
+  background: #d1fae5 !important;
+  color: #047857 !important;
   border-right: 2px solid #94a3b8 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
@@ -1055,19 +1055,19 @@ html body table.compare-spec-table tr.compare-row-price td:first-child {
   position: sticky !important;
   left: 0 !important;
   z-index: 9999 !important;
-  background-color: #eff6ff !important;
-  background: #eff6ff !important;
-  color: #1e3a8a !important;
+  background-color: #f0fdf4 !important;
+  background: #f0fdf4 !important;
+  color: #065f46 !important;
   font-weight: 850 !important;
   border-right: 2px solid #94a3b8 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
   box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15) !important;
 }
 
 html body table.compare-spec-table tr.compare-row-price td:nth-child(n+2) {
-  background-color: #f0f9ff !important;
-  background: #f0f9ff !important;
-  color: #1464f4 !important;
+  background-color: #ecfdf5 !important;
+  background: #ecfdf5 !important;
+  color: #10b981 !important;
   font-weight: 850 !important;
-  border-bottom: 2px solid #1464f4 !important;
+  border-bottom: 2px solid #10b981 !important;
 }

@@ -1,6 +1,6 @@
 /* Enhance readability and contrast for Exclusive Dealership Offers Section */
   .dealer-offers-section .section-tag {
-      color: #00d2ff !important; /* Bright cyan tag for dark background */
+      color: #34d399 !important; /* Bright cyan tag for dark background */
       font-weight: 800 !important;
       text-transform: uppercase !important;
       letter-spacing: 2px !important;
@@ -35,7 +35,7 @@
   }
   
   .offers-stage-tab--active .offers-stage-tab__num {
-      color: #00d2ff !important; /* Cyan active number */
+      color: #34d399 !important; /* Cyan active number */
   }
   
   .offers-stage-tab--active .offers-stage-tab__title {

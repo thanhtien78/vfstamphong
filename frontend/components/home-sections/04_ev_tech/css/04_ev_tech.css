@@ -1,5 +1,7 @@
 /* 1. EV Tech Section - 100% Clean Light Mode */
   .ev-tech-section {
+  background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+  color: #ffffff !important;
       position: relative !important;
       overflow: hidden !important;
       background-color: #ffffff !important;
@@ -26,6 +28,11 @@
   }
   
   .ev-tech-section .section-title,
+.ev-tech-section h2,
+.ev-tech-section h3,
+.ev-tech-section h4 {
+  color: #ffffff !important;
+}
   .ev-tech-section h2,
   .ev-tech-section h3,
   .ev-tech-section h4,
@@ -36,6 +43,9 @@
   }
   
   .ev-tech-section .compare-subtitle,
+.ev-tech-section p {
+  color: #e2eeea !important;
+}
   .ev-tech-section .range-calc-model-meta,
   .ev-tech-section .calc-res-lbl,
   .ev-tech-section .calc-label,
@@ -44,6 +54,9 @@
   }
   
   .ev-tech-section .section-tag {
+  color: #a7f3d0 !important;
+  background: rgba(255,255,255,0.08) !important;
+  border-color: rgba(255,255,255,0.18) !important;
       color: #10b981 !important;
       font-weight: 800 !important;
       background: rgba(16, 185, 129, 0.08) !important;
@@ -259,6 +272,8 @@
 
   /* EV Tech Calculator Panel Overrides for Slate-Blue Background */
   .ev-tech-section {
+  background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+  color: #ffffff !important;
       background: #ebf5f0 !important;
       border-bottom: 1px solid #c8ded7 !important;
   }

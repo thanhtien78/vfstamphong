@@ -100,6 +100,8 @@
 
   /* Trade-in Section Overrides for 100% Clean Light Mode */
   .tradein-section {
+  background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+  color: #ffffff !important;
       position: relative !important;
       overflow: hidden !important;
       background-color: #f3fbf7 !important;
@@ -126,6 +128,11 @@
   }
   
   .tradein-section .section-title,
+.tradein-promo-title,
+.tradein-step-title,
+.tradein-concierge-name {
+  color: #ffffff !important;
+}
   .tradein-promo-title,
   .tradein-step-title,
   .tradein-concierge-name,
@@ -138,6 +145,11 @@
   }
 
   .tradein-section .compare-subtitle,
+.tradein-step-desc,
+.tradein-badge-text,
+.tradein-promo-card p {
+  color: #e2eeea !important;
+}
   .tradein-step-desc,
   .tradein-badge-text,
   .tradein-promo-card p,
@@ -146,8 +158,12 @@
       color: #3d564e !important;
   }
 
-  .tradein-section .section-tag,
+  .tradein-section .section-tag {
+  color: #a7f3d0 !important;
+}
   .tradein-step-num {
+  color: #34d399 !important;
+}
       color: #10b981 !important;
       font-weight: 800 !important;
   }
@@ -179,6 +195,10 @@
   }
   
   .tradein-step {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
       background-color: #f3fbf7 !important;
       border: 1.5px solid #e2eeea !important;
   }

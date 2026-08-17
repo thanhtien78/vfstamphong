@@ -1,5 +1,7 @@
 /* Privileges Section Overrides for High-Tech Dark Background with Image */
   .privileges-section {
+  background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+  color: #ffffff !important;
       background: linear-gradient(rgba(9, 19, 15, 0.88), rgba(9, 19, 15, 0.88)), url('../../uploads/vinfast-privileges-bg.jpg') !important;
       background-size: cover !important;
       background-position: center !important;
@@ -14,6 +16,7 @@
   }
 
   .privileges-section .section-tag {
+  color: #a7f3d0 !important;
       color: var(--color-ev-cyan, #34d399) !important;
   }
   
@@ -56,6 +59,8 @@
    ====================================================================== */
 @media (max-width: 768px) {
   html body .privileges-section {
+  background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+  color: #ffffff !important;
     padding: 30px 10px !important;
   }
 

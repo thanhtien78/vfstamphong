@@ -1,5 +1,7 @@
 /* Enhance readability and contrast for Exclusive Dealership Offers Section */
   .dealer-offers-section .section-tag {
+  color: #a7f3d0 !important;
+}
       color: #34d399 !important; /* Bright cyan tag for dark background */
       font-weight: 800 !important;
       text-transform: uppercase !important;
@@ -26,6 +28,8 @@
   }
   
   .offers-stage-tab__title {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
       color: rgba(255, 255, 255, 0.7) !important; /* Light white text for inactive titles */
       font-weight: 750 !important;
   }
@@ -39,6 +43,8 @@
   }
   
   .offers-stage-tab--active .offers-stage-tab__title {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
       color: #ffffff !important; /* White active title */
       font-weight: 800 !important;
   }

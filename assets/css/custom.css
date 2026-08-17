@@ -12,37 +12,32 @@ html body {
 }
 
 /* Light Porcelain Sections (Catalog, Privileges, Trade-in, Counselors) */
+/* Premium Light Sections (White Background, Dark Text) */
+html body .brand-spotlight,
+html body .compare-counselors-section,
+html body .why-official-section {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border-bottom: none !important;
+    color: #3d564e !important;
+    padding: var(--space-xxl) 0 !important;
+}
+
+/* Premium Green Tech Sections (Green Background, White Text) */
 html body .catalog-section,
+html body .ev-tech-section,
 html body .privileges-section,
 html body .tradein-section,
-html body .compare-counselors-section {
-    background-color: #fcfdfe !important;
-    background-image: none !important;
-    border-bottom: 1px solid #ebf5f0 !important;
-    color: #3c3c3c !important;
-    padding: 60px 0 !important;
-}
-
-/* Deep Space Dark Sections (Spotlight, EV Tech, Offers, FAQ, Footer) */
-html body .brand-spotlight,
-html body .ev-tech-section,
 html body .dealer-offers-section,
 html body .faq-section {
-    background-color: #050a08 !important; /* Solid Slate Dark background */
-    background-image: none !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-    color: #c8ded7 !important;
-    padding: 60px 0 !important;
+    background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+    background-image: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
+    border-bottom: none !important;
+    color: #ffffff !important;
+    padding: var(--space-xxl) 0 !important;
 }
 
-/* Why Official Section (Dark Spotlight Background - Match EV Tech) */
-html body .why-official-section {
-    background: #050a08 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Matches EV Tech spotlight */
-    background-image: none !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-    color: #c8ded7 !important;
-    padding: 60px 0 !important;
-}
+
 
 html body .premium-footer {
     background: #04050a !important;
@@ -1333,9 +1328,6 @@ html body .spotlight-visual:hover img {
 
 /* 11e. Premium Car Catalog - Glassmorphism Porcelain Cards & macOS Filter Tabs */
 html body .catalog-section {
-    background-color: #f3fbf7 !important; /* Soft distinct off-white base */
-    background-image: radial-gradient(rgba(16, 185, 129, 0.03) 1.2px, transparent 1.2px) !important;
-    background-size: 24px 24px !important;
     position: relative !important;
 }
 

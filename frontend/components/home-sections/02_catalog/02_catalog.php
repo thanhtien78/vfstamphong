@@ -13,6 +13,10 @@
           </div>
         </div>
         <div class="spotlight-visual">
+          <span class="spotlight-visual-badge">
+            <span class="pulse-dot"></span>
+            LIVE COCKPIT UX
+          </span>
           <img src="<?php echo $basePath; ?>/assets/uploads/vinfast-digital-cockpit.jpg" alt="VinFast digital cockpit cabin" loading="lazy" width="800" height="500">
         </div>
       </div>

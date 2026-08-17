@@ -1248,18 +1248,18 @@ html body .faq-editorial-visual .readout-label {
     color: #34d399 !important; /* Cyberpunk electric cyan readout values */
 }
 
-/* 11d. Brand Spotlight - Dark Spotlight & Left/Right Column Visual Balance */
+/* 11d. Brand Spotlight - Luxury Light Theme Layout (White/Silver Base with Green Tech Accent) */
 html body .brand-spotlight {
-    background: #050a08 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.08) 0%, transparent 60%) !important; /* Premium dark background with center glow */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-    padding: 70px 0 !important;
+    background: #ffffff !important; /* Nền trắng tinh khiết sáng sủa sang trọng */
+    border-bottom: none !important;
+    padding: var(--space-xxl) 0 !important;
 }
 
 html body .spotlight-grid {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
     gap: 60px !important;
-    align-items: center !important; /* Vertically center content */
+    align-items: center !important;
 }
 
 @media (max-width: 991px) {
@@ -1283,41 +1283,96 @@ html body .spotlight-info {
     }
 }
 
+html body .brand-spotlight .spotlight-tag {
+  color: #059669 !important; /* Xanh lục bảo ngọc */
+  background: rgba(16, 185, 129, 0.08) !important;
+  border: 1px solid rgba(16, 185, 129, 0.18) !important;
+  padding: 6px 16px !important;
+  border-radius: 20px !important;
+  display: inline-block !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.5px !important;
+  margin-bottom: 16px !important;
+  text-transform: uppercase !important;
+}
+
 html body .spotlight-title {
-    color: #ffffff !important;
+    color: #0f172a !important; /* Chữ đen tương phản cao */
     font-size: 34px !important;
-    line-height: 1.25 !important;
-    font-weight: 900 !important;
-    margin-bottom: 16px !important;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
+    line-height: 1.22 !important;
+    font-weight: 850 !important;
+    margin-bottom: 18px !important;
+    text-shadow: none !important;
 }
 
 html body .spotlight-desc {
-    color: #c8ded7 !important;
-    font-size: 15px !important;
+    color: #3d564e !important; /* Xanh xô thơm nhẹ */
+    font-size: 15.5px !important;
     line-height: 1.65 !important;
-    margin-bottom: 24px !important;
+    margin-bottom: 28px !important;
 }
 
+html body .spotlight-desc p {
+    color: #3d564e !important;
+    margin-bottom: 12px !important;
+}
+
+/* Premium Digital Bezel with active HUD Dot indicator */
 html body .spotlight-visual {
-    border-radius: 16px !important;
+    position: relative !important;
+    border-radius: 20px !important;
     overflow: hidden !important;
-    border: 1px solid rgba(16, 185, 129, 0.2) !important;
-    box-shadow: 0 25px 55px rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
+    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.06), 0 1px 3px rgba(0,0,0,0.04) !important;
     display: block !important;
     width: 100% !important;
+}
+
+html body .spotlight-visual-badge {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    background: rgba(15, 23, 42, 0.85) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(52, 211, 153, 0.3) !important;
+    padding: 6px 14px !important;
+    border-radius: 30px !important;
+    color: #34d399 !important; /* Neon mint text */
+    font-size: 10px !important;
+    font-weight: 800 !important;
+    letter-spacing: 1px !important;
+    z-index: 5 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+html body .spotlight-visual-badge .pulse-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #34d399;
+    border-radius: 50%;
+    display: inline-block;
+    animation: activePulse 1.8s infinite alternate ease-in-out;
+}
+
+@keyframes activePulse {
+    0% { transform: scale(0.9); opacity: 0.5; box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7); }
+    100% { transform: scale(1.1); opacity: 1; box-shadow: 0 0 8px rgba(52, 211, 153, 0.9); }
 }
 
 html body .spotlight-visual img {
     width: 100% !important;
-    height: 380px !important; /* Perfect height to balance text and buttons on desktop */
-    object-fit: cover !important; /* Perfect scale without stretch */
+    height: 390px !important;
+    object-fit: cover !important;
     display: block !important;
-    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 html body .spotlight-visual:hover img {
-    transform: scale(1.04) !important;
+    transform: scale(1.05) !important;
 }
 
 @media (max-width: 991px) {

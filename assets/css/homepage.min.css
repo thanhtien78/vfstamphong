@@ -2711,7 +2711,7 @@ body { background-color: var(--color-bg-base); color: var(--color-text-main); ma
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: rgba(8, 12, 28, 0.7) !important;
+  background: rgba(9, 19, 15, 0.7) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: #ffffff !important;
   display: flex !important;

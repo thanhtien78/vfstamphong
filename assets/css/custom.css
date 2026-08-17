@@ -28,7 +28,7 @@ html body .brand-spotlight,
 html body .ev-tech-section,
 html body .dealer-offers-section,
 html body .faq-section {
-    background-color: #070b13 !important; /* Solid Slate Dark background */
+    background-color: #050a08 !important; /* Solid Slate Dark background */
     background-image: none !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
     color: #c8ded7 !important;
@@ -37,7 +37,7 @@ html body .faq-section {
 
 /* Why Official Section (Dark Spotlight Background - Match EV Tech) */
 html body .why-official-section {
-    background: #070b13 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Matches EV Tech spotlight */
+    background: #050a08 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Matches EV Tech spotlight */
     background-image: none !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
     color: #c8ded7 !important;
@@ -460,7 +460,7 @@ html body .roi-select {
 }
 
 html body .roi-select option {
-    background: #070b13 !important;
+    background: #050a08 !important;
     color: #ffffff !important;
 }
 
@@ -894,7 +894,7 @@ html body .why-official-section .section-tag {
 
 /* 11b. EV Tech & ROI Calculator Section - LUXURY & SPOTLIGHT STYLING */
 html body .ev-tech-section {
-    background: #070b13 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Luxury stage spotlight aura */
+    background: #050a08 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Luxury stage spotlight aura */
 }
 
 /* Glowing vi-diem divider line under title */
@@ -1023,7 +1023,7 @@ html body .ev-tech-section .charging-controls-panel select {
     color: #ffffff !important;
 }
 html body .ev-tech-section .charging-controls-panel select option {
-    background: #070b13 !important;
+    background: #050a08 !important;
     color: #ffffff !important;
 }
 html body .ev-tech-section .charging-map-display {
@@ -1255,7 +1255,7 @@ html body .faq-editorial-visual .readout-label {
 
 /* 11d. Brand Spotlight - Dark Spotlight & Left/Right Column Visual Balance */
 html body .brand-spotlight {
-    background: #070b13 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.08) 0%, transparent 60%) !important; /* Premium dark background with center glow */
+    background: #050a08 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.08) 0%, transparent 60%) !important; /* Premium dark background with center glow */
     border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
     padding: 70px 0 !important;
 }

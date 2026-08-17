@@ -297,13 +297,13 @@
             font-weight: 700 !important;
           }
           .charging-controls-panel select {
-            background: rgba(8, 12, 28, 0.8) !important;
+            background: rgba(9, 19, 15, 0.8) !important;
             color: #ffffff !important;
             border: 1px solid rgba(255, 255, 255, 0.12) !important;
             outline: none !important;
           }
           .charging-controls-panel select option {
-            background: #070b13 !important;
+            background: #050a08 !important;
             color: #ffffff !important;
           }
           .charging-map-display {
@@ -354,7 +354,7 @@
             background: #0b0f19 !important;
           }
           .charging-map-display > div:last-child {
-            background: rgba(8, 12, 28, 0.85) !important;
+            background: rgba(9, 19, 15, 0.85) !important;
             color: #ffffff !important;
             border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
           }
@@ -422,7 +422,7 @@
           <div class="charging-controls-panel">
             <div class="control-group">
               <label style="font-weight: 700; font-size: 12px; color: #cbd5e1; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 8px;">Tỉnh / Thành Phố</label>
-              <select id="station-province-select" onchange="updateChargingStations()" style="width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); outline: none; font-size: 14px; font-weight: 600; color: #ffffff; background: rgba(8, 12, 28, 0.8);">
+              <select id="station-province-select" onchange="updateChargingStations()" style="width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); outline: none; font-size: 14px; font-weight: 600; color: #ffffff; background: rgba(9, 19, 15, 0.8);">
                 <option value="hanoi" selected>Hà Nội</option>
                 <option value="hcm">TP. Hồ Chí Minh</option>
                 <option value="danang">Đà Nẵng</option>
@@ -477,7 +477,7 @@
               <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: conic-gradient(from 0deg, rgba(16, 185, 129, 0) 50%, rgba(16, 185, 129, 0.02) 90%, rgba(16, 185, 129, 0.06) 100%); animation: radarSweep 6s linear infinite; transform-origin: center; pointer-events: none;"></div>
               
               <!-- Province center point label -->
-              <div style="position: absolute; top: 12px; left: 12px; background: rgba(8, 12, 28, 0.85); border-radius: 6px; padding: 4px 10px; border: 1px solid rgba(255, 255, 255, 0.15); font-size: 11px; font-weight: 700; color: #ffffff; letter-spacing: 0.5px; text-transform: uppercase; z-index: 5;">
+              <div style="position: absolute; top: 12px; left: 12px; background: rgba(9, 19, 15, 0.85); border-radius: 6px; padding: 4px 10px; border: 1px solid rgba(255, 255, 255, 0.15); font-size: 11px; font-weight: 700; color: #ffffff; letter-spacing: 0.5px; text-transform: uppercase; z-index: 5;">
                 Bản đồ giả lập 2D
               </div>
               
@@ -493,8 +493,8 @@
             </div>
             
             <!-- Side Panel: List of Available Stations in chosen Province -->
-            <div class="station-list-panel" style="border-left: 1px solid rgba(255, 255, 255, 0.08); background: rgba(8, 12, 28, 0.85); display: flex; flex-direction: column; height: 100%;">
-              <div style="padding: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); background: rgba(8, 12, 28, 0.95);">
+            <div class="station-list-panel" style="border-left: 1px solid rgba(255, 255, 255, 0.08); background: rgba(9, 19, 15, 0.85); display: flex; flex-direction: column; height: 100%;">
+              <div style="padding: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); background: rgba(9, 19, 15, 0.95);">
                 <h4 style="margin: 0; font-size: 14px; font-weight: 700; color: #ffffff;">Danh Sách Trạm Sạc</h4>
                 <p id="station-count-lbl" style="margin: 4px 0 0 0; font-size: 12px; color: #94a3b8;">Tìm thấy 5 trạm sạc gần bạn</p>
               </div>

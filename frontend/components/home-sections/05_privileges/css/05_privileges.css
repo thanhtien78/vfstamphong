@@ -1,6 +1,6 @@
 /* Privileges Section Overrides for High-Tech Dark Background with Image */
   .privileges-section {
-      background: linear-gradient(rgba(8, 12, 28, 0.88), rgba(8, 12, 28, 0.88)), url('../../uploads/vinfast-privileges-bg.jpg') !important;
+      background: linear-gradient(rgba(9, 19, 15, 0.88), rgba(9, 19, 15, 0.88)), url('../../uploads/vinfast-privileges-bg.jpg') !important;
       background-size: cover !important;
       background-position: center !important;
       background-repeat: no-repeat !important;

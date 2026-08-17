@@ -5,7 +5,7 @@
       .faq-section {
         border-top: none;
         margin-top: 0;
-        background: #070b13 radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.1) 0%, transparent 60%) !important; /* Bottom spotlight aura */
+        background: #050a08 radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.1) 0%, transparent 60%) !important; /* Bottom spotlight aura */
         padding: 80px 0;
       }
       .faq-split-container {

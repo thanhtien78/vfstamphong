@@ -515,10 +515,12 @@
 /* Premium Car Cards - Premium-inspired Layout & Design Overrides (VinFast Electric Blue/Cyan theme) */
 @media (min-width: 769px) {
   .car-card {
-    background: #ffffff !important;
-    border: 1px solid rgba(226, 232, 240, 0.9) !important;
-    border-radius: 14px !important; /* Sleek Premium border radius */
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 20px !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255,255,255,0.05) !important;
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     overflow: hidden !important;
     display: flex !important;
@@ -541,9 +543,10 @@
   }
 
   .car-card:hover {
-    transform: translateY(-8px) !important; /* Sleek hover lift */
-    border-color: rgba(16, 185, 129, 0.4) !important;
-    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.12) !important;
+    transform: translateY(-8px) !important;
+    border-color: rgba(52, 211, 153, 0.4) !important;
+    background: rgba(255, 255, 255, 0.07) !important;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35), 0 0 20px rgba(16, 185, 129, 0.12) !important;
   }
 
   .car-card:hover::before {
@@ -829,10 +832,12 @@
 /* Premium-inspired product card layout & design for mobile (light theme, 2-column grid layout) */
 @media (max-width: 768px) {
   .car-card {
-    background: #ffffff !important;
-    border: 1px solid rgba(226, 232, 240, 0.9) !important;
-    border-radius: 10px !important;
-    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.02) !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2) !important;
     display: flex !important;
     flex-direction: column !important;
     position: relative !important;
@@ -844,9 +849,9 @@
     position: relative !important;
     overflow: hidden !important;
     height: 100px !important;
-    background: radial-gradient(circle at 50% 30%, #ffffff 0%, #f3fbf7 100%) !important;
+    background: rgba(255, 255, 255, 0.02) !important;
     padding: 14px 10px 0 10px !important;
-    border-bottom: 1px solid rgba(226, 232, 240, 0.5) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -1148,25 +1153,25 @@ html body .price-sub-note {
 
 /* Luxury Pill Tabs for Filters */
 html body .filter-tabs {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  gap: 10px !important;
-  margin-bottom: 30px !important;
-  border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
-  padding: 0 0 16px 0 !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  background: transparent !important;
+  display: inline-flex !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  padding: 6px !important;
+  border-radius: 40px !important;
+  gap: 8px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255,255,255,0.05) !important;
+  margin-bottom: 40px !important;
 }
 
 html body .filter-tab-btn {
-  background: #f3fbf7 !important;
-  border: 1px solid #e2eeea !important;
-  color: #506e63 !important;
-  padding: 8px 20px !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  padding: 10px 24px !important;
   border-radius: 30px !important;
-  font-size: 12.5px !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
   cursor: pointer !important;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
@@ -1175,19 +1180,19 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-  background: rgba(16, 185, 129, 0.05) !important;
-  border-color: rgba(16, 185, 129, 0.3) !important;
-  color: #10b981 !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  color: #34d399 !important;
   transform: translateY(-1px) !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-  background: #10b981 !important;
-  border-color: #10b981 !important;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+  border-color: transparent !important;
   color: #ffffff !important;
   font-weight: 700 !important;
-  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.15) !important;
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.4) !important;
   transform: translateY(-1px) !important;
 }
 

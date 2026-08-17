@@ -78,22 +78,13 @@ html body .about-hero-title {
     text-transform: uppercase !important;
 }
 
-/* Light Sections text colors */
-html body .catalog-section h2,
-html body .privileges-section h2,
-html body .tradein-section h2,
+/* Light Sections text colors (Only for white background sections) */
 html body .compare-counselors-section h2,
-html body .catalog-section h3,
-html body .privileges-section h3,
-html body .tradein-section h3,
 html body .compare-counselors-section h3,
 html body .counselor-compare-name {
     color: #0f172a !important;
 }
 
-html body .catalog-section .section-desc,
-html body .privileges-section .section-desc,
-html body .tradein-section .section-desc,
 html body .compare-counselors-section .section-desc,
 html body .counselor-compare-title {
     color: #506e63 !important;
@@ -122,10 +113,9 @@ html body .faq-answer {
 /* --------------------------------------------------------------------------
    3. SECTION TAGS / BADGES
    -------------------------------------------------------------------------- */
-/* Light Sections Tags */
-html body .catalog-section .section-tag,
-html body .tradein-section .section-tag,
-html body .compare-counselors-section .compare-counselors-tag {
+/* Light Sections Tags (Only for white background sections) */
+html body .compare-counselors-section .compare-counselors-tag,
+html body .why-official-section .section-tag {
     background: rgba(15, 23, 42, 0.04) !important;
     color: #3d564e !important;
     border: 1px solid rgba(15, 23, 42, 0.08) !important;
@@ -136,35 +126,24 @@ html body .compare-counselors-section .compare-counselors-tag {
     border-radius: 30px !important;
 }
 
-/* Light Cyan/Blue Tag for Privileges Section (EV Blue Themed) */
-html body .privileges-section .section-header .section-tag,
-html body .privileges-section .section-tag {
-    background: rgba(16, 185, 129, 0.06) !important;
-    color: #10b981 !important;
-    border: 1px solid rgba(16, 185, 129, 0.25) !important;
-    font-size: 10px !important;
-    font-weight: 700 !important;
-    letter-spacing: 2px !important;
-    padding: 6px 16px !important;
-    border-radius: 30px !important;
-    box-shadow: 0 0 10px rgba(16, 185, 129, 0.05) !important;
-}
-
-/* Dark Sections Tags */
+/* Green Tech Sections Tags (Glowing Mint Translucent Badges) */
+html body .catalog-section .section-tag,
+html body .privileges-section .section-tag,
+html body .tradein-section .section-tag,
 html body .ev-tech-section .section-tag,
-html body .why-official-section .section-tag,
 html body .dealer-offers-section .section-tag,
 html body .faq-section .section-tag {
-    background: rgba(16, 185, 129, 0.15) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
     color: #34d399 !important;
-    border: 1px solid rgba(16, 185, 129, 0.3) !important;
-    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 0 15px rgba(52, 211, 153, 0.15) !important;
     font-size: 10px !important;
-    font-weight: 700 !important;
+    font-weight: 750 !important;
     letter-spacing: 2px !important;
-    padding: 6px 16px !important;
+    padding: 6px 18px !important;
     border-radius: 30px !important;
 }
+
 
 /* --------------------------------------------------------------------------
    4. HERO BANNER SECTION (VIDEO & HUD GLASS CARD)
@@ -1426,66 +1405,69 @@ html body .filter-tab-btn.filter-tab-btn--active {
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
 }
 
-/* Glassmorphism Porcelain Car Cards */
-html body .car-card {
-    background: #ffffff !important;
-    border: 1px solid rgba(16, 185, 129, 0.08) !important;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.03) !important;
+/* Glassmorphism Green-Tech Car Cards */
+html body .catalog-section .car-card {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255,255,255,0.05) !important;
     border-radius: 20px !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
     transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-html body .car-card:hover {
+html body .catalog-section .car-card:hover {
     transform: translateY(-8px) !important;
-    border-color: rgba(16, 185, 129, 0.3) !important;
-    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.1) !important;
+    border-color: rgba(52, 211, 153, 0.4) !important;
+    background: rgba(255, 255, 255, 0.07) !important;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 25px rgba(16, 185, 129, 0.15) !important;
 }
 
 /* Symmetrical Stage & Glowing Grid Under the Cars */
-html body .car-card__media {
-    background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.05) 0%, #ffffff 80%) !important;
-    border-bottom: 1px solid rgba(16, 185, 129, 0.08) !important;
+html body .catalog-section .car-card__media {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     padding: 24px 20px 0 20px !important;
     height: 200px !important;
 }
 
-html body .car-card__media::after {
-    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.1) 0%, rgba(15, 23, 42, 0) 70%) !important;
+html body .catalog-section .car-card__media::after {
+    background: radial-gradient(ellipse at center, rgba(16, 185, 129, 0.12) 0%, rgba(0, 0, 0, 0) 70%) !important;
     transition: all 0.45s ease !important;
 }
 
-html body .car-card:hover .car-card__media::after {
+html body .catalog-section .car-card:hover .car-card__media::after {
     transform: scale(1.1) !important;
-    opacity: 0.75 !important;
+    opacity: 0.85 !important;
 }
 
-html body .car-card__badge {
-    background: rgba(16, 185, 129, 0.06) !important;
-    border: 1px solid rgba(16, 185, 129, 0.15) !important;
-    color: #10b981 !important;
-    font-weight: 700 !important;
+html body .catalog-section .car-card__badge {
+    background: rgba(52, 211, 153, 0.1) !important;
+    border: 1px solid rgba(52, 211, 153, 0.35) !important;
+    color: #34d399 !important;
+    font-weight: 800 !important;
     font-size: 9.5px !important;
     border-radius: 30px !important;
     padding: 4px 10px !important;
 }
 
 /* Card names & typography */
-html body .car-card__name {
+html body .catalog-section .car-card__name {
     font-size: 20px !important;
     font-weight: 850 !important;
-    color: #0f172a !important;
+    color: #ffffff !important;
 }
 
-html body .car-card__desc {
-    color: #506e63 !important;
+html body .catalog-section .car-card__desc {
+    color: rgba(255, 255, 255, 0.65) !important;
     font-size: 12.5px !important;
     line-height: 1.55 !important;
 }
 
 /* Monospace Instrument Cluster HUD Specs */
-html body .car-card__specs {
-    background: rgba(16, 185, 129, 0.02) !important;
-    border: 1px solid rgba(16, 185, 129, 0.08) !important;
+html body .catalog-section .car-card__specs {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
     border-radius: 12px !important;
     padding: 12px !important;
     display: grid !important;
@@ -1494,93 +1476,94 @@ html body .car-card__specs {
     margin-bottom: 20px !important;
 }
 
-html body .car-card__spec-item {
+html body .catalog-section .car-card__spec-item {
     padding: 0 10px !important;
     border-right: none !important;
 }
 
-html body .car-card__spec-item:first-child {
-    border-right: 1px solid rgba(16, 185, 129, 0.08) !important;
+html body .catalog-section .car-card__spec-item:first-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
-html body .car-card__spec-item[style*="span 2"] {
-    border-top: 1px solid rgba(16, 185, 129, 0.08) !important;
+html body .catalog-section .car-card__spec-item[style*="span 2"] {
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
     margin-top: 8px !important;
     padding-top: 8px !important;
 }
 
-html body .car-card__spec-lbl {
+html body .catalog-section .car-card__spec-lbl {
     font-size: 9px !important;
     font-weight: 700 !important;
-    color: #506e63 !important;
+    color: rgba(255, 255, 255, 0.5) !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
 }
 
-html body .car-card__spec-val {
+html body .catalog-section .car-card__spec-val {
     font-family: 'Montserrat', sans-serif !important;
     font-size: 13px !important;
     font-weight: 800 !important;
-    color: #0f172a !important;
+    color: #ffffff !important;
 }
 
 /* Symmetrical Luxury Buttons */
-html body .btn-detail-card {
-    background: #10b981 !important;
+html body .catalog-section .btn-detail-card {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
     color: #ffffff !important;
     border-radius: 30px !important;
     font-weight: 800 !important;
-    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-html body .btn-detail-card:hover {
-    background: #059669 !important;
+html body .catalog-section .btn-detail-card:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
     color: #ffffff !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.35) !important;
+    box-shadow: 0 8px 22px rgba(16, 185, 129, 0.5) !important;
 }
 
-html body .btn-zalo-card {
-    background: rgba(0, 102, 255, 0.04) !important;
-    border: 1.5px solid rgba(0, 102, 255, 0.2) !important;
-    color: #0066ff !important;
+html body .catalog-section .btn-zalo-card {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
     border-radius: 30px !important;
     font-weight: 800 !important;
     transition: all 0.3s ease !important;
 }
 
-html body .btn-zalo-card svg {
-    stroke: #0066ff !important;
-}
-
-html body .btn-zalo-card:hover {
-    background: #0066ff !important;
-    border-color: #0066ff !important;
-    color: #ffffff !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 6px 18px rgba(0, 102, 255, 0.2) !important;
-}
-
-html body .btn-zalo-card:hover svg {
+html body .catalog-section .btn-zalo-card svg {
     stroke: #ffffff !important;
 }
 
+html body .catalog-section .btn-zalo-card:hover {
+    background: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #0f172a !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3) !important;
+}
+
+html body .catalog-section .btn-zalo-card:hover svg {
+    stroke: #0f172a !important;
+}
+
+
 /* Premium starting price style */
-html body .car-card__price-val {
-    color: #10b981 !important;
+html body .catalog-section .car-card__price-val,
+html body .catalog-section .car-card__price-val .price-main-num {
+    color: #34d399 !important;
     font-family: 'Montserrat', sans-serif !important;
 }
 
-html body .car-card__price-val .price-main-num {
+html body .catalog-section .car-card__price-val .price-main-num {
     font-weight: 800 !important;
     font-size: 22px !important;
-    color: #10b981 !important;
 }
 
-html body .car-card__price-val .price-sub-note {
+html body .catalog-section .car-card__price-val .price-sub-note {
     font-size: 11px !important;
-    color: #506e63 !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Mobile responsive fixes */

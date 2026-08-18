@@ -40,8 +40,16 @@ html body .catalog-section {
     padding: var(--space-xxl) 0 !important;
 }
 
+/* Premium Light Green Tech Section (EV Tech Section - Porcelain White & Emerald Radial Spotlight) */
+html body .ev-tech-section {
+    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    background-image: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    border-bottom: none !important;
+    color: #3d564e !important;
+    padding: var(--space-xxl) 0 !important;
+}
+
 /* Premium Green Tech Sections (Green Background, White Text) */
-html body .ev-tech-section,
 html body .privileges-section,
 html body .tradein-section,
 html body .dealer-offers-section,
@@ -101,12 +109,10 @@ html body .counselor-compare-title {
 /* Dark Sections text colors */
 html body .privileges-section h2,
 html body .tradein-section h2,
-html body .ev-tech-section h2,
 html body .dealer-offers-section h2,
 html body .faq-section h2,
 html body .privileges-section h3,
 html body .tradein-section h3,
-html body .ev-tech-section h3,
 html body .dealer-offers-section h3,
 html body .faq-section h3,
 html body .faq-question {
@@ -116,7 +122,6 @@ html body .faq-question {
 
 html body .privileges-section .section-desc,
 html body .tradein-section .section-desc,
-html body .ev-tech-section .section-desc,
 html body .dealer-offers-section .section-desc,
 html body .faq-section .section-desc,
 html body .spotlight-desc,
@@ -124,13 +129,17 @@ html body .faq-answer {
     color: #cbd5e1 !important; /* Premium light silver for clean tech reading */
 }
 
-/* Light Green Tech Section (Catalog Section - Light Mint-Silver text colors) */
+/* Light Green Tech Section (Catalog & EV Tech - text colors) */
 html body .catalog-section h2,
-html body .catalog-section h3 {
+html body .catalog-section h3,
+html body .ev-tech-section h2,
+html body .ev-tech-section h3 {
     color: #064e3b !important;
+    text-shadow: none !important;
 }
 
-html body .catalog-section .section-desc {
+html body .catalog-section .section-desc,
+html body .ev-tech-section .section-desc {
     color: #3d564e !important;
 }
 
@@ -153,7 +162,6 @@ html body .why-official-section .section-tag {
 /* Green Tech Sections Tags (Glowing Mint Translucent Badges) */
 html body .privileges-section .section-tag,
 html body .tradein-section .section-tag,
-html body .ev-tech-section .section-tag,
 html body .dealer-offers-section .section-tag,
 html body .faq-section .section-tag {
     background: rgba(255, 255, 255, 0.08) !important;
@@ -167,8 +175,9 @@ html body .faq-section .section-tag {
     border-radius: 30px !important;
 }
 
-/* Catalog Section Tag (Champagne Gold Luxury Badge) */
-html body .catalog-section .section-tag {
+/* Catalog & EV Tech Section Tags (Champagne Gold Luxury Badge) */
+html body .catalog-section .section-tag,
+html body .ev-tech-section .section-tag {
     background: rgba(197, 160, 89, 0.08) !important;
     color: #c5a059 !important;
     border: 1px solid rgba(197, 160, 89, 0.3) !important;
@@ -907,7 +916,8 @@ html body .why-official-section .section-tag {
 
 /* 11b. EV Tech & ROI Calculator Section - LUXURY & SPOTLIGHT STYLING */
 html body .ev-tech-section {
-    background: #050a08 radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.12) 0%, transparent 60%) !important; /* Luxury stage spotlight aura */
+    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    background-image: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
 }
 
 /* Glowing vi-diem divider line under title */
@@ -946,16 +956,15 @@ html body .ev-tech-section .ev-tech-tab-btn {
     gap: 8px !important;
     box-shadow: none !important;
 }
-
 html body .ev-tech-section .ev-tech-tab-btn.active {
-    background: #10b981 !important;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
     color: #ffffff !important;
-    box-shadow: 0 5px 15px rgba(16, 185, 129, 0.35) !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
 }
 
 html body .ev-tech-section .ev-tech-tab-btn:hover:not(.active) {
-    color: #ffffff !important;
-    background: rgba(255, 255, 255, 0.05) !important;
+    color: #064e3b !important;
+    background: rgba(6, 78, 59, 0.04) !important;
 }
 
 /* iOS glass reflective highlight on active cards */
@@ -966,21 +975,33 @@ html body .ev-tech-section .roi-results-panel,
 html body .ev-tech-section .charging-controls-panel,
 html body .ev-tech-section .charging-map-display {
     border: 1px solid rgba(16, 185, 129, 0.12) !important;
-    background: rgba(15, 23, 42, 0.4) !important; /* Slightly darker luxury slate */
-    backdrop-filter: blur(25px) !important;
-    -webkit-backdrop-filter: blur(25px) !important;
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.05) !important; /* Inset reflection line */
+    background: #ffffff !important; /* Premium White Porcelain cards */
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
 }
 
 /* Subtle HUD active selection brackets */
+html body .ev-tech-section .range-calc-model-card {
+    background: #f8fafc !important;
+    border: 1px solid rgba(16, 185, 129, 0.08) !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .ev-tech-section .range-calc-model-card:hover {
+    background: #ffffff !important;
+    border-color: rgba(16, 185, 129, 0.3) !important;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.06) !important;
+}
+
 html body .ev-tech-section .range-calc-model-card.active {
-    background: rgba(16, 185, 129, 0.08) !important;
+    background: rgba(16, 185, 129, 0.06) !important;
     border: 1.5px solid #10b981 !important;
-    box-shadow: 0 0 15px rgba(16, 185, 129, 0.2), inset 0 0 8px rgba(16, 185, 129, 0.1) !important;
+    box-shadow: none !important;
 }
 
 html body .ev-tech-section .compare-subtitle {
-    color: #c8ded7 !important; /* Safe light silver for sublines */
+    color: #475569 !important; /* Sage silver grey */
 }
 html body .ev-tech-section .range-slider-label,
 html body .ev-tech-section .range-number-value,
@@ -993,93 +1014,95 @@ html body .ev-tech-section .range-calc-model-name,
 html body .ev-tech-section .range-calc-title,
 html body .ev-tech-section .roi-title,
 html body .ev-tech-section .range-number-unit {
-    color: #ffffff !important; /* Clean contrast white */
+    color: #0f172a !important; /* Deep slate contrast */
 }
 html body .ev-tech-section .metric-bar-label,
 html body .ev-tech-section .roi-input-hint,
 html body .ev-tech-section p,
 html body .ev-tech-section .range-calc-model-meta,
 html body .ev-tech-section .slider-ticks span {
-    color: #94a3b8 !important; /* Readable light slate */
+    color: #475569 !important; /* Readable dark slate */
 }
 html body .ev-tech-section .roi-saving-title {
-    color: #c8ded7 !important;
+    color: #3d564e !important;
     font-weight: 600 !important;
 }
 html body .ev-tech-section .roi-saving-value {
-    color: #34d399 !important; /* Electric Cyan for monthly savings amount */
+    color: #10b981 !important; /* Emerald green */
     font-weight: 800 !important;
 }
 html body .ev-tech-section .roi-green-impact {
-    background: rgba(16, 185, 129, 0.08) !important;
-    border: 1px solid rgba(16, 185, 129, 0.25) !important;
-    color: #10b981 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    border: 1px solid rgba(16, 185, 129, 0.22) !important;
+    color: #059669 !important;
 }
 html body .ev-tech-section .roi-green-info {
-    color: #c8ded7 !important;
+    color: #475569 !important;
 }
 html body .ev-tech-section .roi-green-number {
-    color: #10b981 !important;
+    color: #059669 !important;
     font-weight: 800 !important;
 }
-/* Charging map contrast styling */
-html body .ev-tech-section .charging-controls-panel {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
-}
+/* Charging control inputs overrides */
 html body .ev-tech-section .charging-controls-panel label {
-    color: #c8ded7 !important;
+    color: #475569 !important;
 }
-html body .ev-tech-section .charging-controls-panel select {
-    background: rgba(6, 8, 19, 0.8) !important;
-    border-color: rgba(255, 255, 255, 0.1) !important;
-    color: #ffffff !important;
+
+html body .ev-tech-section .charging-controls-panel select,
+html body .ev-tech-section .roi-select {
+    background: #ffffff !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
+    color: #0f172a !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
 }
-html body .ev-tech-section .charging-controls-panel select option {
-    background: #050a08 !important;
-    color: #ffffff !important;
+
+html body .ev-tech-section .charging-controls-panel select option,
+html body .ev-tech-section .roi-select option {
+    background: #ffffff !important;
+    color: #0f172a !important;
 }
-html body .ev-tech-section .charging-map-display {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
-}
+
 html body .ev-tech-section .station-list-panel {
-    background: rgba(6, 8, 19, 0.85) !important;
-    border-color: rgba(255, 255, 255, 0.08) !important;
+    background: rgba(255, 255, 255, 0.96) !important;
+    border-color: rgba(16, 185, 129, 0.12) !important;
+    box-shadow: -10px 0 30px rgba(15, 23, 42, 0.06) !important;
 }
+
 html body .ev-tech-section .station-list-panel h4 {
-    color: #ffffff !important;
+    color: #0f172a !important;
 }
+
 html body .ev-tech-section .station-list-panel p,
 html body .ev-tech-section .station-count-lbl {
-    color: #94a3b8 !important;
+    color: #475569 !important;
 }
 /* Force high contrast light colors on station cards (override any inline style caches) */
 html body .ev-tech-section .station-card {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border-color: rgba(255, 255, 255, 0.06) !important;
-    color: #c8ded7 !important;
+    background: #f8fafc !important;
+    border-color: rgba(16, 185, 129, 0.08) !important;
+    color: #0f172a !important;
 }
 html body .ev-tech-section .station-card div {
-    color: #c8ded7 !important;
+    color: #0f172a !important;
 }
 html body .ev-tech-section .station-card span {
-    color: #94a3b8 !important;
+    color: #475569 !important;
 }
 html body .ev-tech-section .station-card.active {
-    background: rgba(16, 185, 129, 0.15) !important;
+    background: rgba(16, 185, 129, 0.06) !important;
     border: 2px solid #10b981 !important;
-    color: #ffffff !important;
+    color: #059669 !important;
 }
 html body .ev-tech-section .station-card.active div {
-    color: #ffffff !important;
+    color: #059669 !important;
 }
 html body .ev-tech-section .station-card.active span {
-    color: #34d399 !important;
+    color: #059669 !important;
 }
 html body .ev-tech-section .station-card:hover:not(.active) {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border-color: rgba(255, 255, 255, 0.12) !important;
+    background: #f1f5f9 !important;
+    border-color: rgba(16, 185, 129, 0.2) !important;
 }
 /* High-tech simulated radar screen upgrades */
 html body .ev-tech-section .map-simulation {

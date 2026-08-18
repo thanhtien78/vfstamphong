@@ -31,10 +31,10 @@ html body .why-official-section {
     padding: var(--space-xxl) 0 !important;
 }
 
-/* Premium Light Green Tech Section (Catalog Section - Light Mint-Silver Showroom) */
+/* Premium Light Green Tech Section (Catalog Section - Porcelain White & Emerald Radial Spotlight) */
 html body .catalog-section {
-    background: linear-gradient(180deg, #f4faf7 0%, #e6f5ee 100%) !important;
-    background-image: linear-gradient(180deg, #f4faf7 0%, #e6f5ee 100%) !important;
+    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    background-image: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
     border-bottom: none !important;
     color: #3d564e !important;
     padding: var(--space-xxl) 0 !important;

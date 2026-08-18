@@ -61,15 +61,23 @@ html body .premium-header {
     transition: all 0.3s ease !important;
 }
 
+/* Keep solid emerald green when scrolled! (Fix for dark header scroll bug) */
+html body .premium-header.scrolled {
+    background: #059669 !important;
+    border-bottom: 1px solid #047857 !important;
+    box-shadow: 0 4px 20px rgba(4, 120, 87, 0.25) !important;
+}
+
 /* Header Text Logo */
 html body .premium-header .logo-link {
     color: #ffffff !important;
     text-shadow: none !important;
 }
 
-/* Header Nav Menu and Links */
+/* Header Nav Menu and Links (Pure White for Ultimate Contrast) */
 html body .premium-header .nav-link {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important; /* Extra crisp bold text */
 }
 html body .premium-header .nav-link:hover,
 html body .premium-header .nav-link--active {
@@ -117,8 +125,9 @@ html body .premium-footer .footer-heading::after {
     background: #10b981 !important; /* Green line indicator */
 }
 
-/* Footer Texts, Tagline & Copyright labels */
+/* Footer Texts, Tagline & Copyright labels (Pure White with full opacity) */
 html body .premium-footer,
+html body .premium-footer .footer-brand,
 html body .premium-footer .footer-tagline,
 html body .premium-footer .footer-tagline p,
 html body .premium-footer .footer-tagline strong,
@@ -128,18 +137,21 @@ html body .premium-footer .footer-copyright p,
 html body .premium-footer .footer-copyright strong,
 html body .premium-footer .footer-copyright span,
 html body .premium-footer .contact-info-item {
-    color: rgba(255, 255, 255, 0.72) !important;
+    color: #ffffff !important;
+    font-weight: 550 !important; /* Slightly bolder for crystal clear rendering */
 }
 
 /* Footer Links and Lists */
 html body .premium-footer .footer-links-list a,
 html body .premium-footer .footer-legal-links a {
-    color: rgba(255, 255, 255, 0.75) !important;
+    color: #ffffff !important;
+    font-weight: 550 !important;
 }
 html body .premium-footer .footer-links-list a:hover,
 html body .premium-footer .footer-legal-links a:hover {
-    color: #10b981 !important;
+    color: #a7f3d0 !important; /* Light mint green hover for optimal visibility */
     transform: translateX(4px) !important;
+    text-decoration: underline !important;
 }
 
 /* Footer SVGs & Icons */

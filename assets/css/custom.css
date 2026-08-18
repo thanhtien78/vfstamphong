@@ -68,10 +68,13 @@ html body .premium-header.scrolled {
     box-shadow: 0 4px 20px rgba(4, 120, 87, 0.25) !important;
 }
 
-/* Header Text Logo */
+/* Header Text Logo (Larger, more luxury) */
 html body .premium-header .logo-link {
+    font-size: 23px !important;
+    font-weight: 850 !important;
+    letter-spacing: 3px !important;
     color: #ffffff !important;
-    text-shadow: none !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Header Nav Menu and Links (Pure White for Ultimate Contrast) */
@@ -117,12 +120,40 @@ html body .premium-footer {
     padding-top: 80px !important;
 }
 
-/* Footer Heading and Indicators */
+/* Footer Logo and Column Headings (Larger, more luxury) */
+html body .premium-footer .logo-link {
+    font-size: 22px !important;
+    font-weight: 850 !important;
+    letter-spacing: 3px !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
+}
+
 html body .premium-footer .footer-heading {
+    font-size: 16.5px !important;
+    font-weight: 850 !important;
+    letter-spacing: 2px !important;
     color: #ffffff !important;
 }
 html body .premium-footer .footer-heading::after {
-    background: #10b981 !important; /* Green line indicator */
+    background: #ffffff !important; /* Pure white bottom accent line matching color theme */
+    width: 45px !important;
+    height: 2px !important;
+}
+
+/* Mobile Responsive adjustments for Logos and Headings */
+@media (max-width: 768px) {
+    html body .premium-header .logo-link {
+        font-size: 19px !important;
+        letter-spacing: 2px !important;
+    }
+    html body .premium-footer .logo-link {
+        font-size: 19px !important;
+        letter-spacing: 2px !important;
+    }
+    html body .premium-footer .footer-heading {
+        font-size: 15px !important;
+    }
 }
 
 /* Footer Texts, Tagline & Copyright labels (Pure White with full opacity) */

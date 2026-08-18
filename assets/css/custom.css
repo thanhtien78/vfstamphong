@@ -77,15 +77,19 @@ html body .premium-header .logo-link {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* Header Nav Menu and Links (Pure White for Ultimate Contrast) */
+/* Header Nav Menu and Links (Pure White with Smooth Transitions) */
 html body .premium-header .nav-link {
     color: #ffffff !important;
     font-weight: 700 !important; /* Extra crisp bold text */
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: color 0.25s ease-in-out !important; /* Smooth color fade */
 }
 html body .premium-header .nav-link:hover,
 html body .premium-header .nav-link--active {
-    color: #ffffff !important; 
-    text-decoration: underline !important;
+    color: #a7f3d0 !important; /* Elegant light mint green highlight */
+    text-decoration: none !important; /* No ugly underlines */
+    border-bottom: none !important; /* No cheap borders */
 }
 
 /* Mobile Toggle Bar and Phone Shortcut */

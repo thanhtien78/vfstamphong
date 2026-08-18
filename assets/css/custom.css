@@ -2296,7 +2296,35 @@ html body .faq-section .faq-btn-hotline * {
     color: #ffffff !important;
     stroke: #ffffff !important;
 }
+/* Luxury Section Divider Line with Glowing Emerald/Gold Gem */
+html body .luxury-section-divider {
+    height: 1px !important;
+    width: 100% !important;
+    background: linear-gradient(
+        to right, 
+        transparent 0%, 
+        rgba(16, 185, 129, 0.08) 15%, 
+        rgba(197, 160, 89, 0.35) 50%, 
+        rgba(16, 185, 129, 0.08) 85%, 
+        transparent 100%
+    ) !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    position: relative !important;
+    z-index: 10 !important;
+}
 
-
-
-
+html body .luxury-section-divider::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
+    width: 5px !important;
+    height: 5px !important;
+    background: #c5a059 !important; /* Champagne gold center */
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.8) !important; /* Subtle emerald green glow */
+    border-radius: 1px !important;
+}

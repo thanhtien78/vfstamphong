@@ -52,10 +52,16 @@ $GLOBALS['footer_js_files'][] = 'assets/js/homepage-custom.js';
       '10_faq'
   ];
 
-  foreach ($sections as $sec) {
+  $sectionsCount = count($sections);
+  for ($i = 0; $i < $sectionsCount; $i++) {
+      $sec = $sections[$i];
       $secPath = dirname(__DIR__) . "/components/home-sections/{$sec}/{$sec}.php";
       if (file_exists($secPath)) {
           include $secPath;
+      }
+      // Chèn đường phân tách luxury ở giữa các section (không chèn sau section cuối cùng)
+      if ($i < $sectionsCount - 1) {
+          echo '<div class="luxury-section-divider"></div>';
       }
   }
   ?>

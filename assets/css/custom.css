@@ -1375,9 +1375,9 @@ html body section.dealer-offers-section .section-title {
 
 /* 2x2 Grid Layout for Hyper-Luxury Catalog Grid */
 html body .offers-luxury-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     margin-top: 40px !important;
 }
 

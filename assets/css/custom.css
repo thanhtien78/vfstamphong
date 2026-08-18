@@ -1584,16 +1584,39 @@ html body .catalog-section .btn-zalo-card:hover svg {
     stroke: #ffffff !important;
 }
 
-/* Premium starting price style */
+/* Premium starting price style (Clean Transparent Row) */
+html body .catalog-section .car-card__price-box,
+html body .catalog-section .car-card--fleet .car-card__price-box {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 24px 16px 24px !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    box-shadow: none !important;
+}
+
+html body .catalog-section .car-card__price-lbl {
+    font-size: 12.5px !important;
+    font-weight: 600 !important;
+    color: #64748b !important;
+    margin: 0 !important;
+}
+
 html body .catalog-section .car-card__price-val,
 html body .catalog-section .car-card__price-val .price-main-num {
     color: #10b981 !important;
     font-family: 'Montserrat', sans-serif !important;
+    margin: 0 !important;
 }
 
 html body .catalog-section .car-card__price-val .price-main-num {
-    font-weight: 800 !important;
-    font-size: 22px !important;
+    font-weight: 850 !important;
+    font-size: 21px !important;
 }
 
 html body .catalog-section .car-card__price-val .price-sub-note {

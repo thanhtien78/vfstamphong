@@ -68,11 +68,11 @@ html body .premium-header.scrolled {
     box-shadow: 0 4px 20px rgba(4, 120, 87, 0.25) !important;
 }
 
-/* Header Text Logo (Larger, more luxury) */
+/* Header Text Logo (Luxury, perfectly scaled) */
 html body .premium-header .logo-link {
-    font-size: 23px !important;
+    font-size: 21px !important;
     font-weight: 850 !important;
-    letter-spacing: 3px !important;
+    letter-spacing: 2px !important;
     color: #ffffff !important;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
@@ -120,39 +120,42 @@ html body .premium-footer {
     padding-top: 80px !important;
 }
 
-/* Footer Logo and Column Headings (Larger, more luxury) */
+/* Footer Logo and Column Headings (Luxury, perfectly scaled) */
 html body .premium-footer .logo-link {
-    font-size: 22px !important;
-    font-weight: 850 !important;
-    letter-spacing: 3px !important;
-    color: #ffffff !important;
-    text-shadow: none !important;
-}
-
-html body .premium-footer .footer-heading {
-    font-size: 16.5px !important;
+    font-size: 20px !important;
     font-weight: 850 !important;
     letter-spacing: 2px !important;
     color: #ffffff !important;
+    text-shadow: none !important;
+    white-space: nowrap !important;
+}
+
+html body .premium-footer .footer-heading {
+    font-size: 14.5px !important;
+    font-weight: 850 !important;
+    letter-spacing: 1.2px !important;
+    color: #ffffff !important;
+    white-space: nowrap !important; /* Force single line to prevent ugly wrapping */
 }
 html body .premium-footer .footer-heading::after {
     background: #ffffff !important; /* Pure white bottom accent line matching color theme */
-    width: 45px !important;
+    width: 35px !important;
     height: 2px !important;
 }
 
 /* Mobile Responsive adjustments for Logos and Headings */
 @media (max-width: 768px) {
     html body .premium-header .logo-link {
-        font-size: 19px !important;
-        letter-spacing: 2px !important;
+        font-size: 18px !important;
+        letter-spacing: 1.5px !important;
     }
     html body .premium-footer .logo-link {
-        font-size: 19px !important;
-        letter-spacing: 2px !important;
+        font-size: 18px !important;
+        letter-spacing: 1.5px !important;
     }
     html body .premium-footer .footer-heading {
-        font-size: 15px !important;
+        font-size: 13.5px !important;
+        letter-spacing: 1px !important;
     }
 }
 

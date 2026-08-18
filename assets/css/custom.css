@@ -54,16 +54,115 @@ html body .ev-tech-section {
 
 
 
-html body .premium-footer {
-    background: #04050a !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+/* Luxury Deep Green Technology Theme - Premium Header */
+html body .premium-header {
+    background: rgba(4, 30, 21, 0.95) !important; /* Deep imperial forest jade */
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.22) !important; /* Elegant green border thread */
+    transition: all 0.3s ease !important;
 }
 
-html body .premium-header {
-    background: rgba(255, 255, 255, 0.98) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    border-bottom: 1px solid #e2eeea !important;
+/* Header Text Logo */
+html body .premium-header .logo-link {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.25) !important;
+}
+
+/* Header Nav Menu and Links */
+html body .premium-header .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+html body .premium-header .nav-link:hover,
+html body .premium-header .nav-link--active {
+    color: #10b981 !important; /* Glowing Emerald Green for active states */
+}
+
+/* Mobile Toggle Bar and Phone Shortcut */
+html body .premium-header .mobile-menu-toggle .bar {
+    background-color: #ffffff !important;
+}
+html body .premium-header .mobile-phone-shortcut {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+}
+html body .premium-header .mobile-phone-shortcut:hover {
+    background: #10b981 !important;
+    color: #041e15 !important;
+    border-color: #10b981 !important;
+}
+
+/* Mobile Menu Backdrop */
+@media (max-width: 768px) {
+    html body .nav-menu {
+        background: rgba(4, 30, 21, 0.99) !important;
+        border-left: 1px solid rgba(16, 185, 129, 0.22) !important;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4) !important;
+    }
+}
+
+
+/* Luxury Deep Green Technology Theme - Premium Footer */
+html body .premium-footer {
+    background: linear-gradient(180deg, #04241a 0%, #021410 100%) !important; /* Ultra-deep jade black gradient */
+    border-top: 1px solid rgba(16, 185, 129, 0.2) !important;
+    padding-top: 80px !important;
+}
+
+/* Footer Heading and Indicators */
+html body .premium-footer .footer-heading {
+    color: #ffffff !important;
+}
+html body .premium-footer .footer-heading::after {
+    background: #10b981 !important; /* Green line indicator */
+}
+
+/* Footer Texts, Tagline & Copyright labels */
+html body .premium-footer,
+html body .premium-footer .footer-tagline,
+html body .premium-footer .footer-tagline p,
+html body .premium-footer .footer-tagline strong,
+html body .premium-footer .footer-tagline span,
+html body .premium-footer .footer-copyright,
+html body .premium-footer .footer-copyright p,
+html body .premium-footer .footer-copyright strong,
+html body .premium-footer .footer-copyright span,
+html body .premium-footer .contact-info-item {
+    color: rgba(255, 255, 255, 0.72) !important;
+}
+
+/* Footer Links and Lists */
+html body .premium-footer .footer-links-list a,
+html body .premium-footer .footer-legal-links a {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+html body .premium-footer .footer-links-list a:hover,
+html body .premium-footer .footer-legal-links a:hover {
+    color: #10b981 !important;
+    transform: translateX(4px) !important;
+}
+
+/* Footer SVGs & Icons */
+html body .premium-footer .contact-info-item svg {
+    color: #10b981 !important;
+}
+
+/* Footer Brand Title */
+html body .premium-footer .footer-brand h4 {
+    color: #ffffff !important;
+}
+
+/* Social media icon circles */
+html body .premium-footer .social-icon-link {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+html body .premium-footer .social-icon-link:hover {
+    background: #10b981 !important;
+    color: #04241a !important;
+    border-color: #10b981 !important;
 }
 
 /* --------------------------------------------------------------------------

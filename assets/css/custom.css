@@ -126,12 +126,16 @@ html body .faq-answer {
     color: #cbd5e1 !important; /* Premium light silver for clean tech reading */
 }
 
-/* Light Green Tech Section (Catalog & EV Tech - text colors) */
+/* Light Green Tech Section (Catalog, EV Tech, Privileges & Why Dealer - text colors) */
 html body .catalog-section h2,
 html body .catalog-section h3,
 html body .ev-tech-section h2,
-html body .ev-tech-section h3 {
-    color: #064e3b !important;
+html body .ev-tech-section h3,
+html body .privileges-section h2,
+html body .privileges-section h3,
+html body .why-official-section h2,
+html body .why-official-section h3 {
+    color: #059669 !important;
     text-shadow: none !important;
 }
 
@@ -500,7 +504,7 @@ html body .privileges-section {
 }
 
 html body .privileges-section .section-title {
-    color: #0f172a !important;
+    color: #059669 !important;
     text-shadow: none !important;
 }
 
@@ -921,7 +925,7 @@ html body .why-official-section .why-row:hover .why-row__idx {
 /* Light section header values for Why Official Section */
 html body .why-official-section .section-header .section-title,
 html body .why-official-section .section-title {
-    color: #064e3b !important;
+    color: #059669 !important;
     text-shadow: none !important;
 }
 
@@ -1188,7 +1192,7 @@ html body .ev-tech-section .section-title {
     font-size: 32px !important;
     font-weight: 850 !important;
     letter-spacing: -0.5px !important;
-    color: #064e3b !important;
+    color: #059669 !important;
     margin-top: 12px !important;
 }
 

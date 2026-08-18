@@ -31,8 +31,16 @@ html body .why-official-section {
     padding: var(--space-xxl) 0 !important;
 }
 
+/* Premium Light Green Tech Section (Catalog Section - Light Mint-Silver Showroom) */
+html body .catalog-section {
+    background: linear-gradient(180deg, #f4faf7 0%, #e6f5ee 100%) !important;
+    background-image: linear-gradient(180deg, #f4faf7 0%, #e6f5ee 100%) !important;
+    border-bottom: none !important;
+    color: #3d564e !important;
+    padding: var(--space-xxl) 0 !important;
+}
+
 /* Premium Green Tech Sections (Green Background, White Text) */
-html body .catalog-section,
 html body .ev-tech-section,
 html body .privileges-section,
 html body .tradein-section,
@@ -91,13 +99,11 @@ html body .counselor-compare-title {
 }
 
 /* Dark Sections text colors */
-html body .catalog-section h2,
 html body .privileges-section h2,
 html body .tradein-section h2,
 html body .ev-tech-section h2,
 html body .dealer-offers-section h2,
 html body .faq-section h2,
-html body .catalog-section h3,
 html body .privileges-section h3,
 html body .tradein-section h3,
 html body .ev-tech-section h3,
@@ -108,7 +114,6 @@ html body .faq-question {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
 }
 
-html body .catalog-section .section-desc,
 html body .privileges-section .section-desc,
 html body .tradein-section .section-desc,
 html body .ev-tech-section .section-desc,
@@ -117,6 +122,16 @@ html body .faq-section .section-desc,
 html body .spotlight-desc,
 html body .faq-answer {
     color: #cbd5e1 !important; /* Premium light silver for clean tech reading */
+}
+
+/* Light Green Tech Section (Catalog Section - Light Mint-Silver text colors) */
+html body .catalog-section h2,
+html body .catalog-section h3 {
+    color: #064e3b !important;
+}
+
+html body .catalog-section .section-desc {
+    color: #3d564e !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -136,7 +151,6 @@ html body .why-official-section .section-tag {
 }
 
 /* Green Tech Sections Tags (Glowing Mint Translucent Badges) */
-html body .catalog-section .section-tag,
 html body .privileges-section .section-tag,
 html body .tradein-section .section-tag,
 html body .ev-tech-section .section-tag,
@@ -146,6 +160,19 @@ html body .faq-section .section-tag {
     color: #34d399 !important;
     border: 1px solid rgba(255, 255, 255, 0.15) !important;
     box-shadow: 0 0 15px rgba(52, 211, 153, 0.15) !important;
+    font-size: 10px !important;
+    font-weight: 750 !important;
+    letter-spacing: 2px !important;
+    padding: 6px 18px !important;
+    border-radius: 30px !important;
+}
+
+/* Catalog Section Tag (Light Mint-Green Tech Badge) */
+html body .catalog-section .section-tag {
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #059669 !important;
+    border: 1px solid rgba(16, 185, 129, 0.22) !important;
+    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.05) !important;
     font-size: 10px !important;
     font-weight: 750 !important;
     letter-spacing: 2px !important;
@@ -1411,37 +1438,34 @@ html body .filter-tab-btn.filter-tab-btn--active {
     background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
     color: #ffffff !important;
     font-weight: 800 !important;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
-}
-
-/* Glassmorphism Green-Tech Car Cards */
+    box-shadow: 0 4p/* Premium Porcelain Light Car Cards */
 html body .catalog-section .car-card {
-    background: rgba(255, 255, 255, 0.04) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255,255,255,0.05) !important;
+    background: #ffffff !important;
+    border: 1px solid rgba(16, 185, 129, 0.12) !important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04) !important;
     border-radius: 20px !important;
-    backdrop-filter: blur(24px) !important;
-    -webkit-backdrop-filter: blur(24px) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 html body .catalog-section .car-card:hover {
     transform: translateY(-8px) !important;
-    border-color: rgba(52, 211, 153, 0.4) !important;
-    background: rgba(255, 255, 255, 0.07) !important;
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 25px rgba(16, 185, 129, 0.15) !important;
+    border-color: rgba(16, 185, 129, 0.4) !important;
+    background: #ffffff !important;
+    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.12) !important;
 }
 
 /* Symmetrical Stage & Glowing Grid Under the Cars */
 html body .catalog-section .car-card__media {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.04) 0%, #ffffff 80%) !important;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.08) !important;
     padding: 24px 20px 0 20px !important;
     height: 200px !important;
 }
 
 html body .catalog-section .car-card__media::after {
-    background: radial-gradient(ellipse at center, rgba(16, 185, 129, 0.12) 0%, rgba(0, 0, 0, 0) 70%) !important;
+    background: radial-gradient(ellipse at center, rgba(15, 23, 42, 0.08) 0%, rgba(0, 0, 0, 0) 70%) !important;
     transition: all 0.45s ease !important;
 }
 
@@ -1451,9 +1475,9 @@ html body .catalog-section .car-card:hover .car-card__media::after {
 }
 
 html body .catalog-section .car-card__badge {
-    background: rgba(52, 211, 153, 0.1) !important;
-    border: 1px solid rgba(52, 211, 153, 0.35) !important;
-    color: #34d399 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    border: 1px solid rgba(16, 185, 129, 0.18) !important;
+    color: #10b981 !important;
     font-weight: 800 !important;
     font-size: 9.5px !important;
     border-radius: 30px !important;
@@ -1464,19 +1488,19 @@ html body .catalog-section .car-card__badge {
 html body .catalog-section .car-card__name {
     font-size: 20px !important;
     font-weight: 850 !important;
-    color: #ffffff !important;
+    color: #0f172a !important;
 }
 
 html body .catalog-section .car-card__desc {
-    color: rgba(255, 255, 255, 0.65) !important;
+    color: #475569 !important;
     font-size: 12.5px !important;
     line-height: 1.55 !important;
 }
 
 /* Monospace Instrument Cluster HUD Specs */
 html body .catalog-section .car-card__specs {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    background: rgba(16, 185, 129, 0.02) !important;
+    border: 1px solid rgba(16, 185, 129, 0.08) !important;
     border-radius: 12px !important;
     padding: 12px !important;
     display: grid !important;
@@ -1491,11 +1515,11 @@ html body .catalog-section .car-card__spec-item {
 }
 
 html body .catalog-section .car-card__spec-item:first-child {
-    border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-right: 1px solid rgba(16, 185, 129, 0.08) !important;
 }
 
 html body .catalog-section .car-card__spec-item[style*="span 2"] {
-    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-top: 1px solid rgba(16, 185, 129, 0.08) !important;
     margin-top: 8px !important;
     padding-top: 8px !important;
 }
@@ -1503,7 +1527,7 @@ html body .catalog-section .car-card__spec-item[style*="span 2"] {
 html body .catalog-section .car-card__spec-lbl {
     font-size: 9px !important;
     font-weight: 700 !important;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #64748b !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
 }
@@ -1512,7 +1536,7 @@ html body .catalog-section .car-card__spec-val {
     font-family: 'Montserrat', sans-serif !important;
     font-size: 13px !important;
     font-weight: 800 !important;
-    color: #ffffff !important;
+    color: #0f172a !important;
 }
 
 /* Symmetrical Luxury Buttons */
@@ -1521,7 +1545,7 @@ html body .catalog-section .btn-detail-card {
     color: #ffffff !important;
     border-radius: 30px !important;
     font-weight: 800 !important;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3) !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
@@ -1529,39 +1553,38 @@ html body .catalog-section .btn-detail-card:hover {
     background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
     color: #ffffff !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 22px rgba(16, 185, 129, 0.5) !important;
+    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.35) !important;
 }
 
 html body .catalog-section .btn-zalo-card {
-    background: rgba(255, 255, 255, 0.06) !important;
-    border: 1.5px solid rgba(255, 255, 255, 0.2) !important;
-    color: #ffffff !important;
+    background: rgba(0, 102, 255, 0.03) !important;
+    border: 1.5px solid rgba(0, 102, 255, 0.2) !important;
+    color: #0066ff !important;
     border-radius: 30px !important;
     font-weight: 800 !important;
     transition: all 0.3s ease !important;
 }
 
 html body .catalog-section .btn-zalo-card svg {
-    stroke: #ffffff !important;
+    stroke: #0066ff !important;
 }
 
 html body .catalog-section .btn-zalo-card:hover {
-    background: #ffffff !important;
-    border-color: #ffffff !important;
-    color: #0f172a !important;
+    background: #0066ff !important;
+    border-color: #0066ff !important;
+    color: #ffffff !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 6px 18px rgba(0, 102, 255, 0.2) !important;
 }
 
 html body .catalog-section .btn-zalo-card:hover svg {
-    stroke: #0f172a !important;
+    stroke: #ffffff !important;
 }
-
 
 /* Premium starting price style */
 html body .catalog-section .car-card__price-val,
 html body .catalog-section .car-card__price-val .price-main-num {
-    color: #34d399 !important;
+    color: #10b981 !important;
     font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -1572,7 +1595,7 @@ html body .catalog-section .car-card__price-val .price-main-num {
 
 html body .catalog-section .car-card__price-val .price-sub-note {
     font-size: 11px !important;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #506e63 !important;
 }
 
 /* Mobile responsive fixes */

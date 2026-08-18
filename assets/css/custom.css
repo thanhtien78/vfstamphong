@@ -156,9 +156,6 @@ html body .why-official-section .section-tag {
 }
 
 /* Green Tech Sections Tags (Glowing Mint Translucent Badges) */
-html body .privileges-section .section-tag,
-html body .tradein-section .section-tag,
-html body .dealer-offers-section .section-tag,
 html body .faq-section .section-tag {
     background: rgba(255, 255, 255, 0.08) !important;
     color: #34d399 !important;
@@ -171,11 +168,13 @@ html body .faq-section .section-tag {
     border-radius: 30px !important;
 }
 
-/* Catalog & EV Tech Section Tags (Champagne Gold Luxury Badge) */
+/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in & Offers Section Tags (Champagne Gold Luxury Badge) */
 html body .catalog-section .section-tag,
 html body .ev-tech-section .section-tag,
 html body .privileges-section .section-tag,
-html body .why-official-section .section-tag {
+html body .why-official-section .section-tag,
+html body .tradein-section .section-tag,
+html body .dealer-offers-section .section-tag {
     background: rgba(197, 160, 89, 0.08) !important;
     color: #c5a059 !important;
     border: 1px solid rgba(197, 160, 89, 0.3) !important;
@@ -1375,24 +1374,13 @@ html body .dealer-offers-section .offers-stage-overlay {
 }
 
 html body .dealer-offers-section .section-header .section-title,
-html body .dealer-offers-section .section-title {
+html body .dealer-offers-section .section-title,
+html body section.dealer-offers-section .section-title {
     color: #059669 !important;
     text-shadow: none !important;
 }
 
-html body .dealer-offers-section .section-header .section-tag,
-html body .dealer-offers-section .section-tag {
-    background: rgba(180, 83, 9, 0.08) !important;
-    color: #b45309 !important;
-    border: 1.5px solid rgba(180, 83, 9, 0.2) !important;
-    text-transform: uppercase !important;
-    letter-spacing: 2px !important;
-    font-size: 11px !important;
-    font-weight: 800 !important;
-    padding: 6px 14px !important;
-    border-radius: 50px !important;
-    display: inline-block !important;
-}
+
 
 /* Inactive tab state */
 html body .dealer-offers-section .offers-stage-tab {
@@ -1534,19 +1522,15 @@ html body .faq-section .faq-btn-hotline:hover {
 /* --------------------------------------------------------------------------
    12. ABSOLUTE SECTION HEADER LEGIBILITY FOR DARK SECTIONS
    -------------------------------------------------------------------------- */
-html body .dealer-offers-section .section-header .section-title,
 html body .faq-section .section-header .section-title,
-html body .dealer-offers-section .section-title,
 html body .faq-section .section-title {
     color: #ffffff !important;
     text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
 }
 
-html body .dealer-offers-section .section-header p,
 html body .faq-section .section-header p {
     color: #c8ded7 !important; /* Extremely clear light silver text color */
 }
-html body .dealer-offers-section .section-header .section-tag,
 html body .faq-section .section-header .section-tag {
     background: rgba(16, 185, 129, 0.15) !important;
     color: #34d399 !important;

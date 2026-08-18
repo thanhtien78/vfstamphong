@@ -1494,6 +1494,11 @@ html body .catalog-section .car-card__name {
     font-weight: 850 !important;
     color: #0f172a !important;
     margin-bottom: 8px !important;
+    min-height: 48px !important; /* Forces 2-line space to align all descriptions */
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
 }
 
 html body .catalog-section .car-card__desc {
@@ -1501,7 +1506,7 @@ html body .catalog-section .car-card__desc {
     font-size: 12.5px !important;
     line-height: 1.55 !important;
     margin-bottom: 18px !important;
-    min-height: 40px !important;
+    min-height: 60px !important; /* Forces 3-line space to align all specifications grids */
     display: block !important;
 }
 

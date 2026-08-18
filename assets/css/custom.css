@@ -1131,12 +1131,19 @@ html body .ev-tech-section .station-card:hover:not(.active) {
     background: #f1f5f9 !important;
     border-color: rgba(16, 185, 129, 0.2) !important;
 }
-/* High-tech simulated radar screen upgrades */
+/* High-tech simulated radar screen upgrades - Light Ecological Hologram Map */
 html body .ev-tech-section .map-simulation {
-    background: radial-gradient(circle at center, #0f1c3f 0%, #050814 100%) !important;
+    background: radial-gradient(circle at center, #f4faf7 0%, #e8f5ee 100%) !important;
     border-radius: 12px !important;
     position: relative !important;
-    box-shadow: inset 0 0 40px rgba(16, 185, 129, 0.3) !important;
+    box-shadow: inset 0 0 30px rgba(16, 185, 129, 0.08) !important;
+}
+
+html body .ev-tech-section .map-simulation > div:first-child {
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.22) !important;
+    color: #059669 !important;
+    text-shadow: none !important;
 }
 html body .ev-tech-section .map-simulation::before {
     content: '' !important;

@@ -1478,11 +1478,37 @@ html body .luxury-offer-card .offer-card-num {
 html body .luxury-offer-card .offer-card-title {
     color: #0f172a !important;
     font-size: 21px !important;
-    font-weight: 850 !important;
-    margin: 0 0 12px 0 !important;
+    font-weight: 855 !important;
+    margin: 0 0 10px 0 !important;
     letter-spacing: -0.5px !important;
     z-index: 1 !important;
     position: relative !important;
+}
+
+/* Luxury Value Badge */
+html body .luxury-offer-card .offer-card-value-badge {
+    background: linear-gradient(135deg, rgba(197, 160, 89, 0.06) 0%, rgba(197, 160, 89, 0.01) 100%) !important;
+    border: 1px solid rgba(197, 160, 89, 0.18) !important;
+    color: #c5a059 !important;
+    padding: 8px 14px !important;
+    border-radius: 6px !important;
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 16px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: fit-content !important;
+    text-transform: uppercase !important;
+    z-index: 1 !important;
+    position: relative !important;
+}
+
+html body .luxury-offer-card .value-badge-spark {
+    color: #c5a059 !important;
+    font-size: 12px !important;
+    animation: pulse 2s infinite !important;
 }
 
 /* Card Description */
@@ -1531,7 +1557,7 @@ html body .luxury-offer-card .offer-card-specs li:hover {
 
 /* Bullet icon */
 html body .luxury-offer-card .offer-card-specs .spec-icon {
-    color: #10b981 !important;
+    color: #c5a059 !important;
     font-weight: 900 !important;
     font-size: 13px !important;
     flex-shrink: 0 !important;

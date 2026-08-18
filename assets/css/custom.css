@@ -1382,27 +1382,36 @@ html body section.dealer-offers-section .section-title {
 
 
 
-/* Inactive tab state */
+/* Inactive tab state - Porsche Configuration Left Pillar Style */
 html body .dealer-offers-section .offers-stage-tab {
     background: #ffffff !important;
-    border: 1px solid #e2eeea !important;
+    border: 1px solid rgba(16, 185, 129, 0.08) !important;
+    border-left: 4px solid transparent !important;
+    border-radius: 8px !important;
+    padding: 18px 24px !important;
     color: #475569 !important;
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.01) !important;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.01) !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 html body .dealer-offers-section .offers-stage-tab .offers-stage-tab__num {
-    color: #94a3b8 !important;
+    color: #c5a059 !important;
+    font-weight: 800 !important;
 }
 
 html body .dealer-offers-section .offers-stage-tab .offers-stage-tab__title {
     color: #475569 !important;
+    font-weight: 700 !important;
 }
 
 /* Active tab state */
 html body .dealer-offers-section .offers-stage-tab.offers-stage-tab--active {
-    background: rgba(16, 185, 129, 0.06) !important;
-    border-color: #10b981 !important;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.08) !important;
+    background: rgba(16, 185, 129, 0.04) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
+    border-left: 4px solid #10b981 !important;
+    color: #059669 !important;
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.06) !important;
+    transform: translateX(4px) !important;
 }
 
 html body .dealer-offers-section .offers-stage-tab.offers-stage-tab--active .offers-stage-tab__num {
@@ -1416,38 +1425,96 @@ html body .dealer-offers-section .offers-stage-tab.offers-stage-tab--active .off
 /* Hover state */
 html body .dealer-offers-section .offers-stage-tab:hover {
     background: #f8fafc !important;
-    border-color: #cbd5e1 !important;
+    border-color: rgba(16, 185, 129, 0.12) !important;
+    border-left: 4px solid rgba(16, 185, 129, 0.3) !important;
+    transform: translateX(2px) !important;
 }
 
 html body .dealer-offers-section .offers-stage-tab.offers-stage-tab--active:hover {
-    background: rgba(16, 185, 129, 0.1) !important;
+    background: rgba(16, 185, 129, 0.06) !important;
     border-color: #059669 !important;
+    border-left: 4px solid #059669 !important;
 }
 
-/* Details Card */
+/* Details Card - Hyper-Luxury Glass & Spec Layout */
 html body .dealer-offers-section .offers-stage-card {
     background: #ffffff !important;
-    border: 1px solid #e2eeea !important;
-    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.03) !important;
-    border-radius: 16px !important;
+    border: 1px solid rgba(16, 185, 129, 0.12) !important;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.04) !important;
+    border-radius: 20px !important;
+    padding: 45px !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+/* Giant luxury text watermark in background */
+html body .dealer-offers-section .offers-stage-card::after {
+    content: "EV" !important;
+    position: absolute !important;
+    bottom: -10px !important;
+    right: 20px !important;
+    font-size: 130px !important;
+    font-weight: 900 !important;
+    color: rgba(16, 185, 129, 0.02) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    pointer-events: none !important;
+    line-height: 1 !important;
+    letter-spacing: -3px !important;
+    z-index: 0 !important;
 }
 
 html body .dealer-offers-section .offers-stage-card__tag {
     background: rgba(16, 185, 129, 0.08) !important;
     color: #059669 !important;
     border: 1px solid rgba(16, 185, 129, 0.25) !important;
+    z-index: 1 !important;
+    position: relative !important;
 }
 
 html body .dealer-offers-section .offers-stage-card__title {
     color: #0f172a !important;
+    font-size: 26px !important;
+    font-weight: 850 !important;
+    z-index: 1 !important;
+    position: relative !important;
 }
 
 html body .dealer-offers-section .offers-stage-card__desc {
     color: #475569 !important;
+    font-size: 14.5px !important;
+    line-height: 1.65 !important;
+    z-index: 1 !important;
+    position: relative !important;
+}
+
+/* Bullet list upgraded to modern spec sheets list */
+html body .dealer-offers-section .offers-stage-card__bullets {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-bottom: 30px !important;
+    z-index: 1 !important;
+    position: relative !important;
 }
 
 html body .dealer-offers-section .offers-stage-card__bullets li {
+    background: rgba(16, 185, 129, 0.02) !important;
+    border: 1px solid rgba(16, 185, 129, 0.05) !important;
+    border-radius: 10px !important;
+    padding: 12px 18px !important;
     color: #3d564e !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    transition: all 0.25s ease !important;
+}
+
+html body .dealer-offers-section .offers-stage-card__bullets li:hover {
+    background: rgba(16, 185, 129, 0.05) !important;
+    border-color: rgba(16, 185, 129, 0.15) !important;
+    transform: translateX(4px) !important;
 }
 
 html body .dealer-offers-section .offers-stage-card__bullets li::before {

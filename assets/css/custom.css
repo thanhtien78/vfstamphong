@@ -1437,8 +1437,10 @@ html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
     background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
     color: #ffffff !important;
-    font-weight: 800 !important;
-    box-shadow: 0 4p/* Premium Porcelain Light Car Cards */
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
+}
+
+/* Premium Porcelain Light Car Cards */
 html body .catalog-section .car-card {
     background: #ffffff !important;
     border: 1px solid rgba(16, 185, 129, 0.12) !important;
@@ -1557,24 +1559,25 @@ html body .catalog-section .btn-detail-card:hover {
 }
 
 html body .catalog-section .btn-zalo-card {
-    background: rgba(16, 185, 129, 0.05) !important;
-    border: 1.5px solid rgba(16, 185, 129, 0.25) !important;
-    color: #059669 !important;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    border: none !important;
+    color: #ffffff !important;
     border-radius: 30px !important;
     font-weight: 800 !important;
-    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 html body .catalog-section .btn-zalo-card svg {
-    stroke: #059669 !important;
+    stroke: #ffffff !important;
 }
 
 html body .catalog-section .btn-zalo-card:hover {
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
     border-color: transparent !important;
     color: #ffffff !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 6px 15px rgba(16, 185, 129, 0.35) !important;
+    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.35) !important;
 }
 
 html body .catalog-section .btn-zalo-card:hover svg {

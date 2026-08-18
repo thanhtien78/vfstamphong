@@ -841,23 +841,49 @@ html body .tradein-concierge-tag {
     color: #475569 !important;
 }
 
-/* Concierge Action Buttons */
-html body .btn-tradein-action-hotline {
-    background: transparent !important;
-    border: 1.5px solid #10b981 !important;
-    color: #10b981 !important;
+/* Concierge Action Buttons - Stacked Vertically for perfect single-line alignment */
+html body .tradein-concierge-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+}
+
+html body .btn-tradein-action-hotline,
+html body .btn-tradein-action-zalo {
+    width: 100% !important;
+    flex: none !important;
+    height: 44px !important; /* Slightly taller for luxury tap target */
     border-radius: 30px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Hotline Button: Upgraded to sleek light-green glass button with rich green text */
+html body .btn-tradein-action-hotline {
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.25) !important;
+    color: #059669 !important;
+    box-shadow: none !important;
     transition: all 0.3s ease !important;
 }
 
 html body .btn-tradein-action-hotline span,
 html body .btn-tradein-action-hotline svg {
-    color: #10b981 !important;
+    color: #059669 !important;
 }
 
 html body .btn-tradein-action-hotline:hover {
-    background: #10b981 !important;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    border-color: #10b981 !important;
     color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
 }
 
 html body .btn-tradein-action-hotline:hover span,
@@ -865,13 +891,18 @@ html body .btn-tradein-action-hotline:hover svg {
     color: #ffffff !important;
 }
 
+/* Zalo Button: Solid luxury emerald gradient */
 html body .btn-tradein-action-zalo {
     background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
     border: none !important;
     color: #ffffff !important;
-    border-radius: 30px !important;
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
     transition: all 0.3s ease !important;
+}
+
+html body .btn-tradein-action-zalo span,
+html body .btn-tradein-action-zalo svg {
+    color: #ffffff !important;
 }
 
 html body .btn-tradein-action-zalo:hover {

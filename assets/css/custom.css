@@ -1590,7 +1590,7 @@ html body .catalog-section .car-card--fleet .car-card__price-box {
     background: transparent !important;
     border: none !important;
     border-radius: 0 !important;
-    padding: 0 24px 20px 24px !important;
+    padding: 0 0 16px 0 !important;
     margin: 0 !important;
     display: flex !important;
     flex-direction: column !important;

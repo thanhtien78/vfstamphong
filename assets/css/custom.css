@@ -946,7 +946,7 @@ html body .ev-tech-section .ev-tech-tab-btn {
     background: transparent !important;
     border: none !important;
     border-radius: 25px !important;
-    color: #94a3b8 !important;
+    color: #3d564e !important;
     font-weight: 600 !important;
     font-size: 13px !important;
     padding: 10px 28px !important;
@@ -1270,23 +1270,18 @@ html body .faq-section .faq-btn-hotline:hover {
 /* --------------------------------------------------------------------------
    12. ABSOLUTE SECTION HEADER LEGIBILITY FOR DARK SECTIONS
    -------------------------------------------------------------------------- */
-html body .ev-tech-section .section-header .section-title,
 html body .dealer-offers-section .section-header .section-title,
 html body .faq-section .section-header .section-title,
-html body .ev-tech-section .section-title,
 html body .dealer-offers-section .section-title,
 html body .faq-section .section-title {
     color: #ffffff !important;
     text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
 }
 
-html body .ev-tech-section .section-header p,
 html body .dealer-offers-section .section-header p,
-html body .faq-section .section-header p,
-html body .ev-tech-section .compare-subtitle {
+html body .faq-section .section-header p {
     color: #c8ded7 !important; /* Extremely clear light silver text color */
 }
-html body .ev-tech-section .section-header .section-tag,
 html body .dealer-offers-section .section-header .section-tag,
 html body .faq-section .section-header .section-tag {
     background: rgba(16, 185, 129, 0.15) !important;

@@ -967,7 +967,7 @@ $menuItems = [
   <!-- FLOATING LUXURY HEADER -->
   <header class="premium-header">
     <div class="header-container">
-      <a href="<?php echo seo_url('index.php'); ?>" class="logo-link" style="display: inline-flex; align-items: center; font-weight: 900; font-size: 20px; letter-spacing: 2px; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; text-decoration: none; color: var(--color-text-main, #0f172a) !important; white-space: nowrap !important;">
+      <a href="<?php echo seo_url('index.php'); ?>" class="logo-link" style="display: inline-flex; align-items: center; font-weight: 900; font-size: 20px; letter-spacing: 2px; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; text-decoration: none; color: #ffffff !important; white-space: nowrap !important;">
         <span>VINFAST TAM PHONG</span>
       </a>
       <button class="mobile-menu-toggle" onclick="toggleMobileMenu(event)" aria-label="Toggle Navigation Menu">

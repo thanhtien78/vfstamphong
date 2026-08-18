@@ -2340,3 +2340,29 @@ html body .luxury-section-divider::after {
     box-shadow: 0 0 6px rgba(16, 185, 129, 0.8) !important; /* Subtle emerald green glow */
     border-radius: 1px !important;
 }
+
+/* Counselors CTA Buttons Synchronization (Solid Green Background with White Text) */
+html body .btn-counselor-compare--phone,
+html body .btn-counselor-compare--zalo {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 4px 15px -3px rgba(16, 185, 129, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+html body .btn-counselor-compare--phone:hover,
+html body .btn-counselor-compare--zalo:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px -3px rgba(16, 185, 129, 0.5), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+    color: #ffffff !important;
+}
+
+html body .btn-counselor-compare--phone *,
+html body .btn-counselor-compare--zalo * {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
+}
+

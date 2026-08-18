@@ -2289,10 +2289,14 @@ html body .faq-section .faq-btn-zalo:hover {
     color: #ffffff !important;
 }
 
-html body .faq-section .faq-btn-zalo svg {
+html body .faq-section .faq-btn-zalo svg,
+html body .faq-section .faq-btn-zalo *,
+html body .faq-section .faq-btn-hotline svg,
+html body .faq-section .faq-btn-hotline * {
     color: #ffffff !important;
     stroke: #ffffff !important;
 }
+
 
 
 

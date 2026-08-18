@@ -174,7 +174,9 @@ html body .faq-section .section-tag {
 
 /* Catalog & EV Tech Section Tags (Champagne Gold Luxury Badge) */
 html body .catalog-section .section-tag,
-html body .ev-tech-section .section-tag {
+html body .ev-tech-section .section-tag,
+html body .privileges-section .section-tag,
+html body .why-official-section .section-tag {
     background: rgba(197, 160, 89, 0.08) !important;
     color: #c5a059 !important;
     border: 1px solid rgba(197, 160, 89, 0.3) !important;
@@ -820,22 +822,28 @@ html body .counselor-compare-pulse::after {
    -------------------------------------------------------------------------- */
 /* General typography inside Dark Blocks */
 html body .ev-tech-section,
-html body .why-official-section,
 html body .dealer-offers-section,
 html body .faq-section {
     color: #c8ded7 !important;
 }
 
-/* 11a. Why Dealer Section */
-html body .why-official-section .signature-quote {
-    color: #c8ded7 !important; /* Elegant light quote */
+/* 11a. Why Dealer Section - Upgraded to Premium Light Porcelain Theme */
+html body .why-official-section {
+    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    color: #3d564e !important;
 }
+
+html body .why-official-section .signature-quote {
+    color: #3d564e !important; /* Elegant slate green quote */
+    font-style: italic !important;
+}
+
 html body .why-official-section .why-brand-visual {
     position: relative !important;
     border-radius: 16px !important;
     overflow: hidden !important;
-    border: 1px solid rgba(16, 185, 129, 0.2) !important;
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid rgba(16, 185, 129, 0.12) !important;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.05) !important;
 }
 
 html body .why-official-section .why-visual-img {
@@ -857,17 +865,17 @@ html body .why-official-section .why-brand-visual:hover .why-visual-img {
 }
 
 html body .why-official-section .why-visual-badge {
-    background: rgba(16, 185, 129, 0.25) !important;
-    border: 1px solid rgba(16, 185, 129, 0.4) !important;
-    color: #34d399 !important;
+    background: rgba(16, 185, 129, 0.06) !important;
+    border: 1px solid rgba(16, 185, 129, 0.2) !important;
+    color: #059669 !important;
 }
 
-/* Dark Glassmorphism Cards on Dark Spotlight Background */
+/* Light Porcelain Cards matching the Catalog and Privileges style */
 html body .why-official-section .why-row {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important; /* Top reflection line */
-    color: #c8ded7 !important;
+    background: #ffffff !important;
+    border: 1px solid #e2eeea !important;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.02) !important;
+    color: #3d564e !important;
     padding: 26px 30px !important; /* Maintain the generous borders we set */
     gap: 24px !important;
     border-radius: 16px !important;
@@ -882,29 +890,30 @@ html body .why-official-section .why-row {
 }
 
 html body .why-official-section .why-row:hover {
-    background: rgba(16, 185, 129, 0.08) !important;
+    background: rgba(16, 185, 129, 0.03) !important;
     border-color: #10b981 !important;
-    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 15px 35px rgba(16, 185, 129, 0.06) !important;
     transform: translateY(-2px) !important;
 }
 
 html body .why-official-section .why-row__title {
-    color: #ffffff !important; /* Bold white title */
+    color: #0f172a !important; /* Deep slate title */
+    font-weight: 700 !important;
 }
 
 html body .why-official-section .why-row__desc {
-    color: #94a3b8 !important; /* High contrast light gray body text */
+    color: #475569 !important; /* High contrast body text */
 }
 
 html body .why-official-section .why-row__idx {
-    background: rgba(16, 185, 129, 0.15) !important;
-    border: 1px solid rgba(16, 185, 129, 0.3) !important;
-    color: #34d399 !important;
+    background: rgba(16, 185, 129, 0.09) !important;
+    border: 1px solid rgba(16, 185, 129, 0.25) !important;
+    color: #059669 !important;
     font-family: 'Montserrat', sans-serif !important;
 }
 
 html body .why-official-section .why-row:hover .why-row__idx {
-    background: #10b981 !important;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
     color: #ffffff !important;
     border-color: #10b981 !important;
 }
@@ -912,15 +921,8 @@ html body .why-official-section .why-row:hover .why-row__idx {
 /* Light section header values for Why Official Section */
 html body .why-official-section .section-header .section-title,
 html body .why-official-section .section-title {
-    color: #ffffff !important;
-    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
-}
-
-html body .why-official-section .section-header .section-tag,
-html body .why-official-section .section-tag {
-    background: rgba(16, 185, 129, 0.15) !important;
-    color: #34d399 !important;
-    border: 1px solid rgba(16, 185, 129, 0.3) !important;
+    color: #064e3b !important;
+    text-shadow: none !important;
 }
 
 /* 11b. EV Tech & ROI Calculator Section - LUXURY & SPOTLIGHT STYLING */

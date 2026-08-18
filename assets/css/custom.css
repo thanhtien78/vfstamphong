@@ -56,26 +56,25 @@ html body .ev-tech-section {
 
 /* Luxury Deep Green Technology Theme - Premium Header */
 html body .premium-header {
-    background: rgba(4, 30, 21, 0.95) !important; /* Deep imperial forest jade */
-    backdrop-filter: blur(16px) !important;
-    -webkit-backdrop-filter: blur(16px) !important;
-    border-bottom: 1px solid rgba(16, 185, 129, 0.22) !important; /* Elegant green border thread */
+    background: #059669 !important; /* Solid emerald green */
+    border-bottom: 1px solid #047857 !important; 
     transition: all 0.3s ease !important;
 }
 
 /* Header Text Logo */
 html body .premium-header .logo-link {
     color: #ffffff !important;
-    text-shadow: 0 0 10px rgba(16, 185, 129, 0.25) !important;
+    text-shadow: none !important;
 }
 
 /* Header Nav Menu and Links */
 html body .premium-header .nav-link {
-    color: rgba(255, 255, 255, 0.85) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 html body .premium-header .nav-link:hover,
 html body .premium-header .nav-link--active {
-    color: #10b981 !important; /* Glowing Emerald Green for active states */
+    color: #ffffff !important; 
+    text-decoration: underline !important;
 }
 
 /* Mobile Toggle Bar and Phone Shortcut */
@@ -83,30 +82,30 @@ html body .premium-header .mobile-menu-toggle .bar {
     background-color: #ffffff !important;
 }
 html body .premium-header .mobile-phone-shortcut {
-    background: rgba(255, 255, 255, 0.08) !important;
-    border-color: rgba(255, 255, 255, 0.15) !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
     color: #ffffff !important;
 }
 html body .premium-header .mobile-phone-shortcut:hover {
-    background: #10b981 !important;
-    color: #041e15 !important;
-    border-color: #10b981 !important;
+    background: #ffffff !important;
+    color: #059669 !important;
+    border-color: #ffffff !important;
 }
 
 /* Mobile Menu Backdrop */
 @media (max-width: 768px) {
     html body .nav-menu {
-        background: rgba(4, 30, 21, 0.99) !important;
-        border-left: 1px solid rgba(16, 185, 129, 0.22) !important;
-        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4) !important;
+        background: #059669 !important;
+        border-left: 1px solid #047857 !important;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.2) !important;
     }
 }
 
 
 /* Luxury Deep Green Technology Theme - Premium Footer */
 html body .premium-footer {
-    background: linear-gradient(180deg, #04241a 0%, #021410 100%) !important; /* Ultra-deep jade black gradient */
-    border-top: 1px solid rgba(16, 185, 129, 0.2) !important;
+    background: #059669 !important; /* Solid emerald green matching the header */
+    border-top: 1px solid #047857 !important;
     padding-top: 80px !important;
 }
 

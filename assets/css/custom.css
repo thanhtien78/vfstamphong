@@ -160,18 +160,30 @@ html body .faq-section .section-tag {
     border-radius: 30px !important;
 }
 
-/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in, Offers & FAQ Section Tags (Champagne Gold Luxury Badge) */
+/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in & Offers Section Tags (Champagne Gold Luxury Badge) */
 html body .catalog-section .section-tag,
 html body .ev-tech-section .section-tag,
 html body .privileges-section .section-tag,
 html body .why-official-section .section-tag,
 html body .tradein-section .section-tag,
-html body .dealer-offers-section .section-tag,
-html body .faq-section .section-tag {
+html body .dealer-offers-section .section-tag {
     background: rgba(197, 160, 89, 0.08) !important;
     color: #c5a059 !important;
     border: 1px solid rgba(197, 160, 89, 0.3) !important;
     box-shadow: 0 2px 10px rgba(197, 160, 89, 0.05) !important;
+    font-size: 10px !important;
+    font-weight: 750 !important;
+    letter-spacing: 2.5px !important;
+    padding: 6px 20px !important;
+    border-radius: 30px !important;
+}
+
+/* FAQ Section Tag (Sleek Green Tech Ecological Badge) */
+html body .faq-section .section-tag {
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #059669 !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
+    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.05) !important;
     font-size: 10px !important;
     font-weight: 750 !important;
     letter-spacing: 2.5px !important;

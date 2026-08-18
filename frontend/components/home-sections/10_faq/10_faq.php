@@ -332,7 +332,7 @@
       <!-- Cột trái: Brand Editorial info + Radar Scanner (Correct position!) -->
       <div class="faq-editorial-block">
         <div class="section-header faq-mobile-center-header" style="margin-bottom: 0; padding-bottom: 0; text-align: left;">
-          <span class="section-tag" style="background: #c5a059 !important; border: 1px solid rgba(197, 160, 89, 0.3) !important; color: #ffffff !important; box-shadow: 0 2px 10px rgba(197, 160, 89, 0.1) !important;">Góc tư vấn</span>
+          <span class="section-tag">Góc tư vấn</span>
           <h2 class="faq-editorial-title">Giải Đáp Câu Hỏi Về<br>Đại lý VinFast Tam Phong</h2>
         </div>
         <p class="faq-editorial-desc">

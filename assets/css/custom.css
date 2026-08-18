@@ -50,8 +50,6 @@ html body .ev-tech-section {
 }
 
 /* Premium Green Tech Sections (Green Background, White Text) */
-html body .privileges-section,
-html body .tradein-section,
 html body .dealer-offers-section,
 html body .faq-section {
     background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
@@ -107,10 +105,8 @@ html body .counselor-compare-title {
 }
 
 /* Dark Sections text colors */
-html body .tradein-section h2,
 html body .dealer-offers-section h2,
 html body .faq-section h2,
-html body .tradein-section h3,
 html body .dealer-offers-section h3,
 html body .faq-section h3,
 html body .faq-question {
@@ -118,7 +114,6 @@ html body .faq-question {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
 }
 
-html body .tradein-section .section-desc,
 html body .dealer-offers-section .section-desc,
 html body .faq-section .section-desc,
 html body .spotlight-desc,
@@ -126,7 +121,7 @@ html body .faq-answer {
     color: #cbd5e1 !important; /* Premium light silver for clean tech reading */
 }
 
-/* Light Green Tech Section (Catalog, EV Tech, Privileges & Why Dealer - text colors) */
+/* Light Green Tech Section (Catalog, EV Tech, Privileges, Why Dealer & Trade-in - text colors) */
 html body .catalog-section h2,
 html body .catalog-section h3,
 html body .ev-tech-section h2,
@@ -134,7 +129,9 @@ html body .ev-tech-section h3,
 html body .privileges-section h2,
 html body .privileges-section h3,
 html body .why-official-section h2,
-html body .why-official-section h3 {
+html body .why-official-section h3,
+html body .tradein-section h2,
+html body .tradein-section h3 {
     color: #059669 !important;
     text-shadow: none !important;
 }
@@ -779,6 +776,130 @@ html body .tradein-section textarea:focus {
     border-color: #10b981 !important;
     box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15) !important;
     outline: none !important;
+}
+
+/* Premium Light Porcelain & Emerald Spotlight Theme for Trade-In Section */
+html body .tradein-section {
+    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    border-bottom: none !important;
+    color: #3d564e !important;
+    position: relative !important;
+    padding: var(--space-xxl) 0 !important;
+}
+
+/* Disable the dark watermark bg image */
+html body .tradein-section::before {
+    display: none !important;
+}
+
+/* Titles and Headers */
+html body .tradein-section .section-title {
+    color: #059669 !important;
+    text-shadow: none !important;
+}
+
+html body .tradein-promo-title {
+    color: #0f172a !important;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+}
+
+html body .tradein-step-title {
+    color: #0f172a !important;
+    font-weight: 700 !important;
+}
+
+html body .tradein-step-desc {
+    color: #475569 !important;
+}
+
+html body .tradein-step-num {
+    color: #059669 !important;
+}
+
+/* Cards layout */
+html body .tradein-promo-card,
+html body .tradein-form-card {
+    background: #ffffff !important;
+    border: 1px solid #e2eeea !important;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.03) !important;
+    border-radius: 16px !important;
+    color: #3d564e !important;
+}
+
+/* Counselor Card */
+html body .tradein-concierge-card {
+    background: #f8fafc !important;
+    border: 1px solid rgba(16, 185, 129, 0.08) !important;
+}
+
+html body .tradein-concierge-name {
+    color: #0f172a !important;
+}
+
+html body .tradein-concierge-tag {
+    color: #475569 !important;
+}
+
+/* Concierge Action Buttons */
+html body .btn-tradein-action-hotline {
+    background: transparent !important;
+    border: 1.5px solid #10b981 !important;
+    color: #10b981 !important;
+    border-radius: 30px !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .btn-tradein-action-hotline:hover {
+    background: #10b981 !important;
+    color: #ffffff !important;
+}
+
+html body .btn-tradein-action-zalo {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    border: none !important;
+    color: #ffffff !important;
+    border-radius: 30px !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .btn-tradein-action-zalo:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    box-shadow: 0 6px 18px rgba(16, 185, 129, 0.25) !important;
+    transform: translateY(-1px) !important;
+}
+
+/* Submit Button */
+html body .tradein-section .tradein-form-card button[type="submit"],
+html body .tradein-section .tradein-form-card .btn-tradein-submit {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2) !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .tradein-section .tradein-form-card button[type="submit"]:hover,
+html body .tradein-section .tradein-form-card .btn-tradein-submit:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* VIP Badge Box */
+html body .tradein-badge-box {
+    background: rgba(16, 185, 129, 0.04) !important;
+    border: 1px solid rgba(16, 185, 129, 0.15) !important;
+    border-radius: 12px !important;
+    color: #475569 !important;
+}
+
+html body .tradein-badge-box svg {
+    color: #059669 !important;
+}
+
+html body .tradein-badge-text strong {
+    color: #0f172a !important;
 }
 
 /* --------------------------------------------------------------------------

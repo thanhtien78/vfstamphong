@@ -850,8 +850,18 @@ html body .btn-tradein-action-hotline {
     transition: all 0.3s ease !important;
 }
 
+html body .btn-tradein-action-hotline span,
+html body .btn-tradein-action-hotline svg {
+    color: #10b981 !important;
+}
+
 html body .btn-tradein-action-hotline:hover {
     background: #10b981 !important;
+    color: #ffffff !important;
+}
+
+html body .btn-tradein-action-hotline:hover span,
+html body .btn-tradein-action-hotline:hover svg {
     color: #ffffff !important;
 }
 

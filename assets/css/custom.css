@@ -663,14 +663,14 @@ html body .privilege-card__desc {
     flex-grow: 1 !important;
 }
 
-/* High-end Metallic Outline Buttons (Hollow to filled hover) */
+/* High-end Metallic Outline Buttons (Upgraded to premium solid green-tech gradient) */
 html body .privilege-card__link {
-    background: transparent !important;
-    border: 1.5px solid #10b981 !important;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    border: none !important;
     border-radius: 30px !important;
-    color: #10b981 !important;
-    padding: 7px 18px !important;
-    font-size: 11px !important;
+    color: #ffffff !important;
+    padding: 10px 24px !important;
+    font-size: 12px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
@@ -680,24 +680,25 @@ html body .privilege-card__link {
     gap: 6px !important;
     width: fit-content !important;
     margin-top: auto !important;
-    box-shadow: none !important;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.15) !important;
     transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 html body .privilege-card__link span {
-    color: #10b981 !important;
+    color: #ffffff !important;
     transition: color 0.3s ease !important;
 }
 
 html body .privilege-card__link svg {
-    color: #10b981 !important;
+    color: #ffffff !important;
     transition: all 0.3s ease !important;
 }
 
 html body .privilege-card__link:hover {
-    background: #10b981 !important;
-    border-color: #10b981 !important;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    border: none !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25) !important;
+    transform: translateY(-1px) !important;
 }
 
 html body .privilege-card__link:hover span {

@@ -110,7 +110,7 @@
                 <!-- Slider 2: Temp -->
                 <div class="range-slider-group-premium">
                   <div class="slider-icon-box">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: #00a3ff;">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: #10b981;">
                       <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path>
                     </svg>
                   </div>
@@ -136,7 +136,7 @@
                     <defs>
                       <linearGradient id="green-teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" stop-color="#10b981" />
-                        <stop offset="100%" stop-color="#00a3ff" />
+                        <stop offset="100%" stop-color="#059669" />
                       </linearGradient>
                     </defs>
                     <circle class="range-svg-bg" cx="100" cy="100" r="90" />

@@ -50,13 +50,7 @@ html body .ev-tech-section {
 }
 
 /* Premium Green Tech Sections (Green Background, White Text) */
-html body .faq-section {
-    background: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
-    background-image: linear-gradient(135deg, #059669 0%, #064e3b 100%) !important;
-    border-bottom: none !important;
-    color: #ffffff !important;
-    padding: var(--space-xxl) 0 !important;
-}
+/* html body .faq-section handled inline in 10_faq.php style block */
 
 
 
@@ -104,16 +98,12 @@ html body .counselor-compare-title {
 }
 
 /* Dark Sections text colors */
-html body .faq-section h2,
-html body .faq-section h3,
 html body .faq-question {
     color: #ffffff !important;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
 }
 
-html body .faq-section .section-desc,
-html body .spotlight-desc,
-html body .faq-answer {
+html body .spotlight-desc {
     color: #cbd5e1 !important; /* Premium light silver for clean tech reading */
 }
 
@@ -129,7 +119,9 @@ html body .why-official-section h3,
 html body .tradein-section h2,
 html body .tradein-section h3,
 html body .dealer-offers-section h2,
-html body .dealer-offers-section h3 {
+html body .dealer-offers-section h3,
+html body .faq-section h2,
+html body .faq-section h3 {
     color: #059669 !important;
     text-shadow: none !important;
 }
@@ -168,13 +160,14 @@ html body .faq-section .section-tag {
     border-radius: 30px !important;
 }
 
-/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in & Offers Section Tags (Champagne Gold Luxury Badge) */
+/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in, Offers & FAQ Section Tags (Champagne Gold Luxury Badge) */
 html body .catalog-section .section-tag,
 html body .ev-tech-section .section-tag,
 html body .privileges-section .section-tag,
 html body .why-official-section .section-tag,
 html body .tradein-section .section-tag,
-html body .dealer-offers-section .section-tag {
+html body .dealer-offers-section .section-tag,
+html body .faq-section .section-tag {
     background: rgba(197, 160, 89, 0.08) !important;
     color: #c5a059 !important;
     border: 1px solid rgba(197, 160, 89, 0.3) !important;
@@ -984,9 +977,7 @@ html body .counselor-compare-pulse::after {
    11. CONTRAST & LEGIBILITY OVERRIDES INSIDE DARK SECTIONS (CRITICAL FOR INVISIBILITY PREVENTION)
    -------------------------------------------------------------------------- */
 /* General typography inside Dark Blocks */
-html body .ev-tech-section,
-html body .dealer-offers-section,
-html body .faq-section {
+html body .ev-tech-section {
     color: #c8ded7 !important;
 }
 
@@ -1594,104 +1585,7 @@ html body .luxury-offer-card .btn-offer-submit:hover {
 }
 
 /* 11d. FAQ Section Legibility Fix */
-html body .faq-section .faq-trigger {
-    background: transparent !important;
-}
-html body .faq-section .faq-question-wrap {
-    color: #ffffff !important; /* Force questions to white */
-}
-html body .faq-section .faq-trigger:hover .faq-question-wrap {
-    color: #34d399 !important; /* Glowing hover question */
-}
-html body .faq-section .faq-content-inner {
-    color: #c8ded7 !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
-}
-html body .faq-section .faq-item {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border: 1px solid rgba(255, 255, 255, 0.06) !important;
-}
-html body .faq-section .faq-item--active {
-    border-color: rgba(16, 185, 129, 0.3) !important;
-    background: rgba(255, 255, 255, 0.03) !important;
-}
-html body .faq-section .faq-icon-wrap {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    color: #94a3b8 !important;
-}
-html body .faq-section .faq-item--active .faq-icon-wrap {
-    background: #10b981 !important;
-    border-color: #10b981 !important;
-    color: #ffffff !important;
-}
-html body .faq-section .faq-btn-hotline {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    color: #ffffff !important;
-}
-html body .faq-section .faq-btn-hotline:hover {
-    background: rgba(255, 255, 255, 0.1) !important;
-    border-color: rgba(255, 255, 255, 0.2) !important;
-}
-
-/* --------------------------------------------------------------------------
-   12. ABSOLUTE SECTION HEADER LEGIBILITY FOR DARK SECTIONS
-   -------------------------------------------------------------------------- */
-html body .faq-section .section-header .section-title,
-html body .faq-section .section-title {
-    color: #ffffff !important;
-    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6) !important;
-}
-
-html body .faq-section .section-header p {
-    color: #c8ded7 !important; /* Extremely clear light silver text color */
-}
-html body .faq-section .section-header .section-tag {
-    background: rgba(16, 185, 129, 0.15) !important;
-    color: #34d399 !important;
-    border: 1px solid rgba(16, 185, 129, 0.3) !important;
-}
-
-/* 11c. FAQ Section - Dynamic Balanced Spacing & Dark Telemetry Radar */
-html body .faq-split-container {
-    align-items: stretch !important; /* Force columns to stretch and align bottoms perfectly */
-}
-
-html body .faq-editorial-block {
-    height: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important;
-}
-
-html body .faq-editorial-visual {
-    background: rgba(255, 255, 255, 0.02) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
-    flex-grow: 1 !important;
-}
-
-/* Biểu đồ Radar màn hình đen - Thay thế hoàn toàn nền trắng/xanh sáng cũ */
-html body .faq-radar-container {
-    background: rgba(0, 0, 0, 0.25) !important; /* Dark telemetry monitor screen */
-    border: 1px solid rgba(16, 185, 129, 0.25) !important;
-    box-shadow: inset 0 0 20px rgba(16, 185, 129, 0.1) !important;
-}
-
-html body .faq-radar-svg {
-    height: 200px !important; /* Balanced height to align left visual column with right 6 FAQ items */
-}
-
-@media (max-width: 768px) {
-    html body .faq-radar-svg {
-        height: 140px !important;
-    }
-}
-
-html body .faq-editorial-visual .readout-label {
-    color: #34d399 !important; /* Cyberpunk electric cyan readout values */
-}
+/* 11d. FAQ Section Legibility Fix - Handled inline in 10_faq.php */
 
 /* 11d. Brand Spotlight - Luxury Light Theme Layout (White/Silver Base with Green Tech Accent) */
 html body .brand-spotlight {
@@ -2316,4 +2210,45 @@ html body .nav-menu .nav-btn-hotline:hover {
     box-shadow: 0 6px 18px rgba(239, 68, 68, 0.5) !important;
     transform: translateY(-2px) scale(1.02) !important;
 }
+
+/* ======================================================================
+   12. HYPER-LUXURY FAQ LIGHT PORCELAIN OVERRIDES
+   ====================================================================== */
+html body .faq-section {
+    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    background-image: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    color: #3d564e !important;
+}
+
+html body .faq-section .faq-editorial-title {
+    color: #059669 !important;
+}
+
+html body .faq-section .faq-editorial-desc {
+    color: #475569 !important;
+}
+
+html body .faq-section .faq-question-wrap {
+    color: #0f172a !important;
+}
+
+html body .faq-section .faq-content-inner {
+    color: #475569 !important;
+    border-top: 1px solid rgba(16, 185, 129, 0.1) !important;
+}
+
+html body .faq-section .faq-item {
+    background: rgba(255, 255, 255, 0.88) !important;
+    border: 1px solid rgba(16, 185, 129, 0.1) !important;
+}
+
+html body .faq-section .faq-item:hover {
+    border-color: #10b981 !important;
+}
+
+html body .faq-section .faq-item--active {
+    background: #ffffff !important;
+    border-color: #10b981 !important;
+}
+
 

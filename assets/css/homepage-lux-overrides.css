@@ -1911,9 +1911,7 @@ html body .floating-contact-sidebar .bg-gradient-yellow {
 }
 
 /* 7. FAQ Section - Premium Pure White base */
-.faq-section {
-  background-color: #ffffff !important;
-}
+/* 7. FAQ Section - Premium Pure White base handled in component styling */
 
 
 /* ======================================================================

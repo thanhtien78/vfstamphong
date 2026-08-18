@@ -1477,6 +1477,7 @@ html body .catalog-section .car-card:hover .car-card__media::after {
 }
 
 html body .catalog-section .car-card__badge {
+    display: inline-block !important;
     background: rgba(16, 185, 129, 0.06) !important;
     border: 1px solid rgba(16, 185, 129, 0.18) !important;
     color: #10b981 !important;
@@ -1484,19 +1485,24 @@ html body .catalog-section .car-card__badge {
     font-size: 9.5px !important;
     border-radius: 30px !important;
     padding: 4px 10px !important;
+    margin-bottom: 10px !important;
 }
 
 /* Card names & typography */
 html body .catalog-section .car-card__name {
-    font-size: 20px !important;
+    font-size: 19px !important;
     font-weight: 850 !important;
     color: #0f172a !important;
+    margin-bottom: 8px !important;
 }
 
 html body .catalog-section .car-card__desc {
     color: #475569 !important;
     font-size: 12.5px !important;
     line-height: 1.55 !important;
+    margin-bottom: 18px !important;
+    min-height: 40px !important;
+    display: block !important;
 }
 
 /* Monospace Instrument Cluster HUD Specs */
@@ -1504,11 +1510,11 @@ html body .catalog-section .car-card__specs {
     background: rgba(16, 185, 129, 0.02) !important;
     border: 1px solid rgba(16, 185, 129, 0.08) !important;
     border-radius: 12px !important;
-    padding: 12px !important;
+    padding: 14px 12px !important;
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
-    gap: 8px 0 !important;
-    margin-bottom: 20px !important;
+    gap: 10px 0 !important;
+    margin-bottom: 18px !important;
 }
 
 html body .catalog-section .car-card__spec-item {
@@ -1522,8 +1528,8 @@ html body .catalog-section .car-card__spec-item:first-child {
 
 html body .catalog-section .car-card__spec-item[style*="span 2"] {
     border-top: 1px solid rgba(16, 185, 129, 0.08) !important;
-    margin-top: 8px !important;
-    padding-top: 8px !important;
+    margin-top: 10px !important;
+    padding-top: 10px !important;
 }
 
 html body .catalog-section .car-card__spec-lbl {
@@ -1532,11 +1538,13 @@ html body .catalog-section .car-card__spec-lbl {
     color: #64748b !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
+    margin-bottom: 3px !important;
+    display: block !important;
 }
 
 html body .catalog-section .car-card__spec-val {
     font-family: 'Montserrat', sans-serif !important;
-    font-size: 13px !important;
+    font-size: 12.5px !important;
     font-weight: 800 !important;
     color: #0f172a !important;
 }

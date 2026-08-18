@@ -9,7 +9,7 @@
     <div class="offers-luxury-grid">
       
       <!-- Card 1: Hỗ trợ lệ phí trước bạ -->
-      <div class="luxury-offer-card" style="margin: 0 auto; max-width: 650px; width: 100%;">
+      <div class="luxury-offer-card">
         <div class="offer-card-header">
           <span class="offer-card-badge">CHÀO HÈ 2026</span>
           <div class="offer-card-num">01</div>
@@ -36,6 +36,41 @@
           <li>
             <span class="spec-icon">✓</span>
             <span><strong>Quy trừ trực tiếp:</strong> Khấu trừ linh hoạt trực tiếp vào giá trị hợp đồng thanh toán</span>
+          </li>
+        </ul>
+        <div class="offer-card-footer">
+          <a href="javascript:void(0);" onclick="triggerVipPopup()" class="btn-offer-submit">Đăng ký nhận ưu đãi</a>
+        </div>
+      </div>
+
+      <!-- Card 2: Đặc quyền sạc pin 1 năm -->
+      <div class="luxury-offer-card">
+        <div class="offer-card-header">
+          <span class="offer-card-badge">EV PRIVILEGE</span>
+          <div class="offer-card-num">02</div>
+        </div>
+        <h3 class="offer-card-title">Đặc quyền sạc pin 1 năm</h3>
+        
+        <!-- Hero Value Tag -->
+        <div class="offer-card-value-badge">
+          <span class="value-badge-spark">✦</span>
+          <span>MIỄN PHÍ SẠC PIN 12 THÁNG</span>
+        </div>
+
+        <p class="offer-card-desc">Miễn phí hoàn toàn chi phí sạc pin tại tất cả trạm sạc nhanh của hệ thống VinFast toàn quốc trong năm đầu tiên.</p>
+        
+        <ul class="offer-card-specs">
+          <li>
+            <span class="spec-icon">✓</span>
+            <span><strong>Trạm sạc cao cấp:</strong> Áp dụng tại trạm sạc nhanh DC 180kW/250kW cao cấp nhất</span>
+          </li>
+          <li>
+            <span class="spec-icon">✓</span>
+            <span><strong>Cứu hộ sạc 24/7:</strong> Đặc quyền cung ứng sạc điện lưu động ứng cứu khẩn cấp tận nơi</span>
+          </li>
+          <li>
+            <span class="spec-icon">✓</span>
+            <span><strong>Quản lý thông minh:</strong> Giám sát dung lượng và định vị trạm sạc qua ứng dụng</span>
           </li>
         </ul>
         <div class="offer-card-footer">

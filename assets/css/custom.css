@@ -167,16 +167,16 @@ html body .faq-section .section-tag {
     border-radius: 30px !important;
 }
 
-/* Catalog Section Tag (Light Mint-Green Tech Badge) */
+/* Catalog Section Tag (Champagne Gold Luxury Badge) */
 html body .catalog-section .section-tag {
-    background: rgba(16, 185, 129, 0.08) !important;
-    color: #059669 !important;
-    border: 1px solid rgba(16, 185, 129, 0.22) !important;
-    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.05) !important;
+    background: rgba(197, 160, 89, 0.08) !important;
+    color: #c5a059 !important;
+    border: 1px solid rgba(197, 160, 89, 0.3) !important;
+    box-shadow: 0 2px 10px rgba(197, 160, 89, 0.05) !important;
     font-size: 10px !important;
     font-weight: 750 !important;
-    letter-spacing: 2px !important;
-    padding: 6px 18px !important;
+    letter-spacing: 2.5px !important;
+    padding: 6px 20px !important;
     border-radius: 30px !important;
 }
 
@@ -1400,25 +1400,27 @@ html body .catalog-section {
     position: relative !important;
 }
 
-/* macOS System-style Filter Tabs - Translucent Tech Blue track */
+/* macOS System-style Filter Tabs - Translucent Luxury Glass slide track */
 html body .filter-tabs {
     display: inline-flex !important;
-    background: rgba(16, 185, 129, 0.03) !important;
-    border: 1px solid rgba(16, 185, 129, 0.08) !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+    border: 1px solid rgba(16, 185, 129, 0.12) !important;
     padding: 5px !important;
     border-radius: 40px !important;
     gap: 4px !important;
-    box-shadow: inset 0 2px 6px rgba(16, 185, 129, 0.02) !important;
+    box-shadow: 0 8px 30px rgba(16, 185, 129, 0.04) !important;
     margin: 0 auto 40px auto !important;
     width: fit-content !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
 }
 
 html body .filter-tab-btn {
     background: transparent !important;
     border: none !important;
-    color: #506e63 !important;
+    color: #3d564e !important;
     padding: 10px 24px !important;
-    font-size: 13px !important;
+    font-size: 13.5px !important;
     font-weight: 700 !important;
     border-radius: 30px !important;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
@@ -1429,15 +1431,16 @@ html body .filter-tab-btn {
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
-    color: #10b981 !important;
-    background: rgba(16, 185, 129, 0.04) !important;
+    color: #064e3b !important;
+    background: rgba(6, 78, 59, 0.04) !important;
 }
 
 html body .filter-tab-btn--active,
 html body .filter-tab-btn.filter-tab-btn--active {
-    background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
+    background: linear-gradient(135deg, #064e3b 0%, #043025 100%) !important;
     color: #ffffff !important;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25) !important;
+    border: 1px solid rgba(197, 160, 89, 0.35) !important; /* Elegant gold boundary accent */
+    box-shadow: 0 6px 18px rgba(6, 78, 59, 0.25) !important;
 }
 
 /* Premium Porcelain Light Car Cards */

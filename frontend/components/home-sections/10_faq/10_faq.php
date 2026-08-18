@@ -71,9 +71,9 @@
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.02); }
     }
-    .radar-sweep-line {
+    .radar-sweep-group {
       transform-origin: 100px 100px;
-      animation: radar-sweep 6s linear infinite;
+      animation: radar-sweep 5s linear infinite;
     }
     @keyframes radar-sweep {
       from { transform: rotate(0deg); }
@@ -94,6 +94,32 @@
     @keyframes radar-spin-forward {
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
+    }
+    .radar-blip {
+      animation: radar-blip-flash 2s ease-in-out infinite;
+    }
+    .radar-blip-ring {
+      animation: radar-blip-ring-expand 3s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+    }
+    .blip-green-1-ring {
+      transform-origin: 60px 80px;
+      animation-delay: 0s;
+    }
+    .blip-green-2-ring {
+      transform-origin: 140px 120px;
+      animation-delay: 1s;
+    }
+    .blip-gold-ring {
+      transform-origin: 110px 50px;
+      animation-delay: 2s;
+    }
+    @keyframes radar-blip-flash {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    @keyframes radar-blip-ring-expand {
+      0% { transform: scale(1); opacity: 0.8; }
+      100% { transform: scale(3.5); opacity: 0; }
     }
     .faq-radar-readout {
       display: flex;
@@ -197,20 +223,24 @@
       background: rgba(255, 255, 255, 0.88) !important;
       backdrop-filter: blur(10px) !important;
       -webkit-backdrop-filter: blur(10px) !important;
-      border: 1px solid rgba(16, 185, 129, 0.1) !important;
-      border-radius: 12px;
+      border: 1px solid rgba(16, 185, 129, 0.12) !important;
+      border-left: 4px solid transparent !important; /* Premium vertical indicator slot */
+      border-radius: 16px !important;
       overflow: hidden;
-      box-shadow: 0 4px 15px rgba(15, 23, 42, 0.01) !important;
-      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.01) !important;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
     }
     .faq-item:hover {
-      border-color: #10b981 !important;
-      box-shadow: 0 8px 24px rgba(16, 185, 129, 0.05) !important;
+      border-color: rgba(16, 185, 129, 0.4) !important;
+      border-left-color: rgba(16, 185, 129, 0.3) !important;
+      box-shadow: 0 10px 30px rgba(16, 185, 129, 0.04) !important;
+      transform: translateY(-2px) !important;
     }
     .faq-item--active {
       background: #ffffff !important;
-      border-color: #10b981 !important;
-      box-shadow: 0 15px 35px rgba(16, 185, 129, 0.06) !important;
+      border-color: rgba(16, 185, 129, 0.25) !important;
+      border-left: 4px solid #10b981 !important; /* Active indicator glows */
+      box-shadow: 0 20px 40px rgba(16, 185, 129, 0.06) !important;
     }
     .faq-trigger {
       width: 100%;
@@ -235,14 +265,16 @@
       font-family: 'Montserrat', sans-serif;
     }
     .faq-num-badge {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Montserrat', sans-serif !important;
       color: #059669 !important;
-      font-size: 12px;
-      font-weight: 800;
-      background: rgba(16, 185, 129, 0.06) !important;
+      font-size: 11px !important;
+      font-weight: 850 !important;
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(52, 211, 153, 0.03) 100%) !important;
       border: 1px solid rgba(16, 185, 129, 0.2) !important;
-      padding: 3px 8px;
-      border-radius: 6px;
+      padding: 4px 10px !important;
+      border-radius: 8px !important;
+      letter-spacing: 0.5px !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
     }
     .faq-icon-wrap {
       display: flex;
@@ -342,19 +374,44 @@
           <!-- Animated Futuristic Radar Scanner -->
           <div class="faq-radar-container">
             <svg class="faq-radar-svg" viewBox="0 0 200 200" width="100%">
+              <defs>
+                <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#10b981" stop-opacity="0.3" />
+                  <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+                </radialGradient>
+                <linearGradient id="radarSweepGradient" x1="1" y1="0.5" x2="0" y2="0.5">
+                  <stop offset="0%" stop-color="#10b981" stop-opacity="0.45" />
+                  <stop offset="50%" stop-color="#10b981" stop-opacity="0.12" />
+                  <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              
               <!-- Grid background -->
               <line x1="0" y1="100" x2="200" y2="100" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" />
               <line x1="100" y1="0" x2="100" y2="200" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" />
               
-              <!-- Rotating concentric rings -->
-              <circle cx="100" cy="100" r="80" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1" fill="none" />
-              <circle class="radar-orbit-1" cx="100" cy="100" r="65" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" stroke-dasharray="4 8" fill="none" />
-              <circle class="radar-orbit-2" cx="100" cy="100" r="45" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" stroke-dasharray="12 6" fill="none" />
-              <circle cx="100" cy="100" r="25" stroke="rgba(16, 185, 129, 0.2)" stroke-width="1" fill="none" />
+              <!-- Concentric circles -->
+              <circle cx="100" cy="100" r="80" stroke="rgba(16, 185, 129, 0.12)" stroke-width="1" fill="none" />
+              <circle class="radar-orbit-1" cx="100" cy="100" r="65" stroke="rgba(16, 185, 129, 0.2)" stroke-width="1" stroke-dasharray="4 8" fill="none" />
+              <circle class="radar-orbit-2" cx="100" cy="100" r="45" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" stroke-dasharray="12 6" fill="none" />
+              <circle cx="100" cy="100" r="25" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1" fill="none" />
               
-              <!-- Pulsing scanning radar line -->
-              <line class="radar-sweep-line" x1="100" y1="100" x2="100" y2="20" stroke="#10b981" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+              <!-- Glowing scanning radar beam (fading sweep) -->
+              <g class="radar-sweep-group">
+                <path d="M100,100 L100,20 A80,80 0 0,1 156.56,43.43 Z" fill="url(#radarSweepGradient)" opacity="0.4" />
+                <line x1="100" y1="100" x2="100" y2="20" stroke="#10b981" stroke-width="2" stroke-linecap="round" />
+              </g>
               
+              <!-- Animated coordinates/blips -->
+              <circle class="radar-blip blip-green-1" cx="60" cy="80" r="2.5" fill="#10b981" />
+              <circle class="radar-blip-ring blip-green-1-ring" cx="60" cy="80" r="2.5" fill="none" stroke="#10b981" stroke-width="0.5" />
+              
+              <circle class="radar-blip blip-green-2" cx="140" cy="120" r="2.5" fill="#10b981" />
+              <circle class="radar-blip-ring blip-green-2-ring" cx="140" cy="120" r="2.5" fill="none" stroke="#10b981" stroke-width="0.5" />
+              
+              <circle class="radar-blip blip-gold" cx="110" cy="50" r="2.5" fill="#c5a059" />
+              <circle class="radar-blip-ring blip-gold-ring" cx="110" cy="50" r="2.5" fill="none" stroke="#c5a059" stroke-width="0.5" />
+
               <!-- Core pulsing glowing dot -->
               <circle class="radar-core-glow" cx="100" cy="100" r="5" fill="#10b981" />
             </svg>

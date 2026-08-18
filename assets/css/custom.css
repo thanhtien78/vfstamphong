@@ -1365,12 +1365,12 @@ html body .ev-tech-section .compare-subtitle {
 
 /* 11c. Exclusive Offers Section - Light Porcelain White & Emerald Spotlight Theme */
 html body .dealer-offers-section {
-    background: radial-gradient(circle at 50% 20%, #ecfdf5 0%, #ffffff 80%) !important;
+    background: radial-gradient(circle at 50% 30%, #d1fae5 0%, #f0fdf4 60%, #ffffff 100%) !important;
     color: #3d564e !important;
 }
 
 html body .dealer-offers-section .offers-stage-overlay {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.94) 0%, rgba(244, 253, 249, 0.90) 100%) !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.90) 0%, rgba(244, 253, 249, 0.85) 100%) !important;
 }
 
 html body .dealer-offers-section .section-header .section-title,
@@ -1398,9 +1398,11 @@ html body .offers-luxury-grid {
 
 /* Luxury Offer Card */
 html body .luxury-offer-card {
-    background: #ffffff !important;
+    background: rgba(255, 255, 255, 0.88) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
     border: 1px solid rgba(16, 185, 129, 0.12) !important;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.02) !important;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.02) !important;
     border-radius: 20px !important;
     padding: 35px !important;
     display: flex !important;
@@ -1411,8 +1413,9 @@ html body .luxury-offer-card {
 }
 
 html body .luxury-offer-card:hover {
+    background: #ffffff !important;
     border-color: #10b981 !important;
-    box-shadow: 0 20px 45px rgba(16, 185, 129, 0.08) !important;
+    box-shadow: 0 25px 50px rgba(16, 185, 129, 0.08) !important;
     transform: translateY(-6px) !important;
 }
 

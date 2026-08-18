@@ -71,8 +71,8 @@ try {
     }
     @media (min-width: 992px) {
       .footer-grid {
-        grid-template-columns: 1.4fr 1fr 1fr 1.1fr 1.2fr !important; /* Specific balanced track widths */
-        gap: 25px !important;
+        grid-template-columns: 1.8fr 0.8fr 0.8fr 1.1fr 1.8fr !important; /* Luxury balanced column tracks */
+        gap: 40px !important; /* Elegant breathing room */
       }
     }
     .premium-footer .logo-link {

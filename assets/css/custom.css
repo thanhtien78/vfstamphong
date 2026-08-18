@@ -1066,7 +1066,13 @@ html body .ev-tech-section .roi-select option {
 html body .ev-tech-section .station-list-panel {
     background: rgba(255, 255, 255, 0.96) !important;
     border-color: rgba(16, 185, 129, 0.12) !important;
+    border-left: 1px solid rgba(16, 185, 129, 0.12) !important;
     box-shadow: -10px 0 30px rgba(15, 23, 42, 0.06) !important;
+}
+
+html body .ev-tech-section .station-list-panel > div:first-child {
+    background: #f8fafc !important;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.12) !important;
 }
 
 html body .ev-tech-section .station-list-panel h4 {
@@ -1076,6 +1082,27 @@ html body .ev-tech-section .station-list-panel h4 {
 html body .ev-tech-section .station-list-panel p,
 html body .ev-tech-section .station-count-lbl {
     color: #475569 !important;
+}
+
+/* Charging Stats styling overrides */
+html body .ev-tech-section .charging-stats {
+    border-top: 1px dashed rgba(16, 185, 129, 0.2) !important;
+}
+
+html body .ev-tech-section .charging-stats .stat-item span:first-child {
+    color: #475569 !important;
+}
+
+html body .ev-tech-section .charging-stats #stat-online {
+    color: #10b981 !important;
+}
+
+html body .ev-tech-section .charging-stats #stat-available {
+    color: #10b981 !important;
+}
+
+html body .ev-tech-section .charging-stats .stat-item:last-child span:last-child {
+    color: #c5a059 !important;
 }
 /* Force high contrast light colors on station cards (override any inline style caches) */
 html body .ev-tech-section .station-card {

@@ -1610,22 +1610,53 @@ html body .catalog-section .car-card__price-lbl {
     margin: 0 !important;
 }
 
-html body .catalog-section .car-card__price-val,
-html body .catalog-section .car-card__price-val .price-main-num {
-    color: #10b981 !important;
-    font-family: 'Montserrat', sans-serif !important;
-    margin: 0 !important;
+html body .catalog-section .price-row-main {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
 }
 
-html body .catalog-section .car-card__price-val .price-main-num {
+html body .catalog-section .price-main-num {
     font-weight: 750 !important;
     font-size: 16px !important;
+    color: #10b981 !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
-html body .catalog-section .car-card__price-val .price-sub-note {
+html body .catalog-section .price-badge-rent {
+    font-size: 9.5px !important;
+    font-weight: 750 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    border: 1px solid rgba(16, 185, 129, 0.25) !important;
+    color: #059669 !important;
+    padding: 2px 8px !important;
+    border-radius: 20px !important;
+    line-height: 1 !important;
+}
+
+html body .catalog-section .price-row-sub {
     font-size: 11.5px !important;
     font-weight: 500 !important;
+    color: #64748b !important;
+    margin-top: 2px !important;
+}
+
+html body .catalog-section .price-buy-lbl {
+    color: #64748b !important;
+}
+
+html body .catalog-section .price-buy-val {
     color: #475569 !important;
+    font-weight: 650 !important;
+}
+
+html body .catalog-section .price-info-note {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    font-style: italic !important;
 }
 
 /* Mobile responsive fixes */

@@ -95,20 +95,49 @@
 
               <?php
                 $priceRaw = !empty($c['price']) ? trim($c['price']) : 'Liên hệ';
+                $formattedPriceHtml = '';
+                
                 if ($priceRaw === 'Liên hệ') {
-                    $formattedPriceHtml = '<span class="price-main-num">Liên hệ</span>';
-                } elseif (strpos($priceRaw, '/') !== false) {
-                    $parts = explode('/', $priceRaw);
-                    $mainPrice = trim($parts[0]);
-                    $subNote = '/ ' . trim($parts[1]);
-                    $formattedPriceHtml = '<span class="price-main-num">' . htmlspecialchars($mainPrice) . '</span><span class="price-sub-note">' . htmlspecialchars($subNote) . '</span>';
+                    $formattedPriceHtml = '<div class="price-row-main"><span class="price-main-num">Liên hệ</span></div>';
                 } else {
-                    $formattedPriceHtml = '<span class="price-main-num">' . htmlspecialchars($priceRaw) . '</span>';
+                    if (strpos($priceRaw, '/') !== false) {
+                        $parts = explode('/', $priceRaw);
+                        $rentPart = trim($parts[0]);
+                        $buyPart = trim($parts[1]);
+                        
+                        $rentText = trim(str_replace('(Thuê pin)', '', $rentPart));
+                        $formattedPriceHtml = '<div class="price-row-main"><span class="price-main-num">' . htmlspecialchars($rentText) . '</span> <span class="price-badge-rent">Thuê pin</span></div>';
+                        
+                        $buyText = trim(str_replace('(Mua pin)', '', $buyPart));
+                        if (strpos($buyText, 'Từ') === false) {
+                            $buyText = 'Từ ' . $buyText;
+                        }
+                        $formattedPriceHtml .= '<div class="price-row-sub"><span class="price-buy-lbl">Mua đứt pin:</span> <span class="price-buy-val">' . htmlspecialchars($buyText) . '</span></div>';
+                    } else {
+                        $mainText = $priceRaw;
+                        $subNoteText = '';
+                        
+                        if (strpos($priceRaw, '(Đã kèm pin)') !== false) {
+                            $mainText = trim(str_replace('(Đã kèm pin)', '', $priceRaw));
+                            $subNoteText = 'Đã bao gồm pin';
+                        } elseif (strpos($priceRaw, '(Thuê pin)') !== false) {
+                            $mainText = trim(str_replace('(Thuê pin)', '', $priceRaw));
+                            $subNoteText = 'Gói thuê pin';
+                        } elseif (strpos($priceRaw, '(Kèm ưu đãi sạc)') !== false) {
+                            $mainText = trim(str_replace('(Kèm ưu đãi sạc)', '', $priceRaw));
+                            $subNoteText = 'Đã kèm ưu đãi sạc';
+                        }
+                        
+                        $formattedPriceHtml = '<div class="price-row-main"><span class="price-main-num">' . htmlspecialchars($mainText) . '</span></div>';
+                        if ($subNoteText) {
+                            $formattedPriceHtml .= '<div class="price-row-sub"><span class="price-info-note">* ' . htmlspecialchars($subNoteText) . '</span></div>';
+                        }
+                    }
                 }
               ?>
               <div class="car-card__price-box">
                 <span class="car-card__price-lbl">Giá khởi điểm</span>
-                <div class="car-card__price-val"><?php echo $formattedPriceHtml; ?></div>
+                <div class="car-card__price-val-container"><?php echo $formattedPriceHtml; ?></div>
               </div>
 
               <div class="car-card__footer">

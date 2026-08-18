@@ -2251,4 +2251,48 @@ html body .faq-section .faq-item--active {
     border-color: #10b981 !important;
 }
 
+/* FAQ Section buttons synchronization overrides */
+html body .faq-section .faq-btn-hotline {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 4px 15px -3px rgba(16, 185, 129, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+html body .faq-section .faq-btn-hotline:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px -3px rgba(16, 185, 129, 0.5), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+    color: #ffffff !important;
+}
+
+html body .faq-section .faq-btn-hotline svg {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+html body .faq-section .faq-btn-zalo {
+    background: linear-gradient(135deg, #0066ff 0%, #0099ff 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 4px 15px -3px rgba(0, 102, 255, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+html body .faq-section .faq-btn-zalo:hover {
+    background: linear-gradient(135deg, #059669 0%, #0088ff 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px -3px rgba(0, 102, 255, 0.5), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+    color: #ffffff !important;
+}
+
+html body .faq-section .faq-btn-zalo svg {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+
 

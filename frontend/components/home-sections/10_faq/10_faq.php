@@ -164,25 +164,26 @@
       font-family: 'Montserrat', sans-serif;
     }
     .faq-btn-hotline {
-      background: rgba(16, 185, 129, 0.05);
-      color: #059669;
-      border: 1px solid rgba(16, 185, 129, 0.25);
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+      color: #ffffff !important;
+      border: none !important;
+      box-shadow: 0 4px 15px -3px rgba(16, 185, 129, 0.3) !important;
     }
     .faq-btn-hotline:hover {
-      background: rgba(16, 185, 129, 0.1);
-      border-color: #059669;
-      transform: translateY(-2px);
+      background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 8px 20px -3px rgba(16, 185, 129, 0.5) !important;
     }
     .faq-btn-zalo {
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
-      color: #ffffff;
+      background: linear-gradient(135deg, #0066ff 0%, #0099ff 100%) !important;
+      color: #ffffff !important;
       border: none !important;
-      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
+      box-shadow: 0 4px 15px -3px rgba(0, 102, 255, 0.3) !important;
     }
     .faq-btn-zalo:hover {
-      background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
-      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.25) !important;
-      transform: translateY(-2px);
+      background: linear-gradient(135deg, #059669 0%, #0088ff 100%) !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 8px 20px -3px rgba(0, 102, 255, 0.5) !important;
     }
     
     /* FAQ Accordion list style */

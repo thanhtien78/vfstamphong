@@ -59,8 +59,8 @@ try {
   <style>
     /* PREMIUM FOOTER DARK MODERNIZE UPGRADES (Cohesive Brand Identity) */
     .premium-footer {
-      background: #090e1a !important; /* Premium deep dark slate-black matching header */
-      border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+      background: #059669 !important; /* Solid emerald green matching header */
+      border-top: 1px solid #047857 !important;
       padding: 60px 0 40px 0 !important;
     }
     .footer-grid {
@@ -89,10 +89,11 @@ try {
       color: #34d399 !important; /* Brand Blue glow on hover */
     }
     .footer-tagline {
-      color: #94a3b8 !important; /* Muted tech gray */
+      color: #ffffff !important; /* Pure white */
       font-size: 13px !important;
       line-height: 1.65 !important;
       margin-top: 12px !important;
+      font-weight: 550 !important;
     }
     .footer-socials {
       margin-top: 20px !important;
@@ -100,9 +101,9 @@ try {
       gap: 12px !important;
     }
     .social-icon-link {
-      background: rgba(255, 255, 255, 0.04) !important;
-      color: #cbd5e1 !important;
-      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      background: rgba(255, 255, 255, 0.1) !important;
+      color: #ffffff !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
       width: 36px !important;
       height: 36px !important;
       border-radius: 50% !important;
@@ -112,11 +113,11 @@ try {
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
     }
     .social-icon-link:hover {
-      background: #34d399 !important;
-      color: #ffffff !important;
-      border-color: #34d399 !important;
+      background: #ffffff !important;
+      color: #059669 !important;
+      border-color: #ffffff !important;
       transform: translateY(-3px) !important;
-      box-shadow: 0 5px 15px rgba(52, 211, 153, 0.3) !important;
+      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3) !important;
     }
     .footer-heading {
       color: #ffffff !important;
@@ -136,7 +137,7 @@ try {
       bottom: 0 !important;
       width: 35px !important;
       height: 2px !important;
-      background: #34d399 !important; /* Brand Blue bottom accent line */
+      background: #ffffff !important; /* Pure white bottom accent line */
     }
     .footer-links-list {
       list-style: none !important;
@@ -147,15 +148,17 @@ try {
       gap: 12px !important;
     }
     .footer-link-item a {
-      color: #94a3b8 !important;
+      color: #ffffff !important;
       font-size: 13.5px !important;
       text-decoration: none !important;
       transition: all 0.25s ease !important;
       display: inline-block !important;
+      font-weight: 550 !important;
     }
     .footer-link-item a:hover {
-      color: #34d399 !important;
+      color: #a7f3d0 !important;
       transform: translateX(4px) !important;
+      text-decoration: underline !important;
     }
     .footer-contact-info {
       display: flex !important;
@@ -166,18 +169,19 @@ try {
       display: flex !important;
       gap: 12px !important;
       align-items: flex-start !important;
-      color: #cbd5e1 !important;
+      color: #ffffff !important;
       font-size: 13px !important;
       line-height: 1.55 !important;
+      font-weight: 550 !important;
     }
     .contact-info-item svg {
-      color: #34d399 !important; /* Brand Blue icons */
+      color: #ffffff !important; /* Pure white icons */
       flex-shrink: 0 !important;
       margin-top: 3px !important;
     }
     .footer-divider {
       border: 0 !important;
-      border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
       margin: 40px 0 30px 0 !important;
     }
     .footer-bottom-wrap {
@@ -188,9 +192,10 @@ try {
       gap: 20px !important;
     }
     .footer-copyright {
-      color: #64748b !important;
+      color: #ffffff !important;
       font-size: 12px !important;
       line-height: 1.65 !important;
+      font-weight: 550 !important;
     }
     .footer-legal-links {
       list-style: none !important;
@@ -200,13 +205,14 @@ try {
       gap: 20px !important;
     }
     .footer-legal-links a {
-      color: #64748b !important;
+      color: #ffffff !important;
       font-size: 12px !important;
       text-decoration: none !important;
       transition: all 0.25s ease !important;
+      font-weight: 550 !important;
     }
     .footer-legal-links a:hover {
-      color: #34d399 !important;
+      color: #a7f3d0 !important;
     }
     @media (max-width: 768px) {
       .footer-bottom-wrap {

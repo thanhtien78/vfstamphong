@@ -553,12 +553,12 @@ $menuItems = [
 
     /* Scrolled States (Solid Dark Backgrounds for Perfect Contrast over white content) */
     .premium-header.scrolled {
-      background: #070f1e !important; /* Solid dark Slate-Navy */
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+      background: #059669 !important;
+      box-shadow: 0 4px 20px rgba(4, 120, 87, 0.25) !important;
+      border-bottom: 1px solid #047857 !important;
     }
     .live-ticker-container.scrolled {
-      background: #0b1528 !important; /* Solid dark Slate-Blue matching bottom header */
+      background: #047857 !important;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
       border-bottom: 2px solid rgba(52, 211, 153, 0.2) !important;
     }
@@ -797,12 +797,12 @@ $menuItems = [
 
     /* Scrolled States (Solid Dark Backgrounds for Perfect Contrast over white content) */
     .premium-header.scrolled {
-      background: #070f1e !important; /* Solid dark Slate-Navy */
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+      background: #059669 !important;
+      box-shadow: 0 4px 20px rgba(4, 120, 87, 0.25) !important;
+      border-bottom: 1px solid #047857 !important;
     }
     .live-ticker-container.scrolled {
-      background: #0b1528 !important; /* Solid dark Slate-Blue matching bottom header */
+      background: #047857 !important;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
       border-bottom: 2px solid rgba(52, 211, 153, 0.2) !important;
     }

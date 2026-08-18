@@ -1160,6 +1160,28 @@ html body .ev-tech-section .map-pin.active {
     border-width: 3px !important;
 }
 
+/* Remove the dark chassis watermark image to ensure pure white porcelain background and perfect legibility */
+html body .ev-tech-section::before {
+    display: none !important;
+}
+
+/* Redesign Section Header for EV Tech Section to maximize luxury typography */
+html body .ev-tech-section .section-title {
+    font-size: 32px !important;
+    font-weight: 850 !important;
+    letter-spacing: -0.5px !important;
+    color: #064e3b !important;
+    margin-top: 12px !important;
+}
+
+html body .ev-tech-section .compare-subtitle {
+    font-size: 14.5px !important;
+    line-height: 1.65 !important;
+    color: #3d564e !important;
+    max-width: 750px !important;
+    margin: 12px auto 0 auto !important;
+}
+
 /* 11c. Exclusive Offers Section */
 html body .dealer-offers-section .offers-stage-tab {
     background: transparent !important;

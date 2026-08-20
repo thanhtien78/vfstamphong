@@ -1916,8 +1916,17 @@ html body .filter-tabs {
     box-shadow: 0 8px 30px rgba(16, 185, 129, 0.04) !important;
     margin: 0 auto 40px auto !important;
     width: fit-content !important;
+    max-width: 100% !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important; /* Firefox */
+    -ms-overflow-style: none !important;  /* IE/Edge */
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
+}
+
+html body .filter-tabs::-webkit-scrollbar {
+    display: none !important; /* Safari and Chrome */
 }
 
 html body .filter-tab-btn {
@@ -1933,6 +1942,7 @@ html body .filter-tab-btn {
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
     font-family: 'Montserrat', sans-serif !important;
+    white-space: nowrap !important;
 }
 
 html body .filter-tab-btn:hover:not(.filter-tab-btn--active) {
@@ -2194,7 +2204,10 @@ html body .catalog-section .price-info-note {
     html body .filter-tabs {
         display: flex !important;
         width: 100% !important;
+        justify-content: flex-start !important;
         margin-bottom: 20px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
     html body .car-card__media {
         height: 120px !important;

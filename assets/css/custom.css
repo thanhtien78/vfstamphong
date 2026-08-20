@@ -8,6 +8,8 @@
    -------------------------------------------------------------------------- */
 :root {
     --space-xxl: 32px; /* Tighter spacing between sections on desktop (originally 45px) */
+    --color-ev-gold: #10b981 !important; /* Eliminate EV gold to Green */
+    --color-gold: #10b981 !important; /* Eliminate Trade-in/Radar gold to Green */
 }
 
 @media (max-width: 768px) {
@@ -318,17 +320,17 @@ html body .faq-section .section-tag {
     border-radius: 30px !important;
 }
 
-/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in & Offers Section Tags (Champagne Gold Luxury Badge) */
+/* Catalog, EV Tech, Privileges, Why Dealer, Trade-in & Offers Section Tags (Emerald Green Technology Badge) */
 html body .catalog-section .section-tag,
 html body .ev-tech-section .section-tag,
 html body .privileges-section .section-tag,
 html body .why-official-section .section-tag,
 html body .tradein-section .section-tag,
 html body .dealer-offers-section .section-tag {
-    background: rgba(197, 160, 89, 0.08) !important;
-    color: #c5a059 !important;
-    border: 1px solid rgba(197, 160, 89, 0.3) !important;
-    box-shadow: 0 2px 10px rgba(197, 160, 89, 0.05) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #10b981 !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
+    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.05) !important;
     font-size: 10px !important;
     font-weight: 750 !important;
     letter-spacing: 2.5px !important;
@@ -1437,7 +1439,7 @@ html body .ev-tech-section .charging-stats #stat-available {
 }
 
 html body .ev-tech-section .charging-stats .stat-item:last-child span:last-child {
-    color: #c5a059 !important;
+    color: #10b981 !important;
 }
 /* Force high contrast light colors on station cards (override any inline style caches) */
 html body .ev-tech-section .station-card {
@@ -1606,12 +1608,12 @@ html body .luxury-offer-card .offer-card-header {
     position: relative !important;
 }
 
-/* Champagne Gold Luxury Badge */
+/* Emerald Green Luxury Badge */
 html body .luxury-offer-card .offer-card-badge {
-    background: rgba(197, 160, 89, 0.08) !important;
-    color: #c5a059 !important;
-    border: 1px solid rgba(197, 160, 89, 0.3) !important;
-    box-shadow: 0 2px 10px rgba(197, 160, 89, 0.05) !important;
+    background: rgba(16, 185, 129, 0.08) !important;
+    color: #10b981 !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
+    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.05) !important;
     font-size: 10px !important;
     font-weight: 750 !important;
     letter-spacing: 2px !important;
@@ -1648,9 +1650,9 @@ html body .luxury-offer-card .offer-card-title {
 
 /* Luxury Value Badge */
 html body .luxury-offer-card .offer-card-value-badge {
-    background: linear-gradient(135deg, rgba(197, 160, 89, 0.06) 0%, rgba(197, 160, 89, 0.01) 100%) !important;
-    border: 1px solid rgba(197, 160, 89, 0.18) !important;
-    color: #c5a059 !important;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.06) 0%, rgba(16, 185, 129, 0.01) 100%) !important;
+    border: 1px solid rgba(16, 185, 129, 0.18) !important;
+    color: #10b981 !important;
     padding: 8px 14px !important;
     border-radius: 6px !important;
     font-size: 11.5px !important;
@@ -1667,7 +1669,7 @@ html body .luxury-offer-card .offer-card-value-badge {
 }
 
 html body .luxury-offer-card .value-badge-spark {
-    color: #c5a059 !important;
+    color: #10b981 !important;
     font-size: 12px !important;
     animation: pulse 2s infinite !important;
 }
@@ -1718,7 +1720,7 @@ html body .luxury-offer-card .offer-card-specs li:hover {
 
 /* Bullet icon */
 html body .luxury-offer-card .offer-card-specs .spec-icon {
-    color: #c5a059 !important;
+    color: #10b981 !important;
     font-weight: 900 !important;
     font-size: 13px !important;
     flex-shrink: 0 !important;
@@ -2317,18 +2319,18 @@ html body .btn-admin-nav:hover {
                 inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
 }
 
-/* Premium Gold Accent for compare button and special visual cues */
+/* Premium Emerald Green Accent for compare button and special visual cues */
 html body .btn-compare-pulse {
-    background: linear-gradient(135deg, #b45309 0%, #d97706 50%, #f59e0b 100%) !important;
-    border: 1px solid rgba(251, 191, 36, 0.5) !important;
-    box-shadow: 0 6px 18px -4px rgba(217, 119, 6, 0.45), 
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    border: 1px solid rgba(16, 185, 129, 0.5) !important;
+    box-shadow: 0 6px 18px -4px rgba(16, 185, 129, 0.45), 
                 inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
 }
 
 html body .btn-compare-pulse:hover {
-    background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #fbbf24 100%) !important;
-    border-color: rgba(251, 191, 36, 0.8) !important;
-    box-shadow: 0 10px 25px -4px rgba(217, 119, 6, 0.65), 
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    border-color: rgba(16, 185, 129, 0.8) !important;
+    box-shadow: 0 10px 25px -4px rgba(16, 185, 129, 0.65), 
                 inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
     transform: translateY(-2px) !important;
 }
@@ -2467,7 +2469,7 @@ html body .faq-section .faq-btn-hotline * {
     color: #ffffff !important;
     stroke: #ffffff !important;
 }
-/* Luxury Section Divider Line with Glowing Emerald/Gold Gem */
+/* Luxury Section Divider Line with Glowing Emerald/Mint Gem */
 html body .luxury-section-divider {
     height: 1px !important;
     width: 100% !important;
@@ -2475,7 +2477,7 @@ html body .luxury-section-divider {
         to right, 
         transparent 0%, 
         rgba(16, 185, 129, 0.08) 15%, 
-        rgba(197, 160, 89, 0.35) 50%, 
+        rgba(16, 185, 129, 0.35) 50%, 
         rgba(16, 185, 129, 0.08) 85%, 
         transparent 100%
     ) !important;
@@ -2495,7 +2497,7 @@ html body .luxury-section-divider::after {
     transform: translate(-50%, -50%) rotate(45deg) !important;
     width: 5px !important;
     height: 5px !important;
-    background: #c5a059 !important; /* Champagne gold center */
+    background: #10b981 !important; /* Emerald green center */
     box-shadow: 0 0 6px rgba(16, 185, 129, 0.8) !important; /* Subtle emerald green glow */
     border-radius: 1px !important;
 }

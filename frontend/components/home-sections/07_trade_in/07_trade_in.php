@@ -76,7 +76,7 @@
           </div>
 
           <div class="tradein-badge-box">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" style="color: var(--color-gold); flex-shrink: 0; margin-top: 2px;">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" style="color: var(--color-primary); flex-shrink: 0; margin-top: 2px;">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
             </svg>
             <div class="tradein-badge-text">
@@ -108,7 +108,7 @@
               <input type="text" name="website_url" style="display:none;" tabindex="-1" autocomplete="off">
               
               <div style="display: grid; grid-template-columns: 1fr; gap: 20px;">
-                <h3 style="color: var(--color-gold); font-size: 15px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid var(--color-border); padding-bottom: 8px;">1. Thông tin xe cũ của anh/chị</h3>
+                <h3 style="color: var(--color-primary); font-size: 15px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid var(--color-border); padding-bottom: 8px;">1. Thông tin xe cũ của anh/chị</h3>
                 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
                   <div class="calc-group">
@@ -194,7 +194,7 @@
               <div id="valuation-live-card" class="valuation-live-panel" style="display: none; margin-top: 8px; margin-bottom: 4px;">
                 <div class="val-pulse-indicator"></div>
                 <div style="display: flex; flex-direction: column; gap: 4px; text-align: left;">
-                  <div style="font-size: 11px; text-transform: uppercase; color: var(--color-gold); font-weight: 700; letter-spacing: 1px;">
+                  <div style="font-size: 11px; text-transform: uppercase; color: var(--color-primary); font-weight: 700; letter-spacing: 1px;">
                     Ước tính trợ giá lên đời đặc quyền (Live)
                   </div>
                   <div id="valuation-estimated-text" style="font-size: 13px; color: #fff; font-weight: 400; line-height: 1.5;">
@@ -204,7 +204,7 @@
               </div>
 
               <div style="display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 10px;">
-                <h3 style="color: var(--color-gold); font-size: 15px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid var(--color-border); padding-bottom: 8px;">2. Thông tin liên hệ của anh/chị</h3>
+                <h3 style="color: var(--color-primary); font-size: 15px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid var(--color-border); padding-bottom: 8px;">2. Thông tin liên hệ của anh/chị</h3>
                 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
                   <div class="calc-group">

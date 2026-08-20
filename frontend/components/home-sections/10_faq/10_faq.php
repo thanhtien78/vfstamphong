@@ -109,7 +109,7 @@
       transform-origin: 140px 120px;
       animation-delay: 1s;
     }
-    .blip-gold-ring {
+    .blip-green-3-ring {
       transform-origin: 110px 50px;
       animation-delay: 2s;
     }
@@ -409,8 +409,8 @@
               <circle class="radar-blip blip-green-2" cx="140" cy="120" r="2.5" fill="#10b981" />
               <circle class="radar-blip-ring blip-green-2-ring" cx="140" cy="120" r="2.5" fill="none" stroke="#10b981" stroke-width="0.5" />
               
-              <circle class="radar-blip blip-gold" cx="110" cy="50" r="2.5" fill="#c5a059" />
-              <circle class="radar-blip-ring blip-gold-ring" cx="110" cy="50" r="2.5" fill="none" stroke="#c5a059" stroke-width="0.5" />
+              <circle class="radar-blip blip-green-3" cx="110" cy="50" r="2.5" fill="#10b981" />
+              <circle class="radar-blip-ring blip-green-3-ring" cx="110" cy="50" r="2.5" fill="none" stroke="#10b981" stroke-width="0.5" />
 
               <!-- Core pulsing glowing dot -->
               <circle class="radar-core-glow" cx="100" cy="100" r="5" fill="#10b981" />

@@ -236,9 +236,9 @@
                 <span class="roi-breakdown-label">Chi phí xe điện (Sạc + Thuê pin)</span>
                 <span class="roi-breakdown-value" id="roi-ev-cost-val">1,533,000 VND</span>
               </div>
-              <div class="roi-breakdown-row" style="border-top: 1px dashed #cbd5e1; padding-top: 12px; font-weight: 700; color: var(--color-ev-gold);">
-                <span class="roi-breakdown-label" style="color: var(--color-ev-gold);">Tiết kiệm ròng hàng năm</span>
-                <span class="roi-breakdown-value" id="roi-savings-annual-val" style="color: var(--color-ev-gold);">15,000,000 VND</span>
+              <div class="roi-breakdown-row" style="border-top: 1px dashed #cbd5e1; padding-top: 12px; font-weight: 700; color: var(--color-primary);">
+                <span class="roi-breakdown-label" style="color: var(--color-primary);">Tiết kiệm ròng hàng năm</span>
+                <span class="roi-breakdown-value" id="roi-savings-annual-val" style="color: var(--color-primary);">15,000,000 VND</span>
               </div>
             </div>
 
@@ -461,7 +461,7 @@
               </div>
               <div class="stat-item" style="display: flex; justify-content: space-between; align-items: center;">
                 <span style="font-size: 13px; color: #94a3b8;">Hiệu suất hoạt động:</span>
-                <span style="font-size: 14px; font-weight: 700; color: var(--color-ev-gold);">98.8%</span>
+                <span style="font-size: 14px; font-weight: 700; color: var(--color-primary);">98.8%</span>
               </div>
             </div>
           </div>
@@ -783,8 +783,8 @@
           effItem.style.borderColor = '#10b981';
           effVal.style.color = '#10b981';
         } else if (effPercent >= 80) {
-          effItem.style.borderColor = '#f59e0b';
-          effVal.style.color = '#f59e0b';
+          effItem.style.borderColor = '#06b6d4';
+          effVal.style.color = '#06b6d4';
         } else {
           effItem.style.borderColor = '#ef4444';
           effVal.style.color = '#ef4444';

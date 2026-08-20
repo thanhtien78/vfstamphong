@@ -2566,3 +2566,23 @@ html body .floating-contact-sidebar .sidebar-item:hover .icon-circle {
     transform: scale(1.08) !important;
 }
 
+/* Color synchronization for headings on subpages to match the theme green */
+html body.page-about .section-title,
+html body.page-about .about-intro-heading,
+html body.page-cars .section-title,
+html body.page-installment .section-title,
+html body.page-news .section-title,
+html body.page-news-detail .section-title,
+html body.page-pricelist .section-title,
+html body.page-car-detail .section-title,
+html body.page-car-detail .ev-calc-title,
+html body.page-car-detail .booking-title,
+html body.page-car-detail .faq-section-official h2,
+html body.page-pricelist .invoice-title,
+html body.page-installment .schedule-title,
+html body.page-pricelist .seo-article h2,
+html body.page-installment .seo-article h2,
+html body.page-local-seo .section-title {
+    color: #059669 !important; /* Theme Green brand color instead of black */
+}
+

@@ -583,7 +583,7 @@
     <div class="container" style="max-width: 900px; text-align: center;">
       <!-- Header block -->
       <span class="section-tag" style="display: inline-block;">Tư vấn trực tiếp</span>
-      <h2 class="section-title" style="font-size: 28px; color: var(--color-text-main); margin-top: 12px; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">Kết Nối Trực Tuyến</h2>
+      <h2 class="section-title" style="font-size: 28px; margin-top: 12px; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px;">Kết Nối Trực Tuyến</h2>
       <p style="font-size: 14.5px; color: var(--color-text-muted); line-height: 1.8; max-width: 700px; margin: 0 auto 20px auto;">
         Chuyên viên tư vấn sản phẩm đang trực ban sẵn sàng giải đáp nhanh các thắc mắc về giá bán, cấu hình xe cũ lên đời hoặc lên lịch lái thử cấp tốc.
       </p>

@@ -525,7 +525,7 @@ html body .btn-zalo:hover {
     <div class="container">
       <div class="section-header" style="text-align: center; margin-bottom: 48px;">
         <span class="section-tag">Bộ Sưu Tập</span>
-        <h2 class="section-title" style="color: var(--color-text-dark) !important;">Dòng Xe VinFast Nổi Bật</h2>
+        <h2 class="section-title">Dòng Xe VinFast Nổi Bật</h2>
         <p class="section-desc" style="margin-left: auto; margin-right: auto;">Khám phá các dòng xe điện thông minh đột phá mới nhất từ VinFast Việt Nam.</p>
       </div>
       

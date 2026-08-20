@@ -106,7 +106,7 @@ html body .installment-hero .hero-subline {
 }
 
 html body .section-title {
-  color: #0f172a !important;
+  color: #059669 !important;
 }
 
 html body .section-desc {
@@ -1134,7 +1134,7 @@ html body section .container > div[style*="margin-bottom"] {
     <div class="container">
       <div style="text-align: center; margin-bottom: 54px;" class="reveal-on-scroll">
         <span class="section-tag" style="color: #10b981 !important; font-weight: 700; background: rgba(16, 185, 129, 0.06); padding: 6px 16px; border-radius: 20px;">Đặc Quyền Xe Điện VinFast ⚡</span>
-        <h2 class="section-title" style="color: #0f172a !important; margin-top: 16px;">BỘ TÍNH TOÁN TIẾT KIỆM NHIÊN LIỆU</h2>
+        <h2 class="section-title" style="margin-top: 16px;">BỘ TÍNH TOÁN TIẾT KIỆM NHIÊN LIỆU</h2>
         <p class="section-desc" style="margin-left: auto; margin-right: auto; color: #475569 !important; max-width: 650px;">So sánh trực quan chi phí vận hành hàng tháng & tổng số tiền tiết kiệm được khi sử dụng xe điện VinFast so với xe xăng truyền thống tương đương.</p>
       </div>
 

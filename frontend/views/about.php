@@ -574,8 +574,9 @@ html body .about-faq-item.active .about-faq-content {
 }
 
 /* Headings consistency */
-html body .section-title {
-  color: #0f172a !important;
+html body .section-title,
+html body .about-intro-heading {
+  color: #059669 !important;
 }
 
 html body .section-desc {

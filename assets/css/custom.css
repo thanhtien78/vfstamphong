@@ -6,6 +6,16 @@
 /* --------------------------------------------------------------------------
    1. GLOBAL STYLING & CORE LIGHT/DARK SECTION CONTAINERS
    -------------------------------------------------------------------------- */
+:root {
+    --space-xxl: 32px; /* Tighter spacing between sections on desktop (originally 45px) */
+}
+
+@media (max-width: 768px) {
+    :root {
+        --space-xxl: 22px; /* Tighter spacing between sections on mobile (originally 30px) */
+    }
+}
+
 html body {
     background-color: #fcfdfe !important; /* Base light porcelain */
     color: #3c3c3c !important;

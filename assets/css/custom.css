@@ -245,6 +245,14 @@ html body .about-hero-title {
     text-transform: uppercase !important;
 }
 
+/* Synchronize all Section Headings to a consistent bold weight (800) */
+html body .section-title,
+html body .spotlight-title,
+html body .compare-title,
+html body .compare-counselors-title {
+    font-weight: 800 !important;
+}
+
 /* Light Sections text colors (Only for white background sections) */
 html body .compare-counselors-section h2,
 html body .compare-counselors-section h3,
@@ -1512,7 +1520,7 @@ html body .ev-tech-section::before {
 /* Redesign Section Header for EV Tech Section to maximize luxury typography */
 html body .ev-tech-section .section-title {
     font-size: 32px !important;
-    font-weight: 850 !important;
+    font-weight: 800 !important;
     letter-spacing: -0.5px !important;
     color: #059669 !important;
     margin-top: 12px !important;
@@ -1812,7 +1820,7 @@ html body .brand-spotlight .spotlight-title {
     color: #0f172a !important; /* Chữ đen tương phản cao */
     font-size: 34px !important;
     line-height: 1.22 !important;
-    font-weight: 850 !important;
+    font-weight: 800 !important;
     margin-bottom: 18px !important;
     text-shadow: none !important;
 }

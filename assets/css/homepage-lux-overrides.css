@@ -3339,6 +3339,13 @@ html body .price-gold {
 }
 
 /* Car Detail Page Light Theme Overrides (Eliminating Black and Gray Backgrounds) */
+html body.page-car-detail .section-title,
+html body.page-car-detail .ev-calc-title,
+html body.page-car-detail .booking-title,
+html body.page-car-detail .faq-section-official h2 {
+  color: #059669 !important; /* Theme green instead of black */
+}
+
 html body .editorial-block {
   background: #ffffff !important;
 }
@@ -3686,7 +3693,7 @@ html body .detail-hero__content {
 }
 
 html body .detail-hero__segment {
-    color: #e5c046 !important; /* Premium gold accent */
+    color: #10b981 !important; /* Premium brand green instead of gold */
     font-weight: 800 !important;
     letter-spacing: 2px !important;
     text-transform: uppercase !important;
@@ -3700,7 +3707,7 @@ html body .detail-hero__title {
 }
 
 html body .quick-spec-item__val {
-    color: #e5c046 !important; /* Premium gold accent for specs value */
+    color: #10b981 !important; /* Premium brand green instead of gold */
     font-weight: 800 !important;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
 }

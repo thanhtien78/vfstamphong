@@ -338,10 +338,10 @@ $menuItems = [
   $useInlinedCss = false; // Toggle to true to inline all styles, false to use standard stylesheet links with cache busting
   if ($useInlinedCss) {
       echo "<style>\n";
-      render_inlined_css(__DIR__ . '/../assets/css/premium-base.css');
+      render_inlined_css(__DIR__ . '/../../../assets/css/premium-base.css');
       echo "</style>\n";
   } else {
-      echo '<link rel="stylesheet" href="' . seo_url('assets/css/premium-base.css') . '?v=' . filemtime(__DIR__ . '/../assets/css/premium-base.css') . '">' . "\n";
+      echo '<link rel="stylesheet" href="' . seo_url('assets/css/premium-base.css') . '?v=' . filemtime(__DIR__ . '/../../../assets/css/premium-base.css') . '">' . "\n";
   }
   ?>
   <style>

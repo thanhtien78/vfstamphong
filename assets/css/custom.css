@@ -2324,12 +2324,13 @@ html body .btn-compare-pulse:hover {
 }
 
 /* Specialized Zalo & Counselors CTA Buttons */
+/* Specialized Zalo & Counselors CTA Buttons */
 html body .btn-zalo-card,
 html body .counselor-btn-vip--zalo {
-    background: linear-gradient(135deg, #0066ff 0%, #0099ff 100%) !important;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
     color: #ffffff !important;
     border: none !important;
-    box-shadow: 0 4px 15px -3px rgba(0, 102, 255, 0.3), 
+    box-shadow: 0 4px 15px -3px rgba(16, 185, 129, 0.3), 
                 inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
 }
 html body .btn-zalo-card svg,
@@ -2338,9 +2339,9 @@ html body .counselor-btn-vip--zalo svg {
 }
 html body .btn-zalo-card:hover,
 html body .counselor-btn-vip--zalo:hover {
-    background: linear-gradient(135deg, #059669 0%, #0088ff 100%) !important;
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px -3px rgba(0, 102, 255, 0.5), 
+    box-shadow: 0 8px 20px -3px rgba(16, 185, 129, 0.5), 
                 inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
 }
 
@@ -2512,5 +2513,23 @@ html body .btn-counselor-compare--phone *,
 html body .btn-counselor-compare--zalo * {
     color: #ffffff !important;
     stroke: #ffffff !important;
+}
+
+/* Specialized Floating Contact Sidebar Optimization (Solid Green Theme Synchronization) */
+html body .floating-contact-sidebar .icon-circle {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    --ripple-color: rgba(16, 185, 129, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    transition: all 0.3s ease !important;
+}
+
+html body .floating-contact-sidebar .icon-circle svg path[fill="#0084ff"] {
+    fill: #059669 !important; /* Elegant green Z inside white Zalo bubble */
+}
+
+/* Hover effects for floating contact items */
+html body .floating-contact-sidebar .sidebar-item:hover .icon-circle {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+    transform: scale(1.08) !important;
 }
 

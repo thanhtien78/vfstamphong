@@ -736,10 +736,10 @@ if (!function_exists('estimate_distance_to_showroom')) {
                 </table>
               </div>
 
-              <div style="background: rgba(245, 158, 11, 0.05); border: 1.5px solid rgba(245, 158, 11, 0.25); border-radius: var(--ev-border-radius); padding: 16px 20px; margin-top: 20px; display: flex; gap: 12px; align-items: flex-start;">
-                <div style="color: #d97706; font-size: 18px; line-height: 1;">💡</div>
+              <div style="background: rgba(16, 185, 129, 0.05); border: 1.5px solid rgba(16, 185, 129, 0.25); border-radius: var(--ev-border-radius); padding: 16px 20px; margin-top: 20px; display: flex; gap: 12px; align-items: flex-start;">
+                <div style="color: #10b981; font-size: 18px; line-height: 1;">💡</div>
                 <div>
-                  <h5 style="margin: 0 0 5px; font-size: 13px; font-weight: 700; color: #b45309; text-transform: uppercase;">Nhận Dự Toán Lăn Bánh Chi Tiết:</h5>
+                  <h5 style="margin: 0 0 5px; font-size: 13px; font-weight: 700; color: #059669; text-transform: uppercase;">Nhận Dự Toán Lăn Bánh Chi Tiết:</h5>
                   <p style="margin: 0; font-size: 12.5px; color: #475569; line-height: 1.5;">
                     Giá lăn bánh thực tế tại <strong><?php echo $locationName; ?></strong> bao gồm các loại thuế phí đăng ký (Lệ phí trước bạ xe điện được miễn 100%). Quý khách vui lòng điền thông tin vào form ở cột bên (hoặc bên dưới trên điện thoại) để hệ thống tự động gửi bảng tính giá lăn bánh chi tiết qua Zalo trong 5 phút.
                   </p>

@@ -463,7 +463,7 @@ html body .car-card__badge {
 }
 
 html body .car-card__segment {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     color: #506e63 !important;
 }
 
@@ -2048,7 +2048,7 @@ html body .catalog-section .car-card__spec-item[style*="span 2"] {
 
 html body .catalog-section .car-card__spec-lbl {
     font-size: 9px !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     color: #64748b !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
@@ -2059,7 +2059,7 @@ html body .catalog-section .car-card__spec-lbl {
 html body .catalog-section .car-card__spec-val {
     font-family: 'Montserrat', sans-serif !important;
     font-size: 12.5px !important;
-    font-weight: 800 !important;
+    font-weight: 500 !important;
     color: #0f172a !important;
 }
 

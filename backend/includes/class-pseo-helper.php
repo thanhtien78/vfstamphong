@@ -228,7 +228,7 @@ class PSEO_Helper {
         $items = [];
 
         // 1. Chung cu
-        $chungcuFile = __DIR__ . '/../seo-dia-danh-pro/chungcu/data.json';
+        $chungcuFile = __DIR__ . '/../../seo-dia-danh-pro/chungcu/data.json';
         if (file_exists($chungcuFile)) {
             $projects = json_decode(file_get_contents($chungcuFile), true);
             if (is_array($projects)) {
@@ -257,7 +257,7 @@ class PSEO_Helper {
         }
 
         // 2. Standard Locations (tree.json)
-        $treeFile = __DIR__ . '/../seo-dia-danh-pro/json/tree.json';
+        $treeFile = __DIR__ . '/../../seo-dia-danh-pro/json/tree.json';
         if (file_exists($treeFile)) {
             $tree = json_decode(file_get_contents($treeFile), true);
             if (is_array($tree)) {
@@ -293,13 +293,22 @@ class PSEO_Helper {
         }
 
         // 3. Old Locations (diadanhcu.json)
-        $diadanhcuFile = __DIR__ . '/../seo-dia-danh-pro/diadanhcu/diadanhcu.json';
+        $diadanhcuFile = __DIR__ . '/../../seo-dia-danh-pro/diadanhcu/diadanhcu.json';
         if (file_exists($diadanhcuFile)) {
             $diadanhcu = json_decode(file_get_contents($diadanhcuFile), true);
             if (is_array($diadanhcu)) {
                 foreach ($diadanhcu as $province) {
                     $pName = $province['name'] ?? '';
                     if (empty($pName)) continue;
+
+                    // Province itself
+                    $pSlug = self::slugify($pName);
+                    $items[] = [
+                        'slug' => $pSlug,
+                        'type' => 'diadanhcu',
+                        'display_name' => $pName,
+                        'meta_data' => json_encode(['province' => $pName], JSON_UNESCAPED_UNICODE)
+                    ];
 
                     if (isset($province['districts']) && is_array($province['districts'])) {
                         foreach ($province['districts'] as $district) {
